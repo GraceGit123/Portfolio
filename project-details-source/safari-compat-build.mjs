@@ -55,6 +55,11 @@ export default function safariCompatBuild() {
             targets: { safari: (13 << 16) | (1 << 8) },
             minify: true,
           }).code.toString()
+          const compatible = postcss.parse(entry.source)
+          compatible.walkDecls('background-clip', d => {
+            if (d.value === 'text') d.cloneBefore({ prop: '-webkit-background-clip' })
+          })
+          entry.source = compatible.toString()
           const oldName = entry.fileName
           const newName = `assets/index-safari-${createHash('sha256').update(entry.source).digest('hex').slice(0,12)}.css`
           this.emitFile({ type: 'asset', fileName: newName, source: entry.source })

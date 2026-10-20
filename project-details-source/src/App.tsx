@@ -1,9 +1,16 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, memo, useRef, useState } from 'react'
 import type { CSSProperties } from 'react'
 import ProjectPage from './ProjectPage'
 import MobileProject from './MobileProject'
 import HotelTaskProject from './HotelTaskProject'
 import HotelSolutionProject from './HotelSolutionProject'
+import CaseImage from './CaseImage'
+
+// Scroll progress updates must never rebuild the long case body or phone figures.
+const PromotionBody = memo(ProjectPage)
+const MobilePromotionBody = memo(MobileProject)
+const HotelTaskBody = memo(HotelTaskProject)
+const HotelSolutionBody = memo(HotelSolutionProject)
 
 const promotionChapters = [
   { name: '项目背景', node: '6:79', mobile: 'background' },
@@ -228,9 +235,9 @@ export default function App() {
       </nav>
       <main aria-label={isSolution ? '葛珊珊的作品集：Hotel Solution 酒店解决方案' : isHotel ? '葛珊珊的作品集：携程 HT 任务界面升级' : '葛珊珊的作品集：携程促销中心体验升级'}>
         {!(isPromotion && compact) && <div className={isSolution ? 'solution-project' : `desktop-project ${isHotel ? 'hotel-task-project' : ''}`} ref={canvas} style={{ '--canvas-scale': scale } as CSSProperties}>
-          {isSolution ? <HotelSolutionProject /> : isHotel ? <HotelTaskProject /> : <ProjectPage />}
+          {isSolution ? <HotelSolutionBody /> : isHotel ? <HotelTaskBody /> : <PromotionBody />}
         </div>}
-        {isPromotion && compact && <MobileProject onOpenImage={setImage} />}
+        {isPromotion && compact && <MobilePromotionBody onOpenImage={setImage} />}
         <nav className="related-projects" aria-label="浏览其他作品">
           <a className="related-card related-home" href={homeUrl}>
             <span className="related-arrow" aria-hidden="true">↗</span>
@@ -239,7 +246,7 @@ export default function App() {
           </a>
           {projectCards.filter(card => card.id !== project).map(card => (
             <a className="related-card" key={card.id} href={`#${card.id}`}>
-              <div className="related-art"><img src={card.image} alt={`${card.title} ${card.subtitle}`} loading="lazy" /></div>
+              <div className="related-art"><CaseImage src={card.image} alt={`${card.title} ${card.subtitle}`} loading="lazy" /></div>
               <span className="related-arrow" aria-hidden="true">↗</span>
             </a>
           ))}

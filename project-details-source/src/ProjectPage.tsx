@@ -303,7 +303,7 @@ export default function ProjectPage() {
           <div className="bg-white content-stretch flex flex-col h-[464px] items-start pb-[81px] pt-[90px] px-[40px] relative rounded-[40px] shrink-0 w-full" data-node-id="6:88">
             <div className="[word-break:break-word] content-stretch flex flex-col gap-[40px] items-start leading-[normal] not-italic relative shrink-0 w-full" data-node-id="6:89">
               <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full" data-node-id="6:90">
-                <p className="bg-black bg-clip-text font-['MiSans','Inter','Noto_Sans_SC',sans-serif] relative shrink-0 text-[20px] text-[transparent] w-full [font-weight:650]" data-node-id="6:91">
+                <p className="text-black font-['MiSans','Inter','Noto_Sans_SC',sans-serif] relative shrink-0 text-[20px] w-full [font-weight:650]" data-node-id="6:91">
                   信息架构无分层，分类逻辑不符合用户心智
                 </p>
                 <p className="font-['MiSans','Inter','Noto_Sans_SC',sans-serif] relative shrink-0 text-[16px] text-black w-full [font-weight:300]" data-node-id="6:92">

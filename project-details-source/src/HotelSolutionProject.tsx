@@ -62,7 +62,7 @@ const imgGroup328 = `${assetPathPrefix}/01e61.svg`;
 const imgGroup329 = `${assetPathPrefix}/753b9.svg`;
 const imgRectangle524 = `${assetPathPrefix}/38758.svg`;
 const imgFrame2147224634 = `${assetPathPrefix}/8ce7c.svg`;
-const flowVideoParts = [1, 2].map(index => `${assetPathPrefix}/flow-v4-original-0${index}.bin`);
+const flowVideoSrc = `${assetPathPrefix}/flow-original-stream.mp4`;
 
 export default function HotelSolutionProject() {
   const [scale, setScale] = useState(() => Math.min(window.innerWidth / DESIGN_WIDTH, 1));
@@ -71,7 +71,7 @@ export default function HotelSolutionProject() {
   // Images end at design y=14828; the motion section originally starts at 15060.
   const motionShift = 120 / scale - (15060 - 14828);
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [videoSrc, setVideoSrc] = useState<string>();
+
 
   useEffect(() => {
     const updateScale = () => setScale(Math.min(window.innerWidth / DESIGN_WIDTH, 1));
@@ -80,26 +80,8 @@ export default function HotelSolutionProject() {
   }, []);
 
   useEffect(() => {
-    const controller = new AbortController();
-    let objectUrl: string | undefined;
-    // Begin fetching the untouched original immediately, before it is in view.
-    Promise.all(flowVideoParts.map(async path => {
-      const response = await fetch(path, { signal: controller.signal });
-      if (!response.ok) throw new Error('Video asset unavailable');
-      return response.arrayBuffer();
-    })).then(parts => {
-      if (controller.signal.aborted) return;
-      objectUrl = URL.createObjectURL(new Blob(parts, { type: 'video/mp4' }));
-      setVideoSrc(objectUrl);
-    }).catch(error => {
-      if (!controller.signal.aborted) console.error('Unable to preload the video', error);
-    });
-    return () => { controller.abort(); if (objectUrl) URL.revokeObjectURL(objectUrl); };
-  }, []);
-
-  useEffect(() => {
     const video = videoRef.current;
-    if (!video || !videoSrc) return;
+    if (!video) return;
     let inView = false;
     const syncPlayback = () => {
       if (inView && document.visibilityState === 'visible') void video.play().catch(() => undefined);
@@ -118,7 +100,7 @@ export default function HotelSolutionProject() {
       video.removeEventListener('canplay', syncPlayback);
       document.removeEventListener('visibilitychange', syncPlayback);
     };
-  }, [videoSrc]);
+  }, []);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -162,7 +144,7 @@ export default function HotelSolutionProject() {
       <div
         className="absolute left-1/2 top-0 h-[17303px] w-[1680px] origin-top bg-[#202020]"
         ref={canvasRef}
-        style={{ transform: `translateX(-50%) scale(${scale})` }} data-node-id="1:21" data-name="Hotel Solution">
+        style={{ zoom: scale, transform: 'none', left: 0, right: 0, margin: '0 auto' }} data-node-id="1:21" data-name="Hotel Solution">
 <div className="absolute h-[1186px] left-0 top-0 w-[1680px]" data-node-id="1:22" data-name="image 337 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <CaseImage alt="" className="absolute inset-0 size-full object-cover" src={imgImage3371} />
@@ -1307,7 +1289,7 @@ export default function HotelSolutionProject() {
             playsInline
             preload="auto"
             ref={videoRef}
-            src={videoSrc}
+            src={flowVideoSrc}
           />
         </div>
       </div>

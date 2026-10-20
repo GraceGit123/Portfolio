@@ -202,7 +202,7 @@ html, body, #root { min-width: 320px; }
   transition:
     opacity 720ms cubic-bezier(0.22, 1, 0.36, 1),
     transform 880ms cubic-bezier(0.22, 1, 0.36, 1);
-  will-change: opacity, transform;
+  will-change: auto;
 }
 
 .solution-motion-reveal.is-visible {
@@ -401,3 +401,19 @@ html[data-project] .related-card:hover,html[data-project] .related-card:focus-vi
  .related-contact-line{gap:10px}
  .related-contact-line>svg{width:16px;height:16px;flex-basis:16px}
 }
+
+/* Explicit WebKit text clipping is required on iPadOS 14. */
+.bg-clip-text{-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+/* Use layout scaling instead of one enormous GPU texture for each long case. */
+@supports(zoom:1){
+ .desktop-project>.case-canvas{zoom:var(--canvas-scale);transform:none}
+}
+.solution-motion-reveal.is-visible{transform:none;will-change:auto}
+/* A definite inset avoids percentage-height/flex collapse on mobile Safari. */
+.related-art{position:absolute;inset:12px;flex:none;height:auto;margin:0}
+@media(max-width:699px){
+ .related-art{inset:6px;margin:0}
+ .solution-motion-reveal{opacity:1;transform:none;transition:none;will-change:auto}
+}
+
+img[data-src]:not([src]){visibility:hidden}
