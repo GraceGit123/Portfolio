@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="0-7 &#229;&#164;&#154;&#233;&#151;&#180;&#231;&#171;&#139;&#229;&#135;&#143;">
+<path id="&#232;&#183;&#175;&#229;&#190;&#132;&#229;&#164;&#135;&#228;&#187;&#189; 13" d="M40 0C66.6667 0 80 13.3333 80 40C80 66.6667 66.6667 80 40 80C13.3333 80 0 66.6667 0 40C0 13.3333 13.3333 0 40 0Z" fill="#FDF0E6"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 86" x="19" y="25" width="42" height="30" rx="2" fill="url(#paint0_radial_0_221)"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 87" x="25" y="43" width="8" height="6" rx="1" fill="#FDF0E6"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 88" x="23" y="31" width="34" height="5" rx="1" fill="#FDF0E6"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_221" cx="0" cy="0" r="1" gradientTransform="matrix(-14.5892 -10.0096 14.0134 -10.4209 61 55)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EB6A01" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#EB6A01"/>
+</radialGradient>
+</defs>
+</svg>

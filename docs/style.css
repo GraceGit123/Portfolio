@@ -1,0 +1,205 @@
+@import url("assets/misans/fonts.css");
+:root{color-scheme:dark;--background:#000000;--card:#242424;--hover:#303030;--heading:#fff;--body:#dad6ce;--secondary:rgba(255,255,255,.5);--radius:40px;--gap:24px;--font:MiSans,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:40px}body{margin:0;background:var(--background);color:var(--heading);font-family:var(--font);font-size:20px;font-weight:330;line-height:1.6;-webkit-font-smoothing:antialiased}h1,h2,h3,p{margin:0}h1,h2,h3{font-size:24px;font-weight:380;line-height:1.4;letter-spacing:0}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer;border:0}a,button{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:2px solid #dad6ce;outline-offset:5px}.layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:60px;padding:40px 40px 60px;max-width:1800px;margin:auto}.sidebar{position:sticky;top:40px;align-self:start;height:calc(100dvh - 80px);display:flex;flex-direction:column;justify-content:space-between}.sidebar-description{margin-top:8px;color:var(--secondary);font-size:16px;line-height:1.6}nav{margin-top:24px}nav a{display:block;width:max-content;line-height:1.6;padding:3px 0}.sidebar-bottom{display:flex;flex-direction:column;align-items:flex-start;gap:20px}.sidebar-bottom a,.sidebar-bottom button{background:none;padding:3px 0;text-align:left;font-size:20px;line-height:1.6}.sidebar-bottom button span{display:inline-block;font-size:21px;margin-left:10px}nav a:hover,.sidebar-bottom a:hover,.sidebar-bottom button:hover{color:var(--body)}main{min-width:0;container-type:inline-size}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);margin-bottom:var(--gap)}.about-card,.identity-card{position:relative;background:var(--card);border-radius:var(--radius);overflow:hidden;min-height:max(458px,calc((100cqw - 24px)/2));padding:70px 34px 34px}.about-card h2{margin-bottom:24px}.timeline{list-style:none;padding:0;margin:0}.timeline li{position:relative;display:grid;grid-template-columns:102px minmax(0,1fr);gap:20px;padding:0 0 25px}.timeline li:last-child{padding-bottom:0}.timeline li:before{content:"";position:absolute;left:107px;top:12px;width:4px;height:4px;border-radius:50%;background:var(--body)}.timeline li:not(:last-child):after{content:"";position:absolute;left:108.5px;top:17px;bottom:-10px;width:1px;background:rgba(218,214,206,.22)}.timeline time{font-size:16px;line-height:1.8;color:var(--secondary);white-space:nowrap}.timeline h3{font-size:18px;line-height:1.6;font-weight:380}.timeline p{color:var(--body);font-size:18px;line-height:1.6}.identity-card{padding-top:86px}.identity-card h2{margin-bottom:8px}.identity-card>p{font-size:20px;line-height:1.6;color:var(--body);max-width:95%}.identity-card .source-year{margin-top:16px;color:var(--secondary)}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.project{position:relative;width:100%;height:calc((100cqw - 24px)/3);min-height:267px;display:grid;grid-template-columns:1fr 1fr;gap:10px;text-align:left;padding:0;margin:0 0 24px;background:var(--card);border-radius:var(--radius);overflow:hidden;transition:background-color .2s}.project:hover{background:var(--hover)}.project:last-child{margin-bottom:0}.project-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:34px;min-width:0}.project-copy h3{font-size:24px;line-height:1.4;margin-bottom:8px}.project-copy>p{font-size:20px;line-height:1.6;color:var(--body);width:100%;max-width:95%}.project-copy .source-year{font-size:20px;line-height:1.6;color:var(--secondary);margin-top:4px}.project-art{overflow:hidden;margin:16px 16px 16px 0;border-radius:24px;position:relative;min-width:0;display:flex;align-items:center;justify-content:center;background:#f3f3f3}.project-art img{height:100%;width:100%;display:block;object-fit:cover;object-position:center}.dashboard-art img{object-position:left top}.flow-art{background:#181a1f}.flow-art img{object-fit:contain}.system-art img{object-fit:contain}.reverse .project-art{grid-column:1;grid-row:1;margin:16px 0 16px 16px}.reverse .project-copy{grid-column:2;grid-row:1}.round-arrow{position:absolute;top:16px;right:16px;width:60px;height:60px;border-radius:40px;background:rgba(0,0,0,.35);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);display:flex;align-items:center;justify-content:center;z-index:2;color:white;transition:background-color .2s}.round-arrow svg{width:24px;height:24px}.project:hover .round-arrow{background:rgba(0,0,0,.3)}dialog{background:var(--card);color:var(--heading);border:0;border-radius:40px;width:min(800px,calc(100% - 40px));max-height:85dvh;padding:56px 34px 34px}dialog::backdrop{background:rgba(0,0,0,.7);backdrop-filter:blur(8px)}.close-dialog{position:absolute;right:16px;top:16px;background:rgba(0,0,0,.35);border-radius:50%;width:40px;height:40px;font-size:24px;line-height:1}.dialog-label{color:var(--secondary);font-size:16px}dialog h2{margin:16px 0 8px}dialog p{color:var(--body);font-size:20px;line-height:1.6}.dialog-note{color:var(--secondary);font-size:16px;margin-top:24px}.dialog-image{display:none;width:100%;border-radius:24px;margin-top:24px}
+@media(max-width:1300px){.about-card{padding-top:45px}.timeline li{grid-template-columns:86px 1fr;gap:16px}.timeline li:before{left:88px}.timeline li:after{left:89.5px!important}.timeline h3,.timeline p{font-size:16px}.timeline time{font-size:14px}.project-copy{padding:30px}.project-copy>p,.project-copy .source-year{font-size:18px}}
+@media(max-width:1100px){.layout{display:block;padding:60px 40px}.sidebar{position:static;height:auto;display:flex;flex-direction:row;align-items:flex-start;gap:40px;margin-bottom:40px}.sidebar-top{width:320px;max-width:70%}.sidebar-bottom{padding-top:7px}.about-card{min-height:458px}.identity-card{min-height:458px}.timeline h3,.timeline p{font-size:18px}.timeline time{font-size:16px}.timeline li{grid-template-columns:102px 1fr;gap:20px}.timeline li:before{left:107px}.timeline li:after{left:108.5px!important}.project-copy>p,.project-copy .source-year{font-size:20px}}
+@media(max-width:760px){.layout{padding:50px 20px 20px}.sidebar{margin-bottom:40px;display:block}.sidebar-top{max-width:100%;width:auto}.sidebar-bottom{display:flex;flex-direction:row;gap:26px;margin-top:20px;padding:0}nav{margin-top:20px}.about-grid{grid-template-columns:1fr}.about-card{min-height:0;padding:54px 34px}.identity-card{min-height:320px;padding:86px 34px 50px}.project{height:auto;min-height:0;grid-template-columns:1fr;gap:0}.project-copy,.reverse .project-copy{grid-column:1;grid-row:1;padding:70px 34px 28px}.project-art,.reverse .project-art{grid-column:1;grid-row:2;height:240px;margin:0 16px 16px;border-radius:24px}.project-copy h3{font-size:24px}.project-copy>p,.project-copy .source-year{font-size:20px}.timeline li{grid-template-columns:95px 1fr;gap:20px}.timeline li:before{left:100px}.timeline li:after{left:101.5px!important}.timeline time{font-size:14px}.timeline h3,.timeline p{font-size:17px}.round-arrow{height:60px;width:60px}dialog{padding:60px 28px 30px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Motion follows the existing warm-black surfaces and does not alter layout. */
+.project{transition:background-color 300ms ease,transform 650ms cubic-bezier(.22,1,.36,1),box-shadow 650ms cubic-bezier(.22,1,.36,1)}
+.project-art img{transition:transform 1100ms cubic-bezier(.22,1,.36,1);transform:translate(var(--image-x,0px),var(--image-y,0px)) scale(1)}
+.round-arrow{transition:background-color 300ms ease,transform 650ms cubic-bezier(.22,1,.36,1);transform:translate(var(--arrow-x,0px),var(--arrow-y,0px))}
+.round-arrow svg{transition:transform 500ms cubic-bezier(.22,1,.36,1)}
+.project-copy{transition:transform 750ms cubic-bezier(.22,1,.36,1)}
+.project-copy h3{transition:translate 650ms cubic-bezier(.22,1,.36,1)}
+nav a,.sidebar-bottom a,.sidebar-bottom button{position:relative;transition:color 250ms ease}
+nav a:after,.sidebar-bottom a:after,.sidebar-bottom button:after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 450ms cubic-bezier(.22,1,.36,1)}
+nav a:hover:after,nav a:focus-visible:after,.sidebar-bottom a:hover:after,.sidebar-bottom a:focus-visible:after,.sidebar-bottom button:hover:after,.sidebar-bottom button:focus-visible:after{transform:scaleX(1)}
+.sidebar-bottom button span{transition:transform 450ms cubic-bezier(.22,1,.36,1)}
+.sidebar-bottom button:hover span{transform:translate(8px,-8px)}
+.about-card.revealed .timeline li:not(:last-child):after{transform-origin:top;animation:timeline-connect 1000ms cubic-bezier(.22,1,.36,1) 450ms backwards}
+.about-card.revealed .timeline li:nth-child(2):after{animation-delay:630ms}
+.about-card.revealed .timeline li:nth-child(3):after{animation-delay:810ms}
+@keyframes timeline-connect{from{transform:scaleY(0);opacity:0}to{transform:scaleY(1);opacity:1}}
+dialog[open]::backdrop{animation:backdrop-enter 650ms ease both}
+@keyframes backdrop-enter{from{background:rgba(0,0,0,0);backdrop-filter:blur(0px)}to{background:rgba(0,0,0,.7);backdrop-filter:blur(8px)}}
+@media(hover:hover) and (pointer:fine){
+ .project:hover{transform:translateY(-10px) scale(1.008);box-shadow:0 28px 60px rgba(0,0,0,.32)}
+ .project:hover .project-art img{transform:translate(var(--image-x,0px),var(--image-y,0px)) scale(1.12)}
+ .project:hover .round-arrow{transform:translate(calc(var(--arrow-x,0px) - 4px),calc(var(--arrow-y,0px) - 4px)) scale(1.16);background:rgba(0,0,0,.55)}
+ .project:hover .project-copy{transform:translateX(10px)}
+ .project.reverse:hover .project-copy{transform:translateX(-10px)}
+ .project:hover .round-arrow svg,.identity-card .round-arrow:hover svg{transform:translate(8px,-8px)}
+ .project:hover .project-copy h3{translate:0 -5px}
+ .project:active{transform:translateY(-1px) scale(.98);transition-duration:150ms}
+}
+.project:focus-visible .round-arrow svg{transform:translate(8px,-8px)}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{animation:none!important;transition:none!important}
+ .project:hover,.project:active,.project:hover .round-arrow,.project:hover .project-copy,.project-art img,.project:hover .project-art img,.round-arrow,.round-arrow svg,.project-copy,.project-copy h3{transform:none!important;translate:none!important}
+}
+
+/* Personal information, platform logos and project captions. */
+.sidebar h1{font-size:32px;font-weight:700}
+.about-card h2,.identity-card h2,.project-copy h3{font-weight:700}
+.platform-logos{display:flex;flex-wrap:wrap;align-items:center;gap:16px;max-width:100%}
+.platform-logos>span{display:flex;align-items:center;justify-content:center;width:28px;height:28px}
+.platform-logos img{display:block;width:28px;height:28px;object-fit:contain}
+.project-copy .project-year{font-size:16px;color:var(--secondary);margin-top:0}
+@media(max-width:760px){.sidebar-bottom{flex-direction:column;align-items:flex-start;gap:20px}}
+
+/* Compact work rows and contact information above the platform tiles. */
+.sidebar-bottom{gap:28px;padding-bottom:48px}
+.sidebar-contact{display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.contact-details{display:grid;gap:12px;font-size:16px;color:var(--body);line-height:1.6}
+.contact-line{display:flex;align-items:center;gap:10px;min-width:0}
+.contact-line>svg{width:18px;height:18px;flex:0 0 18px;color:var(--secondary)}
+.contact-email{font-weight:380;overflow-wrap:anywhere}
+.platform-logos{gap:8px}
+.platform-logos>span{width:40px;height:40px;border-radius:10px;background:#242424;overflow:hidden}
+.platform-logos>span[title="Photoshop"]{background:#001e36}
+.platform-logos>span[title="Illustrator"]{background:#330000}
+.platform-logos>span[title="Codex"]{background:#fff}
+.platform-logos>span[title="Photoshop"] img,.platform-logos>span[title="Illustrator"] img,.platform-logos>span[title="Codex"] img{width:40px;height:40px}
+.project{height:240px;min-height:240px;max-height:240px}
+.dialog-description{white-space:pre-line}
+@media(max-width:1100px){.sidebar-top{max-width:none}.sidebar-bottom{padding-bottom:16px;flex-shrink:0}}
+@media(max-width:760px){.sidebar-bottom{margin-top:32px;padding-bottom:8px;gap:24px}.project{grid-template-columns:1fr 1fr;gap:0}.project-copy,.reverse .project-copy{grid-column:1;grid-row:1;padding:28px 20px}.project-art,.reverse .project-art{grid-column:2;grid-row:1;height:auto;margin:12px 12px 12px 0}.reverse .project-art{grid-column:1;margin:12px 0 12px 12px}.reverse .project-copy{grid-column:2}.project-copy h3{overflow-wrap:anywhere}}
+
+/* Contact copy actions and first-project alignment. */
+.sidebar{height:var(--sidebar-aligned-height,calc(100dvh - 80px))}
+.sidebar-bottom{padding-bottom:0}
+.sidebar-contact{gap:18px}
+.contact-details{gap:10px}
+.contact-details .copy-contact{position:relative;display:flex;align-items:center;gap:10px;width:max-content;max-width:100%;padding:4px 8px;margin:-4px -8px;border-radius:8px;background:transparent;color:var(--body);font-size:16px;line-height:1.6;text-align:left;transition:color 180ms ease,background-color 180ms ease}
+.contact-details .copy-contact span{font-size:inherit;margin-left:0}
+.contact-details .copy-contact::after{display:none}
+.contact-details .copy-contact:hover,.contact-details .copy-contact:focus-visible{background:#181818;color:#fff}
+.copy-contact:hover>svg,.copy-contact:focus-visible>svg{color:currentColor}
+.contact-details .contact-tooltip{position:absolute;left:50%;bottom:calc(100% + 8px);z-index:5;width:max-content;padding:6px 10px;border:1px solid #393939;border-radius:8px;background:#242424;color:#fff;font-size:14px;line-height:1.5;opacity:0;visibility:hidden;pointer-events:none;transform:translate(-50%,4px);transition:opacity 160ms ease,transform 160ms ease,visibility 160ms ease}
+.copy-contact:hover .contact-tooltip,.copy-contact:focus-visible .contact-tooltip,.copy-contact.is-copied .contact-tooltip{opacity:1;visibility:visible;transform:translate(-50%,0)}
+.platform-logos{gap:8px}
+.platform-logos>span{width:32px;height:32px;border-radius:8px}
+.platform-logos img{width:23px;height:23px}
+.platform-logos>span[title="Photoshop"] img,.platform-logos>span[title="Illustrator"] img,.platform-logos>span[title="Codex"] img{width:32px;height:32px}
+.timeline p.education-note{font-size:16px;color:var(--secondary)}
+.contact-details .copy-contact:hover .contact-value,.contact-details .copy-contact:focus-visible .contact-value{transform:none}
+.contact-details .copy-contact .contact-tooltip{font-size:14px}
+@media(max-width:1100px){.sidebar{height:auto}.sidebar-bottom{padding-bottom:0}}
+
+/* Match work descriptions to their time labels at every breakpoint. */
+.timeline{--timeline-meta-size:16px}
+.timeline time,.timeline .work-note{font-size:var(--timeline-meta-size);font-weight:330;color:var(--secondary)}
+@media(min-width:1101px){.sidebar-bottom{gap:84px}}
+@media(max-width:1300px){.timeline{--timeline-meta-size:14px}}
+@media(max-width:1100px){.timeline{--timeline-meta-size:16px}.sidebar-bottom{padding-top:0}}
+@media(max-width:760px){.timeline{--timeline-meta-size:14px}.sidebar-bottom{margin-top:16px}}
+@media(max-width:480px){.project-copy h3{font-size:18px}}
+
+.project-copy .project-brand{white-space:nowrap}
+
+/* A viewport-anchored footer, supplied artwork and compact introduction cards. */
+.sidebar{height:calc(100dvh - 80px);gap:24px}
+.sidebar-top{flex:1;min-height:0;overflow-y:auto;scrollbar-width:thin}
+.sidebar-bottom{flex:0 0 auto;gap:28px;padding-bottom:0}
+.sidebar-avatar{display:block;width:140px;height:auto;margin-top:24px;border-radius:18px;object-fit:contain}
+.contact-details .copy-contact{align-items:center}
+.contact-details .contact-value{display:flex;align-items:center;min-height:24px;line-height:1.5}
+.contact-line>svg{display:block;align-self:center}
+.platform-logos .more-platforms{color:#c5c5c5}
+.more-platforms svg{display:block;width:23px;height:23px}
+.about-card,.identity-card{min-height:400px;padding:32px 28px}
+.identity-card h2{margin-bottom:12px}
+.identity-card>p{max-width:100%;font-size:18px;line-height:1.6}
+.identity-card .source-year{font-size:16px;margin-top:40px}
+.about-card h2{margin-bottom:24px}
+.timeline{--timeline-meta-size:14px}
+.timeline li{grid-template-columns:88px minmax(0,1fr);gap:16px;padding-bottom:14px}
+.timeline li:last-child{padding-bottom:0}
+.timeline h3{font-size:16px;line-height:1.5}
+.timeline p{line-height:1.5}
+.timeline li:before{left:93px;top:9px}
+.timeline li:not(:last-child):after{left:94.5px!important;top:14px;bottom:-7px}
+.project{cursor:default}
+.project-art img{object-fit:contain;object-position:center}
+.project-one .project-art{background:#d3e1fc}
+.project-two .project-art{background:#02051b}
+.project-three .project-art{background:#171717}
+.dialog-layout{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:32px;align-items:center}
+.dialog-qr{display:block;width:100%;height:auto;border-radius:20px}
+@media(max-height:640px) and (min-width:1101px){.sidebar-avatar{width:100px;margin-top:16px}}
+@media(max-width:1100px){.sidebar{height:auto}.sidebar-top{flex:none;overflow:visible}.sidebar-bottom{padding-top:7px;gap:28px}.sidebar-avatar{width:120px;margin-top:20px}}
+@media(max-width:760px){.sidebar{gap:0}.sidebar-top{width:auto}.sidebar-bottom{margin-top:32px;gap:24px}.sidebar-avatar{width:112px}.about-card,.identity-card{min-height:0;padding:32px 28px}.dialog-layout{grid-template-columns:minmax(0,1fr) 220px;gap:24px}}
+@media(max-width:560px){.dialog-layout{grid-template-columns:1fr}.dialog-qr{width:min(240px,100%);justify-self:center}}
+
+/* Requested typography, full-bleed covers and shared contact actions. */
+.identity-card h2{margin-bottom:24px}
+.identity-card>p:not(.source-year){color:#FFFFFF}
+.timeline h3{font-size:18px;margin-bottom:8px}
+.timeline li{padding-bottom:28px}
+.timeline li:last-child{padding-bottom:0}
+.project-art img{object-fit:cover;object-position:left center;transform:none!important}
+.project:hover .project-art img{transform:none!important}
+.dialog-layout{display:grid;grid-template-columns:minmax(0,1fr) 180px;column-gap:32px;row-gap:16px;align-items:start}
+.dialog-label{grid-column:1;grid-row:1}
+#detail-title{grid-column:1;grid-row:2;margin:0}
+.dialog-contacts{grid-column:1;grid-row:3}
+.dialog-note{grid-column:1;grid-row:4;margin-top:0}
+.dialog-qr-frame{grid-column:2;grid-row:2 / 5;align-self:stretch;position:relative;min-height:0}
+.dialog-qr{position:absolute;right:0;top:0;width:auto;height:100%;max-width:100%;object-fit:contain;object-position:right top;border-radius:16px}
+@media(max-width:560px){.dialog-layout{grid-template-columns:1fr}.dialog-qr-frame{grid-column:1;grid-row:5;height:200px;margin-top:8px}.dialog-qr{position:static;display:block;margin:auto;max-width:100%;width:auto;height:100%}}
+
+/* Portfolio links, expanded experience and a more focused contact dialog. */
+#detail{width:min(720px,calc(100% - 40px));padding-top:68px;padding-bottom:44px}
+#detail-title{font-weight:600;margin-bottom:8px}
+.dialog-layout{row-gap:24px}
+.close-dialog{transition:background-color 180ms ease,color 180ms ease,transform 250ms ease}
+.close-dialog:hover,.close-dialog:focus-visible{background:#505050;color:#fff;transform:rotate(90deg)}
+.sidebar-avatar{width:170px}
+.sidebar-bottom{gap:60px}
+.experience-summary{margin:0;padding-left:1.15em;color:#fff;font-size:18px;line-height:1.6}
+.experience-summary li+li{margin-top:20px}
+.experience-summary strong{font-weight:600}
+.project{cursor:pointer}
+@media(max-height:640px) and (min-width:1101px){.sidebar-avatar{width:120px}}
+@media(max-width:1100px){.sidebar-avatar{width:150px}}
+@media(max-width:760px){.sidebar-avatar{width:140px}.sidebar-bottom{gap:48px}}
+
+/* Complete QR artwork and separated experience headings. */
+#detail{width:min(660px,calc(100% - 40px))}
+.dialog-label{transform:translateY(-12px);margin-bottom:-12px}
+.dialog-qr-frame{align-self:start;width:160px;justify-self:end;height:auto;min-height:0;overflow:visible}
+.dialog-qr{position:static;display:block;width:100%;height:auto;max-width:100%;object-fit:contain;object-position:center;border-radius:0;margin:0}
+.experience-heading{display:block;font-size:18px;font-weight:330;line-height:1.6}
+.experience-description{margin-top:8px;font-size:16px;font-weight:330;line-height:1.6;color:var(--secondary)}
+.experience-description strong{font-weight:600}
+.timeline .work-note,.timeline .education-note{font-size:16px}
+@media(max-width:560px){.dialog-qr-frame{grid-column:1;grid-row:5;width:160px;height:auto;justify-self:center}.dialog-qr{width:100%;height:auto;margin:0}}
+
+/* Evenly distribute the four experience entries within the shared card height. */
+.about-card{display:flex;flex-direction:column}
+.timeline{flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:28px}
+.timeline li{padding-bottom:0}
+.timeline li:not(:last-child):after{bottom:-28px}
+.experience-summary .experience-description,.experience-summary .experience-description strong{font-weight:330}
+
+/* Connect every timeline dot even as space-between changes the entry gaps. */
+.timeline li:not(:last-child):after{top:11px;bottom:auto;height:var(--timeline-connector-height,calc(100% + 28px));animation:none!important}
+@media(max-width:1100px){
+ .project{height:auto;min-height:0;max-height:none;grid-template-columns:minmax(0,1fr);gap:0}
+ .project-copy,.reverse .project-copy{grid-column:1;grid-row:1;padding:32px 28px}
+ .project-art,.reverse .project-art{grid-column:1;grid-row:2;aspect-ratio:59 / 21;height:auto;margin:0 16px 16px;border-radius:24px}
+}
+
+/* Keep the experience card compact rather than stretching its entry gaps. */
+.about-card{align-self:start;min-height:0}
+.timeline{flex:none;justify-content:flex-start;gap:32px}
+
+/* Equal-height 1:1 introduction columns until the content stacks. */
+.about-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+.about-card,.identity-card{align-self:stretch;min-height:0}
+@media(max-width:760px){.about-grid{grid-template-columns:minmax(0,1fr)}.about-card,.identity-card{height:auto}}
+@media(max-width:1100px){.project-copy,.reverse .project-copy{padding:24px 28px}.project-art,.reverse .project-art{aspect-ratio:3.2 / 1;margin:0 12px 12px}}
+@media(max-width:600px){.project-copy,.reverse .project-copy{padding:22px 24px}.project-copy h3{font-size:20px}.project-art,.reverse .project-art{aspect-ratio:3.5 / 1}}

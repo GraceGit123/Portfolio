@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="14.5994" height="22.9962" viewBox="0 0 14.5994 22.9962" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#231;&#188;&#150;&#231;&#187;&#132; 28&#229;&#164;&#135;&#228;&#187;&#189; 3" clip-path="url(#clip0_0_229)">
+<path id="&#232;&#146;&#153;&#231;&#137;&#136;" fill-rule="evenodd" clip-rule="evenodd" d="M0 8.58919C0 7.99617 0.228106 7.42586 0.637068 6.99641L6.46342 0.878181C6.91853 0.400273 7.68088 0.400273 8.13599 0.878181L13.9623 6.99641C14.3713 7.42586 14.5994 7.99617 14.5994 8.58919V21.8414C14.5994 22.4792 14.0824 22.9962 13.4446 22.9962H1.15482C0.517032 22.9962 0 22.4792 0 21.8414L0 8.58919Z" fill="url(#paint0_radial_0_229)"/>
+<g id="Object">
+<mask id="mask0_0_229" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="15" height="23">
+<path id="&#232;&#146;&#153;&#231;&#137;&#136;_2" fill-rule="evenodd" clip-rule="evenodd" d="M0 8.58919C0 7.99617 0.228106 7.42586 0.637068 6.99641L6.46342 0.878181C6.91853 0.400273 7.68088 0.400273 8.13599 0.878181L13.9623 6.99641C14.3713 7.42586 14.5994 7.99617 14.5994 8.58919V21.8414C14.5994 22.4792 14.0824 22.9962 13.4446 22.9962H1.15482C0.517032 22.9962 0 22.4792 0 21.8414L0 8.58919Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_229)">
+</g>
+</g>
+<ellipse id="&#230;&#164;&#173;&#229;&#156;&#134;&#229;&#189;&#162;" cx="7.29882" cy="8.46846" rx="2.33914" ry="2.29658" fill="#FDF0E6"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_229" cx="0" cy="0" r="1" gradientTransform="matrix(-5.07128 -7.67273 4.87112 -7.98801 14.5994 22.9962)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EB6A01" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#EB6A01"/>
+</radialGradient>
+<clipPath id="clip0_0_229">
+<rect width="14.5994" height="22.9962" fill="white"/>
+</clipPath>
+</defs>
+</svg>

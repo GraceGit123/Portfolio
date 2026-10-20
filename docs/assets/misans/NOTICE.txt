@@ -1,0 +1,3 @@
+This website uses MiSans, provided by Xiaomi in collaboration with Monotype and Hanyi.
+Official source: https://hyperos.mi.com/font/zh/
+The original MiSans font files are distributed with their license (LICENSE.pdf).

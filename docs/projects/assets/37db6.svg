@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="8.22213" height="8.22005" viewBox="0 0 8.22213 8.22005" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#231;&#188;&#150;&#231;&#187;&#132; 15" filter="url(#filter0_d_0_236)">
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;" x="3.85414" y="1.02778" width="0.513889" height="1.02778" rx="0.256944" fill="white"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 28" x="3.85414" y="6.1645" width="0.513889" height="1.02778" rx="0.256944" fill="white"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 29" x="2.05556" y="3.852" width="0.513889" height="1.02778" rx="0.256944" transform="rotate(90 2.05556 3.852)" fill="white"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 54" x="7.19435" y="3.852" width="0.513889" height="1.02778" rx="0.256944" transform="rotate(90 7.19435 3.852)" fill="white"/>
+<circle id="&#230;&#164;&#173;&#229;&#156;&#134;&#229;&#189;&#162;" cx="4.11108" cy="4.10894" r="2.3125" stroke="white" stroke-width="0.513889"/>
+<circle id="&#230;&#164;&#173;&#229;&#156;&#134;&#229;&#189;&#162;_2" cx="4.11107" cy="4.11024" r="1.02778" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_0_236" x="0" y="0" width="8.22213" height="8.22005" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="0.513889"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.133333 0 0 0 0 0.278431 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_236"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_236" result="shape"/>
+</filter>
+</defs>
+</svg>

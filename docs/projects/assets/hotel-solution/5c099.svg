@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Ellipse 201" data-figma-bg-blur-radius="50">
+<path d="M200 100C200 155.228 155.228 200 100 200C44.7715 200 0 155.228 0 100C0 44.7715 44.7715 0 100 0C155.228 0 200 44.7715 200 100Z" fill="white" fill-opacity="0.1"/>
+<path d="M199.5 100C199.5 154.952 154.952 199.5 100 199.5C45.0477 199.5 0.5 154.952 0.5 100C0.5 45.0477 45.0477 0.5 100 0.5C154.952 0.5 199.5 45.0477 199.5 100Z" stroke="url(#paint0_linear_0_62)"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_62_clip_path" transform="translate(50 50)"><circle cx="100" cy="100" r="99.5"/>
+</clipPath><linearGradient id="paint0_linear_0_62" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

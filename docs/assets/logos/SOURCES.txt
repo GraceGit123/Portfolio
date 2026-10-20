@@ -1,0 +1,5 @@
+Brand logo artwork from Lobe Icons (Figma, Codex, Gemini) and Devicon (Sketch, Photoshop, Illustrator).
+https://github.com/lobehub/lobe-icons
+https://github.com/devicons/devicon
+All brand names and trademarks belong to their respective owners.
+WeChat contact mark: https://github.com/simple-icons/simple-icons/blob/develop/icons/wechat.svg
