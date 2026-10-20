@@ -80,9 +80,10 @@ document.querySelectorAll('.project,.identity-card').forEach(card=>{
  });
 });
 dialog.addEventListener('cancel',event=>{event.preventDefault();closeDetail();});
-reducedMotion.addEventListener('change',event=>{
+function handleReducedMotionChange(event){
  if(event.matches){document.getAnimations().forEach(animation=>animation.cancel());document.querySelectorAll('.project,.identity-card').forEach(card=>['--image-x','--image-y','--arrow-x','--arrow-y'].forEach(name=>card.style.removeProperty(name)));}
-});
+}
+if(reducedMotion.addEventListener)reducedMotion.addEventListener('change',handleReducedMotionChange);else reducedMotion.addListener(handleReducedMotionChange);
 
 // Clipboard writes happen only after a contact action is clicked.
 (()=>{
@@ -123,7 +124,7 @@ reducedMotion.addEventListener('change',event=>{
  const timeline=document.querySelector('.timeline');
  const entries=[...timeline.children];
  const connect=()=>entries.slice(0,-1).forEach((entry,index)=>entry.style.setProperty('--timeline-connector-height',`${entries[index+1].offsetTop-entry.offsetTop}px`));
- const resize=new ResizeObserver(connect);
- resize.observe(timeline);entries.forEach(entry=>resize.observe(entry));
+ if(window.ResizeObserver){const resize=new ResizeObserver(connect);resize.observe(timeline);entries.forEach(entry=>resize.observe(entry));}
+ window.addEventListener('resize',connect);
  document.fonts.ready.then(connect);connect();
 })();

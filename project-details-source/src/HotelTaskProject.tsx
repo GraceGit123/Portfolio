@@ -1,3 +1,4 @@
+import CaseImage from './CaseImage'
 const assetPathPrefix = `${import.meta.env.BASE_URL}assets/hotel-task`;
 const imgImage268 = `${assetPathPrefix}/hero-user-v3.png`;
 const img1 = `${assetPathPrefix}/c0357.png`;
@@ -47,7 +48,7 @@ export default function HotelTaskProject() {
       <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[13409px] via-1/2 via-black w-[1680px]" data-node-id="23:10" />
       <div className="absolute h-[820px] left-0 top-0 w-[1680px]" data-node-id="23:11" data-name="image 268">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute inset-0 size-full object-cover" src={imgImage268} />
+          <CaseImage alt="" className="absolute inset-0 size-full object-cover" src={imgImage268} />
         </div>
       </div>
       
@@ -145,13 +146,13 @@ export default function HotelTaskProject() {
         </div>
       </div>
       <div className="absolute h-[89px] left-[341px] top-[4245px] w-0" data-node-id="23:54">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
       </div>
       <div className="absolute h-[89px] left-[914px] top-[4245px] w-0" data-node-id="23:55">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
       </div>
       <div className="absolute h-[89px] left-[1503px] top-[4245px] w-0" data-node-id="23:56">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
       </div>
       <div className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] left-[80px] not-italic text-[80px] text-white top-[214px] tracking-[8px] whitespace-nowrap [font-weight:900]" data-node-id="23:57">
         <p className="leading-[100px] mb-0">携程业务系统HT</p>
@@ -174,7 +175,7 @@ export default function HotelTaskProject() {
           <p className="leading-[130px]">目标 。</p>
         </div>
         <div className="absolute h-[360px] left-[584px] top-[2px] w-[130px]" data-node-id="23:65" data-name="{">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img} />
+          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img} />
         </div>
         <div className="absolute bg-black content-stretch flex h-[60px] items-center justify-center left-[321px] px-[16px] py-[12px] rounded-[16px] top-[60px]" data-node-id="23:66">
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] h-full leading-[40px] not-italic relative shrink-0 text-[32px] text-white w-[128px] [font-weight:700]" data-node-id="23:67">
@@ -241,7 +242,7 @@ export default function HotelTaskProject() {
               <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:92">
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:93">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:94">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:96">
                     首屏多重信息同时存在，且功能定义不明确，导致首屏信息混乱、利用效率低
@@ -249,7 +250,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:97">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:98">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:100">
                     筛选与操作混杂，组件使用错乱，导致理解错误
@@ -257,7 +258,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:101">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:102">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:104">
                     字段呈多列表格形式，所有信息无差别垂直平铺，缺乏有效的分组机制及层级划分，视觉疲劳严重
@@ -282,7 +283,7 @@ export default function HotelTaskProject() {
             <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:111">
               <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:112">
                 <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:113">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                  <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                 </div>
                 <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] min-w-px not-italic relative text-[16px] text-black [font-weight:300]" data-node-id="23:115">
                   关键决策因子（如任务价值 Value 和 剩余处理时间 Time Remaining）淹没在信息洪流中，与酒店信息混杂，用户无法直观判断任务优先级，只能在全量列表中滚动查找
@@ -290,7 +291,7 @@ export default function HotelTaskProject() {
               </div>
               <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:116">
                 <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:117">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                  <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                 </div>
                 <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:119">
                   <span className="leading-[24px]">辅助决策信息内容不清，任务抓取时间未展示</span>
@@ -300,7 +301,7 @@ export default function HotelTaskProject() {
               </div>
               <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-[405px]" data-node-id="23:120">
                 <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:121">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                  <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                 </div>
                 <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:123">{`不同决策文案不清楚具体差异，如：立即处理&标记处理中`}</p>
               </div>
@@ -323,7 +324,7 @@ export default function HotelTaskProject() {
               <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:130">
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:131">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:132">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:134">
                     <span className="leading-[24px]">所有信息挤在一个面板，纵向滚动极长，</span>
@@ -335,7 +336,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:135">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:136">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:138">
                     任务的展示信息与操作入口混杂，操作位置混乱
@@ -343,7 +344,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:139">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:140">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:142">
                     “批量处理”按钮杂乱，不同批量操作需要分别点击，导致容错率低、页面拓展性差
@@ -403,7 +404,7 @@ export default function HotelTaskProject() {
                 <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:163">
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:164">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:165">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <div className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:167">
                       <p className="leading-[24px] mb-0">业务考核体系是决定用户行为的核心因素</p>
@@ -412,7 +413,7 @@ export default function HotelTaskProject() {
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:168">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:169">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <div className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:171">
                       <p className="leading-[24px] mb-0">{` "酒店维度" 工作模式`}</p>
@@ -421,7 +422,7 @@ export default function HotelTaskProject() {
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:172">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:173">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:175">
                       任务操作主要为查看详情、发送邮件
@@ -443,7 +444,7 @@ export default function HotelTaskProject() {
               <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:181">
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:182">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:183">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <div className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:185">
                     <p className="leading-[24px] mb-0">工作起点不同</p>
@@ -452,7 +453,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:186">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:187">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <div className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:189">
                     <p className="leading-[24px] mb-0">搜索习惯不同</p>
@@ -461,7 +462,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:190">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:191">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <div className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:193">
                     <p className="leading-[24px] mb-0">价值判断方式不同</p>
@@ -484,7 +485,7 @@ export default function HotelTaskProject() {
                 <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:199">
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:200">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:201">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <div className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:203">
                       <p className="leading-[24px] mb-0">快速锁定高价值任务困难</p>
@@ -493,7 +494,7 @@ export default function HotelTaskProject() {
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:204">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:205">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:207">
                       信息获取困难，信息多，注意力易分散
@@ -501,7 +502,7 @@ export default function HotelTaskProject() {
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:208">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:209">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:211">
                       任务过多，翻页过多，导致操作困难
@@ -509,7 +510,7 @@ export default function HotelTaskProject() {
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:212">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="23:213">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:215">
                       无法解决的任务没有专门入口且任务状态容易混淆
@@ -600,7 +601,7 @@ export default function HotelTaskProject() {
         <div className="-rotate-90 flex-none">
           <div className="h-[160px] relative w-0">
             <div className="absolute inset-[-0.63%_-5.77px_0_-5.77px]">
-              <img alt="" className="block max-w-none size-full" src={imgVector162} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector162} />
             </div>
           </div>
         </div>
@@ -609,7 +610,7 @@ export default function HotelTaskProject() {
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
-              <img alt="" className="block max-w-none size-full" src={imgVector164} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector164} />
             </div>
           </div>
         </div>
@@ -618,7 +619,7 @@ export default function HotelTaskProject() {
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
-              <img alt="" className="block max-w-none size-full" src={imgVector164} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector164} />
             </div>
           </div>
         </div>
@@ -627,7 +628,7 @@ export default function HotelTaskProject() {
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
-              <img alt="" className="block max-w-none size-full" src={imgVector164} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector164} />
             </div>
           </div>
         </div>
@@ -636,7 +637,7 @@ export default function HotelTaskProject() {
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
-              <img alt="" className="block max-w-none size-full" src={imgVector164} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector164} />
             </div>
           </div>
         </div>
@@ -645,7 +646,7 @@ export default function HotelTaskProject() {
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
-              <img alt="" className="block max-w-none size-full" src={imgVector164} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector164} />
             </div>
           </div>
         </div>
@@ -654,7 +655,7 @@ export default function HotelTaskProject() {
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
-              <img alt="" className="block max-w-none size-full" src={imgVector164} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector164} />
             </div>
           </div>
         </div>
@@ -663,21 +664,21 @@ export default function HotelTaskProject() {
         <div className="-rotate-90 flex-none">
           <div className="h-[160px] relative w-0">
             <div className="absolute inset-[-0.63%_-5.77px_0_-5.77px]">
-              <img alt="" className="block max-w-none size-full" src={imgVector162} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector162} />
             </div>
           </div>
         </div>
       </div>
       <div className="absolute left-[680px] mix-blend-multiply size-[320px] top-[5907px]" data-node-id="23:253">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse74} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse74} />
       </div>
       <div className="absolute left-[560px] mix-blend-multiply size-[320px] top-[6117px]" data-node-id="23:254">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse75} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse75} />
       </div>
       <div className="absolute flex items-center justify-center left-[800px] mix-blend-multiply size-[320px] top-[6117px]" data-node-id="23:255">
         <div className="-scale-y-100 flex-none rotate-180">
           <div className="relative size-[320px]">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse77} />
+            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse77} />
           </div>
         </div>
       </div>
@@ -900,7 +901,7 @@ export default function HotelTaskProject() {
             </div>
             <div className="h-[164px] relative rounded-tl-[12px] rounded-tr-[12px] shrink-0 w-[560px]" data-node-id="23:341" data-name="旧 7">
               <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[12px] rounded-tr-[12px]">
-                <img alt="" className="absolute h-[306.52%] left-[-15.24%] max-w-none top-[-13.35%] w-[116.91%]" src={img7} />
+                <CaseImage alt="" className="absolute h-[306.52%] left-[-15.24%] max-w-none top-[-13.35%] w-[116.91%]" src={img7} />
               </div>
             </div>
           </div>
@@ -925,7 +926,7 @@ export default function HotelTaskProject() {
             </div>
             <div className="h-[161.099px] relative rounded-tl-[12px] rounded-tr-[12px] shrink-0 w-[680px]" data-node-id="23:350" data-name="层级0 6">
               <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[12px] rounded-tr-[12px]">
-                <img alt="" className="absolute h-[298.8%] left-[-15.18%] max-w-none top-[-15.47%] w-[115.18%]" src={img06} />
+                <CaseImage alt="" className="absolute h-[298.8%] left-[-15.18%] max-w-none top-[-15.47%] w-[115.18%]" src={img06} />
               </div>
             </div>
           </div>
@@ -934,7 +935,7 @@ export default function HotelTaskProject() {
       <div className="absolute bg-gradient-to-b content-stretch flex from-[#dee6ff] items-end justify-center left-[752px] pt-[60px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[9546px] w-[848px]" data-node-id="23:351">
         <div className="h-[418px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-[680px]" data-node-id="23:352" data-name="1926 2">
           <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[16px] rounded-tr-[16px]">
-            <img alt="" className="absolute h-[99.98%] left-0 max-w-none top-0 w-full" src={img19262} />
+            <CaseImage alt="" className="absolute h-[99.98%] left-0 max-w-none top-0 w-full" src={img19262} />
           </div>
         </div>
       </div>
@@ -955,7 +956,7 @@ export default function HotelTaskProject() {
         </div>
         <div className="h-[250px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-[680px]" data-node-id="23:360" data-name="批量 1">
           <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[16px] rounded-tr-[16px]">
-            <img alt="" className="absolute h-[178.3%] left-0 max-w-none top-[-78.4%] w-full" src={img2} />
+            <CaseImage alt="" className="absolute h-[178.3%] left-0 max-w-none top-[-78.4%] w-full" src={img2} />
           </div>
         </div>
       </div>
@@ -977,7 +978,7 @@ export default function HotelTaskProject() {
               </div>
             </div>
             <div className="h-[429.98px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-[560px]" data-node-id="23:370" data-name="旧 6">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={img7} />
+              <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={img7} />
             </div>
           </div>
         </div>
@@ -999,7 +1000,7 @@ export default function HotelTaskProject() {
             </div>
             <div className="h-[418px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-[680px]" data-node-id="23:379" data-name="ssdr 11">
               <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[16px] rounded-tr-[16px]">
-                <img alt="" className="absolute h-[99.98%] left-0 max-w-none top-[0.02%] w-full" src={imgSsdr11} />
+                <CaseImage alt="" className="absolute h-[99.98%] left-0 max-w-none top-[0.02%] w-full" src={imgSsdr11} />
               </div>
             </div>
           </div>
@@ -1026,7 +1027,7 @@ export default function HotelTaskProject() {
               <div className="content-stretch flex gap-[32px] items-center relative shrink-0" data-node-id="23:390">
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:391">
                   <div className="relative shrink-0 size-[8px]" data-node-id="23:392">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse79} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse79} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:393">
                     酒店维度操作
@@ -1034,7 +1035,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:394">
                   <div className="relative shrink-0 size-[8px]" data-node-id="23:395">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse80} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse80} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:396">
                     任务分类维度操作
@@ -1042,7 +1043,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:397">
                   <div className="relative shrink-0 size-[8px]" data-node-id="23:398">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse81} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse81} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:399">
                     具体任务维度操作
@@ -1050,7 +1051,7 @@ export default function HotelTaskProject() {
                 </div>
               </div>
               <div className="h-[429.98px] relative shrink-0 w-[560px]" data-node-id="23:400" data-name="旧7 1">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img71} />
+                <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img71} />
               </div>
             </div>
           </div>
@@ -1075,7 +1076,7 @@ export default function HotelTaskProject() {
               <div className="content-stretch flex gap-[32px] items-center relative shrink-0" data-node-id="23:410">
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:411">
                   <div className="relative shrink-0 size-[8px]" data-node-id="23:412">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse79} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse79} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:413">
                     酒店维度操作
@@ -1083,7 +1084,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:414">
                   <div className="relative shrink-0 size-[8px]" data-node-id="23:415">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse80} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse80} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:416">
                     任务分类维度操作
@@ -1091,7 +1092,7 @@ export default function HotelTaskProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:417">
                   <div className="relative shrink-0 size-[8px]" data-node-id="23:418">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse81} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse81} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:419">
                     具体任务维度操作
@@ -1099,7 +1100,7 @@ export default function HotelTaskProject() {
                 </div>
               </div>
               <div className="h-[417.917px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-[680px]" data-node-id="23:420" data-name="后 1">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={img3} />
+                <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={img3} />
               </div>
             </div>
           </div>
@@ -1108,7 +1109,7 @@ export default function HotelTaskProject() {
       <div className="absolute bg-white h-[256px] left-[1020px] rounded-[20px] top-[7572px] w-[580px]" data-node-id="23:421" />
       <div className="absolute h-[540px] left-[80px] rounded-[16px] top-[7572px] w-[880px]" data-node-id="23:422" data-name="层级0 7">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[16px]">
-          <img alt="清晰的页面布局与视觉层级：Global OPTIM 酒店任务界面" className="absolute inset-0 size-full object-contain" src={`${assetPathPrefix}/visual-hierarchy-v2.png`} />
+          <CaseImage alt="清晰的页面布局与视觉层级：Global OPTIM 酒店任务界面" className="absolute inset-0 size-full object-contain" src={`${assetPathPrefix}/visual-hierarchy-v2.png`} />
         </div>
       </div>
       <div className="absolute bg-white h-[252px] left-[1020px] rounded-[20px] top-[7848px] w-[580px]" data-node-id="23:423" />
@@ -1160,7 +1161,7 @@ export default function HotelTaskProject() {
       <div className="absolute content-stretch flex flex-col gap-[8px] items-start left-[1422px] top-[7658px] w-[96px]" data-node-id="23:453">
         <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:454">
           <div className="relative shrink-0 size-[8px]" data-node-id="23:455">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse78} />
+            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse78} />
           </div>
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:456">
             操作层
@@ -1168,7 +1169,7 @@ export default function HotelTaskProject() {
         </div>
         <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:457">
           <div className="relative shrink-0 size-[8px]" data-node-id="23:458">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse82} />
+            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse82} />
           </div>
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:459">
             酒店层
@@ -1176,7 +1177,7 @@ export default function HotelTaskProject() {
         </div>
         <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="23:460">
           <div className="relative shrink-0 size-[8px]" data-node-id="23:461">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse83} />
+            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse83} />
           </div>
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:462">
             任务分类层
@@ -1184,7 +1185,7 @@ export default function HotelTaskProject() {
         </div>
         <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="23:463">
           <div className="relative shrink-0 size-[8px]" data-node-id="23:464">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse84} />
+            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse84} />
           </div>
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:465">
             任务信息层
@@ -1271,7 +1272,7 @@ export default function HotelTaskProject() {
         #3264FF
       </p>
       <div className="absolute left-[1422px] size-[32px] top-[8166px]" data-node-id="23:497" data-name="sip-line 1">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSipLine1} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgSipLine1} />
       </div>
       <div className="absolute bg-gradient-to-b content-stretch flex from-[#dee6ff] items-start justify-between left-[80px] pt-[40px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[11524px] w-[1520px]" data-node-id="23:500">
         <div className="content-stretch flex flex-[1_0_0] gap-[100px] items-start min-w-px relative self-stretch" data-node-id="23:501">
@@ -1302,7 +1303,7 @@ export default function HotelTaskProject() {
           </div>
           <div className="h-[480px] relative shrink-0 w-[740px]" data-node-id="23:512" data-name="筛选00 1">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="主要操作强化：底部集中展示主要操作入口" className="absolute inset-0 size-full object-contain" src={img001} />
+              <CaseImage alt="主要操作强化：底部集中展示主要操作入口" className="absolute inset-0 size-full object-contain" src={img001} />
             </div>
           </div>
         </div>
@@ -1326,17 +1327,17 @@ export default function HotelTaskProject() {
           <div className="content-stretch flex gap-[60px] items-start relative shrink-0 w-full" data-node-id="23:521">
             <div className="h-[380px] relative rounded-tl-[16px] rounded-tr-[16px] rounded-bl-none rounded-br-none overflow-hidden shrink-0 w-[618px]" data-node-id="23:522" data-name="批量后 1">
               <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[16px] rounded-tr-[16px]">
-                <img alt="批量操作优化后：批量操作入口" className="absolute inset-0 size-full object-contain rounded-tl-[16px] rounded-tr-[16px] rounded-bl-none rounded-br-none" src={img4} />
+                <CaseImage alt="批量操作优化后：批量操作入口" className="absolute inset-0 size-full object-contain rounded-tl-[16px] rounded-tr-[16px] rounded-bl-none rounded-br-none" src={img4} />
               </div>
             </div>
             <div className="h-[380px] relative rounded-tl-[16px] rounded-tr-[16px] rounded-bl-none rounded-br-none overflow-hidden shrink-0 w-[758px]" data-node-id="23:523" data-name="Group 296 1">
               <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[16px] rounded-tr-[16px]">
-                <img alt="批量操作优化后：任务多选及批量操作抽屉" className="absolute inset-0 size-full object-contain rounded-tl-[16px] rounded-tr-[16px] rounded-bl-none rounded-br-none" src={imgGroup2961} />
+                <CaseImage alt="批量操作优化后：任务多选及批量操作抽屉" className="absolute inset-0 size-full object-contain rounded-tl-[16px] rounded-tr-[16px] rounded-bl-none rounded-br-none" src={imgGroup2961} />
               </div>
             </div>
             <div className="aspect-[680/160] flex-[1_0_0] min-w-px relative rounded-tl-[12px] rounded-tr-[12px]" data-node-id="23:524" data-name="1921 3">
               <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[12px] rounded-tr-[12px]">
-                <img alt="" className="absolute h-[308.89%] left-[-16.87%] max-w-none top-[-16.04%] w-[118.26%]" src={img19213} />
+                <CaseImage alt="" className="absolute h-[308.89%] left-[-16.87%] max-w-none top-[-16.04%] w-[118.26%]" src={img19213} />
               </div>
             </div>
           </div>
@@ -1346,7 +1347,7 @@ export default function HotelTaskProject() {
         <div className="content-stretch flex flex-col gap-[40px] items-center relative shrink-0 w-[600px]" data-node-id="23:526">
           <div className="content-stretch flex gap-[28px] items-center relative shrink-0" data-node-id="23:527">
             <div className="h-[68px] relative shrink-0 w-[60px]" data-node-id="23:528" data-name="Union">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
             </div>
             <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[120px] text-black whitespace-nowrap [font-weight:900]" data-node-id="23:531">
               39.3%
@@ -1364,7 +1365,7 @@ export default function HotelTaskProject() {
         <div className="content-stretch flex flex-col gap-[40px] items-center relative shrink-0 w-[600px]" data-node-id="23:535">
           <div className="content-stretch flex gap-[28px] items-center relative shrink-0" data-node-id="23:536">
             <div className="h-[68px] relative shrink-0 w-[60px]" data-node-id="23:537" data-name="Union">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
             </div>
             <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[120px] text-black whitespace-nowrap [font-weight:900]" data-node-id="23:540">
               62.4%
@@ -1378,8 +1379,8 @@ export default function HotelTaskProject() {
       <div className="-translate-x-1/2 absolute content-stretch flex gap-[40px] items-center left-1/2 top-[14138px]" data-node-id="23:542">
         <div className="bg-white content-stretch flex gap-[10px] h-[80px] items-center px-[24px] py-[7px] relative rounded-[50px] shrink-0" data-node-id="23:543">
           <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="23:544" data-name="Mask group">
-            <div className="col-1 h-[59px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_9px] mask-size-[44px_44px] ml-[-1px] mt-[-9px] relative row-1 w-[67px]" data-node-id="23:546" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
+            <div className="col-1 h-[59px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_9px] mask-size-[44px_44px] ml-[-1px] mt-[-9px] relative row-1 w-[67px]" data-node-id="23:546" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+              <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black whitespace-nowrap [font-weight:300]" data-node-id="23:547">
@@ -1388,8 +1389,8 @@ export default function HotelTaskProject() {
         </div>
         <div className="bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] relative rounded-[50px] shrink-0" data-node-id="23:548">
           <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="23:549" data-name="Mask group">
-            <div className="col-1 h-[68px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[21px_9px] mask-size-[44px_44px] ml-[-21px] mt-[-9px] relative row-1 w-[77px]" data-node-id="23:551" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage239} />
+            <div className="col-1 h-[68px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[21px_9px] mask-size-[44px_44px] ml-[-21px] mt-[-9px] relative row-1 w-[77px]" data-node-id="23:551" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+              <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage239} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="23:552">

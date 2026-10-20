@@ -4,7 +4,7 @@
 /* These bundled variable fallbacks preserve weight when a local face is absent. */
 @font-face {
   font-family: 'Inter';
-  src: url('/fonts/inter.ttf');
+  src: url('/Portfolio/projects/fonts/inter.ttf');
   unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F;
   font-weight: 100 900;
   font-style: normal;
@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: 'Noto Sans SC';
-  src: url('/fonts/noto-sans-sc.ttf');
+  src: url('/Portfolio/projects/fonts/noto-sans-sc.ttf');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -22,21 +22,21 @@
    Do not use the unrelated MiSans VF axis scale for these named faces. */
 @font-face {
   font-family: 'Trip Geom:Regular';
-  src: local('Trip Geom Regular'), local('TripGeom-Regular'), url('/fonts/trip-geom/TripGeom-Regular.ttf'), local('Trip Geom');
+  src: local('Trip Geom Regular'), local('TripGeom-Regular'), url('/Portfolio/projects/fonts/trip-geom/TripGeom-Regular.ttf'), local('Trip Geom');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Trip Geom:Medium';
-  src: local('Trip Geom Medium'), local('TripGeom-Medium'), url('/fonts/trip-geom/TripGeom-Medium.ttf');
+  src: local('Trip Geom Medium'), local('TripGeom-Medium'), url('/Portfolio/projects/fonts/trip-geom/TripGeom-Medium.ttf');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Trip Geom:Bold';
-  src: local('Trip Geom Bold'), local('TripGeom-Bold'), url('/fonts/trip-geom/TripGeom-Bold.ttf');
+  src: local('Trip Geom Bold'), local('TripGeom-Bold'), url('/Portfolio/projects/fonts/trip-geom/TripGeom-Bold.ttf');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -362,3 +362,42 @@ html[data-project] .related-card:hover,html[data-project] .related-card:focus-vi
 /* Native glass layers sample the page behind the exported circle artwork. */
 .solution-glass-circle{z-index:1;overflow:hidden;border-radius:50%;backdrop-filter:blur(50px);-webkit-backdrop-filter:blur(50px);transform:translateZ(0)}
 .solution-project [data-node-id='1:361'],.solution-project [data-node-id='1:362']{z-index:2}
+
+/* Full phone case: natural text flow and canonical, zoomable illustrations. */
+@media(max-width:699px){
+ .mobile-complete-case{overflow:visible;padding-bottom:0}
+ .mobile-complete-case .mobile-section{scroll-margin-top:72px}
+ .mobile-complete-case h3{font-size:20px;font-weight:700;line-height:1.5;margin:28px 0 14px;overflow-wrap:anywhere}
+ .mobile-complete-case h4{font-size:17px;font-weight:650;line-height:1.6;margin:20px 0 10px}
+ .mobile-complete-case .mobile-section>p,.mobile-complete-case .mobile-solution>p,.mobile-complete-case .mobile-goals p{font-size:15px;line-height:1.85;white-space:normal;overflow-wrap:anywhere;margin:12px 0}
+ .mobile-complete-case .eyebrow{font-size:11px}
+ .mobile-complete-case .mobile-insight-card{min-width:0;height:auto;overflow:visible}
+ .mobile-complete-case .mobile-insight-card h3{transform:none;border-radius:12px;font-size:19px;white-space:normal;margin-top:0}
+ .mobile-complete-case .mobile-insight-card p{color:#454545;font-size:15px;line-height:1.85;margin:12px 0}
+ .mobile-complete-case .mobile-goals p{color:#fff}
+ .mobile-complete-case .mobile-image{margin:22px 0 32px}
+ .mobile-complete-case .mobile-image img{border-radius:12px;object-fit:contain;max-width:100%;height:auto}
+ .mobile-complete-case .mobile-solution{margin:0;padding:32px 0 40px;min-width:0}
+ .mobile-complete-case .mobile-solution+.mobile-solution{border-top:1px solid #ffffff26}
+ .mobile-complete-case .mobile-solution h2{font-size:28px}
+ .mobile-complete-case .mobile-solution>p{color:#ddd}
+ .mobile-complete-case blockquote{margin:24px 0;padding:18px 20px;background:white;border-radius:16px;font-size:15px;line-height:1.85}
+ .mobile-case-figure{margin:24px 0 32px;min-width:0}
+ .mobile-figure-trigger{display:block;width:100%;padding:0;border:0;background:transparent;text-align:right;color:#8aa9ff;font-size:12px}
+ .mobile-figure-trigger>span{display:block;margin-top:12px}
+ .mobile-figure-frame{position:relative;width:100%;overflow:hidden;border-radius:12px}
+ .mobile-figure-scale{position:absolute;left:0;top:0;transform-origin:top left}
+ .case-canvas.mobile-native-art{position:relative;height:auto;transform:none;overflow:visible;background:transparent;color:inherit;text-align:left}
+ .mobile-native-art p{margin:0}
+ .mobile-native-art .reveal{opacity:1}
+ .mobile-native-art h3,.mobile-native-art h4{margin:0;transform:none}
+ .mobile-art-viewer{height:calc(100% - 64px);overflow:auto;padding:24px;-webkit-overflow-scrolling:touch}
+ .mobile-art-dialog .dialog-toolbar{justify-content:space-between}
+ .related-projects{grid-template-columns:minmax(0,1fr);gap:20px}
+ html[data-project] .related-card{height:180px}
+ html[data-project] .related-home{height:auto;min-height:200px;padding:28px}
+ .related-home-title{font-size:24px}
+ .related-contacts{font-size:14px}
+ .related-contact-line{gap:10px}
+ .related-contact-line>svg{width:16px;height:16px;flex-basis:16px}
+}

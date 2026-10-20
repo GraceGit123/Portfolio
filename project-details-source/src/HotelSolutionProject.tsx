@@ -1,3 +1,4 @@
+import CaseImage from './CaseImage'
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 const assetPathPrefix = `${import.meta.env.BASE_URL}assets/hotel-solution`;
@@ -164,7 +165,7 @@ export default function HotelSolutionProject() {
         style={{ transform: `translateX(-50%) scale(${scale})` }} data-node-id="1:21" data-name="Hotel Solution">
 <div className="absolute h-[1186px] left-0 top-0 w-[1680px]" data-node-id="1:22" data-name="image 337 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute inset-0 size-full object-cover" src={imgImage3371} />
+          <CaseImage alt="" className="absolute inset-0 size-full object-cover" src={imgImage3371} />
         </div>
       </div>
 <div className="absolute bg-[rgba(255,255,255,0.1)] h-[388px] left-[80px] rounded-[60px] top-[2566px] w-[1520px]" data-node-id="1:27" />
@@ -178,7 +179,7 @@ export default function HotelSolutionProject() {
               竞品对比矩阵图
             </p>
             <div className="h-[36px] relative shrink-0 w-[20px]" data-node-id="1:105">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:108">
@@ -196,7 +197,7 @@ export default function HotelSolutionProject() {
               项目背景及目标
             </p>
             <div className="h-[36px] relative shrink-0 w-[20px]" data-node-id="1:114">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:117">
@@ -205,14 +206,14 @@ export default function HotelSolutionProject() {
         </div>
       </div>
 <div className="absolute h-[412px] left-[640px] top-[2064px] w-[400px]" data-node-id="1:118">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle388} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle388} />
       </div>
 <div className="absolute h-[412px] left-[1160px] top-[2064px] w-[400px]" data-node-id="1:119">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle389} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle389} />
       </div>
 <div className="absolute bg-gradient-to-b from-[rgba(32,32,32,0)] h-[160px] left-0 to-[#202020] top-[1026px] w-[1680px]" data-node-id="1:120" />
 <div className="absolute left-[1123px] size-[800px] top-[970px]" data-node-id="1:121">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse72} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse72} />
       </div>
 <div className="-translate-x-1/2 [word-break:break-word] absolute font-['MiSans'] font-black leading-[0] left-[calc(50%+0.5px)] not-italic text-[120px] text-center text-white top-[1146px] tracking-[12px] whitespace-nowrap" data-node-id="1:126">
         <p className="leading-[160px] mb-0 whitespace-pre">{`Hotel Solution `}</p>
@@ -432,7 +433,7 @@ export default function HotelSolutionProject() {
         <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-node-id="1:224">
           <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:225">
             <div className="h-[32px] relative shrink-0 w-[8px]" data-node-id="1:226">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
             </div>
             <p className="[word-break:break-word] font-['MiSans'] font-light leading-[32px] not-italic relative shrink-0 text-[24px] text-white w-[304px]" data-node-id="1:228">
               全链路体验缺失，用户认知不足
@@ -440,7 +441,7 @@ export default function HotelSolutionProject() {
           </div>
           <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:229">
             <div className="h-[32px] relative shrink-0 w-[8px]" data-node-id="1:230">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
             </div>
             <p className="[word-break:break-word] font-['MiSans'] font-light leading-[32px] not-italic relative shrink-0 text-[24px] text-white w-[304px]" data-node-id="1:232">
               从0-1的信息框架构建，无系统的营销体系
@@ -455,7 +456,7 @@ export default function HotelSolutionProject() {
         <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-node-id="1:235">
           <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:236">
             <div className="h-[32px] relative shrink-0 w-[8px]" data-node-id="1:237">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
             </div>
             <p className="[word-break:break-word] font-['MiSans'] font-light leading-[32px] not-italic relative shrink-0 text-[24px] text-white w-[304px]" data-node-id="1:239">
               决策信息成本高，全域价值感知模糊
@@ -463,7 +464,7 @@ export default function HotelSolutionProject() {
           </div>
           <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:240">
             <div className="h-[32px] relative shrink-0 w-[8px]" data-node-id="1:241">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
             </div>
             <p className="[word-break:break-word] font-['MiSans'] font-light leading-[32px] not-italic relative shrink-0 text-[24px] text-white w-[304px]" data-node-id="1:243">
               PPT形式信任背书薄弱，专业感知不足
@@ -508,7 +509,7 @@ export default function HotelSolutionProject() {
         </div>
       </div>
 <div className="absolute h-[412px] left-[120px] top-[2064px] w-[400px]" data-node-id="1:417">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle387} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle387} />
       </div>
 <div className="absolute content-stretch flex flex-col gap-[60px] items-start left-[160px] top-[2124px] w-[320px]" data-node-id="1:418">
         <p className="[word-break:break-word] font-['MiSans'] font-bold leading-[normal] not-italic relative shrink-0 text-[40px] text-white w-full" data-node-id="1:419">
@@ -517,7 +518,7 @@ export default function HotelSolutionProject() {
         <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-node-id="1:420">
           <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:421">
             <div className="h-[32px] relative shrink-0 w-[8px]" data-node-id="1:422">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
             </div>
             <p className="[word-break:break-word] font-['MiSans'] font-light leading-[32px] not-italic relative shrink-0 text-[24px] text-white w-[304px]" data-node-id="1:424">
               全球拓展缺少标准化载体，复用性差
@@ -525,7 +526,7 @@ export default function HotelSolutionProject() {
           </div>
           <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:425">
             <div className="h-[32px] relative shrink-0 w-[8px]" data-node-id="1:426">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236739} />
             </div>
             <p className="[word-break:break-word] font-['MiSans'] font-light leading-[32px] not-italic relative shrink-0 text-[24px] text-white w-[304px]" data-node-id="1:428">
               对外宣传口径不统一，品牌形象零散
@@ -549,7 +550,7 @@ export default function HotelSolutionProject() {
               设计机会点
             </p>
             <div className="h-[36px] relative shrink-0 w-[20px]" data-node-id="1:34">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:37">
@@ -567,7 +568,7 @@ export default function HotelSolutionProject() {
               叙事逻辑
             </p>
             <div className="h-[36px] relative shrink-0 w-[20px]" data-node-id="1:43">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:46">
@@ -585,7 +586,7 @@ export default function HotelSolutionProject() {
               情绪板
             </p>
             <div className="h-[36px] relative shrink-0 w-[20px]" data-node-id="1:52">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:55">
@@ -603,7 +604,7 @@ export default function HotelSolutionProject() {
               颜色规范
             </p>
             <div className="h-[36px] relative shrink-0 w-[20px]" data-node-id="1:61">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:64">
@@ -621,7 +622,7 @@ export default function HotelSolutionProject() {
               图形
             </p>
             <div className="h-[36px] relative shrink-0 w-[20px]" data-node-id="1:70">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:73">
@@ -647,7 +648,7 @@ export default function HotelSolutionProject() {
               布局与设计
             </p>
             <div className="h-[36px] relative shrink-0 w-[20px]" data-node-id="1:87">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:90">
@@ -665,7 +666,7 @@ export default function HotelSolutionProject() {
               AI工作流
             </p>
             <div className="h-[36px] relative shrink-0 w-[20px]" data-node-id="1:96">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147236763} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:99">
@@ -674,13 +675,13 @@ export default function HotelSolutionProject() {
         </div>
       </div>
 <div className="absolute h-[89px] left-[341px] top-[4567px] w-0" data-node-id="1:123">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
       </div>
 <div className="absolute h-[89px] left-[914px] top-[4567px] w-0" data-node-id="1:124">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
       </div>
 <div className="absolute h-[89px] left-[1503px] top-[4567px] w-0" data-node-id="1:125">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
       </div>
 <div className="absolute content-stretch flex flex-col h-[500px] items-start left-[80px] pb-[104px] pt-[80px] px-[60px] rounded-[60px] top-[4768px] w-[744px]" data-node-id="1:244" style={{ backgroundImage: "linear-gradient(124.43262991287617deg, rgb(50, 100, 255) 0%, rgb(86, 222, 255) 100%)" }}>
         <div className="content-stretch flex flex-col gap-[48px] items-start relative shrink-0 w-[624px]" data-node-id="1:245">
@@ -885,35 +886,35 @@ export default function HotelSolutionProject() {
         </p>
       </div>
 <div className="absolute contents left-[630px] top-[7759px]" data-node-id="1:329" data-name="生态链接图片">
-        <div className="-translate-y-1/2 absolute border-2 border-solid border-white h-[755px] left-[588px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[40px_1px] mask-size-[424px_684px] top-[calc(50%-518px)] w-[504px]" style={{ maskImage: `url("${imgImage344}")` }}>
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage349} />
+        <div className="-translate-y-1/2 absolute border-2 border-solid border-white h-[755px] left-[588px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[40px_1px] mask-size-[424px_684px] top-[calc(50%-518px)] w-[504px]" style={{ WebkitMaskImage: `url("${imgImage344}")`, maskImage: `url("${imgImage344}")` }}>
+          <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage349} />
         </div>
       </div>
 <div className="absolute contents left-[1150px] top-[7639px]" data-node-id="1:333" data-name="智感共赢图片">
-        <div className="absolute h-[758px] left-[1146px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2px_74px] mask-size-[424px_684px] top-[7563px] w-[427px]" style={{ maskImage: `url("${imgImage344}")` }}>
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage367} />
+        <div className="absolute h-[758px] left-[1146px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2px_74px] mask-size-[424px_684px] top-[7563px] w-[427px]" style={{ WebkitMaskImage: `url("${imgImage344}")`, maskImage: `url("${imgImage344}")` }}>
+          <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage367} />
         </div>
       </div>
 <div className="absolute contents left-[110px] top-[7639px]" data-node-id="1:338" data-name="人文温度图片">
-        <div className="absolute h-[810.849px] left-[14px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[94px_100px] mask-size-[424px_684px] top-[7537px] w-[608px]" style={{ maskImage: `url("${imgImage344}")` }}>
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage368} />
+        <div className="absolute h-[810.849px] left-[14px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[94px_100px] mask-size-[424px_684px] top-[7537px] w-[608px]" style={{ WebkitMaskImage: `url("${imgImage344}")`, maskImage: `url("${imgImage344}")` }}>
+          <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage368} />
         </div>
       </div>
 <div className="absolute flex h-[20px] items-center justify-center left-[110px] top-[9417px] w-[1460px]" data-node-id="1:344">
         <div className="-scale-y-100 flex-none rotate-180">
           <div className="h-[20px] relative w-[1460px]">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle420} />
+            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle420} />
           </div>
         </div>
       </div>
 <div className="absolute h-[360px] left-[110px] top-[7639px] w-[420px]" data-node-id="1:350">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle428} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle428} />
       </div>
 <div className="absolute h-[360px] left-[630px] top-[7759px] w-[420px]" data-node-id="1:351">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle428} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle428} />
       </div>
 <div className="absolute h-[360px] left-[1150px] top-[7639px] w-[420px]" data-node-id="1:352">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle428} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle428} />
       </div>
 <div className="[word-break:break-word] absolute flex flex-col gap-[20px] left-[140px] text-white top-[7683px] w-[360px]" data-node-id="1:353">
         <div className="flex flex-col gap-[8px] font-['MiSans'] font-black leading-normal">
@@ -946,10 +947,10 @@ export default function HotelSolutionProject() {
         </div>
       </div>
 <div className="solution-glass-circle absolute left-[973px] size-[200px] top-[8837px]" style={{ WebkitBackdropFilter: "blur(50px)", backdropFilter: "blur(50px)" }} data-node-id="1:359">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse201} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse201} />
       </div>
 <div className="solution-glass-circle absolute left-[450px] size-[140px] top-[9187px]" style={{ WebkitBackdropFilter: "blur(50px)", backdropFilter: "blur(50px)" }} data-node-id="1:360">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse202} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse202} />
       </div>
 <p className="-translate-x-1/2 [word-break:break-word] absolute font-['MiSans'] font-bold leading-[normal] left-[1073px] not-italic text-[80px] text-center text-white top-[8885px] whitespace-nowrap" data-node-id="1:361">
         Aa
@@ -978,52 +979,52 @@ export default function HotelSolutionProject() {
       </p>
 <div className="absolute contents left-[100px] top-[12940px]" data-node-id="1:375">
         <div className="-translate-x-1/2 absolute h-[263px] left-[calc(50%-400px)] top-[13223px] w-[500px]" data-node-id="1:376">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle442} />
+          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle442} />
         </div>
         <div className="-translate-x-1/2 absolute h-[280px] left-[calc(50%-400px)] top-[13206px] w-[680px]" data-node-id="1:377">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle443} />
+          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle443} />
         </div>
         <p className="[word-break:break-word] absolute font-['MiSans'] font-medium leading-[32px] left-[calc(50%-436px)] not-italic text-[24px] text-white top-[13355px] whitespace-nowrap" data-node-id="1:378">
           内容区
         </p>
         <div className="absolute left-[416px] size-[48px] top-[13287px]" data-node-id="1:379" data-name="编组 58">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img58} />
+          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img58} />
         </div>
         <div className="absolute h-[268px] left-[100px] rounded-tl-[20px] rounded-tr-[20px] top-[12940px] w-[680px]" data-node-id="1:385" data-name="1 首页 4">
           <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[20px] rounded-tr-[20px]">
-            <img alt="" className="absolute h-[895.93%] left-0 max-w-none top-0 w-full" src={img14} />
+            <CaseImage alt="" className="absolute h-[895.93%] left-0 max-w-none top-0 w-full" src={img14} />
           </div>
         </div>
       </div>
 <div className="absolute contents left-[940px] top-[12873px]" data-node-id="1:386">
         <div className="absolute left-[940px] rounded-[20px] size-[600px] top-[12913px]" data-node-id="1:387" data-name="1 首页 2">
           <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[20px]">
-            <img alt="" className="absolute h-[353.1%] left-0 max-w-none top-0 w-full" src={img14} />
+            <CaseImage alt="" className="absolute h-[353.1%] left-0 max-w-none top-0 w-full" src={img14} />
           </div>
         </div>
         <div className="absolute h-[600px] left-[940px] top-[12913px] w-[75px]" data-node-id="1:388">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle455} />
+          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle455} />
         </div>
         <div className="absolute flex h-[600px] items-center justify-center left-[1465px] top-[12913px] w-[75px]" data-node-id="1:389">
           <div className="-scale-y-100 flex-none rotate-180">
             <div className="h-[600px] relative w-[75px]">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle457} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle457} />
             </div>
           </div>
         </div>
         <div className="absolute h-[680px] left-[1012px] rounded-[30px] shadow-[0px_0px_15px_0px_rgba(0,0,0,0.25)] top-[12873px] w-[3px]" data-node-id="1:390" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 80%, rgba(255, 255, 255, 0) 100%)" }} />
         <div className="absolute h-[680px] left-[1465px] rounded-[30px] shadow-[0px_0px_15px_0px_rgba(0,0,0,0.25)] top-[12873px] w-[3px]" data-node-id="1:391" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 80%, rgba(255, 255, 255, 0) 100%)" }} />
         <div className="absolute left-[1003px] size-[21px] top-[13227.5px]" data-node-id="1:392">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse205} />
+          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse205} />
         </div>
         <div className="absolute left-[1009px] size-[9px] top-[13233.5px]" data-node-id="1:393">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse206} />
+          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse206} />
         </div>
         <div className="absolute flex items-center justify-center left-[1006px] size-[29.698px] top-[13229px]" data-node-id="1:394">
           <div className="-rotate-45 flex-none">
             <div className="relative size-[21px]">
               <div className="absolute inset-[-16.26%_-16.72%_-17.15%_-16.72%]">
-                <img alt="" className="block max-w-none size-full" src={imgPolygon7} />
+                <CaseImage alt="" className="block max-w-none size-full" src={imgPolygon7} />
               </div>
             </div>
           </div>
@@ -1052,22 +1053,22 @@ export default function HotelSolutionProject() {
       </p>
 <div className="absolute h-0 left-[1039px] top-[11838px] w-[175px]" data-node-id="1:429">
         <div className="absolute inset-[-2.67px_-1.52%]">
-          <img alt="" className="block max-w-none size-full" src={imgVector174} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgVector174} />
         </div>
       </div>
 <div className="absolute h-0 left-[1078px] top-[11986px] w-[136px]" data-node-id="1:430">
         <div className="absolute inset-[-2.67px_-1.96%]">
-          <img alt="" className="block max-w-none size-full" src={imgVector175} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgVector175} />
         </div>
       </div>
 <div className="absolute h-0 left-[1119px] top-[12163px] w-[95px]" data-node-id="1:431">
         <div className="absolute inset-[-2.67px_-2.81%]">
-          <img alt="" className="block max-w-none size-full" src={imgVector176} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgVector176} />
         </div>
       </div>
 <div className="absolute h-0 left-[1149px] top-[12313px] w-[65px]" data-node-id="1:432">
         <div className="absolute inset-[-2.67px_-4.1%]">
-          <img alt="" className="block max-w-none size-full" src={imgVector177} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgVector177} />
         </div>
       </div>
 <div className="absolute content-stretch flex flex-col gap-[12px] items-start left-[1244px] top-[11822px] w-[296px]" data-node-id="1:433">
@@ -1080,69 +1081,69 @@ export default function HotelSolutionProject() {
       </div>
 <div className="absolute h-[800px] left-[80px] rounded-bl-[60px] rounded-tl-[60px] top-[11737px] w-[1028px]" data-node-id="1:437" data-name="Group 315 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-bl-[60px] rounded-tl-[60px]">
-          <img alt="" className="absolute h-[142.65%] left-[-3.34%] max-w-none top-[-26.74%] w-[106.09%]" src={imgGroup3151} />
+          <CaseImage alt="" className="absolute h-[142.65%] left-[-3.34%] max-w-none top-[-26.74%] w-[106.09%]" src={imgGroup3151} />
         </div>
       </div>
 <div className="absolute h-[420px] left-[80px] top-[10659px] w-[660px]" data-name="蓝点 1">
-        <img alt="" className="absolute inset-0 size-full object-cover" src={imgBrandBlue} />
+        <CaseImage alt="" className="absolute inset-0 size-full object-cover" src={imgBrandBlue} />
       </div>
 <div className="absolute h-[420px] left-[940px] top-[10659px] w-[660px]" data-name="黄点 1">
-        <img alt="" className="absolute inset-0 size-full object-cover" src={imgBrandYellow} />
+        <CaseImage alt="" className="absolute inset-0 size-full object-cover" src={imgBrandYellow} />
       </div>
 <div className="absolute left-[660px] size-[360px] top-[10689px]" data-node-id="1:438">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse208} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse208} />
       </div>
 <p className="[word-break:break-word] absolute bg-clip-text bg-gradient-to-r font-['MiSans'] font-black from-[#ffb400] leading-[68px] left-[696px] not-italic text-[32px] text-[transparent] to-[#3264ff] top-[10819px] via-1/2 via-[#58bcff] whitespace-nowrap" data-node-id="1:439">
         品牌原点→生态网络
       </p>
-<img className="absolute left-[710px] top-[10899px] w-[260px] h-[56px] object-contain" src={imgGroup3331} alt="Trip.com Group 品牌原点" />
+<CaseImage className="absolute left-[710px] top-[10899px] w-[260px] h-[56px] object-contain" src={imgGroup3331} alt="Trip.com Group 品牌原点" />
 <div className="absolute bg-[rgba(255,255,255,0.1)] h-[508px] left-[80px] rounded-[40px] top-[10071px] w-[440px]" data-node-id="1:440" />
 <div className="absolute bg-[rgba(255,255,255,0.1)] h-[508px] left-[620px] rounded-[40px] top-[10071px] w-[440px]" data-node-id="1:441" />
 <div className="absolute bg-[rgba(255,255,255,0.1)] h-[508px] left-[1160px] rounded-[40px] top-[10071px] w-[440px]" data-node-id="1:442" />
 <div className="absolute contents left-[80px] top-[10179px]" data-node-id="1:443" data-name="Mask group">
-        <div className="absolute h-[820px] left-[-26px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[106px_321px] mask-size-[440px_280px] top-[9858px] w-[546px]" data-node-id="1:445" style={{ maskImage: `url("${imgImage381}")` }} data-name="image 381">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage382} />
+        <div className="absolute h-[820px] left-[-26px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[106px_321px] mask-size-[440px_280px] top-[9858px] w-[546px]" data-node-id="1:445" style={{ WebkitMaskImage: `url("${imgImage381}")`, maskImage: `url("${imgImage381}")` }} data-name="image 381">
+          <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage382} />
         </div>
-        <div className="absolute bg-[rgba(0,0,0,0.4)] h-[432px] left-[21px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[59px_40px] mask-size-[440px_280px] top-[10139px] w-[538px]" data-node-id="1:446" style={{ maskImage: `url("${imgImage381}")` }} />
+        <div className="absolute bg-[rgba(0,0,0,0.4)] h-[432px] left-[21px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[59px_40px] mask-size-[440px_280px] top-[10139px] w-[538px]" data-node-id="1:446" style={{ WebkitMaskImage: `url("${imgImage381}")`, maskImage: `url("${imgImage381}")` }} />
       </div>
 <div className="absolute contents left-[620px] top-[10179px]" data-node-id="1:447" data-name="Mask group">
-        <div className="absolute h-[471px] left-[584px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[36px_134px] mask-size-[420px_280px] top-[10045px] w-[466px]" data-node-id="1:449" style={{ maskImage: `url("${imgImage385}")` }} data-name="image 385">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage386} />
+        <div className="absolute h-[471px] left-[584px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[36px_134px] mask-size-[420px_280px] top-[10045px] w-[466px]" data-node-id="1:449" style={{ WebkitMaskImage: `url("${imgImage385}")`, maskImage: `url("${imgImage385}")` }} data-name="image 385">
+          <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage386} />
         </div>
-        <div className="absolute h-[572px] left-[601px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[19px_151px] mask-size-[420px_280px] top-[10028px] w-[458px]" data-node-id="1:450" style={{ maskImage: `url("${imgImage385}")` }} data-name="image 386">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage387} />
+        <div className="absolute h-[572px] left-[601px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[19px_151px] mask-size-[420px_280px] top-[10028px] w-[458px]" data-node-id="1:450" style={{ WebkitMaskImage: `url("${imgImage385}")`, maskImage: `url("${imgImage385}")` }} data-name="image 386">
+          <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage387} />
         </div>
-        <div className="absolute bg-[rgba(0,0,0,0.4)] h-[432px] left-[561px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[59px_40px] mask-size-[420px_280px] top-[10139px] w-[538px]" data-node-id="1:451" style={{ maskImage: `url("${imgImage385}")` }} />
+        <div className="absolute bg-[rgba(0,0,0,0.4)] h-[432px] left-[561px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[59px_40px] mask-size-[420px_280px] top-[10139px] w-[538px]" data-node-id="1:451" style={{ WebkitMaskImage: `url("${imgImage385}")`, maskImage: `url("${imgImage385}")` }} />
       </div>
 <div className="absolute contents left-[1160px] top-[10179px]" data-node-id="1:452" data-name="Mask group">
-        <div className="absolute h-[305px] left-[1156px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[4px_3px] mask-size-[420px_280px] top-[10176px] w-[457px]" data-node-id="1:454" style={{ maskImage: `url("${imgImage385}")` }} data-name="image 384">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage384} />
+        <div className="absolute h-[305px] left-[1156px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[4px_3px] mask-size-[420px_280px] top-[10176px] w-[457px]" data-node-id="1:454" style={{ WebkitMaskImage: `url("${imgImage385}")`, maskImage: `url("${imgImage385}")` }} data-name="image 384">
+          <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage384} />
         </div>
-        <div className="absolute bg-[rgba(0,0,0,0.4)] h-[432px] left-[1101px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[59px_40px] mask-size-[420px_280px] top-[10139px] w-[538px]" data-node-id="1:455" style={{ maskImage: `url("${imgImage385}")` }} />
+        <div className="absolute bg-[rgba(0,0,0,0.4)] h-[432px] left-[1101px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[59px_40px] mask-size-[420px_280px] top-[10139px] w-[538px]" data-node-id="1:455" style={{ WebkitMaskImage: `url("${imgImage385}")`, maskImage: `url("${imgImage385}")` }} />
       </div>
 <div className="absolute left-[410px] size-[60px] top-[10193px]" data-node-id="1:456">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse219} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse219} />
       </div>
 <div className="absolute h-[26px] left-[642px] top-[10393px] w-[376px]" data-node-id="1:457">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup326} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup326} />
       </div>
 <div className="absolute h-[26px] left-[1182px] top-[10393px] w-[376px]" data-node-id="1:469">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup327} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup327} />
       </div>
 <div className="absolute h-[26px] left-[1182px] top-[10358px] w-[376px]" data-node-id="1:481">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup328} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup328} />
       </div>
 <div className="absolute h-[26px] left-[1182px] top-[10323px] w-[376px]" data-node-id="1:493">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup329} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup329} />
       </div>
 <div className="absolute h-[26px] left-[1182px] top-[10288px] w-[376px]" data-node-id="1:505">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup329} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup329} />
       </div>
 <div className="absolute h-[26px] left-[1182px] top-[10253px] w-[376px]" data-node-id="1:517">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup328} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup328} />
       </div>
 <div className="absolute h-[26px] left-[1182px] top-[10218px] w-[376px]" data-node-id="1:529">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup327} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup327} />
       </div>
 <p className="[word-break:break-word] absolute font-['MiSans'] font-light leading-[28px] left-[120px] not-italic text-[20px] text-white top-[10483px] w-[340px]" data-node-id="1:541">
         新起点，延续品牌温度，代表每一位合作伙伴、每一个真实旅客
@@ -1163,7 +1164,7 @@ export default function HotelSolutionProject() {
         面
       </p>
 <div className="-translate-x-1/2 absolute h-[56px] left-1/2 top-[10899px] w-[260px]" data-node-id="1:547" data-name="Group 333 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup3331} />
+        <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup3331} />
       </div>
 <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[9875px] w-[1520px]" data-node-id="1:548">
         <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="1:549">
@@ -1260,7 +1261,7 @@ export default function HotelSolutionProject() {
       </div>
 <div className="-translate-x-1/2 absolute h-[800px] left-1/2 top-[15235px] w-[1260px]" style={{ marginTop: motionShift }} data-node-id="1:583" data-name="image 387">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[198.36%] left-[-12.87%] max-w-none top-[-50.21%] w-[125.94%]" src={imgImage388} />
+          <CaseImage alt="" className="absolute h-[198.36%] left-[-12.87%] max-w-none top-[-50.21%] w-[125.94%]" src={imgImage388} />
         </div>
       </div>
 <div className="-translate-x-1/2 absolute contents left-1/2 top-[14138px]" data-node-id="1:584">
@@ -1268,19 +1269,19 @@ export default function HotelSolutionProject() {
           <div className="-scale-y-100 flex-none rotate-180">
             <div className="h-[560px] relative w-[525px]" data-name="222 1">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[169.43%] left-[-123.78%] max-w-none top-[-36.68%] w-[240.76%]" src={img2221} />
+                <CaseImage alt="" className="absolute h-[169.43%] left-[-123.78%] max-w-none top-[-36.68%] w-[240.76%]" src={img2221} />
               </div>
             </div>
           </div>
         </div>
         <div className="-translate-x-1/2 absolute h-[690px] left-[calc(50%-60.5px)] top-[14138px] w-[579px]" data-node-id="1:586" data-name="2图 1">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[142.42%] left-[-15.92%] max-w-none top-[-16.39%] w-[226.27%]" src={img21} />
+            <CaseImage alt="" className="absolute h-[142.42%] left-[-15.92%] max-w-none top-[-16.39%] w-[226.27%]" src={img21} />
           </div>
         </div>
         <div className="-translate-x-1/2 absolute h-[630px] left-[calc(50%+477.5px)] top-[14198px] w-[549px]" data-node-id="1:587" data-name="2图 2">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[158.96%] left-[-123.97%] max-w-none top-[-34.31%] w-[243.06%]" src={img21} />
+            <CaseImage alt="" className="absolute h-[158.96%] left-[-123.97%] max-w-none top-[-34.31%] w-[243.06%]" src={img21} />
           </div>
         </div>
       </div>
@@ -1322,7 +1323,7 @@ export default function HotelSolutionProject() {
               <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="1:594">
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:595">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="1:596">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans'] font-light leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:598">
                     通过大模型抓取页面核心信息，生成初版竞品对比表格，完成基础信息的结构化整理。设计师在此基础上做专业判断、提炼差异化机会、输出设计策略，把人力从信息整理中释放出来
@@ -1330,7 +1331,7 @@ export default function HotelSolutionProject() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:599">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="1:600">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans'] font-light leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:602">
                     基于Trip.com品牌设计手册、此项目定位及B端业务诉求，使用AI辅助生成不同情绪板方案，经设计、产品与业务商讨确定最终方案
@@ -1351,7 +1352,7 @@ export default function HotelSolutionProject() {
               <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="1:607">
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:608">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="1:609">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans'] font-light leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:611">
                     根据情绪板，辅助探索视觉方向，输入页面模块排序、信息层级要求，AI 生成多版布局初稿，快速验证长页面的视觉节奏、模块轻重交替及视觉风格是否合理，设计师再做精细化调整，完成最终界面
@@ -1360,7 +1361,7 @@ export default function HotelSolutionProject() {
                 <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="1:612">
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:613">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="1:614">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans'] font-light leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:616">
                       将已确认页面由AI辅助生成Skill，沉淀入团队资产库。拓展页面及内容时，可直接调用品牌系统一键生成，便于延展复用及资产沉淀
@@ -1379,7 +1380,7 @@ export default function HotelSolutionProject() {
               </p>
             </div>
             <div className="h-[260px] relative shrink-0 w-[405px]" data-node-id="1:621" data-name="Group 335 1">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup3351} />
+              <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup3351} />
             </div>
           </div>
         </div>

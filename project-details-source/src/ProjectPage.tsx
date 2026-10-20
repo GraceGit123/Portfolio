@@ -1,3 +1,4 @@
+import CaseImage from './CaseImage'
 const assetPathPrefix = `${import.meta.env.BASE_URL}assets`;
 const img1 = `${assetPathPrefix}/81567.png`;
 const imgImage238 = `${assetPathPrefix}/9645a.png`;
@@ -204,45 +205,45 @@ export default function ProjectPage() {
     <div className="case-canvas bg-[#f1f5fe] relative" data-node-id="6:60" data-name="促销">
       <div className="absolute h-[707px] left-[-133px] top-[-148px] w-[2018px]" data-node-id="6:61">
         <div className="absolute inset-[-28.29%_-9.91%]">
-          <img alt="" className="block max-w-none size-full" src={imgRectangle126} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgRectangle126} />
         </div>
       </div>
       <div className="absolute bg-black h-[13719px] left-0 rounded-[60px] top-[4176px] w-[1680px]" data-node-id="6:62" data-name="黑色块" />
       <div className="absolute left-[-272px] size-[832px] top-[9323px]" data-node-id="6:63">
         <div className="absolute inset-[-36.06%]">
-          <img alt="" className="block max-w-none size-full" src={imgEllipse5} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgEllipse5} />
         </div>
       </div>
       <div className="absolute left-[1011px] size-[832px] top-[15249px]" data-node-id="6:64">
         <div className="absolute inset-[-36.06%]">
-          <img alt="" className="block max-w-none size-full" src={imgEllipse5} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgEllipse5} />
         </div>
       </div>
       <div className="-translate-x-1/2 absolute h-[612px] left-1/2 top-[9047px] w-[900px]" data-node-id="6:65" data-name="透视用 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[100.08%] left-0 max-w-none top-0 w-full" src={img1} />
+          <CaseImage alt="" className="absolute h-[100.08%] left-0 max-w-none top-0 w-full" src={img1} />
         </div>
       </div>
       <div className="absolute left-[1102px] size-[582px] top-[11805px]" data-node-id="6:66">
         <div className="absolute inset-[-51.55%]">
-          <img alt="" className="block max-w-none size-full" src={imgEllipse59} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgEllipse59} />
         </div>
       </div>
       <div className="absolute left-[-47px] size-[367px] top-[804px]" data-node-id="6:67">
         <div className="absolute inset-[-81.74%]">
-          <img alt="" className="block max-w-none size-full" src={imgEllipse60} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgEllipse60} />
         </div>
       </div>
       <div className="absolute left-[1230px] size-[582px] top-[4099px]" data-node-id="6:68">
         <div className="absolute inset-[-51.55%]">
-          <img alt="" className="block max-w-none size-full" src={imgEllipse59} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgEllipse59} />
         </div>
       </div>
       <div className="absolute flex h-[849.523px] items-center justify-center left-[21px] top-[2126px] w-[885.607px]" data-node-id="6:69">
         <div className="flex-none rotate-[-48.33deg]">
           <div className="h-[834px] relative w-[395px]">
             <div className="absolute inset-[-35.97%_-75.95%]">
-              <img alt="" className="block max-w-none size-full" src={imgEllipse17} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgEllipse17} />
             </div>
           </div>
         </div>
@@ -251,7 +252,7 @@ export default function ProjectPage() {
         <div className="flex-none rotate-[-48.33deg]">
           <div className="h-[834px] relative w-[395px]">
             <div className="absolute inset-[-35.97%_-75.95%]">
-              <img alt="" className="block max-w-none size-full" src={imgEllipse17} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgEllipse17} />
             </div>
           </div>
         </div>
@@ -283,7 +284,7 @@ export default function ProjectPage() {
       </div>
       <div className="absolute h-[26px] left-[300px] top-[807px] w-[120px]" data-node-id="6:82">
         <div className="absolute inset-0">
-          <img alt="" className="block max-w-none size-full" src={imgPolygon1} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgPolygon1} />
         </div>
       </div>
       <div className="-translate-x-1/2 absolute content-stretch flex gap-[32px] items-center left-1/2 top-[1928px] w-[1520px]" data-node-id="6:83">
@@ -429,25 +430,25 @@ export default function ProjectPage() {
         </div>
       </div>
       <div className="absolute left-[518px] size-[24px] top-[2089px]" data-node-id="6:136">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse15} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse15} />
       </div>
       <div className="absolute left-[1022px] size-[24px] top-[2089px]" data-node-id="6:137">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse15} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse15} />
       </div>
       <div className="absolute left-[634px] size-[24px] top-[2089px]" data-node-id="6:138">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse15} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse15} />
       </div>
       <div className="absolute left-[1138px] size-[24px] top-[2089px]" data-node-id="6:139">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse15} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse15} />
       </div>
       <div className="absolute h-[58px] left-[530px] top-[2043px] w-[118px]" data-node-id="6:140">
         <div className="absolute inset-[-8.62%_-4.24%]">
-          <img alt="" className="block max-w-none size-full" src={imgEllipse19} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgEllipse19} />
         </div>
       </div>
       <div className="absolute h-[58px] left-[1034px] top-[2043px] w-[116px]" data-node-id="6:141">
         <div className="absolute inset-[-8.62%_-4.31%]">
-          <img alt="" className="block max-w-none size-full" src={imgEllipse22} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgEllipse22} />
         </div>
       </div>
       <div className="absolute left-0 top-[2630px] w-full"><InsightMarquee /></div>
@@ -689,7 +690,7 @@ export default function ProjectPage() {
             </div>
             <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="6:299">
               <div className="h-[18.83px] relative shrink-0 w-[19.649px]" data-node-id="6:300" data-name="Union">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+                <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
               </div>
               <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:300]" data-node-id="6:303">
                 降低认知负荷
@@ -704,7 +705,7 @@ export default function ProjectPage() {
             </div>
             <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="6:307">
               <div className="h-[18.83px] relative shrink-0 w-[19.649px]" data-node-id="6:308" data-name="Union">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+                <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
               </div>
               <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:300]" data-node-id="6:311">
                 降低配置风险
@@ -719,7 +720,7 @@ export default function ProjectPage() {
             </div>
             <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="6:315">
               <div className="h-[18.83px] relative shrink-0 w-[19.649px]" data-node-id="6:316" data-name="Union">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+                <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
               </div>
               <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:300]" data-node-id="6:319">
                 主次分明
@@ -762,7 +763,7 @@ export default function ProjectPage() {
             </div>
             <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="6:334">
               <div className="h-[18.83px] relative shrink-0 w-[19.649px]" data-node-id="6:335" data-name="Union">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+                <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
               </div>
               <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:300]" data-node-id="6:338">
                 打造统一认知
@@ -777,7 +778,7 @@ export default function ProjectPage() {
             </div>
             <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="6:342">
               <div className="h-[18.83px] relative shrink-0 w-[19.649px]" data-node-id="6:343" data-name="Union">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+                <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
               </div>
               <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:300]" data-node-id="6:346">
                 降低认知负荷
@@ -792,7 +793,7 @@ export default function ProjectPage() {
             </div>
             <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="6:350">
               <div className="h-[18.83px] relative shrink-0 w-[19.649px]" data-node-id="6:351" data-name="Union">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+                <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
               </div>
               <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:300]" data-node-id="6:354">
                 全系统体验一致
@@ -916,7 +917,7 @@ export default function ProjectPage() {
           </div>
           <div className="content-stretch flex flex-[1_0_0] gap-[25px] items-center min-w-px relative" data-node-id="6:400">
             <div className="h-[36px] relative shrink-0 w-[1.159px]" data-node-id="6:401" data-name="Vector">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
             </div>
             <div className="[word-break:break-word] content-stretch flex font-normal gap-[16px] items-center leading-[normal] relative shrink-0" data-node-id="6:402">
               <p className="font-['Inter:Regular'] not-italic relative shrink-0 text-[#8fa7ff] text-[14px] w-[18.537px]" data-node-id="6:403">
@@ -1019,7 +1020,7 @@ export default function ProjectPage() {
                             <div className="bg-[#dee5ff] h-[20px] relative rounded-[4px] shrink-0 w-[120px]" data-node-id="6:448" />
                           </div>
                           <div className="h-[107px] relative shrink-0 w-[8px]" data-node-id="6:449">
-                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup201} />
+                            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup201} />
                           </div>
                         </div>
                         <div className="bg-[#dee5ff] h-[120px] relative rounded-[6px] shrink-0 w-[22px]" data-node-id="6:453" />
@@ -1056,7 +1057,7 @@ export default function ProjectPage() {
                               <div className="bg-[#dee5ff] h-[20px] relative rounded-[4px] shrink-0 w-[120px]" data-node-id="6:472" />
                             </div>
                             <div className="h-[107px] relative shrink-0 w-[8px]" data-node-id="6:473">
-                              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup201} />
+                              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup201} />
                             </div>
                           </div>
                           <div className="bg-[#dee5ff] h-[120px] relative rounded-[6px] shrink-0 w-[22px]" data-node-id="6:477" />
@@ -1064,7 +1065,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="bg-[#ebefff] content-stretch flex h-[136px] items-start justify-center pb-[15px] pt-[14px] px-[28px] relative rounded-[10px] shrink-0 w-[72px]" data-node-id="6:478">
                         <div className="h-[107px] relative shrink-0 w-[8px]" data-node-id="6:479">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup201} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup201} />
                         </div>
                       </div>
                     </div>
@@ -1117,7 +1118,7 @@ export default function ProjectPage() {
                 </p>
               </div>
               <div className="relative shrink-0 w-[640px] rounded-[8px] overflow-hidden" data-node-id="6:502" data-zoom-image="true" data-name="规则前置 Before：原促销中心列表与促销筛选">
-                <img alt="规则前置 Before：原促销中心列表与促销筛选" className="block w-full h-auto rounded-[8px]" src={`${import.meta.env.BASE_URL}assets/promotion-rules-before.png`} />
+                <CaseImage alt="规则前置 Before：原促销中心列表与促销筛选" className="block w-full h-auto rounded-[8px]" src={`${import.meta.env.BASE_URL}assets/promotion-rules-before.png`} />
               </div>
             </div>
             <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-[740px]" data-node-id="6:518">
@@ -1138,7 +1139,7 @@ export default function ProjectPage() {
                   <div className="absolute h-[1422.702px] left-[-125px] overflow-clip top-[-91px] w-[113.056px]" data-node-id="6:527" data-name="编组 3">
                     <div className="absolute inset-[0_0_66.37%_0]" data-node-id="6:528" data-name="位图">
                       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                        <img alt="" className="absolute left-0 max-w-none size-full top-0" src={img} />
+                        <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={img} />
                       </div>
                     </div>
                     <div className="absolute bg-[#1758dc] inset-[9.39%_0_89.06%_0]" data-node-id="6:529" data-name="矩形" />
@@ -1157,23 +1158,23 @@ export default function ProjectPage() {
                   </p>
                   <div className="absolute h-[20.556px] left-[252.71px] overflow-clip top-[-88.43px] w-[362.292px]" data-node-id="6:536" data-name="编组 3">
                     <div className="absolute inset-[10%_51.06%_10%_14.89%]" data-node-id="6:537" data-name="矩形备份 6">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img6} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img6} />
                     </div>
                     <div className="absolute inset-[15.01%_53.96%_14.98%_43.26%]" data-node-id="6:538" data-name="Group 2备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
                     </div>
                     <div className="absolute inset-[14.99%_72.34%_15.01%_23.69%]" data-node-id="6:546" data-name="编组 43备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img43} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img43} />
                     </div>
                     <div className="absolute inset-[14.99%_62.55%_15.01%_33.48%]" data-node-id="6:551" data-name="Shape备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgShape} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgShape} />
                     </div>
                     <div className="absolute inset-[10%_82.13%_10%_0] overflow-clip" data-node-id="6:555" data-name="编组 6备份">
                       <div className="absolute contents inset-0" data-node-id="6:556" data-name="编组 5备份 2">
                         <div className="absolute bg-[#1658dc] inset-0 rounded-[1.028px] shadow-[0px_1.028px_10.278px_0px_rgba(29,83,191,0.1)]" data-node-id="6:557" data-name="蒙版" />
-                        <div className="absolute inset-[15.63%_68.55%_-36.35%_7.94%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-15.417px_-11.82px] mask-size-[85.306px_37px]" data-node-id="6:559" style={{ maskImage: `url("${img52}")` }} data-name="编组 5备份 2">
+                        <div className="absolute inset-[15.63%_68.55%_-36.35%_7.94%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-15.417px_-11.82px] mask-size-[85.306px_37px]" data-node-id="6:559" style={{ WebkitMaskImage: `url("${img52}")`, maskImage: `url("${img52}")` }} data-name="编组 5备份 2">
                           <div className="absolute inset-[-5.18%_-6.75%]">
-                            <img alt="" className="block max-w-none size-full" src={img53} />
+                            <CaseImage alt="" className="block max-w-none size-full" src={img53} />
                           </div>
                         </div>
                       </div>
@@ -1181,48 +1182,48 @@ export default function ProjectPage() {
                         当前在线
                       </p>
                       <div className="absolute inset-[15.63%_7.94%_68.74%_88.1%]" data-node-id="6:591" data-name="椭圆形">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img2} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img2} />
                       </div>
                     </div>
                     <div className="absolute inset-[10%_31.21%_10%_48.94%]" data-node-id="6:592" data-name="矩形备份 14">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img14} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img14} />
                     </div>
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[normal] left-[calc(50%+21.33px)] not-italic text-[#222] text-[7.194px] top-[calc(50%-5.14px)] whitespace-nowrap" data-node-id="6:593">
                       English
                     </p>
                     <div className="absolute inset-[32.5%_45.53%_30%_51.77%]" data-node-id="6:594" data-name="位图备份 15">
                       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                        <img alt="" className="absolute left-0 max-w-none size-full top-0" src={img15} />
+                        <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={img15} />
                       </div>
                     </div>
                     <div className="absolute inset-[19.99%_32.62%_20.01%_63.97%]" data-node-id="7:5053" data-name="A 图标/线性/02_箭头/Drop_down备份 2">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
                     </div>
                     <div className="absolute inset-[10%_0_10%_68.79%]" data-node-id="6:596" data-name="矩形备份 16">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img16} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img16} />
                     </div>
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] leading-[12.333px] left-[calc(50%+104.06px)] not-italic text-[#222] text-[8.222px] top-[calc(50%-6.17px)] whitespace-nowrap" data-node-id="6:597">
                       S70300
                     </p>
                     <div className="absolute contents inset-[0_22.7%_0_71.63%]" data-node-id="6:598" data-name="achievement-adult-business-937481备份">
                       <div className="absolute inset-[0_22.7%_0_71.63%]" data-node-id="6:599" data-name="蒙版">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img3} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img3} />
                       </div>
-                      <div className="absolute inset-[-10%_14.61%_-130%_65.11%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[23.639px_2.055px] mask-size-[20.556px_20.556px]" data-node-id="6:601" style={{ maskImage: `url("${imgAchievementAdultBusiness937481}")` }} data-name="achievement-adult-business-937481">
+                      <div className="absolute inset-[-10%_14.61%_-130%_65.11%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[23.639px_2.055px] mask-size-[20.556px_20.556px]" data-node-id="6:601" style={{ WebkitMaskImage: `url("${imgAchievementAdultBusiness937481}")`, maskImage: `url("${imgAchievementAdultBusiness937481}")` }} data-name="achievement-adult-business-937481">
                         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                          <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgAchievementAdultBusiness937482} />
+                          <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={imgAchievementAdultBusiness937482} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute inset-[19.99%_2.84%_20.01%_93.76%]" data-node-id="7:5059" data-name="A 图标/线性/02_箭头/Drop_down备份 4">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
                     </div>
                   </div>
                   <p className="[word-break:break-word] absolute font-['Trip_Geom:Bold','Inter','Noto_Sans_SC',sans-serif] leading-[16.444px] left-[0.39px] not-italic text-[#222] text-[12.333px] top-[-52.97px] whitespace-nowrap [font-weight:700]" data-node-id="6:603">
                     促销中心
                   </p>
                   <div className="absolute h-[403.403px] left-[397.11px] top-[0.47px] w-[205.556px]" data-node-id="6:604" data-name="矩形备份 982">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img982} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img982} />
                   </div>
                   <p className="-translate-x-full [word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[11.306px] left-[573.08px] not-italic text-[#999] text-[7.194px] text-right top-[308.29px] whitespace-nowrap" data-node-id="6:605">
                     最大立减
@@ -1245,7 +1246,7 @@ export default function ProjectPage() {
                     <div className="absolute flex h-[2.569px] items-center justify-center left-[407.65px] top-[312.66px] w-[4.111px]" data-node-id="6:613">
                       <div className="-scale-y-100 flex-none">
                         <div className="h-[2.569px] relative w-[4.111px]" data-name="三角形备份 42">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
                         </div>
                       </div>
                     </div>
@@ -1260,7 +1261,7 @@ export default function ProjectPage() {
                     <div className="absolute border-[#ccc] border-[0.514px] border-solid inset-0 rounded-[3.083px]" data-node-id="6:617" data-name="矩形备份 100" />
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[11.306px] left-[4.11px] not-italic text-[#222] text-[7.194px] top-[calc(50%-5.65px)] whitespace-nowrap" data-node-id="6:618">{`豪华大床房<双早>`}</p>
                     <div className="absolute inset-[29.99%_2.17%_30.01%_93.48%]" data-node-id="6:619" data-name="A 图标/面性/基础图标/06_Drop down备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown} />
                     </div>
                   </div>
                   <div className="absolute bg-[#eaeaea] h-[0.514px] left-[405.33px] top-[347.86px] w-[189.111px]" data-node-id="6:622" data-name="矩形备份 239" />
@@ -1381,18 +1382,18 @@ export default function ProjectPage() {
                       9
                     </p>
                     <div className="absolute inset-[37.5%_0_37.5%_96.2%]" data-node-id="7:5035" data-name="A 图标/线性/基础图标/07_Drop right备份 6">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight6} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight6} />
                     </div>
                     <div className="absolute flex inset-[37.5%_96.2%_37.5%_0] items-center justify-center" data-node-id="7:5032" style={{ containerType: "size" }}>
                       <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
                         <div className="relative size-full" data-name="A 图标/线性/基础图标/07_Drop right备份 7">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight7} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight7} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute left-[587.25px] size-[7.194px] top-[10.24px]" data-node-id="7:4747" data-name="A 图标/线性/基础图标/06_Drop down备份 95">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown95} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown95} />
                   </div>
                   <p className="[word-break:break-word] absolute font-['Trip_Geom:Regular','Inter','Noto_Sans_SC',sans-serif] leading-[11.306px] left-[417.67px] not-italic text-[#222] text-[7.194px] top-[135.11px] whitespace-nowrap [font-weight:400]" data-node-id="6:674">
                     天天特价
@@ -1406,7 +1407,7 @@ export default function ProjectPage() {
                     <div className="absolute flex h-[2.569px] items-center justify-center left-[407.65px] top-[99.91px] w-[4.111px]" data-node-id="6:679">
                       <div className="-scale-y-100 flex-none">
                         <div className="h-[2.569px] relative w-[4.111px]" data-name="三角形备份 42">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
                         </div>
                       </div>
                     </div>
@@ -1416,7 +1417,7 @@ export default function ProjectPage() {
                     <div className="absolute flex h-[2.569px] items-center justify-center left-[407.65px] top-[172.37px] w-[4.111px]" data-node-id="6:682">
                       <div className="-scale-y-100 flex-none">
                         <div className="h-[2.569px] relative w-[4.111px]" data-name="三角形备份 42">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
                         </div>
                       </div>
                     </div>
@@ -1428,10 +1429,10 @@ export default function ProjectPage() {
                     常见问题
                   </p>
                   <div className="absolute left-[504px] size-[7.194px] top-[-48.35px]" data-node-id="7:4696" data-name="A 图标/线性/导航图标/06_Finance">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06Finance} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06Finance} />
                   </div>
                   <div className="absolute h-[0.514px] left-[-11.94px] top-[-65.82px] w-[626.944px]" data-node-id="6:686" data-name="路径 4备份 3">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img44} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img44} />
                   </div>
                   <div className="absolute h-[24.667px] left-[8.61px] overflow-clip top-[-30.36px] w-[41.111px]" data-node-id="6:687" data-name="F 展示/07_标签页/基础样式/small/active">
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[12.333px] left-[calc(50%-16.44px)] not-italic text-[#3264ff] text-[8.222px] top-[calc(50%-6.17px)] whitespace-nowrap" data-node-id="6:689">
@@ -1450,13 +1451,13 @@ export default function ProjectPage() {
                     </p>
                   </div>
                   <div className="absolute left-[450.56px] size-[10.278px] top-[8.7px]" data-node-id="7:4806" data-name="A 图标/线性/基础图标/02_Help备份 3">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help3} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help3} />
                   </div>
                   <div className="absolute left-[452.61px] size-[8.222px] top-[169.54px]" data-node-id="7:4827" data-name="A 图标/线性/基础图标/02_Help">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
                   </div>
                   <div className="absolute left-[440.28px] size-[8.222px] top-[360.71px]" data-node-id="7:4792" data-name="A 图标/线性/基础图标/02_Help备份">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
                   </div>
                   <p className="[word-break:break-word] absolute font-['Trip_Geom:Regular','Inter','Noto_Sans_SC',sans-serif] leading-[11.306px] left-[8.61px] not-italic text-[#666] text-[7.194px] top-[23.08px] whitespace-nowrap [font-weight:400]" data-node-id="6:700">
                     面向全用户客群及全场景，灵活选择房型及日期，快速管理促销价格
@@ -1490,12 +1491,12 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute inset-[80%_96.05%_6.66%_1.32%]" data-node-id="6:713" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img17} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img17} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute inset-[77.78%_53.07%_4.44%_43.42%]" data-node-id="7:4972" data-name="A 图标/线性/02_箭头/Drop_Right">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[14.389px] left-[calc(50%-117.17px)] not-italic text-[#222] text-[10.278px] top-[calc(50%-23.13px)] whitespace-nowrap" data-node-id="6:721">
                       天天特价
@@ -1633,7 +1634,7 @@ export default function ProjectPage() {
                   </p>
                   <div className="absolute contents left-[14.78px] top-[465.03px]" data-node-id="6:766" data-name="0-6 连住优惠">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[465.03px]" data-node-id="6:767" data-name="路径备份 12">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[24.03px] top-[474.79px]" data-node-id="6:769" data-name="编组 7备份 9">
                       <div className="absolute bg-[#eb6a01] h-[4.625px] left-[28.14px] rounded-[1.028px] top-[474.79px] w-[3.083px]" data-node-id="6:770" data-name="矩形" />
@@ -1645,82 +1646,82 @@ export default function ProjectPage() {
                     </div>
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[107.36px] w-[374.111px]" data-node-id="6:776" data-name="直线 4备份 3">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[296.47px] w-[374.111px]" data-node-id="6:777" data-name="直线 4备份 5">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[372.02px] w-[374.111px]" data-node-id="6:778" data-name="直线 4备份 15">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[447.55px] w-[374.111px]" data-node-id="6:779" data-name="直线 4备份 6">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[523.1px] w-[374.111px]" data-node-id="6:780" data-name="直线 4备份 7">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[674.18px] w-[374.111px]" data-node-id="6:781" data-name="直线 4备份 9">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[598.64px] w-[374.111px]" data-node-id="6:782" data-name="直线 4备份 8">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[749.72px] w-[374.111px]" data-node-id="6:783" data-name="直线 4备份 10">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[825.27px] w-[374.111px]" data-node-id="6:784" data-name="直线 4备份 11">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[1010.27px] w-[374.111px]" data-node-id="6:785" data-name="直线 4备份 13">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[896.7px] w-[374.111px]" data-node-id="6:786" data-name="直线 4备份 12">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[1081.7px] w-[374.111px]" data-node-id="6:787" data-name="直线 4备份 14">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[1153.13px] w-[374.111px]" data-node-id="6:788" data-name="直线 4备份 16">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[1224.55px] w-[374.111px]" data-node-id="6:789" data-name="直线 4备份 17">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[220.93px] w-[374.111px]" data-node-id="6:790" data-name="直线 4备份 4">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute contents left-[14.78px] top-[238.4px]" data-node-id="6:791" data-name="0-3 门店新客">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[238.4px]" data-node-id="6:792" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[248.68px]" data-node-id="6:794" data-name="编组 24备份 4">
                       <div className="absolute left-[30.19px] size-[10.278px] top-[248.68px]" data-node-id="6:795" data-name="椭圆形备份 33">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img33} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img33} />
                       </div>
                       <div className="absolute h-[10.792px] left-[24.54px] rounded-bl-[2.056px] rounded-br-[2.056px] rounded-tl-[4.111px] rounded-tr-[4.111px] top-[258.7px] w-[21.583px]" data-node-id="6:796" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 10.792' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.36007 0.72013 -0.37486 21.583 10.792)'><stop stop-color='rgba(235,106,1,0.5)' offset='0'/><stop stop-color='rgba(235,106,1,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 42" />
                       <div className="absolute h-[5.139px] left-[37.39px] top-[261.79px] w-[6.167px]" data-node-id="6:797" data-name="路径备份 5">
                         <div className="absolute inset-[0_0_1.81%_0]">
-                          <img alt="" className="block max-w-none size-full" src={img5} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img5} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[313.95px]" data-node-id="6:798" data-name="0-4 学生专享">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[313.95px]" data-node-id="6:799" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-0 top-0" data-node-id="6:800" data-name="学士帽-实备份" />
                     <div className="absolute h-[17.986px] left-[23.51px] top-[324.73px] w-[23.639px]" data-node-id="6:802" data-name="学士帽-实">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img4} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img4} />
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[162.86px]" data-node-id="6:806" data-name="0-2 出行特惠">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[162.86px]" data-node-id="6:807" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[172.63px]" data-node-id="6:812" data-name="编组 38备份 6">
                       <div className="absolute left-[24.54px] size-[21.583px] top-[172.63px]" data-node-id="6:813" data-name="形状结合">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img7} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img7} />
                       </div>
                       <div className="absolute flex items-center justify-center left-[29.96px] size-[3.634px] top-[185.23px]" data-node-id="6:817">
                         <div className="flex-none rotate-45">
@@ -1731,13 +1732,13 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[952.2px]" data-node-id="6:818" data-name="0-12 酒店红包">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[952.2px]" data-node-id="6:819" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img8} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img8} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[961.96px]" data-node-id="6:820" data-name="编组 13备份">
                       <div className="absolute contents left-[24.54px] top-[961.96px]" data-node-id="6:822" data-name="椭圆形">
                         <div className="absolute h-[20.042px] left-[24.54px] rounded-[1.962px] top-[961.96px] w-[21.583px]" data-node-id="6:823" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 20.042' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.66869 0.77553 -0.74972 19.792 18.833)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="蒙版" />
-                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[956.59px] w-[26.489px]" data-node-id="6:825" style={{ maskImage: `url("${img9}")` }} data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[956.59px] w-[26.489px]" data-node-id="6:825" style={{ WebkitMaskImage: `url("${img9}")`, maskImage: `url("${img9}")` }} data-name="椭圆形">
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
                         </div>
                       </div>
                       <div className="absolute bg-[#fce7e7] h-[1.542px] left-[31.97px] rounded-[0.491px] top-[972.24px] w-[7.194px]" data-node-id="6:826" data-name="矩形" />
@@ -1757,13 +1758,13 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[49.29px]" data-node-id="6:831" data-name="0-1 天天特价">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[49.29px]" data-node-id="6:832" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img11} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img11} />
                     </div>
                     <div className="absolute contents left-[22.51px] top-[54.93px]" data-node-id="6:833" data-name="编组 14备份 2">
                       <div className="absolute flex items-center justify-center left-[22.51px] size-[26.584px] top-[54.93px]" data-node-id="6:835">
                         <div className="flex-none rotate-45">
                           <div className="h-[22.996px] relative w-[14.599px]" data-name="编组 28备份 3">
-                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={img283} />
+                            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img283} />
                           </div>
                         </div>
                       </div>
@@ -1771,33 +1772,33 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[389.49px]" data-node-id="6:841" data-name="0-5 提前预订">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[389.49px]" data-node-id="6:842" data-name="路径备份 27">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[25.06px] top-[398.22px]" data-node-id="6:844" data-name="编组 22备份 14">
                       <div className="absolute h-[20.877px] left-[25.06px] top-[400.98px] w-[20.042px]" data-node-id="6:845" data-name="路径备份 3">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img13} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img13} />
                       </div>
                       <div className="absolute h-[3.434px] left-[41.13px] top-[400.98px] w-[3.431px]" data-node-id="6:846" data-name="形状结合">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img18} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img18} />
                       </div>
                       <div className="absolute h-[3.899px] left-[32.34px] top-[398.22px] w-[5.589px]" data-node-id="6:849" data-name="形状结合">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img19} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img19} />
                       </div>
                       <div className="absolute h-[13.349px] left-[28.65px] top-[405.42px] w-[13.361px]" data-node-id="6:854" data-name="椭圆形">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img20} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img20} />
                       </div>
                     </div>
                     <div className="absolute flex items-center justify-center left-[31.22px] size-[7.194px] top-[408.5px]" data-node-id="6:855">
                       <div className="-scale-y-100 flex-none rotate-180">
                         <div className="relative size-[7.194px]" data-name="形状结合备份 12">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img21} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img21} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[540.57px]" data-node-id="6:858" data-name="0-7 多间立减">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[540.57px]" data-node-id="6:859" data-name="路径备份 13">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute h-[15.417px] left-[24.54px] rounded-[1.028px] top-[553.42px] w-[21.583px]" data-node-id="6:861" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 15.417' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.51438 0.72013 -0.53552 21.583 15.417)'><stop stop-color='rgba(235,106,1,0.5)' offset='0'/><stop stop-color='rgba(235,106,1,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 86" />
                     <div className="absolute bg-[#fdf0e6] h-[3.083px] left-[27.63px] rounded-[0.514px] top-[562.67px] w-[4.111px]" data-node-id="6:862" data-name="矩形备份 87" />
@@ -1805,37 +1806,37 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[691.65px]" data-node-id="6:864" data-name="0-9 限时抢购">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[691.65px]" data-node-id="6:865" data-name="路径备份 22">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute h-[21.525px] left-[26.08px] top-[701.42px] w-[18.5px]" data-node-id="6:867" data-name="形状结合备份 10">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img22} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img22} />
                     </div>
                     <div className="absolute h-[4.016px] left-[32.25px] top-[714.27px] w-[6.004px]" data-node-id="6:871" data-name="路径备份 31">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img31} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img31} />
                     </div>
                     <div className="absolute h-[5.91px] left-[30.19px] top-[705.53px] w-[10.278px]" data-node-id="6:872" data-name="矩形备份 20">
                       <div className="absolute inset-[0_0_4.35%_0]">
-                        <img alt="" className="block max-w-none size-full" src={img23} />
+                        <CaseImage alt="" className="block max-w-none size-full" src={img23} />
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[616.11px]" data-node-id="6:873" data-name="0-8 今夜甩卖">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[616.11px]" data-node-id="6:874" data-name="路径备份 30">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[22.51px] top-[621.75px]" data-node-id="6:875" data-name="编组 15备份">
                       <div className="absolute contents left-[22.51px] top-[621.75px]" data-node-id="6:876" data-name="编组 14备份">
                         <div className="absolute flex items-center justify-center left-[22.51px] size-[26.584px] top-[621.75px]" data-node-id="6:878">
                           <div className="flex-none rotate-45">
                             <div className="h-[22.996px] relative w-[14.599px]" data-name="编组 28备份 3">
-                              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img284} />
+                              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img284} />
                             </div>
                           </div>
                         </div>
                       </div>
                       <div className="absolute contents left-[29.16px] top-[635.13px]" data-node-id="6:883" data-name="i-夜晚备份">
                         <div className="absolute h-[6.676px] left-[29.16px] top-[635.13px] w-[6.696px]" data-node-id="6:884" data-name="形状">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img24} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img24} />
                         </div>
                       </div>
                     </div>
@@ -1947,7 +1948,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[24.98%] left-1/2 right-[49.67%] top-[25.02%]" data-node-id="6:910" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[25.02%_28%_24.98%_71.67%]" data-node-id="6:911" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.69%_1.33%_16.64%_93.33%]" data-node-id="7:5005" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:913" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:914" data-name="编组 15备份 2">
@@ -1955,7 +1956,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[25.02%]" data-node-id="6:916" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -1977,7 +1978,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[25.01%] left-1/2 right-[49.67%] top-[24.99%]" data-node-id="6:929" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[24.99%_28%_25.01%_71.67%]" data-node-id="6:930" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.66%_1.33%_16.67%_93.33%]" data-node-id="7:4999" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:932" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:933" data-name="编组 15备份 2">
@@ -1985,7 +1986,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[24.99%]" data-node-id="6:935" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img26} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img26} />
                         </div>
                       </div>
                     </div>
@@ -2007,7 +2008,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[25.01%] left-1/2 right-[49.67%] top-[24.99%]" data-node-id="6:948" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[24.99%_28%_25.01%_71.67%]" data-node-id="6:949" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.66%_1.33%_16.67%_93.33%]" data-node-id="7:5008" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:951" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:952" data-name="编组 15备份 2">
@@ -2015,7 +2016,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[24.99%]" data-node-id="6:954" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -2037,7 +2038,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[24.98%] left-1/2 right-[49.67%] top-[25.02%]" data-node-id="6:967" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[25.02%_28%_24.98%_71.67%]" data-node-id="6:968" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.69%_1.33%_16.64%_93.33%]" data-node-id="7:5002" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:970" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:971" data-name="编组 15备份 2">
@@ -2045,7 +2046,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[25.02%]" data-node-id="6:973" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -2063,7 +2064,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[24.99%_35.74%_25.01%_63.83%]" data-node-id="6:985" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.66%_1.7%_16.67%_91.49%]" data-node-id="7:4993" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:987" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:988" data-name="编组 15备份 2">
@@ -2071,7 +2072,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[24.99%]" data-node-id="6:990" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img26} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img26} />
                         </div>
                       </div>
                     </div>
@@ -2089,7 +2090,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[24.99%_35.74%_25.01%_63.83%]" data-node-id="6:1002" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.66%_1.7%_16.67%_91.49%]" data-node-id="7:4840" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1004" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1005" data-name="编组 15备份 2">
@@ -2097,7 +2098,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[24.99%]" data-node-id="6:1007" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -2115,7 +2116,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[25.02%_35.74%_24.98%_63.83%]" data-node-id="6:1019" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.69%_1.7%_16.64%_91.49%]" data-node-id="7:4852" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_90.64%_8.31%_0.85%]" data-node-id="6:1021" data-name="1标签展示备份 2">
                       <div className="absolute contents inset-[8.36%_90.64%_8.31%_0.85%]" data-node-id="6:1022" data-name="编组 15备份 2">
@@ -2123,7 +2124,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[25.02%]" data-node-id="6:1024" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -2141,7 +2142,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[24.99%_35.74%_25.01%_63.83%]" data-node-id="6:1036" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.66%_1.7%_16.67%_91.49%]" data-node-id="7:4936" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1038" data-name="1标签展示备份 3">
                       <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1039" data-name="编组 15备份 2">
@@ -2149,7 +2150,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[24.99%]" data-node-id="6:1041" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img26} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img26} />
                         </div>
                       </div>
                     </div>
@@ -2163,7 +2164,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4975" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1053" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1054" data-name="编组 15备份 2">
@@ -2171,7 +2172,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:1056" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -2185,7 +2186,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4990" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1068" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1069" data-name="编组 15备份 2">
@@ -2193,7 +2194,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:1071" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -2207,7 +2208,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.69%_1.83%_16.64%_90.83%]" data-node-id="7:4963" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:1083" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:1084" data-name="编组 15备份 2">
@@ -2215,7 +2216,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[25.02%]" data-node-id="6:1086" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -2229,7 +2230,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.69%_1.83%_16.64%_90.83%]" data-node-id="7:4987" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:1098" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:1099" data-name="编组 15备份 2">
@@ -2237,7 +2238,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[25.02%]" data-node-id="6:1101" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -2251,7 +2252,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4981" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1113" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1114" data-name="编组 15备份 2">
@@ -2259,7 +2260,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:1116" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img17} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img17} />
                         </div>
                       </div>
                     </div>
@@ -2273,7 +2274,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4978" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1128" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1129" data-name="编组 15备份 2">
@@ -2281,34 +2282,34 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:1131" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[842.74px]" data-node-id="6:1138" data-name="0-11 钟点房">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[842.74px]" data-node-id="6:1139" data-name="路径备份 23">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[25.06px] top-[852.5px]" data-node-id="6:1141" data-name="编组 45备份 4">
                       <div className="absolute left-[25.59px] size-[7.194px] top-[852.5px]" data-node-id="6:1142" data-name="椭圆形备份 76">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
                       </div>
                       <div className="absolute left-[37.92px] size-[7.194px] top-[852.5px]" data-node-id="6:1143" data-name="椭圆形备份 77">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
                       </div>
                       <div className="absolute left-[25.06px] size-[20.556px] top-[853.53px]" data-node-id="6:1144" data-name="椭圆形备份 78">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img78} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img78} />
                       </div>
                       <div className="absolute contents left-[28.65px] top-[857.13px]" data-node-id="6:1145" data-name="编组 41备份 2">
                         <div className="absolute left-[28.65px] size-[13.361px] top-[857.13px]" data-node-id="6:1146" data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img28} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img28} />
                         </div>
                         <div className="absolute left-[36.44px] size-[2.056px] top-[864.68px]" data-node-id="6:1147" data-name="路径备份 24">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img29} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img29} />
                         </div>
                         <div className="absolute left-[31.94px] size-[2.056px] top-[860.18px]" data-node-id="6:1148" data-name="路径备份 26">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img30} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img30} />
                         </div>
                         <div className="absolute flex items-center justify-center left-[31.31px] size-[7.849px] top-[859.61px]" data-node-id="6:1149">
                           <div className="flex-none rotate-45">
@@ -2320,7 +2321,7 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[767.2px]" data-node-id="6:1150" data-name="0-10 YOYO卡扫码住">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[767.2px]" data-node-id="6:1151" data-name="路径备份 25">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute left-[26.08px] rounded-[2.056px] size-[18.5px] top-[778.5px]" data-node-id="6:1153" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 18.5 18.5' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.64262 -0.61726 0.61726 -0.64262 18.5 18.5)'><stop stop-color='rgba(235,106,1,0.5)' offset='0'/><stop stop-color='rgba(235,106,1,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 5" />
                     <div className="absolute bg-[#fdf0e6] h-[2.056px] left-[32.25px] rounded-[0.514px] top-[786.72px] w-[6.167px]" data-node-id="6:1154" data-name="矩形备份 15" />
@@ -2367,23 +2368,23 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[1027.74px]" data-node-id="6:1167" data-name="0-13 本地特惠红包">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[1027.74px]" data-node-id="6:1168" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[1037.5px]" data-node-id="6:1169" data-name="编组 13备份 4">
                       <div className="absolute contents left-[24.54px] top-[1037.5px]" data-node-id="6:1171" data-name="椭圆形">
                         <div className="absolute h-[20.042px] left-[24.54px] rounded-[1.962px] top-[1037.5px] w-[21.583px]" data-node-id="6:1172" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 20.042' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.66869 0.83518 -0.80739 19.792 18.833)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="蒙版" />
-                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[1032.13px] w-[26.489px]" data-node-id="6:1174" style={{ maskImage: `url("${img34}")` }} data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[1032.13px] w-[26.489px]" data-node-id="6:1174" style={{ WebkitMaskImage: `url("${img34}")`, maskImage: `url("${img34}")` }} data-name="椭圆形">
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute left-[30.19px] size-[10.278px] top-[1045.21px]" data-node-id="7:4490" data-name="A 图标/面性/基础图标/071_Location">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA071Location} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA071Location} />
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[1170.6px]" data-node-id="6:1176" data-name="0-15 YOYO卡&扫码住专享红包">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[1170.6px]" data-node-id="6:1177" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
                     </div>
                     <div className="absolute left-[26.08px] rounded-[2.056px] size-[18.5px] top-[1181.9px]" data-node-id="6:1179" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 18.5 18.5' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.64262 -0.61726 0.71587 -0.74529 16.965 17.385)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 5" />
                     <div className="absolute bg-[#fdf0e6] h-[2.056px] left-[32.25px] rounded-[0.514px] top-[1190.13px] w-[6.167px]" data-node-id="6:1180" data-name="矩形备份 15" />
@@ -2430,24 +2431,24 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[1099.17px]" data-node-id="6:1193" data-name="编组 6">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[1099.17px]" data-node-id="6:1194" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[1108.93px]" data-node-id="6:1195" data-name="编组 13备份 4">
                       <div className="absolute contents left-[24.54px] top-[1108.93px]" data-node-id="6:1197" data-name="椭圆形">
                         <div className="absolute h-[20.042px] left-[24.54px] rounded-[1.962px] top-[1108.93px] w-[21.583px]" data-node-id="6:1198" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 20.042' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.66869 0.83518 -0.80739 19.792 18.833)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="蒙版" />
-                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[1103.56px] w-[26.489px]" data-node-id="6:1200" style={{ maskImage: `url("${img34}")` }} data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[1103.56px] w-[26.489px]" data-node-id="6:1200" style={{ WebkitMaskImage: `url("${img34}")`, maskImage: `url("${img34}")` }} data-name="椭圆形">
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute left-[30.19px] size-[10.278px] top-[1116.64px]" data-node-id="7:4733" data-name="A 图标/面性/基础图标/058_Account">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA058Account} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA058Account} />
                     </div>
                   </div>
                   <div className="absolute left-[564.64px] size-[7.194px] top-[-48.35px]" data-node-id="6:1202" data-name="A 图标/线性/导航图标/12_Hotel Hub">
                     <div className="absolute inset-[7.17%_0_-7.17%_0]" data-node-id="6:1203" data-name="矩形" />
                     <div className="absolute inset-[7.12%_12.27%_5.39%_12.15%]" data-node-id="6:1204">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup200} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup200} />
                     </div>
                   </div>
                 </div>
@@ -2456,7 +2457,7 @@ export default function ProjectPage() {
                   <div className="absolute h-[1422.702px] left-[-125px] overflow-clip top-[-205px] w-[113.056px]" data-node-id="6:1214" data-name="编组 3">
                     <div className="absolute inset-[0_0_66.37%_0]" data-node-id="6:1215" data-name="位图">
                       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                        <img alt="" className="absolute left-0 max-w-none size-full top-0" src={img} />
+                        <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={img} />
                       </div>
                     </div>
                     <div className="absolute bg-[#1758dc] inset-[9.39%_0_89.06%_0]" data-node-id="6:1216" data-name="矩形" />
@@ -2475,23 +2476,23 @@ export default function ProjectPage() {
                   </p>
                   <div className="absolute h-[20.556px] left-[252.71px] overflow-clip top-[-202.43px] w-[362.292px]" data-node-id="6:1223" data-name="编组 3">
                     <div className="absolute inset-[10%_51.06%_10%_14.89%]" data-node-id="6:1224" data-name="矩形备份 6">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img6} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img6} />
                     </div>
                     <div className="absolute inset-[15.01%_53.96%_14.98%_43.26%]" data-node-id="6:1225" data-name="Group 2备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
                     </div>
                     <div className="absolute inset-[14.99%_72.34%_15.01%_23.69%]" data-node-id="6:1233" data-name="编组 43备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img43} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img43} />
                     </div>
                     <div className="absolute inset-[14.99%_62.55%_15.01%_33.48%]" data-node-id="6:1238" data-name="Shape备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgShape} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgShape} />
                     </div>
                     <div className="absolute inset-[10%_82.13%_10%_0] overflow-clip" data-node-id="6:1242" data-name="编组 6备份">
                       <div className="absolute contents inset-0" data-node-id="6:1243" data-name="编组 5备份 2">
                         <div className="absolute bg-[#1658dc] inset-0 rounded-[1.028px] shadow-[0px_1.028px_10.278px_0px_rgba(29,83,191,0.1)]" data-node-id="6:1244" data-name="蒙版" />
-                        <div className="absolute inset-[15.63%_68.55%_-36.35%_7.94%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-15.417px_-11.82px] mask-size-[85.306px_37px]" data-node-id="6:1246" style={{ maskImage: `url("${img52}")` }} data-name="编组 5备份 2">
+                        <div className="absolute inset-[15.63%_68.55%_-36.35%_7.94%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-15.417px_-11.82px] mask-size-[85.306px_37px]" data-node-id="6:1246" style={{ WebkitMaskImage: `url("${img52}")`, maskImage: `url("${img52}")` }} data-name="编组 5备份 2">
                           <div className="absolute inset-[-5.18%_-6.75%]">
-                            <img alt="" className="block max-w-none size-full" src={img53} />
+                            <CaseImage alt="" className="block max-w-none size-full" src={img53} />
                           </div>
                         </div>
                       </div>
@@ -2499,48 +2500,48 @@ export default function ProjectPage() {
                         当前在线
                       </p>
                       <div className="absolute inset-[15.63%_7.94%_68.74%_88.1%]" data-node-id="6:1278" data-name="椭圆形">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img2} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img2} />
                       </div>
                     </div>
                     <div className="absolute inset-[10%_31.21%_10%_48.94%]" data-node-id="6:1279" data-name="矩形备份 14">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img14} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img14} />
                     </div>
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[normal] left-[calc(50%+21.33px)] not-italic text-[#222] text-[7.194px] top-[calc(50%-5.14px)] whitespace-nowrap" data-node-id="6:1280">
                       English
                     </p>
                     <div className="absolute inset-[32.5%_45.53%_30%_51.77%]" data-node-id="6:1281" data-name="位图备份 15">
                       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                        <img alt="" className="absolute left-0 max-w-none size-full top-0" src={img15} />
+                        <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={img15} />
                       </div>
                     </div>
                     <div className="absolute inset-[19.99%_32.62%_20.01%_63.97%]" data-node-id="7:5041" data-name="A 图标/线性/02_箭头/Drop_down备份 2">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
                     </div>
                     <div className="absolute inset-[10%_0_10%_68.79%]" data-node-id="6:1283" data-name="矩形备份 16">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img16} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img16} />
                     </div>
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] leading-[12.333px] left-[calc(50%+104.06px)] not-italic text-[#222] text-[8.222px] top-[calc(50%-6.17px)] whitespace-nowrap" data-node-id="6:1284">
                       S70300
                     </p>
                     <div className="absolute contents inset-[0_22.7%_0_71.63%]" data-node-id="6:1285" data-name="achievement-adult-business-937481备份">
                       <div className="absolute inset-[0_22.7%_0_71.63%]" data-node-id="6:1286" data-name="蒙版">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img3} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img3} />
                       </div>
-                      <div className="absolute inset-[-10%_14.61%_-130%_65.11%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[23.639px_2.055px] mask-size-[20.556px_20.556px]" data-node-id="6:1288" style={{ maskImage: `url("${imgAchievementAdultBusiness937481}")` }} data-name="achievement-adult-business-937481">
+                      <div className="absolute inset-[-10%_14.61%_-130%_65.11%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[23.639px_2.055px] mask-size-[20.556px_20.556px]" data-node-id="6:1288" style={{ WebkitMaskImage: `url("${imgAchievementAdultBusiness937481}")`, maskImage: `url("${imgAchievementAdultBusiness937481}")` }} data-name="achievement-adult-business-937481">
                         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                          <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgAchievementAdultBusiness937482} />
+                          <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={imgAchievementAdultBusiness937482} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute inset-[19.99%_2.84%_20.01%_93.76%]" data-node-id="7:5056" data-name="A 图标/线性/02_箭头/Drop_down备份 4">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
                     </div>
                   </div>
                   <p className="[word-break:break-word] absolute font-['Trip_Geom:Bold','Inter','Noto_Sans_SC',sans-serif] leading-[16.444px] left-[0.39px] not-italic text-[#222] text-[12.333px] top-[-166.97px] whitespace-nowrap [font-weight:700]" data-node-id="6:1290">
                     促销中心
                   </p>
                   <div className="absolute h-[403.403px] left-[397.11px] top-[-113.53px] w-[205.556px]" data-node-id="6:1291" data-name="矩形备份 982">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img982} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img982} />
                   </div>
                   <p className="-translate-x-full [word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[11.306px] left-[573.08px] not-italic text-[#999] text-[7.194px] text-right top-[194.29px] whitespace-nowrap" data-node-id="6:1292">
                     最大立减
@@ -2563,7 +2564,7 @@ export default function ProjectPage() {
                     <div className="absolute flex h-[2.569px] items-center justify-center left-[407.65px] top-[198.66px] w-[4.111px]" data-node-id="6:1300">
                       <div className="-scale-y-100 flex-none">
                         <div className="h-[2.569px] relative w-[4.111px]" data-name="三角形备份 42">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
                         </div>
                       </div>
                     </div>
@@ -2578,7 +2579,7 @@ export default function ProjectPage() {
                     <div className="absolute border-[#ccc] border-[0.514px] border-solid inset-0 rounded-[3.083px]" data-node-id="6:1304" data-name="矩形备份 100" />
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[11.306px] left-[4.11px] not-italic text-[#222] text-[7.194px] top-[calc(50%-5.65px)] whitespace-nowrap" data-node-id="6:1305">{`豪华大床房<双早>`}</p>
                     <div className="absolute inset-[29.99%_2.17%_30.01%_93.48%]" data-node-id="6:1306" data-name="A 图标/面性/基础图标/06_Drop down备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown} />
                     </div>
                   </div>
                   <div className="absolute bg-[#eaeaea] h-[0.514px] left-[405.33px] top-[233.86px] w-[189.111px]" data-node-id="6:1309" data-name="矩形备份 239" />
@@ -2699,18 +2700,18 @@ export default function ProjectPage() {
                       9
                     </p>
                     <div className="absolute inset-[37.5%_0_37.5%_96.2%]" data-node-id="7:5023" data-name="A 图标/线性/基础图标/07_Drop right备份 6">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight6} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight6} />
                     </div>
                     <div className="absolute flex inset-[37.5%_96.2%_37.5%_0] items-center justify-center" data-node-id="7:5029" style={{ containerType: "size" }}>
                       <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
                         <div className="relative size-full" data-name="A 图标/线性/基础图标/07_Drop right备份 7">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight7} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight7} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute left-[587.25px] size-[7.194px] top-[-103.76px]" data-node-id="7:4744" data-name="A 图标/线性/基础图标/06_Drop down备份 95">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown95} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown95} />
                   </div>
                   <p className="[word-break:break-word] absolute font-['Trip_Geom:Regular','Inter','Noto_Sans_SC',sans-serif] leading-[11.306px] left-[417.67px] not-italic text-[#222] text-[7.194px] top-[21.11px] whitespace-nowrap [font-weight:400]" data-node-id="6:1361">
                     天天特价
@@ -2724,7 +2725,7 @@ export default function ProjectPage() {
                     <div className="absolute flex h-[2.569px] items-center justify-center left-[407.65px] top-[-14.09px] w-[4.111px]" data-node-id="6:1366">
                       <div className="-scale-y-100 flex-none">
                         <div className="h-[2.569px] relative w-[4.111px]" data-name="三角形备份 42">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
                         </div>
                       </div>
                     </div>
@@ -2734,7 +2735,7 @@ export default function ProjectPage() {
                     <div className="absolute flex h-[2.569px] items-center justify-center left-[407.65px] top-[58.37px] w-[4.111px]" data-node-id="6:1369">
                       <div className="-scale-y-100 flex-none">
                         <div className="h-[2.569px] relative w-[4.111px]" data-name="三角形备份 42">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
                         </div>
                       </div>
                     </div>
@@ -2746,10 +2747,10 @@ export default function ProjectPage() {
                     常见问题
                   </p>
                   <div className="absolute left-[504px] size-[7.194px] top-[-162.35px]" data-node-id="7:4682" data-name="A 图标/线性/导航图标/06_Finance">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06Finance} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06Finance} />
                   </div>
                   <div className="absolute h-[0.514px] left-[-11.94px] top-[-179.82px] w-[626.944px]" data-node-id="6:1373" data-name="路径 4备份 3">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img44} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img44} />
                   </div>
                   <div className="absolute h-[24.667px] left-[8.61px] overflow-clip top-[-144.36px] w-[41.111px]" data-node-id="6:1374" data-name="F 展示/07_标签页/基础样式/small/active">
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[12.333px] left-[calc(50%-16.44px)] not-italic text-[#3264ff] text-[8.222px] top-[calc(50%-6.17px)] whitespace-nowrap" data-node-id="6:1376">
@@ -2768,13 +2769,13 @@ export default function ProjectPage() {
                     </p>
                   </div>
                   <div className="absolute left-[450.56px] size-[10.278px] top-[-105.3px]" data-node-id="7:4785" data-name="A 图标/线性/基础图标/02_Help备份 3">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help3} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help3} />
                   </div>
                   <div className="absolute left-[452.61px] size-[8.222px] top-[55.54px]" data-node-id="7:4750" data-name="A 图标/线性/基础图标/02_Help">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
                   </div>
                   <div className="absolute left-[440.28px] size-[8.222px] top-[246.71px]" data-node-id="7:4820" data-name="A 图标/线性/基础图标/02_Help备份">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
                   </div>
                   <p className="[word-break:break-word] absolute font-['Trip_Geom:Regular','Inter','Noto_Sans_SC',sans-serif] leading-[11.306px] left-[8.61px] not-italic text-[#666] text-[7.194px] top-[-90.92px] whitespace-nowrap [font-weight:400]" data-node-id="6:1387">
                     面向全用户客群及全场景，灵活选择房型及日期，快速管理促销价格
@@ -2808,12 +2809,12 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute inset-[80%_96.05%_6.66%_1.32%]" data-node-id="6:1400" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img35} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img35} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute inset-[77.78%_53.07%_4.44%_43.42%]" data-node-id="7:4969" data-name="A 图标/线性/02_箭头/Drop_Right">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[14.389px] left-[calc(50%-117.17px)] not-italic text-[#222] text-[10.278px] top-[calc(50%-23.13px)] whitespace-nowrap" data-node-id="6:1408">
                       天天特价
@@ -2951,7 +2952,7 @@ export default function ProjectPage() {
                   </p>
                   <div className="absolute contents left-[14.78px] top-[351.03px]" data-node-id="6:1453" data-name="0-6 连住优惠">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[351.03px]" data-node-id="6:1454" data-name="路径备份 12">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[24.03px] top-[360.79px]" data-node-id="6:1456" data-name="编组 7备份 9">
                       <div className="absolute bg-[#eb6a01] h-[4.625px] left-[28.14px] rounded-[1.028px] top-[360.79px] w-[3.083px]" data-node-id="6:1457" data-name="矩形" />
@@ -2963,82 +2964,82 @@ export default function ProjectPage() {
                     </div>
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[-6.64px] w-[374.111px]" data-node-id="6:1463" data-name="直线 4备份 3">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[182.47px] w-[374.111px]" data-node-id="6:1464" data-name="直线 4备份 5">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[258.02px] w-[374.111px]" data-node-id="6:1465" data-name="直线 4备份 15">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[333.55px] w-[374.111px]" data-node-id="6:1466" data-name="直线 4备份 6">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[409.1px] w-[374.111px]" data-node-id="6:1467" data-name="直线 4备份 7">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[560.18px] w-[374.111px]" data-node-id="6:1468" data-name="直线 4备份 9">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[484.64px] w-[374.111px]" data-node-id="6:1469" data-name="直线 4备份 8">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[635.72px] w-[374.111px]" data-node-id="6:1470" data-name="直线 4备份 10">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[711.27px] w-[374.111px]" data-node-id="6:1471" data-name="直线 4备份 11">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[896.27px] w-[374.111px]" data-node-id="6:1472" data-name="直线 4备份 13">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[782.7px] w-[374.111px]" data-node-id="6:1473" data-name="直线 4备份 12">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[967.7px] w-[374.111px]" data-node-id="6:1474" data-name="直线 4备份 14">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[1039.13px] w-[374.111px]" data-node-id="6:1475" data-name="直线 4备份 16">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[1110.55px] w-[374.111px]" data-node-id="6:1476" data-name="直线 4备份 17">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[106.93px] w-[374.111px]" data-node-id="6:1477" data-name="直线 4备份 4">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute contents left-[14.78px] top-[124.4px]" data-node-id="6:1478" data-name="0-3 门店新客">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[124.4px]" data-node-id="6:1479" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[134.68px]" data-node-id="6:1481" data-name="编组 24备份 4">
                       <div className="absolute left-[30.19px] size-[10.278px] top-[134.68px]" data-node-id="6:1482" data-name="椭圆形备份 33">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img33} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img33} />
                       </div>
                       <div className="absolute h-[10.792px] left-[24.54px] rounded-bl-[2.056px] rounded-br-[2.056px] rounded-tl-[4.111px] rounded-tr-[4.111px] top-[144.7px] w-[21.583px]" data-node-id="6:1483" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 10.792' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.36007 0.72013 -0.37486 21.583 10.792)'><stop stop-color='rgba(235,106,1,0.5)' offset='0'/><stop stop-color='rgba(235,106,1,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 42" />
                       <div className="absolute h-[5.139px] left-[37.39px] top-[147.79px] w-[6.167px]" data-node-id="6:1484" data-name="路径备份 5">
                         <div className="absolute inset-[0_0_1.81%_0]">
-                          <img alt="" className="block max-w-none size-full" src={img5} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img5} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[199.95px]" data-node-id="6:1485" data-name="0-4 学生专享">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[199.95px]" data-node-id="6:1486" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-0 top-0" data-node-id="6:1487" data-name="学士帽-实备份" />
                     <div className="absolute h-[17.986px] left-[23.51px] top-[210.73px] w-[23.639px]" data-node-id="6:1489" data-name="学士帽-实">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img4} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img4} />
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[48.86px]" data-node-id="6:1493" data-name="0-2 出行特惠">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[48.86px]" data-node-id="6:1494" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[58.62px]" data-node-id="6:1499" data-name="编组 38备份 6">
                       <div className="absolute left-[24.54px] size-[21.583px] top-[58.62px]" data-node-id="6:1500" data-name="形状结合">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img36} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img36} />
                       </div>
                       <div className="absolute flex items-center justify-center left-[29.96px] size-[3.634px] top-[71.23px]" data-node-id="6:1504">
                         <div className="flex-none rotate-45">
@@ -3049,13 +3050,13 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[838.2px]" data-node-id="6:1505" data-name="0-12 酒店红包">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[838.2px]" data-node-id="6:1506" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img8} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img8} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[847.96px]" data-node-id="6:1507" data-name="编组 13备份">
                       <div className="absolute contents left-[24.54px] top-[847.96px]" data-node-id="6:1509" data-name="椭圆形">
                         <div className="absolute h-[20.042px] left-[24.54px] rounded-[1.962px] top-[847.96px] w-[21.583px]" data-node-id="6:1510" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 20.042' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.66869 0.77553 -0.74972 19.792 18.833)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="蒙版" />
-                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[842.59px] w-[26.489px]" data-node-id="6:1512" style={{ maskImage: `url("${img9}")` }} data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[842.59px] w-[26.489px]" data-node-id="6:1512" style={{ WebkitMaskImage: `url("${img9}")`, maskImage: `url("${img9}")` }} data-name="椭圆形">
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
                         </div>
                       </div>
                       <div className="absolute bg-[#fce7e7] h-[1.542px] left-[31.97px] rounded-[0.491px] top-[858.24px] w-[7.194px]" data-node-id="6:1513" data-name="矩形" />
@@ -3075,13 +3076,13 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[-64.71px]" data-node-id="6:1518" data-name="0-1 天天特价">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[-64.71px]" data-node-id="6:1519" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img11} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img11} />
                     </div>
                     <div className="absolute contents left-[22.51px] top-[-59.07px]" data-node-id="6:1520" data-name="编组 14备份 2">
                       <div className="absolute flex items-center justify-center left-[22.51px] size-[26.584px] top-[-59.07px]" data-node-id="6:1522">
                         <div className="flex-none rotate-45">
                           <div className="h-[22.996px] relative w-[14.599px]" data-name="编组 28备份 3">
-                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={img283} />
+                            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img283} />
                           </div>
                         </div>
                       </div>
@@ -3089,33 +3090,33 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[275.49px]" data-node-id="6:1528" data-name="0-5 提前预订">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[275.49px]" data-node-id="6:1529" data-name="路径备份 27">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[25.06px] top-[284.22px]" data-node-id="6:1531" data-name="编组 22备份 14">
                       <div className="absolute h-[20.877px] left-[25.06px] top-[286.98px] w-[20.042px]" data-node-id="6:1532" data-name="路径备份 3">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img13} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img13} />
                       </div>
                       <div className="absolute h-[3.434px] left-[41.13px] top-[286.98px] w-[3.431px]" data-node-id="6:1533" data-name="形状结合">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img18} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img18} />
                       </div>
                       <div className="absolute h-[3.899px] left-[32.34px] top-[284.22px] w-[5.589px]" data-node-id="6:1536" data-name="形状结合">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img19} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img19} />
                       </div>
                       <div className="absolute h-[13.349px] left-[28.65px] top-[291.42px] w-[13.361px]" data-node-id="6:1541" data-name="椭圆形">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img20} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img20} />
                       </div>
                     </div>
                     <div className="absolute flex items-center justify-center left-[31.22px] size-[7.194px] top-[294.5px]" data-node-id="6:1542">
                       <div className="-scale-y-100 flex-none rotate-180">
                         <div className="relative size-[7.194px]" data-name="形状结合备份 12">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img21} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img21} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[426.57px]" data-node-id="6:1545" data-name="0-7 多间立减">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[426.57px]" data-node-id="6:1546" data-name="路径备份 13">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute h-[15.417px] left-[24.54px] rounded-[1.028px] top-[439.42px] w-[21.583px]" data-node-id="6:1548" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 15.417' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.51438 0.72013 -0.53552 21.583 15.417)'><stop stop-color='rgba(235,106,1,0.5)' offset='0'/><stop stop-color='rgba(235,106,1,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 86" />
                     <div className="absolute bg-[#fdf0e6] h-[3.083px] left-[27.63px] rounded-[0.514px] top-[448.67px] w-[4.111px]" data-node-id="6:1549" data-name="矩形备份 87" />
@@ -3123,37 +3124,37 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[577.65px]" data-node-id="6:1551" data-name="0-9 限时抢购">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[577.65px]" data-node-id="6:1552" data-name="路径备份 22">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute h-[21.525px] left-[26.08px] top-[587.42px] w-[18.5px]" data-node-id="6:1554" data-name="形状结合备份 10">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img22} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img22} />
                     </div>
                     <div className="absolute h-[4.016px] left-[32.25px] top-[600.27px] w-[6.004px]" data-node-id="6:1558" data-name="路径备份 31">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img31} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img31} />
                     </div>
                     <div className="absolute h-[5.91px] left-[30.19px] top-[591.53px] w-[10.278px]" data-node-id="6:1559" data-name="矩形备份 20">
                       <div className="absolute inset-[0_0_4.35%_0]">
-                        <img alt="" className="block max-w-none size-full" src={img23} />
+                        <CaseImage alt="" className="block max-w-none size-full" src={img23} />
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[502.11px]" data-node-id="6:1560" data-name="0-8 今夜甩卖">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[502.11px]" data-node-id="6:1561" data-name="路径备份 30">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[22.51px] top-[507.75px]" data-node-id="6:1562" data-name="编组 15备份">
                       <div className="absolute contents left-[22.51px] top-[507.75px]" data-node-id="6:1563" data-name="编组 14备份">
                         <div className="absolute flex items-center justify-center left-[22.51px] size-[26.584px] top-[507.75px]" data-node-id="6:1565">
                           <div className="flex-none rotate-45">
                             <div className="h-[22.996px] relative w-[14.599px]" data-name="编组 28备份 3">
-                              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img284} />
+                              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img284} />
                             </div>
                           </div>
                         </div>
                       </div>
                       <div className="absolute contents left-[29.16px] top-[521.13px]" data-node-id="6:1570" data-name="i-夜晚备份">
                         <div className="absolute h-[6.676px] left-[29.16px] top-[521.13px] w-[6.696px]" data-node-id="6:1571" data-name="形状">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img24} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img24} />
                         </div>
                       </div>
                     </div>
@@ -3265,7 +3266,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[24.98%] left-1/2 right-[49.67%] top-[25.02%]" data-node-id="6:1597" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[25.02%_28%_24.98%_71.67%]" data-node-id="6:1598" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.69%_1.33%_16.64%_93.33%]" data-node-id="7:4921" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:1600" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:1601" data-name="编组 15备份 2">
@@ -3273,7 +3274,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[25.02%]" data-node-id="6:1603" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -3295,7 +3296,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[25.01%] left-1/2 right-[49.67%] top-[24.99%]" data-node-id="6:1616" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[24.99%_28%_25.01%_71.67%]" data-node-id="6:1617" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.66%_1.33%_16.67%_93.33%]" data-node-id="7:4954" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:1619" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:1620" data-name="编组 15备份 2">
@@ -3303,7 +3304,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[24.99%]" data-node-id="6:1622" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img26} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img26} />
                         </div>
                       </div>
                     </div>
@@ -3325,7 +3326,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[25.01%] left-1/2 right-[49.67%] top-[24.99%]" data-node-id="6:1635" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[24.99%_28%_25.01%_71.67%]" data-node-id="6:1636" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.66%_1.33%_16.67%_93.33%]" data-node-id="7:4960" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:1638" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:1639" data-name="编组 15备份 2">
@@ -3333,7 +3334,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[24.99%]" data-node-id="6:1641" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -3355,7 +3356,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[24.98%] left-1/2 right-[49.67%] top-[25.02%]" data-node-id="6:1654" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[25.02%_28%_24.98%_71.67%]" data-node-id="6:1655" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.69%_1.33%_16.64%_93.33%]" data-node-id="7:4948" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:1657" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:1658" data-name="编组 15备份 2">
@@ -3363,7 +3364,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[25.02%]" data-node-id="6:1660" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -3381,7 +3382,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[24.99%_35.74%_25.01%_63.83%]" data-node-id="6:1672" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.66%_1.7%_16.67%_91.49%]" data-node-id="7:4873" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1674" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1675" data-name="编组 15备份 2">
@@ -3389,7 +3390,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[24.99%]" data-node-id="6:1677" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img26} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img26} />
                         </div>
                       </div>
                     </div>
@@ -3407,7 +3408,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[24.99%_35.74%_25.01%_63.83%]" data-node-id="6:1689" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.66%_1.7%_16.67%_91.49%]" data-node-id="7:4864" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1691" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1692" data-name="编组 15备份 2">
@@ -3415,7 +3416,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[24.99%]" data-node-id="6:1694" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -3433,7 +3434,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[25.02%_35.74%_24.98%_63.83%]" data-node-id="6:1706" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.69%_1.7%_16.64%_91.49%]" data-node-id="7:4903" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_90.64%_8.31%_0.85%]" data-node-id="6:1708" data-name="1标签展示备份 2">
                       <div className="absolute contents inset-[8.36%_90.64%_8.31%_0.85%]" data-node-id="6:1709" data-name="编组 15备份 2">
@@ -3441,7 +3442,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[25.02%]" data-node-id="6:1711" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -3459,7 +3460,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[24.99%_35.74%_25.01%_63.83%]" data-node-id="6:1723" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.66%_1.7%_16.67%_91.49%]" data-node-id="7:5011" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1725" data-name="1标签展示备份 3">
                       <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:1726" data-name="编组 15备份 2">
@@ -3467,7 +3468,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[24.99%]" data-node-id="6:1728" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img26} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img26} />
                         </div>
                       </div>
                     </div>
@@ -3481,7 +3482,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4885" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1740" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1741" data-name="编组 15备份 2">
@@ -3489,7 +3490,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:1743" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -3503,7 +3504,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4966" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1755" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1756" data-name="编组 15备份 2">
@@ -3511,7 +3512,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:1758" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -3525,7 +3526,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.69%_1.83%_16.64%_90.83%]" data-node-id="7:4849" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:1770" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:1771" data-name="编组 15备份 2">
@@ -3533,7 +3534,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[25.02%]" data-node-id="6:1773" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -3547,7 +3548,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.69%_1.83%_16.64%_90.83%]" data-node-id="7:4942" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:1785" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:1786" data-name="编组 15备份 2">
@@ -3555,7 +3556,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[25.02%]" data-node-id="6:1788" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -3569,7 +3570,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4924" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1800" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1801" data-name="编组 15备份 2">
@@ -3577,7 +3578,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:1803" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img35} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img35} />
                         </div>
                       </div>
                     </div>
@@ -3591,7 +3592,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4957" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1815" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:1816" data-name="编组 15备份 2">
@@ -3599,34 +3600,34 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:1818" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[728.74px]" data-node-id="6:1825" data-name="0-11 钟点房">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[728.74px]" data-node-id="6:1826" data-name="路径备份 23">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[25.06px] top-[738.5px]" data-node-id="6:1828" data-name="编组 45备份 4">
                       <div className="absolute left-[25.59px] size-[7.194px] top-[738.5px]" data-node-id="6:1829" data-name="椭圆形备份 76">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
                       </div>
                       <div className="absolute left-[37.92px] size-[7.194px] top-[738.5px]" data-node-id="6:1830" data-name="椭圆形备份 77">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
                       </div>
                       <div className="absolute left-[25.06px] size-[20.556px] top-[739.53px]" data-node-id="6:1831" data-name="椭圆形备份 78">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img78} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img78} />
                       </div>
                       <div className="absolute contents left-[28.65px] top-[743.13px]" data-node-id="6:1832" data-name="编组 41备份 2">
                         <div className="absolute left-[28.65px] size-[13.361px] top-[743.13px]" data-node-id="6:1833" data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img28} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img28} />
                         </div>
                         <div className="absolute left-[36.44px] size-[2.056px] top-[750.68px]" data-node-id="6:1834" data-name="路径备份 24">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img29} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img29} />
                         </div>
                         <div className="absolute left-[31.94px] size-[2.056px] top-[746.18px]" data-node-id="6:1835" data-name="路径备份 26">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img30} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img30} />
                         </div>
                         <div className="absolute flex items-center justify-center left-[31.31px] size-[7.849px] top-[745.61px]" data-node-id="6:1836">
                           <div className="flex-none rotate-45">
@@ -3638,7 +3639,7 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[653.2px]" data-node-id="6:1837" data-name="0-10 YOYO卡扫码住">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[653.2px]" data-node-id="6:1838" data-name="路径备份 25">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute left-[26.08px] rounded-[2.056px] size-[18.5px] top-[664.5px]" data-node-id="6:1840" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 18.5 18.5' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.64262 -0.61726 0.61726 -0.64262 18.5 18.5)'><stop stop-color='rgba(235,106,1,0.5)' offset='0'/><stop stop-color='rgba(235,106,1,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 5" />
                     <div className="absolute bg-[#fdf0e6] h-[2.056px] left-[32.25px] rounded-[0.514px] top-[672.72px] w-[6.167px]" data-node-id="6:1841" data-name="矩形备份 15" />
@@ -3685,23 +3686,23 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[913.74px]" data-node-id="6:1854" data-name="0-13 本地特惠红包">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[913.74px]" data-node-id="6:1855" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[923.5px]" data-node-id="6:1856" data-name="编组 13备份 4">
                       <div className="absolute contents left-[24.54px] top-[923.5px]" data-node-id="6:1858" data-name="椭圆形">
                         <div className="absolute h-[20.042px] left-[24.54px] rounded-[1.962px] top-[923.5px] w-[21.583px]" data-node-id="6:1859" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 20.042' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.66869 0.83518 -0.80739 19.792 18.833)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="蒙版" />
-                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[918.13px] w-[26.489px]" data-node-id="6:1861" style={{ maskImage: `url("${img34}")` }} data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[918.13px] w-[26.489px]" data-node-id="6:1861" style={{ WebkitMaskImage: `url("${img34}")`, maskImage: `url("${img34}")` }} data-name="椭圆形">
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute left-[30.19px] size-[10.278px] top-[931.21px]" data-node-id="7:4494" data-name="A 图标/面性/基础图标/071_Location">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA071Location} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA071Location} />
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[1056.6px]" data-node-id="6:1863" data-name="0-15 YOYO卡&扫码住专享红包">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[1056.6px]" data-node-id="6:1864" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
                     </div>
                     <div className="absolute left-[26.08px] rounded-[2.056px] size-[18.5px] top-[1067.9px]" data-node-id="6:1866" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 18.5 18.5' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.64262 -0.61726 0.71587 -0.74529 16.965 17.385)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 5" />
                     <div className="absolute bg-[#fdf0e6] h-[2.056px] left-[32.25px] rounded-[0.514px] top-[1076.13px] w-[6.167px]" data-node-id="6:1867" data-name="矩形备份 15" />
@@ -3748,24 +3749,24 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[985.17px]" data-node-id="6:1880" data-name="编组 6">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[985.17px]" data-node-id="6:1881" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[994.93px]" data-node-id="6:1882" data-name="编组 13备份 4">
                       <div className="absolute contents left-[24.54px] top-[994.93px]" data-node-id="6:1884" data-name="椭圆形">
                         <div className="absolute h-[20.042px] left-[24.54px] rounded-[1.962px] top-[994.93px] w-[21.583px]" data-node-id="6:1885" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 20.042' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.66869 0.83518 -0.80739 19.792 18.833)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="蒙版" />
-                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[989.56px] w-[26.489px]" data-node-id="6:1887" style={{ maskImage: `url("${img34}")` }} data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[989.56px] w-[26.489px]" data-node-id="6:1887" style={{ WebkitMaskImage: `url("${img34}")`, maskImage: `url("${img34}")` }} data-name="椭圆形">
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute left-[30.19px] size-[10.278px] top-[1002.64px]" data-node-id="7:4728" data-name="A 图标/面性/基础图标/058_Account">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA058Account} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA058Account} />
                     </div>
                   </div>
                   <div className="absolute left-[564.64px] size-[7.194px] top-[-162.35px]" data-node-id="6:1889" data-name="A 图标/线性/导航图标/12_Hotel Hub">
                     <div className="absolute inset-[7.17%_0_-7.17%_0]" data-node-id="6:1890" data-name="矩形" />
                     <div className="absolute inset-[7.12%_12.27%_5.39%_12.15%]" data-node-id="6:1891">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup200} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup200} />
                     </div>
                   </div>
                 </div>
@@ -3774,7 +3775,7 @@ export default function ProjectPage() {
                   <div className="absolute h-[1422.702px] left-[-125px] overflow-clip top-[-205px] w-[113.056px]" data-node-id="6:1901" data-name="编组 3">
                     <div className="absolute inset-[0_0_66.37%_0]" data-node-id="6:1902" data-name="位图">
                       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                        <img alt="" className="absolute left-0 max-w-none size-full top-0" src={img} />
+                        <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={img} />
                       </div>
                     </div>
                     <div className="absolute bg-[#1758dc] inset-[9.39%_0_89.06%_0]" data-node-id="6:1903" data-name="矩形" />
@@ -3793,23 +3794,23 @@ export default function ProjectPage() {
                   </p>
                   <div className="absolute h-[20.556px] left-[252.71px] overflow-clip top-[-202.43px] w-[362.292px]" data-node-id="6:1910" data-name="编组 3">
                     <div className="absolute inset-[10%_51.06%_10%_14.89%]" data-node-id="6:1911" data-name="矩形备份 6">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img6} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img6} />
                     </div>
                     <div className="absolute inset-[15.01%_53.96%_14.98%_43.26%]" data-node-id="6:1912" data-name="Group 2备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
                     </div>
                     <div className="absolute inset-[14.99%_72.34%_15.01%_23.69%]" data-node-id="6:1920" data-name="编组 43备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img43} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img43} />
                     </div>
                     <div className="absolute inset-[14.99%_62.55%_15.01%_33.48%]" data-node-id="6:1925" data-name="Shape备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgShape} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgShape} />
                     </div>
                     <div className="absolute inset-[10%_82.13%_10%_0] overflow-clip" data-node-id="6:1929" data-name="编组 6备份">
                       <div className="absolute contents inset-0" data-node-id="6:1930" data-name="编组 5备份 2">
                         <div className="absolute bg-[#1658dc] inset-0 rounded-[1.028px] shadow-[0px_1.028px_10.278px_0px_rgba(29,83,191,0.1)]" data-node-id="6:1931" data-name="蒙版" />
-                        <div className="absolute inset-[15.63%_68.55%_-36.35%_7.94%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-15.417px_-11.82px] mask-size-[85.306px_37px]" data-node-id="6:1933" style={{ maskImage: `url("${img52}")` }} data-name="编组 5备份 2">
+                        <div className="absolute inset-[15.63%_68.55%_-36.35%_7.94%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-15.417px_-11.82px] mask-size-[85.306px_37px]" data-node-id="6:1933" style={{ WebkitMaskImage: `url("${img52}")`, maskImage: `url("${img52}")` }} data-name="编组 5备份 2">
                           <div className="absolute inset-[-5.18%_-6.75%]">
-                            <img alt="" className="block max-w-none size-full" src={img53} />
+                            <CaseImage alt="" className="block max-w-none size-full" src={img53} />
                           </div>
                         </div>
                       </div>
@@ -3817,48 +3818,48 @@ export default function ProjectPage() {
                         当前在线
                       </p>
                       <div className="absolute inset-[15.63%_7.94%_68.74%_88.1%]" data-node-id="6:1965" data-name="椭圆形">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img2} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img2} />
                       </div>
                     </div>
                     <div className="absolute inset-[10%_31.21%_10%_48.94%]" data-node-id="6:1966" data-name="矩形备份 14">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img14} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img14} />
                     </div>
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[normal] left-[calc(50%+21.33px)] not-italic text-[#222] text-[7.194px] top-[calc(50%-5.14px)] whitespace-nowrap" data-node-id="6:1967">
                       English
                     </p>
                     <div className="absolute inset-[32.5%_45.53%_30%_51.77%]" data-node-id="6:1968" data-name="位图备份 15">
                       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                        <img alt="" className="absolute left-0 max-w-none size-full top-0" src={img15} />
+                        <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={img15} />
                       </div>
                     </div>
                     <div className="absolute inset-[19.99%_32.62%_20.01%_63.97%]" data-node-id="7:5050" data-name="A 图标/线性/02_箭头/Drop_down备份 2">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
                     </div>
                     <div className="absolute inset-[10%_0_10%_68.79%]" data-node-id="6:1970" data-name="矩形备份 16">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img16} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img16} />
                     </div>
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] leading-[12.333px] left-[calc(50%+104.06px)] not-italic text-[#222] text-[8.222px] top-[calc(50%-6.17px)] whitespace-nowrap" data-node-id="6:1971">
                       S70300
                     </p>
                     <div className="absolute contents inset-[0_22.7%_0_71.63%]" data-node-id="6:1972" data-name="achievement-adult-business-937481备份">
                       <div className="absolute inset-[0_22.7%_0_71.63%]" data-node-id="6:1973" data-name="蒙版">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img3} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img3} />
                       </div>
-                      <div className="absolute inset-[-10%_14.61%_-130%_65.11%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[23.639px_2.055px] mask-size-[20.556px_20.556px]" data-node-id="6:1975" style={{ maskImage: `url("${imgAchievementAdultBusiness937481}")` }} data-name="achievement-adult-business-937481">
+                      <div className="absolute inset-[-10%_14.61%_-130%_65.11%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[23.639px_2.055px] mask-size-[20.556px_20.556px]" data-node-id="6:1975" style={{ WebkitMaskImage: `url("${imgAchievementAdultBusiness937481}")`, maskImage: `url("${imgAchievementAdultBusiness937481}")` }} data-name="achievement-adult-business-937481">
                         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                          <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgAchievementAdultBusiness937482} />
+                          <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={imgAchievementAdultBusiness937482} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute inset-[19.99%_2.84%_20.01%_93.76%]" data-node-id="7:5047" data-name="A 图标/线性/02_箭头/Drop_down备份 4">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropDown2} />
                     </div>
                   </div>
                   <p className="[word-break:break-word] absolute font-['Trip_Geom:Bold','Inter','Noto_Sans_SC',sans-serif] leading-[16.444px] left-[0.39px] not-italic text-[#222] text-[12.333px] top-[-166.97px] whitespace-nowrap [font-weight:700]" data-node-id="6:1977">
                     促销中心
                   </p>
                   <div className="absolute h-[403.403px] left-[397.11px] top-[-113.53px] w-[205.556px]" data-node-id="6:1978" data-name="矩形备份 982">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img982} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img982} />
                   </div>
                   <p className="-translate-x-full [word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[11.306px] left-[573.08px] not-italic text-[#999] text-[7.194px] text-right top-[194.29px] whitespace-nowrap" data-node-id="6:1979">
                     最大立减
@@ -3881,7 +3882,7 @@ export default function ProjectPage() {
                     <div className="absolute flex h-[2.569px] items-center justify-center left-[407.65px] top-[198.66px] w-[4.111px]" data-node-id="6:1987">
                       <div className="-scale-y-100 flex-none">
                         <div className="h-[2.569px] relative w-[4.111px]" data-name="三角形备份 42">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
                         </div>
                       </div>
                     </div>
@@ -3896,7 +3897,7 @@ export default function ProjectPage() {
                     <div className="absolute border-[#ccc] border-[0.514px] border-solid inset-0 rounded-[3.083px]" data-node-id="6:1991" data-name="矩形备份 100" />
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[11.306px] left-[4.11px] not-italic text-[#222] text-[7.194px] top-[calc(50%-5.65px)] whitespace-nowrap" data-node-id="6:1992">{`豪华大床房<双早>`}</p>
                     <div className="absolute inset-[29.99%_2.17%_30.01%_93.48%]" data-node-id="6:1993" data-name="A 图标/面性/基础图标/06_Drop down备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown} />
                     </div>
                   </div>
                   <div className="absolute bg-[#eaeaea] h-[0.514px] left-[405.33px] top-[233.86px] w-[189.111px]" data-node-id="6:1996" data-name="矩形备份 239" />
@@ -4017,18 +4018,18 @@ export default function ProjectPage() {
                       9
                     </p>
                     <div className="absolute inset-[37.5%_0_37.5%_96.2%]" data-node-id="7:5020" data-name="A 图标/线性/基础图标/07_Drop right备份 6">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight6} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight6} />
                     </div>
                     <div className="absolute flex inset-[37.5%_96.2%_37.5%_0] items-center justify-center" data-node-id="7:5026" style={{ containerType: "size" }}>
                       <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
                         <div className="relative size-full" data-name="A 图标/线性/基础图标/07_Drop right备份 7">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight7} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA07DropRight7} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute left-[587.25px] size-[7.194px] top-[-103.76px]" data-node-id="7:4741" data-name="A 图标/线性/基础图标/06_Drop down备份 95">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown95} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06DropDown95} />
                   </div>
                   <p className="[word-break:break-word] absolute font-['Trip_Geom:Regular','Inter','Noto_Sans_SC',sans-serif] leading-[11.306px] left-[417.67px] not-italic text-[#222] text-[7.194px] top-[21.11px] whitespace-nowrap [font-weight:400]" data-node-id="6:2048">
                     天天特价
@@ -4042,7 +4043,7 @@ export default function ProjectPage() {
                     <div className="absolute flex h-[2.569px] items-center justify-center left-[407.65px] top-[-14.09px] w-[4.111px]" data-node-id="6:2053">
                       <div className="-scale-y-100 flex-none">
                         <div className="h-[2.569px] relative w-[4.111px]" data-name="三角形备份 42">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
                         </div>
                       </div>
                     </div>
@@ -4052,7 +4053,7 @@ export default function ProjectPage() {
                     <div className="absolute flex h-[2.569px] items-center justify-center left-[407.65px] top-[58.37px] w-[4.111px]" data-node-id="6:2056">
                       <div className="-scale-y-100 flex-none">
                         <div className="h-[2.569px] relative w-[4.111px]" data-name="三角形备份 42">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img42} />
                         </div>
                       </div>
                     </div>
@@ -4064,10 +4065,10 @@ export default function ProjectPage() {
                     常见问题
                   </p>
                   <div className="absolute left-[504px] size-[7.194px] top-[-162.35px]" data-node-id="7:4668" data-name="A 图标/线性/导航图标/06_Finance">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06Finance} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA06Finance} />
                   </div>
                   <div className="absolute h-[0.514px] left-[-11.94px] top-[-179.82px] w-[626.944px]" data-node-id="6:2060" data-name="路径 4备份 3">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img44} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img44} />
                   </div>
                   <div className="absolute h-[24.667px] left-[8.61px] overflow-clip top-[-144.36px] w-[41.111px]" data-node-id="6:2061" data-name="F 展示/07_标签页/基础样式/small/active">
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[12.333px] left-[calc(50%-16.44px)] not-italic text-[#3264ff] text-[8.222px] top-[calc(50%-6.17px)] whitespace-nowrap" data-node-id="6:2063">
@@ -4086,13 +4087,13 @@ export default function ProjectPage() {
                     </p>
                   </div>
                   <div className="absolute left-[450.56px] size-[10.278px] top-[-105.3px]" data-node-id="7:4813" data-name="A 图标/线性/基础图标/02_Help备份 3">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help3} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help3} />
                   </div>
                   <div className="absolute left-[452.61px] size-[8.222px] top-[55.54px]" data-node-id="7:4764" data-name="A 图标/线性/基础图标/02_Help">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
                   </div>
                   <div className="absolute left-[440.28px] size-[8.222px] top-[246.71px]" data-node-id="7:4771" data-name="A 图标/线性/基础图标/02_Help备份">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02Help} />
                   </div>
                   <p className="[word-break:break-word] absolute font-['Trip_Geom:Regular','Inter','Noto_Sans_SC',sans-serif] leading-[11.306px] left-[8.61px] not-italic text-[#666] text-[7.194px] top-[-90.92px] whitespace-nowrap [font-weight:400]" data-node-id="6:2074">
                     面向全用户客群及全场景，灵活选择房型及日期，快速管理促销价格
@@ -4126,12 +4127,12 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute inset-[80%_96.05%_6.66%_1.32%]" data-node-id="6:2087" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img17} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img17} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute inset-[77.78%_53.07%_4.44%_43.42%]" data-node-id="7:4939" data-name="A 图标/线性/02_箭头/Drop_Right">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] leading-[14.389px] left-[calc(50%-117.17px)] not-italic text-[#222] text-[10.278px] top-[calc(50%-23.13px)] whitespace-nowrap" data-node-id="6:2095">
                       天天特价
@@ -4269,7 +4270,7 @@ export default function ProjectPage() {
                   </p>
                   <div className="absolute contents left-[14.78px] top-[351.03px]" data-node-id="6:2140" data-name="0-6 连住优惠">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[351.03px]" data-node-id="6:2141" data-name="路径备份 12">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[24.03px] top-[360.79px]" data-node-id="6:2143" data-name="编组 7备份 9">
                       <div className="absolute bg-[#eb6a01] h-[4.625px] left-[28.14px] rounded-[1.028px] top-[360.79px] w-[3.083px]" data-node-id="6:2144" data-name="矩形" />
@@ -4281,82 +4282,82 @@ export default function ProjectPage() {
                     </div>
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[-6.64px] w-[374.111px]" data-node-id="6:2150" data-name="直线 4备份 3">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[182.47px] w-[374.111px]" data-node-id="6:2151" data-name="直线 4备份 5">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[258.02px] w-[374.111px]" data-node-id="6:2152" data-name="直线 4备份 15">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[333.55px] w-[374.111px]" data-node-id="6:2153" data-name="直线 4备份 6">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[409.1px] w-[374.111px]" data-node-id="6:2154" data-name="直线 4备份 7">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[560.18px] w-[374.111px]" data-node-id="6:2155" data-name="直线 4备份 9">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[484.64px] w-[374.111px]" data-node-id="6:2156" data-name="直线 4备份 8">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[635.72px] w-[374.111px]" data-node-id="6:2157" data-name="直线 4备份 10">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[711.27px] w-[374.111px]" data-node-id="6:2158" data-name="直线 4备份 11">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[896.27px] w-[374.111px]" data-node-id="6:2159" data-name="直线 4备份 13">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[782.7px] w-[374.111px]" data-node-id="6:2160" data-name="直线 4备份 12">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[967.7px] w-[374.111px]" data-node-id="6:2161" data-name="直线 4备份 14">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[1039.13px] w-[374.111px]" data-node-id="6:2162" data-name="直线 4备份 16">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[1110.55px] w-[374.111px]" data-node-id="6:2163" data-name="直线 4备份 17">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute h-[0.514px] left-[8.61px] top-[106.93px] w-[374.111px]" data-node-id="6:2164" data-name="直线 4备份 4">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img45} />
                   </div>
                   <div className="absolute contents left-[14.78px] top-[124.4px]" data-node-id="6:2165" data-name="0-3 门店新客">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[124.4px]" data-node-id="6:2166" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[134.68px]" data-node-id="6:2168" data-name="编组 24备份 4">
                       <div className="absolute left-[30.19px] size-[10.278px] top-[134.68px]" data-node-id="6:2169" data-name="椭圆形备份 33">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img33} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img33} />
                       </div>
                       <div className="absolute h-[10.792px] left-[24.54px] rounded-bl-[2.056px] rounded-br-[2.056px] rounded-tl-[4.111px] rounded-tr-[4.111px] top-[144.7px] w-[21.583px]" data-node-id="6:2170" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 10.792' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.36007 0.72013 -0.37486 21.583 10.792)'><stop stop-color='rgba(235,106,1,0.5)' offset='0'/><stop stop-color='rgba(235,106,1,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 42" />
                       <div className="absolute h-[5.139px] left-[37.39px] top-[147.79px] w-[6.167px]" data-node-id="6:2171" data-name="路径备份 5">
                         <div className="absolute inset-[0_0_1.81%_0]">
-                          <img alt="" className="block max-w-none size-full" src={img5} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img5} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[199.95px]" data-node-id="6:2172" data-name="0-4 学生专享">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[199.95px]" data-node-id="6:2173" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-0 top-0" data-node-id="6:2174" data-name="学士帽-实备份" />
                     <div className="absolute h-[17.986px] left-[23.51px] top-[210.73px] w-[23.639px]" data-node-id="6:2176" data-name="学士帽-实">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img4} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img4} />
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[48.86px]" data-node-id="6:2180" data-name="0-2 出行特惠">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[48.86px]" data-node-id="6:2181" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[58.63px]" data-node-id="6:2186" data-name="编组 38备份 6">
                       <div className="absolute left-[24.54px] size-[21.583px] top-[58.63px]" data-node-id="6:2187" data-name="形状结合">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img37} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img37} />
                       </div>
                       <div className="absolute flex items-center justify-center left-[29.96px] size-[3.634px] top-[71.23px]" data-node-id="6:2191">
                         <div className="flex-none rotate-45">
@@ -4367,13 +4368,13 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[838.2px]" data-node-id="6:2192" data-name="0-12 酒店红包">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[838.2px]" data-node-id="6:2193" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img8} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img8} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[847.96px]" data-node-id="6:2194" data-name="编组 13备份">
                       <div className="absolute contents left-[24.54px] top-[847.96px]" data-node-id="6:2196" data-name="椭圆形">
                         <div className="absolute h-[20.042px] left-[24.54px] rounded-[1.962px] top-[847.96px] w-[21.583px]" data-node-id="6:2197" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 20.042' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.66869 0.77553 -0.74972 19.792 18.833)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="蒙版" />
-                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[842.59px] w-[26.489px]" data-node-id="6:2199" style={{ maskImage: `url("${img9}")` }} data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[842.59px] w-[26.489px]" data-node-id="6:2199" style={{ WebkitMaskImage: `url("${img9}")`, maskImage: `url("${img9}")` }} data-name="椭圆形">
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
                         </div>
                       </div>
                       <div className="absolute bg-[#fce7e7] h-[1.542px] left-[31.97px] rounded-[0.491px] top-[858.24px] w-[7.194px]" data-node-id="6:2200" data-name="矩形" />
@@ -4393,13 +4394,13 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[-64.71px]" data-node-id="6:2205" data-name="0-1 天天特价">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[-64.71px]" data-node-id="6:2206" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img11} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img11} />
                     </div>
                     <div className="absolute contents left-[22.51px] top-[-59.07px]" data-node-id="6:2207" data-name="编组 14备份 2">
                       <div className="absolute flex items-center justify-center left-[22.51px] size-[26.584px] top-[-59.07px]" data-node-id="6:2209">
                         <div className="flex-none rotate-45">
                           <div className="h-[22.996px] relative w-[14.599px]" data-name="编组 28备份 3">
-                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={img283} />
+                            <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img283} />
                           </div>
                         </div>
                       </div>
@@ -4407,33 +4408,33 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[275.49px]" data-node-id="6:2215" data-name="0-5 提前预订">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[275.49px]" data-node-id="6:2216" data-name="路径备份 27">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[25.06px] top-[284.22px]" data-node-id="6:2218" data-name="编组 22备份 14">
                       <div className="absolute h-[20.877px] left-[25.06px] top-[286.98px] w-[20.042px]" data-node-id="6:2219" data-name="路径备份 3">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img13} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img13} />
                       </div>
                       <div className="absolute h-[3.434px] left-[41.13px] top-[286.98px] w-[3.431px]" data-node-id="6:2220" data-name="形状结合">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img18} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img18} />
                       </div>
                       <div className="absolute h-[3.899px] left-[32.34px] top-[284.22px] w-[5.589px]" data-node-id="6:2223" data-name="形状结合">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img19} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img19} />
                       </div>
                       <div className="absolute h-[13.349px] left-[28.65px] top-[291.42px] w-[13.361px]" data-node-id="6:2228" data-name="椭圆形">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img20} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img20} />
                       </div>
                     </div>
                     <div className="absolute flex items-center justify-center left-[31.22px] size-[7.194px] top-[294.5px]" data-node-id="6:2229">
                       <div className="-scale-y-100 flex-none rotate-180">
                         <div className="relative size-[7.194px]" data-name="形状结合备份 12">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img21} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img21} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[426.57px]" data-node-id="6:2232" data-name="0-7 多间立减">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[426.57px]" data-node-id="6:2233" data-name="路径备份 13">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute h-[15.417px] left-[24.54px] rounded-[1.028px] top-[439.42px] w-[21.583px]" data-node-id="6:2235" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 15.417' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.51438 0.72013 -0.53552 21.583 15.417)'><stop stop-color='rgba(235,106,1,0.5)' offset='0'/><stop stop-color='rgba(235,106,1,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 86" />
                     <div className="absolute bg-[#fdf0e6] h-[3.083px] left-[27.63px] rounded-[0.514px] top-[448.67px] w-[4.111px]" data-node-id="6:2236" data-name="矩形备份 87" />
@@ -4441,37 +4442,37 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[577.65px]" data-node-id="6:2238" data-name="0-9 限时抢购">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[577.65px]" data-node-id="6:2239" data-name="路径备份 22">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute h-[21.525px] left-[26.08px] top-[587.42px] w-[18.5px]" data-node-id="6:2241" data-name="形状结合备份 10">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img22} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img22} />
                     </div>
                     <div className="absolute h-[4.016px] left-[32.25px] top-[600.27px] w-[6.004px]" data-node-id="6:2245" data-name="路径备份 31">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img31} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img31} />
                     </div>
                     <div className="absolute h-[5.91px] left-[30.19px] top-[591.53px] w-[10.278px]" data-node-id="6:2246" data-name="矩形备份 20">
                       <div className="absolute inset-[0_0_4.35%_0]">
-                        <img alt="" className="block max-w-none size-full" src={img23} />
+                        <CaseImage alt="" className="block max-w-none size-full" src={img23} />
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[502.11px]" data-node-id="6:2247" data-name="0-8 今夜甩卖">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[502.11px]" data-node-id="6:2248" data-name="路径备份 30">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[22.51px] top-[507.75px]" data-node-id="6:2249" data-name="编组 15备份">
                       <div className="absolute contents left-[22.51px] top-[507.75px]" data-node-id="6:2250" data-name="编组 14备份">
                         <div className="absolute flex items-center justify-center left-[22.51px] size-[26.584px] top-[507.75px]" data-node-id="6:2252">
                           <div className="flex-none rotate-45">
                             <div className="h-[22.996px] relative w-[14.599px]" data-name="编组 28备份 3">
-                              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img284} />
+                              <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img284} />
                             </div>
                           </div>
                         </div>
                       </div>
                       <div className="absolute contents left-[29.16px] top-[521.13px]" data-node-id="6:2257" data-name="i-夜晚备份">
                         <div className="absolute h-[6.676px] left-[29.16px] top-[521.13px] w-[6.696px]" data-node-id="6:2258" data-name="形状">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img24} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img24} />
                         </div>
                       </div>
                     </div>
@@ -4583,7 +4584,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[24.98%] left-1/2 right-[49.67%] top-[25.02%]" data-node-id="6:2284" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[25.02%_28%_24.98%_71.67%]" data-node-id="6:2285" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.69%_1.33%_16.64%_93.33%]" data-node-id="7:4927" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:2287" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:2288" data-name="编组 15备份 2">
@@ -4591,7 +4592,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[25.02%]" data-node-id="6:2290" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -4613,7 +4614,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[25.01%] left-1/2 right-[49.67%] top-[24.99%]" data-node-id="6:2303" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[24.99%_28%_25.01%_71.67%]" data-node-id="6:2304" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.66%_1.33%_16.67%_93.33%]" data-node-id="7:4918" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:2306" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:2307" data-name="编组 15备份 2">
@@ -4621,7 +4622,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[24.99%]" data-node-id="6:2309" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img26} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img26} />
                         </div>
                       </div>
                     </div>
@@ -4643,7 +4644,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[25.01%] left-1/2 right-[49.67%] top-[24.99%]" data-node-id="6:2322" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[24.99%_28%_25.01%_71.67%]" data-node-id="6:2323" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.66%_1.33%_16.67%_93.33%]" data-node-id="7:4906" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:2325" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_92.67%_8.34%_0.67%]" data-node-id="6:2326" data-name="编组 15备份 2">
@@ -4651,7 +4652,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[24.99%]" data-node-id="6:2328" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -4673,7 +4674,7 @@ export default function ProjectPage() {
                     <div className="absolute bg-[#ccc] bottom-[24.98%] left-1/2 right-[49.67%] top-[25.02%]" data-node-id="6:2341" data-name="矩形备份 10" />
                     <div className="absolute bg-[#ccc] inset-[25.02%_28%_24.98%_71.67%]" data-node-id="6:2342" data-name="矩形备份 12" />
                     <div className="absolute inset-[16.69%_1.33%_16.64%_93.33%]" data-node-id="7:4984" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:2344" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.36%_92.67%_8.31%_0.67%]" data-node-id="6:2345" data-name="编组 15备份 2">
@@ -4681,7 +4682,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2%] right-[94%] top-[25.02%]" data-node-id="6:2347" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -4699,7 +4700,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[24.99%_35.74%_25.01%_63.83%]" data-node-id="6:2359" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.66%_1.7%_16.67%_91.49%]" data-node-id="7:4915" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:2361" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:2362" data-name="编组 15备份 2">
@@ -4707,7 +4708,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[24.99%]" data-node-id="6:2364" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img26} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img26} />
                         </div>
                       </div>
                     </div>
@@ -4725,7 +4726,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[24.99%_35.74%_25.01%_63.83%]" data-node-id="6:2376" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.66%_1.7%_16.67%_91.49%]" data-node-id="7:4858" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:2378" data-name="1标签展示备份">
                       <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:2379" data-name="编组 15备份 2">
@@ -4733,7 +4734,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[24.99%]" data-node-id="6:2381" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -4751,7 +4752,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[25.02%_35.74%_24.98%_63.83%]" data-node-id="6:2393" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.69%_1.7%_16.64%_91.49%]" data-node-id="7:4933" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_90.64%_8.31%_0.85%]" data-node-id="6:2395" data-name="1标签展示备份 2">
                       <div className="absolute contents inset-[8.36%_90.64%_8.31%_0.85%]" data-node-id="6:2396" data-name="编组 15备份 2">
@@ -4759,7 +4760,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[25.02%]" data-node-id="6:2398" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -4777,7 +4778,7 @@ export default function ProjectPage() {
                     </p>
                     <div className="absolute bg-[#ccc] inset-[24.99%_35.74%_25.01%_63.83%]" data-node-id="6:2410" data-name="矩形备份 10" />
                     <div className="absolute inset-[16.66%_1.7%_16.67%_91.49%]" data-node-id="7:4912" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:2412" data-name="1标签展示备份 3">
                       <div className="absolute contents inset-[8.33%_90.64%_8.34%_0.85%]" data-node-id="6:2413" data-name="编组 15备份 2">
@@ -4785,7 +4786,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.55%] right-[92.34%] top-[24.99%]" data-node-id="6:2415" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.66%_-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img26} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img26} />
                         </div>
                       </div>
                     </div>
@@ -4799,7 +4800,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4909" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:2427" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:2428" data-name="编组 15备份 2">
@@ -4807,7 +4808,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:2430" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -4821,7 +4822,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4894" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:2442" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:2443" data-name="编组 15备份 2">
@@ -4829,7 +4830,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:2445" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
@@ -4843,7 +4844,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.69%_1.83%_16.64%_90.83%]" data-node-id="7:4900" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:2457" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:2458" data-name="编组 15备份 2">
@@ -4851,7 +4852,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[25.02%]" data-node-id="6:2460" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -4865,7 +4866,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.69%_1.83%_16.64%_90.83%]" data-node-id="7:4846" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:2472" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.36%_89.91%_8.31%_0.92%]" data-node-id="6:2473" data-name="编组 15备份 2">
@@ -4873,7 +4874,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[25.02%]" data-node-id="6:2475" data-name="编组 15">
                         <div className="absolute inset-[-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img25} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img25} />
                         </div>
                       </div>
                     </div>
@@ -4887,7 +4888,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4897" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:2487" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:2488" data-name="编组 15备份 2">
@@ -4895,7 +4896,7 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:2490" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img17} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img17} />
                         </div>
                       </div>
                     </div>
@@ -4909,7 +4910,7 @@ export default function ProjectPage() {
                       展示位置
                     </p>
                     <div className="absolute inset-[16.66%_1.83%_16.67%_90.83%]" data-node-id="7:4891" data-name="A 图标/线性/02_箭头/Drop_Right备份">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA02DropRight} />
                     </div>
                     <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:2502" data-name="1标签展示备份 4">
                       <div className="absolute contents inset-[8.33%_89.91%_8.34%_0.92%]" data-node-id="6:2503" data-name="编组 15备份 2">
@@ -4917,34 +4918,34 @@ export default function ProjectPage() {
                       </div>
                       <div className="absolute bottom-1/4 left-[2.75%] right-[91.74%] top-[24.99%]" data-node-id="6:2505" data-name="编组 15">
                         <div className="absolute inset-[-16.66%_-16.67%]">
-                          <img alt="" className="block max-w-none size-full" src={img27} />
+                          <CaseImage alt="" className="block max-w-none size-full" src={img27} />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[728.74px]" data-node-id="6:2512" data-name="0-11 钟点房">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[728.74px]" data-node-id="6:2513" data-name="路径备份 23">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute contents left-[25.06px] top-[738.5px]" data-node-id="6:2515" data-name="编组 45备份 4">
                       <div className="absolute left-[25.59px] size-[7.194px] top-[738.5px]" data-node-id="6:2516" data-name="椭圆形备份 76">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
                       </div>
                       <div className="absolute left-[37.92px] size-[7.194px] top-[738.5px]" data-node-id="6:2517" data-name="椭圆形备份 77">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img76} />
                       </div>
                       <div className="absolute left-[25.06px] size-[20.556px] top-[739.53px]" data-node-id="6:2518" data-name="椭圆形备份 78">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img78} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img78} />
                       </div>
                       <div className="absolute contents left-[28.65px] top-[743.13px]" data-node-id="6:2519" data-name="编组 41备份 2">
                         <div className="absolute left-[28.65px] size-[13.361px] top-[743.13px]" data-node-id="6:2520" data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img28} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img28} />
                         </div>
                         <div className="absolute left-[36.44px] size-[2.056px] top-[750.68px]" data-node-id="6:2521" data-name="路径备份 24">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img29} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img29} />
                         </div>
                         <div className="absolute left-[31.94px] size-[2.056px] top-[746.18px]" data-node-id="6:2522" data-name="路径备份 26">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img30} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img30} />
                         </div>
                         <div className="absolute flex items-center justify-center left-[31.31px] size-[7.849px] top-[745.61px]" data-node-id="6:2523">
                           <div className="flex-none rotate-45">
@@ -4956,7 +4957,7 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[653.2px]" data-node-id="6:2524" data-name="0-10 YOYO卡扫码住">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[653.2px]" data-node-id="6:2525" data-name="路径备份 25">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img12} />
                     </div>
                     <div className="absolute left-[26.08px] rounded-[2.056px] size-[18.5px] top-[664.5px]" data-node-id="6:2527" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 18.5 18.5' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.64262 -0.61726 0.61726 -0.64262 18.5 18.5)'><stop stop-color='rgba(235,106,1,0.5)' offset='0'/><stop stop-color='rgba(235,106,1,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 5" />
                     <div className="absolute bg-[#fdf0e6] h-[2.056px] left-[32.25px] rounded-[0.514px] top-[672.72px] w-[6.167px]" data-node-id="6:2528" data-name="矩形备份 15" />
@@ -5003,23 +5004,23 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[913.74px]" data-node-id="6:2541" data-name="0-13 本地特惠红包">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[913.74px]" data-node-id="6:2542" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[923.5px]" data-node-id="6:2543" data-name="编组 13备份 4">
                       <div className="absolute contents left-[24.54px] top-[923.5px]" data-node-id="6:2545" data-name="椭圆形">
                         <div className="absolute h-[20.042px] left-[24.54px] rounded-[1.962px] top-[923.5px] w-[21.583px]" data-node-id="6:2546" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 20.042' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.66869 0.83518 -0.80739 19.792 18.833)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="蒙版" />
-                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[918.13px] w-[26.489px]" data-node-id="6:2548" style={{ maskImage: `url("${img34}")` }} data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[918.13px] w-[26.489px]" data-node-id="6:2548" style={{ WebkitMaskImage: `url("${img34}")`, maskImage: `url("${img34}")` }} data-name="椭圆形">
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute left-[30.19px] size-[10.278px] top-[931.21px]" data-node-id="7:4486" data-name="A 图标/面性/基础图标/071_Location">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA071Location} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA071Location} />
                     </div>
                   </div>
                   <div className="absolute contents left-[14.78px] top-[1056.6px]" data-node-id="6:2550" data-name="0-15 YOYO卡&扫码住专享红包">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[1056.6px]" data-node-id="6:2551" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
                     </div>
                     <div className="absolute left-[26.08px] rounded-[2.056px] size-[18.5px] top-[1067.9px]" data-node-id="6:2553" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 18.5 18.5' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.64262 -0.61726 0.71587 -0.74529 16.965 17.385)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 5" />
                     <div className="absolute bg-[#fdf0e6] h-[2.056px] left-[32.25px] rounded-[0.514px] top-[1076.13px] w-[6.167px]" data-node-id="6:2554" data-name="矩形备份 15" />
@@ -5066,31 +5067,31 @@ export default function ProjectPage() {
                   </div>
                   <div className="absolute contents left-[14.78px] top-[985.17px]" data-node-id="6:2567" data-name="编组 6">
                     <div className="absolute left-[14.78px] size-[41.111px] top-[985.17px]" data-node-id="6:2568" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img32} />
                     </div>
                     <div className="absolute contents left-[24.54px] top-[994.93px]" data-node-id="6:2569" data-name="编组 13备份 4">
                       <div className="absolute contents left-[24.54px] top-[994.93px]" data-node-id="6:2571" data-name="椭圆形">
                         <div className="absolute h-[20.042px] left-[24.54px] rounded-[1.962px] top-[994.93px] w-[21.583px]" data-node-id="6:2572" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 21.583 20.042' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-0.74972 -0.66869 0.83518 -0.80739 19.792 18.833)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="蒙版" />
-                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[989.56px] w-[26.489px]" data-node-id="6:2574" style={{ maskImage: `url("${img34}")` }} data-name="椭圆形">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+                        <div className="absolute h-[11.773px] left-[22.09px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.453px_5.371px] mask-size-[21.583px_20.042px] top-[989.56px] w-[26.489px]" data-node-id="6:2574" style={{ WebkitMaskImage: `url("${img34}")`, maskImage: `url("${img34}")` }} data-name="椭圆形">
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
                         </div>
                       </div>
                     </div>
                     <div className="absolute left-[30.19px] size-[10.278px] top-[1002.64px]" data-node-id="7:4723" data-name="A 图标/面性/基础图标/058_Account">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA058Account} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA058Account} />
                     </div>
                   </div>
                   <div className="absolute left-[564.64px] size-[7.194px] top-[-162.35px]" data-node-id="6:2576" data-name="A 图标/线性/导航图标/12_Hotel Hub">
                     <div className="absolute inset-[7.17%_0_-7.17%_0]" data-node-id="6:2577" data-name="矩形" />
                     <div className="absolute inset-[7.12%_12.27%_5.39%_12.15%]" data-node-id="6:2578">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup200} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup200} />
                     </div>
                   </div>
                 </div>
               </div>
               <div className="h-[518px] relative rounded-[12px] shrink-0 w-[740px]" data-node-id="6:2586" data-name="改宽度 4">
                 <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[12px]">
-                  <img alt="" className="absolute h-[100.2%] left-0 max-w-none top-0 w-full" src={img38} />
+                  <CaseImage alt="" className="absolute h-[100.2%] left-0 max-w-none top-0 w-full" src={img38} />
                 </div>
               </div>
             </div>
@@ -5192,7 +5193,7 @@ export default function ProjectPage() {
                 </p>
               </div>
               <div className="relative shrink-0 w-[640px] rounded-[8px] overflow-hidden" data-node-id="6:2626" data-zoom-image="true" data-name="系统透明化 Before：原筛选区与报名操作入口">
-                <img alt="系统透明化 Before：原筛选区与报名操作入口" className="block w-full h-auto rounded-[8px]" src={`${import.meta.env.BASE_URL}assets/promotion-transparency-before.png`} />
+                <CaseImage alt="系统透明化 Before：原筛选区与报名操作入口" className="block w-full h-auto rounded-[8px]" src={`${import.meta.env.BASE_URL}assets/promotion-transparency-before.png`} />
               </div>
             </div>
             <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-[740px]" data-node-id="6:2649">
@@ -5208,7 +5209,7 @@ export default function ProjectPage() {
                 </p>
               </div>
 <div className="h-[518px] relative rounded-[12px] shrink-0 w-[740px] overflow-hidden" data-node-id="6:2655" data-name="系统透明化 After">
-                <img alt="系统透明化设计 After：促销中心展示 C 端促销标签与促销日历" className="block w-full h-full object-contain" src={`${import.meta.env.BASE_URL}assets/system-transparency-after.png`} />
+                <CaseImage alt="系统透明化设计 After：促销中心展示 C 端促销标签与促销日历" className="block w-full h-full object-contain" src={`${import.meta.env.BASE_URL}assets/system-transparency-after.png`} />
               </div>
             </div>
           </div>
@@ -5217,7 +5218,7 @@ export default function ProjectPage() {
       <div className="absolute border-2 border-[#bdcdff] border-solid h-[630px] left-[80px] rounded-[24px] top-[8091px] w-[720px]" data-node-id="6:3462" data-name="image 221">
         <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[24px]">
           <div className="absolute inset-0 opacity-30 overflow-hidden rounded-[24px]">
-            <img alt="" className="absolute h-[199.51%] left-[-0.01%] max-w-none top-[-28.7%] w-[100.02%]" src={imgImage221} />
+            <CaseImage alt="" className="absolute h-[199.51%] left-[-0.01%] max-w-none top-[-28.7%] w-[100.02%]" src={imgImage221} />
           </div>
           <div className="absolute backdrop-blur-[15px] bg-[rgba(0,0,0,0.2)] inset-0 rounded-[24px]" />
         </div>
@@ -5259,7 +5260,7 @@ export default function ProjectPage() {
         <div className="flex-none rotate-90">
           <div className="h-[450px] relative w-[90px]">
             <div className="absolute inset-[0_-2.22%_-0.44%_-2.22%]">
-              <img alt="" className="block max-w-none size-full" src={imgVector126} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector126} />
             </div>
           </div>
         </div>
@@ -5269,7 +5270,7 @@ export default function ProjectPage() {
         <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="6:3479">
           <div className="h-0 relative shrink-0 w-[56px]" data-node-id="6:3480">
             <div className="absolute inset-[-5.77px_0_-5.77px_-1.79%]">
-              <img alt="" className="block max-w-none size-full" src={imgVector131} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector131} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:700]" data-node-id="6:3481">
@@ -5283,7 +5284,7 @@ export default function ProjectPage() {
           <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="6:3485">
             <div className="h-0 relative shrink-0 w-[56px]" data-node-id="6:3486">
               <div className="absolute inset-[-5.77px_0_-5.77px_-1.79%]">
-                <img alt="" className="block max-w-none size-full" src={imgVector131} />
+                <CaseImage alt="" className="block max-w-none size-full" src={imgVector131} />
               </div>
             </div>
             <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:700]" data-node-id="6:3487">
@@ -5293,7 +5294,7 @@ export default function ProjectPage() {
           <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="6:3488">
             <div className="h-0 relative shrink-0 w-[56px]" data-node-id="6:3489">
               <div className="absolute inset-[-5.77px_0_-5.77px_-1.79%]">
-                <img alt="" className="block max-w-none size-full" src={imgVector131} />
+                <CaseImage alt="" className="block max-w-none size-full" src={imgVector131} />
               </div>
             </div>
             <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:700]" data-node-id="6:3490">
@@ -5307,7 +5308,7 @@ export default function ProjectPage() {
         <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="6:3493">
           <div className="h-0 relative shrink-0 w-[56px]" data-node-id="6:3494">
             <div className="absolute inset-[-5.77px_0_-5.77px_-1.79%]">
-              <img alt="" className="block max-w-none size-full" src={imgVector131} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector131} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:700]" data-node-id="6:3495">
@@ -5320,7 +5321,7 @@ export default function ProjectPage() {
         <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="6:3498">
           <div className="h-0 relative shrink-0 w-[56px]" data-node-id="6:3499">
             <div className="absolute inset-[-5.77px_0_-5.77px_-1.79%]">
-              <img alt="" className="block max-w-none size-full" src={imgVector135} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector135} />
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap [font-weight:700]" data-node-id="6:3500">
@@ -5341,7 +5342,7 @@ export default function ProjectPage() {
         <div className="-scale-y-100 flex-none rotate-90">
           <div className="h-[407.5px] relative w-[144.96px]">
             <div className="absolute inset-[0_-1.04%_-0.37%_-1.03%]">
-              <img alt="" className="block max-w-none size-full" src={imgVector127} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector127} />
             </div>
           </div>
         </div>
@@ -5350,7 +5351,7 @@ export default function ProjectPage() {
         <div className="-rotate-90 -scale-y-100 flex-none">
           <div className="h-[369px] relative w-[74.5px]">
             <div className="absolute inset-[-0.38%_-2.01%_-0.41%_0]">
-              <img alt="" className="block max-w-none size-full" src={imgVector139} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector139} />
             </div>
           </div>
         </div>
@@ -5453,14 +5454,14 @@ export default function ProjectPage() {
       </div>
       <div className="absolute h-[76.652px] left-[297px] top-[9382.35px] w-[410.5px]" data-node-id="6:3552">
         <div className="absolute inset-[-1.96%_-0.37%_-1.96%_0]">
-          <img alt="" className="block max-w-none size-full" src={imgVector137} />
+          <CaseImage alt="" className="block max-w-none size-full" src={imgVector137} />
         </div>
       </div>
       <div className="absolute flex h-[49px] items-center justify-center left-[1078px] top-[9114px] w-[226px]" data-node-id="6:3553">
         <div className="-scale-y-100 flex-none rotate-180">
           <div className="h-[49px] relative w-[226px]">
             <div className="absolute inset-[-10.46%_-0.66%_-3.06%_0]">
-              <img alt="" className="block max-w-none size-full" src={imgVector138} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector138} />
             </div>
           </div>
         </div>
@@ -5471,7 +5472,7 @@ export default function ProjectPage() {
         </p>
         <div className="h-[680px] relative shrink-0 w-[1520px]" data-node-id="6:3556" data-name="Group 216 2">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[105.86%] left-[-2.67%] max-w-none top-[0.04%] w-[102.63%]" src={imgGroup2162} />
+            <CaseImage alt="" className="absolute h-[105.86%] left-[-2.67%] max-w-none top-[0.04%] w-[102.63%]" src={imgGroup2162} />
           </div>
         </div>
       </div>
@@ -5526,13 +5527,13 @@ export default function ProjectPage() {
         </p>
       </div>
       <div className="absolute h-[205px] left-[777px] top-[13793px] w-[10px]" data-node-id="6:3573" data-name="Union">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
       </div>
       <div className="absolute h-[205px] left-[937px] top-[13793px] w-[10px]" data-node-id="6:3576" data-name="Union">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
       </div>
       <div className="absolute h-[205px] left-[1097px] top-[13793px] w-[10px]" data-node-id="6:3579" data-name="Union">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
       </div>
       <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[40px] items-start leading-[32px] left-[720px] not-italic text-[24px] top-[14745px]" data-node-id="6:3582">
         <div className="content-stretch flex font-['MiSans','Inter','Noto_Sans_SC',sans-serif] gap-[40px] items-start relative shrink-0 text-[#3264ff] w-full [font-weight:900]" data-node-id="6:3583">
@@ -5641,15 +5642,15 @@ export default function ProjectPage() {
       <div className="absolute flex h-[471.05px] items-center justify-center left-[80px] top-[13824.28px] w-[596.713px]" data-node-id="6:3619">
         <div className="-rotate-6 -skew-x-6 flex-none scale-y-99">
           <div className="promotion-gradient-frame h-[408.333px] relative rounded-[12px] w-[600px]" data-name="促销列表0 2">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full" src={img65} />
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full" src={img65} />
           </div>
         </div>
       </div>
       <div className="absolute h-[205px] left-[120px] top-[13793px] w-[10px]" data-node-id="6:3620" data-name="Union">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion2} />
+        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion2} />
       </div>
       <div className="absolute left-[80px] size-[580px] top-[14675px]" data-node-id="6:3623" data-name="Group 232 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup2321} />
+        <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup2321} />
       </div>
       <div className="absolute content-stretch flex flex-col gap-[60px] items-start left-[80px] top-[15375px] w-[1520px]" data-node-id="6:3624">
         <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-node-id="6:3625">
@@ -5684,37 +5685,37 @@ export default function ProjectPage() {
               </p>
               <div className="content-stretch flex flex-col gap-[36px] h-[564px] items-start leading-[0] relative shrink-0 w-[84px]" data-node-id="6:3638">
                 <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0 size-[84px] overflow-hidden" data-node-id="6:3639" data-name="Mask group">
-                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_412px] mask-size-[84px_84px] ml-[-372px] mt-[-412px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3641" style={{ maskImage: `url("${imgImage219}")` }} data-name="image 215">
+                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_412px] mask-size-[84px_84px] ml-[-372px] mt-[-412px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3641" style={{ WebkitMaskImage: `url("${imgImage219}")`, maskImage: `url("${imgImage219}")` }} data-name="image 215">
                     <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
-                      <img alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
+                      <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
                     </div>
                   </div>
                 </div>
                 <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0 size-[84px] overflow-hidden" data-node-id="6:3642" data-name="Mask group">
-                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_640px] mask-size-[84px_84px] ml-[-372px] mt-[-640px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3644" style={{ maskImage: `url("${imgImage219}")` }} data-name="image 215">
+                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_640px] mask-size-[84px_84px] ml-[-372px] mt-[-640px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3644" style={{ WebkitMaskImage: `url("${imgImage219}")`, maskImage: `url("${imgImage219}")` }} data-name="image 215">
                     <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
-                      <img alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
+                      <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
                     </div>
                   </div>
                 </div>
                 <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0 size-[84px] overflow-hidden" data-node-id="6:3645" data-name="Mask group">
-                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_866px] mask-size-[84px_84px] ml-[-372px] mt-[-866px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3647" style={{ maskImage: `url("${imgImage219}")` }} data-name="image 215">
+                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_866px] mask-size-[84px_84px] ml-[-372px] mt-[-866px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3647" style={{ WebkitMaskImage: `url("${imgImage219}")`, maskImage: `url("${imgImage219}")` }} data-name="image 215">
                     <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
-                      <img alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
+                      <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
                     </div>
                   </div>
                 </div>
                 <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0 size-[84px] overflow-hidden" data-node-id="6:3648" data-name="Mask group">
-                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_1098px] mask-size-[84px_84px] ml-[-372px] mt-[-1098px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3650" style={{ maskImage: `url("${imgImage219}")` }} data-name="image 215">
+                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_1098px] mask-size-[84px_84px] ml-[-372px] mt-[-1098px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3650" style={{ WebkitMaskImage: `url("${imgImage219}")`, maskImage: `url("${imgImage219}")` }} data-name="image 215">
                     <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
-                      <img alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
+                      <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
                     </div>
                   </div>
                 </div>
                 <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0 size-[84px] overflow-hidden" data-node-id="6:3651" data-name="Mask group">
-                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_1330px] mask-size-[84px_84px] ml-[-372px] mt-[-1330px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3653" style={{ maskImage: `url("${imgImage219}")` }} data-name="image 215">
+                  <div className="absolute left-0 top-0 col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_1330px] mask-size-[84px_84px] ml-[-372px] mt-[-1330px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="6:3653" style={{ WebkitMaskImage: `url("${imgImage219}")`, maskImage: `url("${imgImage219}")` }} data-name="image 215">
                     <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
-                      <img alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
+                      <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage215} />
                     </div>
                   </div>
                 </div>
@@ -5722,7 +5723,7 @@ export default function ProjectPage() {
             </div>
             <div className="h-0 relative shrink-0 w-[300px]" data-node-id="6:3654">
               <div className="absolute inset-[-17.32px_0_-17.32px_-1%]">
-                <img alt="" className="block max-w-none size-full" src={imgVector149} />
+                <CaseImage alt="" className="block max-w-none size-full" src={imgVector149} />
               </div>
             </div>
             <div className="content-stretch flex flex-col gap-[60px] h-[564px] items-start justify-center relative shrink-0" data-node-id="6:3655">
@@ -5732,13 +5733,13 @@ export default function ProjectPage() {
                 </p>
                 <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:3658" data-name="0-1 天天特价">
                   <div className="col-1 ml-0 mt-0 relative row-1 size-[80px]" data-node-id="6:3659" data-name="路径">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img66} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img66} />
                   </div>
                   <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[17.05px] mt-[11.97px] place-items-start relative row-1" data-node-id="6:3660" data-name="编组 14备份 2">
                     <div className="col-1 flex items-center justify-center ml-0 mt-0 relative row-1 size-[51.731px]" data-node-id="6:3661">
                       <div className="flex-none rotate-45">
                         <div className="h-[44.749px] relative w-[28.41px]" data-name="编组 28备份 3">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img285} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img285} />
                         </div>
                       </div>
                     </div>
@@ -5752,22 +5753,22 @@ export default function ProjectPage() {
                 <div className="content-stretch flex flex-col gap-[40px] items-start justify-center relative shrink-0" data-node-id="6:3669">
                   <div className="content-stretch flex gap-[40px] items-center relative shrink-0" data-node-id="6:3670">
                     <div className="relative shrink-0 size-[80px]" data-node-id="6:3671" data-name="0-2 出行特惠">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img67} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img67} />
                     </div>
                     <div className="relative shrink-0 size-[80px]" data-node-id="6:3680" data-name="0-3 门店新客">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img68} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img68} />
                     </div>
                     <div className="relative shrink-0 size-[80px]" data-node-id="6:3686" data-name="0-4 学生专享">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img69} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img69} />
                     </div>
                     <div className="relative shrink-0 size-[80px]" data-node-id="6:3692" data-name="0-5 提前预订">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img70} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img70} />
                     </div>
                   </div>
                   <div className="content-stretch flex gap-[40px] items-center relative shrink-0" data-node-id="6:3707">
                     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:3708" data-name="0-6 连住优惠">
                       <div className="col-1 ml-0 mt-0 relative row-1 size-[80px]" data-node-id="6:3709" data-name="路径备份 12">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img71} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img71} />
                       </div>
                       <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[19px] mt-[19px] place-items-start relative row-1" data-node-id="6:3710" data-name="编组 7备份 9">
                         <div className="bg-[#eb6a01] col-1 h-[9px] ml-[7px] mt-0 relative rounded-[2px] row-1 w-[6px]" data-node-id="6:3711" data-name="矩形" />
@@ -5779,29 +5780,29 @@ export default function ProjectPage() {
                       </div>
                     </div>
                     <div className="relative shrink-0 size-[80px]" data-node-id="6:3717" data-name="0-7 多间立减">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img72} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img72} />
                     </div>
                     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:3722" data-name="0-8 今夜甩卖">
                       <div className="col-1 ml-0 mt-0 relative row-1 size-[80px]" data-node-id="6:3723" data-name="路径备份 30">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img71} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img71} />
                       </div>
                       <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[15.05px] mt-[10.97px] place-items-start relative row-1" data-node-id="6:3724" data-name="编组 15备份">
                         <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="6:3725" data-name="编组 14备份">
                           <div className="col-1 flex items-center justify-center ml-0 mt-0 relative row-1 size-[51.731px]" data-node-id="6:3726">
                             <div className="flex-none rotate-45">
                               <div className="h-[44.749px] relative w-[28.41px]" data-name="编组 28备份 3">
-                                <img alt="" className="absolute block inset-0 max-w-none size-full" src={img286} />
+                                <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img286} />
                               </div>
                             </div>
                           </div>
                         </div>
                         <div className="col-1 h-[12.991px] ml-[12.95px] mt-[26.03px] relative row-1 w-[13.03px]" data-node-id="6:3731" data-name="i-夜晚备份">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgI1} />
+                          <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgI1} />
                         </div>
                       </div>
                     </div>
                     <div className="relative shrink-0 size-[80px]" data-node-id="6:3733" data-name="0-11 钟点房">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img73} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img73} />
                     </div>
                   </div>
                 </div>
@@ -5813,11 +5814,11 @@ export default function ProjectPage() {
                 <div className="content-stretch flex gap-[62px] items-center leading-[0] relative shrink-0" data-node-id="6:3746">
                   <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="6:3747" data-name="0-12 酒店红包">
                     <div className="col-1 ml-0 mt-0 relative row-1 size-[80px]" data-node-id="6:3748" data-name="路径">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img74} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img74} />
                     </div>
                     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[19px] mt-[19px] place-items-start relative row-1" data-node-id="6:3749" data-name="编组 13备份">
                       <div className="col-1 h-[39px] ml-0 mt-0 relative row-1 w-[42px]" data-node-id="6:3750" data-name="椭圆形">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img75} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img75} />
                       </div>
                       <div className="bg-[#fce7e7] col-1 h-[3px] ml-[14px] mt-[21px] relative rounded-[0.955px] row-1 w-[14px]" data-node-id="6:3754" data-name="矩形" />
                       <div className="bg-[#fce7e7] col-1 h-[3px] ml-[14px] mt-[26.5px] relative rounded-[0.955px] row-1 w-[14px]" data-node-id="6:3755" data-name="矩形备份 44" />
@@ -5836,33 +5837,33 @@ export default function ProjectPage() {
                   </div>
                   <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="6:3759" data-name="0-13 本地特惠红包">
                     <div className="col-1 ml-0 mt-0 relative row-1 size-[80px]" data-node-id="6:3760" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img77} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img77} />
                     </div>
                     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[19px] mt-[19px] place-items-start relative row-1" data-node-id="6:3761" data-name="编组 13备份 4">
                       <div className="col-1 h-[39px] ml-0 mt-0 relative row-1 w-[42px]" data-node-id="6:3762" data-name="椭圆形">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img79} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img79} />
                       </div>
                     </div>
                     <div className="col-1 ml-[30px] mt-[34px] relative row-1 size-[20px]" data-node-id="7:4478" data-name="A 图标/面性/基础图标/071_Location">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA071Location1} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA071Location1} />
                     </div>
                   </div>
                   <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="6:3767" data-name="0-14 意向挽留红包">
                     <div className="col-1 ml-0 mt-0 relative row-1 size-[80px]" data-node-id="6:3768" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img77} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img77} />
                     </div>
                     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[19px] mt-[19px] place-items-start relative row-1" data-node-id="6:3769" data-name="编组 13备份 4">
                       <div className="col-1 h-[39px] ml-0 mt-0 relative row-1 w-[42px]" data-node-id="6:3770" data-name="椭圆形">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img79} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img79} />
                       </div>
                     </div>
                     <div className="col-1 ml-[30px] mt-[34px] relative row-1 size-[20px]" data-node-id="7:4713" data-name="A 图标/面性/基础图标/058_Account">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgA058Account1} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA058Account1} />
                     </div>
                   </div>
                   <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="6:3775" data-name="0-15 YOYO卡&扫码住专享红包">
                     <div className="col-1 ml-0 mt-0 relative row-1 size-[80px]" data-node-id="6:3776" data-name="路径备份 29">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={img77} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img77} />
                     </div>
                     <div className="col-1 ml-[22px] mt-[22px] relative rounded-[4px] row-1 size-[36px]" data-node-id="6:3777" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-1.2505 -1.2011 1.393 -1.4503 33.013 33.83)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 5" />
                     <div className="bg-[#fdf0e6] col-1 h-[4px] ml-[34px] mt-[38px] relative rounded-[1px] row-1 w-[12px]" data-node-id="6:3778" data-name="矩形备份 15" />
@@ -5926,7 +5927,7 @@ export default function ProjectPage() {
             </div>
             <div className="h-0 relative shrink-0 w-[300px]" data-node-id="6:3797">
               <div className="absolute inset-[-17.32px_0_-17.32px_-1%]">
-                <img alt="" className="block max-w-none size-full" src={imgVector149} />
+                <CaseImage alt="" className="block max-w-none size-full" src={imgVector149} />
               </div>
             </div>
             <div className="bg-[#3264ff] content-stretch flex h-[40px] items-center justify-center px-[32px] py-[9px] relative rounded-[6px] shrink-0 w-[120px]" data-node-id="6:3798" data-name="B 按钮/01_primary/regular/normal备份 12">
@@ -5939,7 +5940,7 @@ export default function ProjectPage() {
       </div>
       <div className="-translate-x-1/2 absolute h-[900px] left-1/2 top-[12212px] w-[1280px]" data-node-id="6:3800" data-name="Group 235 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[100.29%] left-0 max-w-none top-[-0.11%] w-full" src={imgGroup2351} />
+          <CaseImage alt="" className="absolute h-[100.29%] left-0 max-w-none top-[-0.11%] w-full" src={imgGroup2351} />
         </div>
       </div>
       <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[24px] items-start leading-[normal] left-[1427px] not-italic text-[20px] text-white top-[12808px]" data-node-id="6:3801">
@@ -5973,10 +5974,10 @@ export default function ProjectPage() {
         </p>
       </div>
       <div className="absolute h-[755px] left-[976px] top-[7977px] w-[383px]" data-node-id="6:3812" data-name="Group 225 2">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup2252} />
+        <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup2252} />
       </div>
       <div className="absolute h-[611px] left-[934px] top-[350px] w-[666px]" data-node-id="6:3813" data-name="Studio Display 2 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgStudioDisplay21} />
+        <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgStudioDisplay21} />
       </div>
       <div className="-translate-x-1/2 absolute bg-black content-stretch flex flex-col gap-[10px] h-[701px] items-start justify-center left-1/2 pl-[80px] pr-[600px] py-[150px] rounded-[60px] top-[832px] w-[1680px]" data-node-id="6:3815">
         <div className="content-stretch flex flex-col gap-[80px] items-start justify-center relative shrink-0 w-[1100px]" data-node-id="6:3816">
@@ -6055,15 +6056,15 @@ export default function ProjectPage() {
         </div>
         <div className="absolute bottom-0 right-0 h-[400px] w-[410px]" data-node-id="6:3835" data-name="Mask group 1">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[132.54%] left-[-8.37%] max-w-none top-[-12.29%] w-[124.57%]" src={`${import.meta.env.BASE_URL}assets/a15fc.png`} />
+            <CaseImage alt="" className="absolute h-[132.54%] left-[-8.37%] max-w-none top-[-12.29%] w-[124.57%]" src={`${import.meta.env.BASE_URL}assets/a15fc.png`} />
           </div>
         </div>
       </div>
       <div className="absolute h-0 left-[388px] top-[1041px] w-[754px]">
-        <img alt="" className="absolute top-[-0.5px] block max-w-none" src={`${import.meta.env.BASE_URL}assets/c2b09.svg`} />
+        <CaseImage alt="" className="absolute top-[-0.5px] block max-w-none" src={`${import.meta.env.BASE_URL}assets/c2b09.svg`} />
       </div>
       <div className="absolute h-0 left-[388px] top-[1204px] w-[754px]">
-        <img alt="" className="absolute top-[-0.5px] block max-w-none" src={`${import.meta.env.BASE_URL}assets/c2b09.svg`} />
+        <CaseImage alt="" className="absolute top-[-0.5px] block max-w-none" src={`${import.meta.env.BASE_URL}assets/c2b09.svg`} />
       </div>
       <div className="absolute content-stretch flex flex-col gap-[80px] items-start left-[80px] top-[18055px] w-[1520px]" data-node-id="6:3840">
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] items-start not-italic relative shrink-0 text-black w-[1520px]" data-node-id="6:3841">
@@ -6099,7 +6100,7 @@ export default function ProjectPage() {
               </div>
               <div className="aspect-[406/206] relative shrink-0 w-full" data-node-id="6:3855" data-name="Group 241 1">
                 <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                  <img alt="" className="absolute h-[114.56%] left-0 max-w-none top-0 w-full" src={imgGroup2411} />
+                  <CaseImage alt="" className="absolute h-[114.56%] left-0 max-w-none top-0 w-full" src={imgGroup2411} />
                 </div>
               </div>
             </div>
@@ -6122,7 +6123,7 @@ export default function ProjectPage() {
               </div>
               <div className="aspect-[406/201] relative shrink-0 w-full" data-node-id="6:3864" data-name="Group 242 3">
                 <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                  <img alt="" className="absolute h-[104.31%] left-0 max-w-none top-[0.16%] w-full" src={imgGroup2423} />
+                  <CaseImage alt="" className="absolute h-[104.31%] left-0 max-w-none top-[0.16%] w-full" src={imgGroup2423} />
                 </div>
               </div>
             </div>
@@ -6144,7 +6145,7 @@ export default function ProjectPage() {
                 </div>
               </div>
               <div className="aspect-[800/451] relative shrink-0 w-full" data-node-id="6:3873" data-name="Group 243 1">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup2431} />
+                <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup2431} />
               </div>
             </div>
           </div>
@@ -6182,7 +6183,7 @@ export default function ProjectPage() {
                   <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="6:3888">
                     <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3889">
                       <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3890">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                       </div>
                       <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3892">
                         输入商户满意度调查结果、I Qualityg平台反馈、E-booking页面截图、竞品资料
@@ -6190,7 +6191,7 @@ export default function ProjectPage() {
                     </div>
                     <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3893">
                       <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3894">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                       </div>
                       <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3896">
                         判断真实问题，避免照搬表面问题，提取用户场景及任务目标
@@ -6198,7 +6199,7 @@ export default function ProjectPage() {
                     </div>
                     <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3897">
                       <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3898">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                       </div>
                       <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3900">
                         识别限制条件、优先级及风险，判断竞品的优劣
@@ -6224,7 +6225,7 @@ export default function ProjectPage() {
                   <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="6:3907">
                     <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3908">
                       <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3909">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                       </div>
                       <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3911">
                         拆解页面信息、模块内容及元素
@@ -6232,7 +6233,7 @@ export default function ProjectPage() {
                     </div>
                     <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3912">
                       <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3913">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                       </div>
                       <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3915">
                         分析页面模块结构及后续拓展，整理极端边界场景
@@ -6240,7 +6241,7 @@ export default function ProjectPage() {
                     </div>
                     <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3916">
                       <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3917">
-                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                        <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                       </div>
                       <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3919">
                         从交互及视觉不同角度，探索不同方向的设计可能
@@ -6265,7 +6266,7 @@ export default function ProjectPage() {
                 <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="6:3926">
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3927">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3928">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3930">
                       此项目时，新设计规范尚未形成，因此，项目中梳理了相关组件内容
@@ -6273,7 +6274,7 @@ export default function ProjectPage() {
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3931">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3932">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3934">
                       后续延展组件库变体，并通过AI形成组件的设计规范，包含定义、组件构成、样式规范、交互文案规范、国际互适配及适用场景
@@ -6281,7 +6282,7 @@ export default function ProjectPage() {
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3935">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3936">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3938">
                       后续形成页面模板及交互规范
@@ -6333,7 +6334,7 @@ export default function ProjectPage() {
               <div className="flex h-[57.158px] items-center justify-center relative shrink-0 w-[61px]" data-node-id="6:3956">
                 <div className="-rotate-90 flex-none">
                   <div className="h-[61px] relative w-[57.158px]" data-name="Union">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion3} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion3} />
                   </div>
                 </div>
               </div>
@@ -6348,7 +6349,7 @@ export default function ProjectPage() {
           <div className="content-stretch flex flex-col gap-[40px] items-center relative shrink-0 w-[479px]" data-node-id="6:3961">
             <div className="content-stretch flex gap-[28px] items-center relative shrink-0" data-node-id="6:3962">
               <div className="h-[68px] relative shrink-0 w-[60px]" data-node-id="6:3963" data-name="Union">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion4} />
+                <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion4} />
               </div>
               <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[120px] text-black whitespace-nowrap [font-weight:900]" data-node-id="6:3966">
                 47.6%
@@ -6362,8 +6363,8 @@ export default function ProjectPage() {
         <div className="content-stretch flex gap-[40px] items-center relative shrink-0" data-node-id="6:3968">
           <div className="bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] relative rounded-[50px] shrink-0" data-node-id="6:3969">
             <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:3970" data-name="Mask group">
-              <div className="col-1 h-[53px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[9px_1px] mask-size-[44px_44px] ml-[-9px] mt-[-1px] relative row-1 w-[61px]" data-node-id="6:3972" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage249} />
+              <div className="col-1 h-[53px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[9px_1px] mask-size-[44px_44px] ml-[-9px] mt-[-1px] relative row-1 w-[61px]" data-node-id="6:3972" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+                <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage249} />
               </div>
             </div>
             <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:3973">
@@ -6372,8 +6373,8 @@ export default function ProjectPage() {
           </div>
           <div className="bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] relative rounded-[50px] shrink-0" data-node-id="6:3974">
             <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:3975" data-name="Mask group">
-              <div className="col-1 h-[68px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[21px_9px] mask-size-[44px_44px] ml-[-21px] mt-[-9px] relative row-1 w-[77px]" data-node-id="6:3977" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage250} />
+              <div className="col-1 h-[68px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[21px_9px] mask-size-[44px_44px] ml-[-21px] mt-[-9px] relative row-1 w-[77px]" data-node-id="6:3977" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+                <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage250} />
               </div>
             </div>
             <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:3978">
@@ -6413,7 +6414,7 @@ export default function ProjectPage() {
                 <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="6:3992">
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3993">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3994">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:3996">
                       原促销数据页一直难以调整，内容较简单，后续加入更多促销相关数据（如：各促销折扣差异、各促销间夜趋势及占比、促销收入等），优化闭环内容
@@ -6421,7 +6422,7 @@ export default function ProjectPage() {
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:3997">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:3998">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:4000">
                       将促销数据反哺促销首页信息，形成“选择-报名-数据-优化选择及报名”的良性循环
@@ -6446,7 +6447,7 @@ export default function ProjectPage() {
               <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="6:4007">
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:4008">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:4009">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:4011">
                     首页促销日历及促销设置页的促销计算器内，增加AI能力检验折扣及促后价格，在竞争圈内是否具有吸引力，价格所处区间是否合理，并给出合理优化建议
@@ -6454,7 +6455,7 @@ export default function ProjectPage() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:4012">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:4013">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:4015">
                     AI介入从多维角度推荐酒店，报名更适合的促销及折扣，如：竞争圈对比（间夜、价格等）、客群类型、用户偏好（工作日/周末、预订/入住时间、热点日期、年龄性别、客源地等等）
@@ -6462,7 +6463,7 @@ export default function ProjectPage() {
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:4016">
                   <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:4017">
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                    <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                   </div>
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:4019">
                     促销数据页的AI能力检测，查漏补缺，可与促销推荐结合，提升系统能力
@@ -6487,7 +6488,7 @@ export default function ProjectPage() {
                 <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="6:4026">
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:4027">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:4028">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:4030">
                       设置页由于用户习惯，很多操作不敢调整，后续可以细化商户调研或用研，探索更丝滑的操作方式
@@ -6495,7 +6496,7 @@ export default function ProjectPage() {
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="6:4031">
                     <div className="h-[24px] relative shrink-0 w-[6px]" data-node-id="6:4032">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
+                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="6:4034">
                       当前不同促销的设置内容不同，可探索有无简化的可能
@@ -6509,14 +6510,14 @@ export default function ProjectPage() {
       </div>
       <div className="-translate-x-1/2 absolute h-[900px] left-1/2 top-[16995px] w-[1480px]" data-node-id="6:4035" data-name="Group 238 3">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[153.89%] left-[0.07%] max-w-none top-[-6.89%] w-[103.06%]" src={imgGroup2383} />
+          <CaseImage alt="" className="absolute h-[153.89%] left-[0.07%] max-w-none top-[-6.89%] w-[103.06%]" src={imgGroup2383} />
         </div>
       </div>
       <div className="absolute flex h-[218.562px] items-center justify-center left-[1055px] top-[17113.68px] w-[271px]" data-node-id="6:4036">
         <div className="-scale-y-100 flex-none rotate-180">
           <div className="h-[218.562px] relative w-[271px]">
             <div className="absolute inset-[-0.69%_-0.55%_-0.69%_-2.39%]">
-              <img alt="" className="block max-w-none size-full" src={imgVector152} />
+              <CaseImage alt="" className="block max-w-none size-full" src={imgVector152} />
             </div>
           </div>
         </div>
@@ -6528,8 +6529,8 @@ export default function ProjectPage() {
 export function InsightMarquee() {
  return <div className="insight-marquee" aria-label="商户真实反馈，三行从右向左滚动"><div className="marquee-lane lane-1"><div className="marquee-track"><div className="marquee-set"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:142">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:143" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:145" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:145" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:146">
@@ -6537,8 +6538,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:147">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:148" data-name="Mask group">
-          <div className="col-1 h-[76px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[20px_20px] mask-size-[44px_44px] ml-[-20px] mt-[-20px] relative row-1 w-[85px]" data-node-id="6:150" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage239} />
+          <div className="col-1 h-[76px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[20px_20px] mask-size-[44px_44px] ml-[-20px] mt-[-20px] relative row-1 w-[85px]" data-node-id="6:150" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage239} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:151">
@@ -6546,8 +6547,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:162">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:163" data-name="Mask group">
-          <div className="col-1 h-[128px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[50px_38px] mask-size-[44px_44px] ml-[-50px] mt-[-38px] relative row-1 w-[143px]" data-node-id="6:165" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage241} />
+          <div className="col-1 h-[128px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[50px_38px] mask-size-[44px_44px] ml-[-50px] mt-[-38px] relative row-1 w-[143px]" data-node-id="6:165" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage241} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:166">
@@ -6555,8 +6556,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:172">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:173" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[25px_19px] mask-size-[44px_44px] ml-[-25px] mt-[-19px] relative row-1 w-[80.932px]" data-node-id="6:175" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage243} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[25px_19px] mask-size-[44px_44px] ml-[-25px] mt-[-19px] relative row-1 w-[80.932px]" data-node-id="6:175" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage243} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:176">
@@ -6564,8 +6565,8 @@ export function InsightMarquee() {
         </p>
       </div></div><div className="marquee-set" aria-hidden="true"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:142">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:143" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:145" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:145" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:146">
@@ -6573,8 +6574,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:147">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:148" data-name="Mask group">
-          <div className="col-1 h-[76px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[20px_20px] mask-size-[44px_44px] ml-[-20px] mt-[-20px] relative row-1 w-[85px]" data-node-id="6:150" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage239} />
+          <div className="col-1 h-[76px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[20px_20px] mask-size-[44px_44px] ml-[-20px] mt-[-20px] relative row-1 w-[85px]" data-node-id="6:150" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage239} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:151">
@@ -6582,8 +6583,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:162">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:163" data-name="Mask group">
-          <div className="col-1 h-[128px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[50px_38px] mask-size-[44px_44px] ml-[-50px] mt-[-38px] relative row-1 w-[143px]" data-node-id="6:165" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage241} />
+          <div className="col-1 h-[128px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[50px_38px] mask-size-[44px_44px] ml-[-50px] mt-[-38px] relative row-1 w-[143px]" data-node-id="6:165" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage241} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:166">
@@ -6591,8 +6592,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:172">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:173" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[25px_19px] mask-size-[44px_44px] ml-[-25px] mt-[-19px] relative row-1 w-[80.932px]" data-node-id="6:175" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage243} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[25px_19px] mask-size-[44px_44px] ml-[-25px] mt-[-19px] relative row-1 w-[80.932px]" data-node-id="6:175" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage243} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:176">
@@ -6600,8 +6601,8 @@ export function InsightMarquee() {
         </p>
       </div></div></div></div><div className="marquee-lane lane-2"><div className="marquee-track"><div className="marquee-set"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:152">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:153" data-name="Mask group">
-          <div className="col-1 h-[78px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[14px_33px] mask-size-[44px_44px] ml-[-14px] mt-[-33px] relative row-1 w-[87px]" data-node-id="6:155" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage240} />
+          <div className="col-1 h-[78px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[14px_33px] mask-size-[44px_44px] ml-[-14px] mt-[-33px] relative row-1 w-[87px]" data-node-id="6:155" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage240} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:156">
@@ -6609,8 +6610,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:167">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:168" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_26px] mask-size-[44px_44px] ml-[-18px] mt-[-26px] relative row-1 w-[80.932px]" data-node-id="6:170" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage242} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_26px] mask-size-[44px_44px] ml-[-18px] mt-[-26px] relative row-1 w-[80.932px]" data-node-id="6:170" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage242} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:171">
@@ -6618,8 +6619,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:177">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:178" data-name="Mask group">
-          <div className="col-1 h-[74px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_15px] mask-size-[44px_44px] ml-[-12px] mt-[-15px] relative row-1 w-[83px]" data-node-id="6:180" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage244} />
+          <div className="col-1 h-[74px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_15px] mask-size-[44px_44px] ml-[-12px] mt-[-15px] relative row-1 w-[83px]" data-node-id="6:180" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage244} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:181">
@@ -6627,8 +6628,8 @@ export function InsightMarquee() {
         </p>
       </div></div><div className="marquee-set" aria-hidden="true"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:152">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:153" data-name="Mask group">
-          <div className="col-1 h-[78px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[14px_33px] mask-size-[44px_44px] ml-[-14px] mt-[-33px] relative row-1 w-[87px]" data-node-id="6:155" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage240} />
+          <div className="col-1 h-[78px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[14px_33px] mask-size-[44px_44px] ml-[-14px] mt-[-33px] relative row-1 w-[87px]" data-node-id="6:155" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage240} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:156">
@@ -6636,8 +6637,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:167">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:168" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_26px] mask-size-[44px_44px] ml-[-18px] mt-[-26px] relative row-1 w-[80.932px]" data-node-id="6:170" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage242} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_26px] mask-size-[44px_44px] ml-[-18px] mt-[-26px] relative row-1 w-[80.932px]" data-node-id="6:170" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage242} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:171">
@@ -6645,8 +6646,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:177">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:178" data-name="Mask group">
-          <div className="col-1 h-[74px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_15px] mask-size-[44px_44px] ml-[-12px] mt-[-15px] relative row-1 w-[83px]" data-node-id="6:180" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage244} />
+          <div className="col-1 h-[74px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_15px] mask-size-[44px_44px] ml-[-12px] mt-[-15px] relative row-1 w-[83px]" data-node-id="6:180" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage244} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:181">
@@ -6654,8 +6655,8 @@ export function InsightMarquee() {
         </p>
       </div></div></div></div><div className="marquee-lane lane-3"><div className="marquee-track"><div className="marquee-set"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:198">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:199" data-name="Mask group">
-          <div className="col-1 h-[100px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[38px_14px] mask-size-[44px_44px] ml-[-38px] mt-[-14px] relative row-1 w-[113px]" data-node-id="6:201" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage248} />
+          <div className="col-1 h-[100px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[38px_14px] mask-size-[44px_44px] ml-[-38px] mt-[-14px] relative row-1 w-[113px]" data-node-id="6:201" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage248} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:202">
@@ -6663,8 +6664,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:182">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:183" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_1px] mask-size-[44px_44px] ml-[-18px] mt-[-1px] relative row-1 w-[80.932px]" data-node-id="6:185" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage245} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_1px] mask-size-[44px_44px] ml-[-18px] mt-[-1px] relative row-1 w-[80.932px]" data-node-id="6:185" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage245} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:186">
@@ -6672,8 +6673,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:187">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:188" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[7px_16px] mask-size-[44px_44px] ml-[-7px] mt-[-16px] relative row-1 w-[80.932px]" data-node-id="6:190" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage246} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[7px_16px] mask-size-[44px_44px] ml-[-7px] mt-[-16px] relative row-1 w-[80.932px]" data-node-id="6:190" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage246} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:191">
@@ -6681,11 +6682,11 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:192">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:193" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:195" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:195" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
           </div>
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_17px] mask-size-[44px_44px] ml-[-12px] mt-[-17px] relative row-1 w-[80.932px]" data-node-id="6:196" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 238">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage247} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_17px] mask-size-[44px_44px] ml-[-12px] mt-[-17px] relative row-1 w-[80.932px]" data-node-id="6:196" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 238">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage247} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:197">
@@ -6693,8 +6694,8 @@ export function InsightMarquee() {
         </p>
       </div></div><div className="marquee-set" aria-hidden="true"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:198">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:199" data-name="Mask group">
-          <div className="col-1 h-[100px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[38px_14px] mask-size-[44px_44px] ml-[-38px] mt-[-14px] relative row-1 w-[113px]" data-node-id="6:201" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage248} />
+          <div className="col-1 h-[100px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[38px_14px] mask-size-[44px_44px] ml-[-38px] mt-[-14px] relative row-1 w-[113px]" data-node-id="6:201" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage248} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:202">
@@ -6702,8 +6703,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:182">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:183" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_1px] mask-size-[44px_44px] ml-[-18px] mt-[-1px] relative row-1 w-[80.932px]" data-node-id="6:185" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage245} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_1px] mask-size-[44px_44px] ml-[-18px] mt-[-1px] relative row-1 w-[80.932px]" data-node-id="6:185" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage245} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:186">
@@ -6711,8 +6712,8 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:187">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:188" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[7px_16px] mask-size-[44px_44px] ml-[-7px] mt-[-16px] relative row-1 w-[80.932px]" data-node-id="6:190" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage246} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[7px_16px] mask-size-[44px_44px] ml-[-7px] mt-[-16px] relative row-1 w-[80.932px]" data-node-id="6:190" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage246} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:191">
@@ -6720,11 +6721,11 @@ export function InsightMarquee() {
         </p>
       </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:192">
         <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:193" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:195" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:195" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
           </div>
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_17px] mask-size-[44px_44px] ml-[-12px] mt-[-17px] relative row-1 w-[80.932px]" data-node-id="6:196" style={{ maskImage: `url("${imgImage237}")` }} data-name="image 238">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage247} />
+          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_17px] mask-size-[44px_44px] ml-[-12px] mt-[-17px] relative row-1 w-[80.932px]" data-node-id="6:196" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 238">
+            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage247} />
           </div>
         </div>
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:197">

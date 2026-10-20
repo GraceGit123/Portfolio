@@ -1,0 +1,5 @@
+/* The closed state must work even without native HTMLDialogElement support. */
+dialog:not([open]){display:none!important}
+.dialog-fallback-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.7);z-index:9998;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.no-native-dialog dialog[open]{display:block;position:fixed;z-index:9999;top:50%;left:50%;right:auto;bottom:auto;transform:translate(-50%,-50%);margin:0;box-sizing:border-box;overflow-y:auto;max-height:85vh;max-height:85dvh}
+.no-native-dialog .image-dialog[open]{height:90vh;max-height:90vh}

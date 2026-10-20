@@ -50,6 +50,7 @@ function currentProject(): Project {
 
 export default function App() {
   const [project, setProject] = useState<Project>(currentProject)
+  const [compact, setCompact] = useState(() => window.innerWidth < 700)
   const isHotel = project === 'hotel-task'
   const isPromotion = project === 'promotion'
   const isSolution = project === 'hotel-solution'
@@ -63,11 +64,11 @@ export default function App() {
   const canvas = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'instant' })
+    window.scrollTo({ top: 0, behavior: 'auto' })
     document.documentElement.dataset.project = project
     document.title = '戈珊珊 · UX/UI Designer'
     document.documentElement.lang = 'zh-CN'
-    const resize = () => setScale(Math.min(window.innerWidth / 1680, 1))
+    const resize = () => { setScale(Math.min(window.innerWidth / 1680, 1)); setCompact(window.innerWidth < 700) }
     const scroll = () => {
       const available = document.documentElement.scrollHeight - window.innerHeight
       setProgress(available > 0 ? window.scrollY / available : 0)
@@ -87,7 +88,7 @@ export default function App() {
       window.removeEventListener('resize', resize)
       window.removeEventListener('scroll', scroll)
     }
-  }, [project])
+  }, [project, compact])
 
   useEffect(() => {
     const area = canvas.current
@@ -106,13 +107,13 @@ export default function App() {
     fitContent()
     document.fonts.ready.then(fitContent)
     return () => { disposed = true; observer.disconnect(); area.style.height = '' }
-  }, [project, scale])
+  }, [project, scale, compact])
 
   useEffect(() => {
     const change = () => {
       setProject(currentProject())
       setImage('')
-      window.scrollTo({ top: 0, behavior: 'instant' })
+      window.scrollTo({ top: 0, behavior: 'auto' })
     }
     window.addEventListener('hashchange', change)
     return () => window.removeEventListener('hashchange', change)
@@ -143,7 +144,7 @@ export default function App() {
       const origin = root?.getBoundingClientRect()
       if (origin) {
         const ratio = origin.width / 1680
-        area.querySelectorAll<HTMLImageElement>('img[src$=".png"],img[src$=".webp"]').forEach(picture => {
+        area.querySelectorAll<HTMLImageElement>('img[src$=".png"],img[src$=".webp"],img[data-src]').forEach(picture => {
           if (picture.closest('[data-node-id="6:3462"]')) return
           let wrapper = picture.closest<HTMLElement>('[data-node-id]')
           while (wrapper && wrapper !== root) {
@@ -165,14 +166,14 @@ export default function App() {
     hotspots.forEach(element => {
       if (isHotel && ['23:3', '23:11'].includes(element.dataset.nodeId ?? '')) return
       if ([...hotspots].some(other => other !== element && element.contains(other))) return
-      const picture = element.querySelector<HTMLImageElement>('img[src$=".png"],img[src$=".webp"]')
+      const picture = element.querySelector<HTMLImageElement>('img[src$=".png"],img[src$=".webp"],img[data-src]')
       const canvasWidth = area.querySelector('.case-canvas')?.getBoundingClientRect().width ?? 1680
       if (!picture || element.getBoundingClientRect().width / (canvasWidth / 1680) < 180) return
       element.classList.add('image-hotspot')
       element.tabIndex = 0
       element.setAttribute('role', 'button')
       element.setAttribute('aria-label', '放大查看设计图')
-      const open = () => setImage(picture.src)
+      const open = () => setImage(picture.dataset.src || picture.src)
       const keydown = (event: KeyboardEvent) => {
         if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open() }
       }
@@ -188,9 +189,11 @@ export default function App() {
       })
     })
     return () => { observer.disconnect(); cleanups.forEach(cleanup => cleanup()) }
-  }, [project])
+  }, [project, compact])
 
   useEffect(() => {
+    const install = (window as Window & { installPortfolioDialog?: (element: HTMLDialogElement) => void }).installPortfolioDialog
+    if (dialog.current && install) install(dialog.current)
     if (image) {
       setZoom(false)
       dialog.current?.showModal()
@@ -220,10 +223,10 @@ export default function App() {
         <a href="#hotel-solution" aria-current={isSolution ? 'page' : undefined}>03 / Hotel Solution</a>
       </nav>
       <main aria-label={isSolution ? '葛珊珊的作品集：Hotel Solution 酒店解决方案' : isHotel ? '葛珊珊的作品集：携程 HT 任务界面升级' : '葛珊珊的作品集：携程促销中心体验升级'}>
-        <div className={isSolution ? 'solution-project' : `desktop-project ${isHotel ? 'hotel-task-project' : ''}`} ref={canvas} style={{ '--canvas-scale': scale } as CSSProperties}>
+        {!(isPromotion && compact) && <div className={isSolution ? 'solution-project' : `desktop-project ${isHotel ? 'hotel-task-project' : ''}`} ref={canvas} style={{ '--canvas-scale': scale } as CSSProperties}>
           {isSolution ? <HotelSolutionProject /> : isHotel ? <HotelTaskProject /> : <ProjectPage />}
-        </div>
-        {isPromotion && <MobileProject onOpenImage={setImage} />}
+        </div>}
+        {isPromotion && compact && <MobileProject onOpenImage={setImage} />}
         <nav className="related-projects" aria-label="浏览其他作品">
           <a className="related-card related-home" href={homeUrl}>
             <span className="related-arrow" aria-hidden="true">↗</span>
