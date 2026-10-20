@@ -1,16 +1,16 @@
-import { useEffect, useLayoutEffect, memo, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, lazy, memo, Suspense, useRef, useState } from 'react'
 import type { CSSProperties } from 'react'
-import ProjectPage from './ProjectPage'
-import MobileProject from './MobileProject'
-import HotelTaskProject from './HotelTaskProject'
-import HotelSolutionProject from './HotelSolutionProject'
 import CaseImage from './CaseImage'
 
-// Scroll progress updates must never rebuild the long case body or phone figures.
-const PromotionBody = memo(ProjectPage)
-const MobilePromotionBody = memo(MobileProject)
-const HotelTaskBody = memo(HotelTaskProject)
-const HotelSolutionBody = memo(HotelSolutionProject)
+// Only download the requested case, retaining stable bodies while progress updates.
+const PromotionBody = memo(lazy(() => import('./ProjectPage')))
+const MobilePromotionBody = memo(lazy(() => import('./MobileProject')))
+const HotelTaskBody = memo(lazy(() => import('./HotelTaskProject')))
+const HotelSolutionBody = memo(lazy(() => import('./HotelSolutionProject')))
+function CaseReady({ onReady }: { onReady: () => void }) {
+  useLayoutEffect(onReady, [onReady])
+  return null
+}
 
 const promotionChapters = [
   { name: '项目背景', node: '6:79', mobile: 'background' },
@@ -57,6 +57,8 @@ function currentProject(): Project {
 
 export default function App() {
   const [project, setProject] = useState<Project>(currentProject)
+  const [bodyRevision, setBodyRevision] = useState(0)
+  const bodyReady = useCallback(() => setBodyRevision(value => value + 1), [])
   const [compact, setCompact] = useState(() => window.innerWidth < 700)
   const isHotel = project === 'hotel-task'
   const isPromotion = project === 'promotion'
@@ -99,7 +101,7 @@ export default function App() {
       window.removeEventListener('resize', resize)
       window.removeEventListener('scroll', scroll)
     }
-  }, [project, compact])
+  }, [project, compact, bodyRevision])
 
   useEffect(() => {
     const area = canvas.current
@@ -118,7 +120,7 @@ export default function App() {
     fitContent()
     document.fonts.ready.then(fitContent)
     return () => { disposed = true; observer.disconnect(); area.style.height = '' }
-  }, [project, scale, compact])
+  }, [project, scale, compact, bodyRevision])
 
   useEffect(() => {
     const change = () => {
@@ -200,7 +202,7 @@ export default function App() {
       })
     })
     return () => { observer.disconnect(); cleanups.forEach(cleanup => cleanup()) }
-  }, [project, compact])
+  }, [project, compact, bodyRevision])
 
   useEffect(() => {
     const install = (window as Window & { installPortfolioDialog?: (element: HTMLDialogElement) => void }).installPortfolioDialog
@@ -234,10 +236,13 @@ export default function App() {
         <a href="#hotel-solution" onClick={() => window.scrollTo({ top: 0, behavior: 'auto' })} aria-current={isSolution ? 'page' : undefined}>03 / Hotel Solution</a>
       </nav>
       <main aria-label={isSolution ? '葛珊珊的作品集：Hotel Solution 酒店解决方案' : isHotel ? '葛珊珊的作品集：携程 HT 任务界面升级' : '葛珊珊的作品集：携程促销中心体验升级'}>
+        <Suspense key={`${project}-${compact}`} fallback={<div className="case-loading" role="status">正在加载作品…</div>}>
         {!(isPromotion && compact) && <div className={isSolution ? 'solution-project' : `desktop-project ${isHotel ? 'hotel-task-project' : ''}`} ref={canvas} style={{ '--canvas-scale': scale } as CSSProperties}>
           {isSolution ? <HotelSolutionBody /> : isHotel ? <HotelTaskBody /> : <PromotionBody />}
         </div>}
         {isPromotion && compact && <MobilePromotionBody onOpenImage={setImage} />}
+        <CaseReady onReady={bodyReady} />
+        </Suspense>
         <nav className="related-projects" aria-label="浏览其他作品">
           <a className="related-card related-home" href={homeUrl}>
             <span className="related-arrow" aria-hidden="true">↗</span>

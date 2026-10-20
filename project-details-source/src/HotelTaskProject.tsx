@@ -48,7 +48,7 @@ export default function HotelTaskProject() {
       <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[13409px] via-1/2 via-black w-[1680px]" data-node-id="23:10" />
       <div className="absolute h-[820px] left-0 top-0 w-[1680px]" data-node-id="23:11" data-name="image 268">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <CaseImage alt="" className="absolute inset-0 size-full object-cover" src={imgImage268} />
+          <CaseImage alt="" className="absolute inset-0 size-full object-cover" loading="eager" fetchPriority="high" src={imgImage268} />
         </div>
       </div>
       

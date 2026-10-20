@@ -1,8 +1,8 @@
 
-@font-face { font-family: 'Inter:Bold'; src: url('/Portfolio/projects/fonts/inter.ttf'); font-weight: 700; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Inter:Light'; src: url('/Portfolio/projects/fonts/inter.ttf'); font-weight: 300; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Inter:Regular'; src: url('/Portfolio/projects/fonts/inter.ttf'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Inter:Semi Bold'; src: url('/Portfolio/projects/fonts/inter.ttf'); font-weight: 600; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Noto Sans JP:Bold'; src: url('/Portfolio/projects/fonts/noto-sans-jp.ttf'); font-weight: 700; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Noto Sans SC:Bold'; src: url('/Portfolio/projects/fonts/noto-sans-sc.ttf'); font-weight: 700; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Noto Sans SC:Regular'; src: url('/Portfolio/projects/fonts/noto-sans-sc.ttf'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter:Bold'; src: url('/Portfolio/assets/optimized-fonts/inter-case.woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter:Light'; src: url('/Portfolio/assets/optimized-fonts/inter-case.woff2'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter:Regular'; src: url('/Portfolio/assets/optimized-fonts/inter-case.woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter:Semi Bold'; src: url('/Portfolio/assets/optimized-fonts/inter-case.woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Noto Sans JP:Bold'; src: url('/Portfolio/assets/optimized-fonts/noto-sans-jp-case.woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Noto Sans SC:Bold'; src: url('/Portfolio/assets/optimized-fonts/noto-sans-sc-case.woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Noto Sans SC:Regular'; src: url('/Portfolio/assets/optimized-fonts/noto-sans-sc-case.woff2'); font-weight: 400; font-style: normal; font-display: swap; }

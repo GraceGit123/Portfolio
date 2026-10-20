@@ -1,0 +1,72 @@
+{
+  "home_fonts": {
+    "faces": 18,
+    "before_bytes": 1110780,
+    "after_bytes": 113552,
+    "preloads": [
+      "cs-adf2311f9e1f.woff2",
+      "lt-4d36d351e595.woff2"
+    ]
+  },
+  "case_fonts": {
+    "faces": 110,
+    "before_bytes": 3475084,
+    "after_bytes": 877884,
+    "preloads": [
+      "MiSans-Light-4dc7cf5d173a.woff2",
+      "MiSans-Light-47f1e06c498b.woff2",
+      "MiSans-Heavy-20db35a861b1.woff2",
+      "MiSans-Heavy-e50e75bd1b60.woff2",
+      "MiSans-Medium-5fe28e9685f5.woff2",
+      "MiSans-Medium-e48700fcd6fd.woff2",
+      "MiSans-Semibold-0111492e1317.woff2",
+      "MiSans-Semibold-5f07c68ca9f6.woff2",
+      "MiSans-Bold-d3607d997095.woff2",
+      "MiSans-Bold-fb3a7f867124.woff2"
+    ]
+  },
+  "inter.ttf": {
+    "before_bytes": 805360,
+    "after_bytes": 53284
+  },
+  "noto-sans-sc.ttf": {
+    "before_bytes": 17773132,
+    "after_bytes": 311828
+  },
+  "noto-sans-jp.ttf": {
+    "before_bytes": 9590732,
+    "after_bytes": 237680
+  },
+  "TripGeom-Bold.ttf": {
+    "before_bytes": 130932,
+    "after_bytes": 10364
+  },
+  "TripGeom-Regular.ttf": {
+    "before_bytes": 135556,
+    "after_bytes": 10568
+  },
+  "TripGeom-Medium.ttf": {
+    "before_bytes": 128608,
+    "after_bytes": 10220
+  },
+  "portrait": {
+    "before_bytes": 1035196,
+    "after_bytes": 711720
+  },
+  "cover-ebooking": {
+    "before_bytes": 1067873,
+    "after_bytes": 710602
+  },
+  "cover-hotel-task": {
+    "before_bytes": 675556,
+    "after_bytes": 434770
+  },
+  "cover-hotel-solution": {
+    "before_bytes": 2344519,
+    "after_bytes": 1491624
+  },
+  "wechat-qr": {
+    "before_bytes": 136517,
+    "after_bytes": 61308
+  }
+}

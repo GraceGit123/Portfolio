@@ -1,3 +1,13 @@
+// Keep offscreen covers and the hidden QR out of the first-screen download queue.
+(() => {
+ const images=document.querySelectorAll('img[data-lazy-src]');
+ const load=image=>{image.src=image.dataset.lazySrc;};
+ if('loading' in HTMLImageElement.prototype||!window.IntersectionObserver){images.forEach(load);return;}
+ const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+  if(entry.isIntersecting){load(entry.target);observer.unobserve(entry.target);}
+ }),{rootMargin:'500px 0px'});
+ images.forEach(image=>observer.observe(image));
+})();
 const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
 const motionEase='cubic-bezier(.22,1,.36,1)';
 let closingDetail=false;

@@ -5977,7 +5977,7 @@ export default function ProjectPage() {
         <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup2252} />
       </div>
       <div className="absolute h-[611px] left-[934px] top-[350px] w-[666px]" data-node-id="6:3813" data-name="Studio Display 2 1">
-        <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgStudioDisplay21} />
+        <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" loading="eager" fetchPriority="high" src={imgStudioDisplay21} />
       </div>
       <div className="-translate-x-1/2 absolute bg-black content-stretch flex flex-col gap-[10px] h-[701px] items-start justify-center left-1/2 pl-[80px] pr-[600px] py-[150px] rounded-[60px] top-[832px] w-[1680px]" data-node-id="6:3815">
         <div className="content-stretch flex flex-col gap-[80px] items-start justify-center relative shrink-0 w-[1100px]" data-node-id="6:3816">

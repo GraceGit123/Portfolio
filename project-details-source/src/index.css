@@ -4,7 +4,7 @@
 /* These bundled variable fallbacks preserve weight when a local face is absent. */
 @font-face {
   font-family: 'Inter';
-  src: url('/Portfolio/projects/fonts/inter.ttf');
+  src: url('/Portfolio/assets/optimized-fonts/inter-case.woff2');
   unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F;
   font-weight: 100 900;
   font-style: normal;
@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: 'Noto Sans SC';
-  src: url('/Portfolio/projects/fonts/noto-sans-sc.ttf');
+  src: url('/Portfolio/assets/optimized-fonts/noto-sans-sc-case.woff2');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -22,21 +22,21 @@
    Do not use the unrelated MiSans VF axis scale for these named faces. */
 @font-face {
   font-family: 'Trip Geom:Regular';
-  src: local('Trip Geom Regular'), local('TripGeom-Regular'), url('/Portfolio/projects/fonts/trip-geom/TripGeom-Regular.ttf'), local('Trip Geom');
+  src: local('Trip Geom Regular'), local('TripGeom-Regular'), url('/Portfolio/assets/optimized-fonts/TripGeom-Regular-case.woff2'), local('Trip Geom');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Trip Geom:Medium';
-  src: local('Trip Geom Medium'), local('TripGeom-Medium'), url('/Portfolio/projects/fonts/trip-geom/TripGeom-Medium.ttf');
+  src: local('Trip Geom Medium'), local('TripGeom-Medium'), url('/Portfolio/assets/optimized-fonts/TripGeom-Medium-case.woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Trip Geom:Bold';
-  src: local('Trip Geom Bold'), local('TripGeom-Bold'), url('/Portfolio/projects/fonts/trip-geom/TripGeom-Bold.ttf');
+  src: local('Trip Geom Bold'), local('TripGeom-Bold'), url('/Portfolio/assets/optimized-fonts/TripGeom-Bold-case.woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -404,10 +404,6 @@ html[data-project] .related-card:hover,html[data-project] .related-card:focus-vi
 
 /* Explicit WebKit text clipping is required on iPadOS 14. */
 .bg-clip-text{-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-/* Use layout scaling instead of one enormous GPU texture for each long case. */
-@supports(zoom:1){
- .desktop-project>.case-canvas{zoom:var(--canvas-scale);transform:none}
-}
 .solution-motion-reveal.is-visible{transform:none;will-change:auto}
 /* A definite inset avoids percentage-height/flex collapse on mobile Safari. */
 .related-art{position:absolute;inset:12px;flex:none;height:auto;margin:0}
@@ -417,3 +413,8 @@ html[data-project] .related-card:hover,html[data-project] .related-card:focus-vi
 }
 
 img[data-src]:not([src]){visibility:hidden}
+
+/* iPadOS 14 must not autosize text inside fixed design coordinates. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.case-canvas,.solution-project,.mobile-project{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.case-loading{min-height:100vh;display:grid;place-items:center;font-size:16px}

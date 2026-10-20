@@ -144,10 +144,10 @@ export default function HotelSolutionProject() {
       <div
         className="absolute left-1/2 top-0 h-[17303px] w-[1680px] origin-top bg-[#202020]"
         ref={canvasRef}
-        style={{ zoom: scale, transform: 'none', left: 0, right: 0, margin: '0 auto' }} data-node-id="1:21" data-name="Hotel Solution">
+        style={{ transform: `translateX(-50%) scale(${scale})` }} data-node-id="1:21" data-name="Hotel Solution">
 <div className="absolute h-[1186px] left-0 top-0 w-[1680px]" data-node-id="1:22" data-name="image 337 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <CaseImage alt="" className="absolute inset-0 size-full object-cover" src={imgImage3371} />
+          <CaseImage alt="" className="absolute inset-0 size-full object-cover" loading="eager" fetchPriority="high" src={imgImage3371} />
         </div>
       </div>
 <div className="absolute bg-[rgba(255,255,255,0.1)] h-[388px] left-[80px] rounded-[60px] top-[2566px] w-[1520px]" data-node-id="1:27" />
