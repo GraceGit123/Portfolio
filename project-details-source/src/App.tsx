@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import type { CSSProperties } from 'react'
 import ProjectPage from './ProjectPage'
 import MobileProject from './MobileProject'
@@ -63,8 +63,12 @@ export default function App() {
   const dialog = useRef<HTMLDialogElement>(null)
   const canvas = useRef<HTMLDivElement>(null)
 
-  useEffect(() => {
+  // Reset before painting the destination, including browser back/forward navigation.
+  useLayoutEffect(() => {
     window.scrollTo({ top: 0, behavior: 'auto' })
+  }, [project, compact])
+
+  useEffect(() => {
     document.documentElement.dataset.project = project
     document.title = '戈珊珊 · UX/UI Designer'
     document.documentElement.lang = 'zh-CN'
@@ -218,9 +222,9 @@ export default function App() {
       <div className="reading-progress" style={{ transform: `scaleX(${progress})` }} />
       <nav className="project-switch" aria-label="作品切换">
         <a href={homeUrl}>首页</a>
-        <a href="#promotion" aria-current={isPromotion ? 'page' : undefined}>01 / E-booking Promotion</a>
-        <a href="#hotel-task" aria-current={isHotel ? 'page' : undefined}>02 / Hotel Task</a>
-        <a href="#hotel-solution" aria-current={isSolution ? 'page' : undefined}>03 / Hotel Solution</a>
+        <a href="#promotion" onClick={() => window.scrollTo({ top: 0, behavior: 'auto' })} aria-current={isPromotion ? 'page' : undefined}>01 / E-booking Promotion</a>
+        <a href="#hotel-task" onClick={() => window.scrollTo({ top: 0, behavior: 'auto' })} aria-current={isHotel ? 'page' : undefined}>02 / Hotel Task</a>
+        <a href="#hotel-solution" onClick={() => window.scrollTo({ top: 0, behavior: 'auto' })} aria-current={isSolution ? 'page' : undefined}>03 / Hotel Solution</a>
       </nav>
       <main aria-label={isSolution ? '葛珊珊的作品集：Hotel Solution 酒店解决方案' : isHotel ? '葛珊珊的作品集：携程 HT 任务界面升级' : '葛珊珊的作品集：携程促销中心体验升级'}>
         {!(isPromotion && compact) && <div className={isSolution ? 'solution-project' : `desktop-project ${isHotel ? 'hotel-task-project' : ''}`} ref={canvas} style={{ '--canvas-scale': scale } as CSSProperties}>

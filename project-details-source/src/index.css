@@ -57,7 +57,7 @@
   font-synthesis: none;
 }
 
-html { scroll-behavior: smooth; scrollbar-width: none; }
+html { scroll-behavior: auto; scrollbar-width: none; }
 body { margin: 0; }
 body::-webkit-scrollbar { display: none; }
 button, a { -webkit-tap-highlight-color: transparent; }
