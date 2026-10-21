@@ -41,11 +41,11 @@ export default function HotelTaskProject() {
     <div className="hotel-task-canvas case-canvas bg-[#f1f5fe] relative" data-node-id="23:3" data-name="HT任务">
       <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[1648px] via-1/2 via-black w-[1680px]" data-node-id="23:4" />
       <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[2806px] via-1/2 via-black w-[1680px]" data-node-id="23:5" />
-      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[4186px] via-1/2 via-black w-[1680px]" data-node-id="23:6" />
-      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[5374px] via-1/2 via-black w-[1680px]" data-node-id="23:7" />
-      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[8512px] via-1/2 via-black w-[1680px]" data-node-id="23:8" />
-      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[10184px] via-1/2 via-black w-[1680px]" data-node-id="23:9" />
-      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[13409px] via-1/2 via-black w-[1680px]" data-node-id="23:10" />
+      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[4054px] via-1/2 via-black w-[1680px]" data-node-id="23:6" />
+      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[5242px] via-1/2 via-black w-[1680px]" data-node-id="23:7" />
+      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[8380px] via-1/2 via-black w-[1680px]" data-node-id="23:8" />
+      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[10052px] via-1/2 via-black w-[1680px]" data-node-id="23:9" />
+      <div className="-translate-x-1/2 absolute bg-gradient-to-r from-black h-[278px] left-1/2 rounded-br-[100px] to-[#0d1597] top-[13277px] via-1/2 via-black w-[1680px]" data-node-id="23:10" />
       <div className="absolute h-[820px] left-0 top-0 w-[1680px]" data-node-id="23:11" data-name="image 268">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <CaseImage alt="" className="absolute inset-0 size-full object-cover" loading="eager" fetchPriority="high" src={imgImage268} />
@@ -63,7 +63,7 @@ export default function HotelTaskProject() {
           <p className="font-['MiSans','Inter','Noto_Sans_SC',sans-serif] relative shrink-0 text-[24px] w-[1480px] whitespace-pre-wrap [font-weight:300]" data-node-id="23:18">{`海量数据 VS 极低的信息提取效率   |   高频操作 VS 杂乱的路径`}</p>
         </div>
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] not-italic text-white top-[4226px] w-[1520px]" data-node-id="23:19">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] not-italic text-white top-[4094px] w-[1520px]" data-node-id="23:19">
         <div className="flex flex-col font-['MiSans','Inter','Noto_Sans_SC',sans-serif] justify-center leading-[0] relative shrink-0 text-[24px] tracking-[4.8px] w-full [font-weight:300]" data-node-id="23:20">
           <p className="leading-[normal]">{`/ USER NEEDS & DESIGN DIRECTION`}</p>
         </div>
@@ -76,7 +76,7 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] top-[5414px] w-[1520px]" data-node-id="23:24">
+      <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] top-[5282px] w-[1520px]" data-node-id="23:24">
         <div className="[word-break:break-word] flex flex-col font-['MiSans','Inter','Noto_Sans_SC',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[24px] text-white tracking-[4.8px] w-full [font-weight:300]" data-node-id="23:25">
           <p className="leading-[normal]">{`/ LEGIBLE | WORKFLOW MODELING APPROACH`}</p>
         </div>
@@ -94,7 +94,7 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] top-[8552px] w-[1520px]" data-node-id="23:32">
+      <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] top-[8420px] w-[1520px]" data-node-id="23:32">
         <div className="[word-break:break-word] flex flex-col font-['MiSans','Inter','Noto_Sans_SC',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[24px] text-white tracking-[4.8px] w-full [font-weight:300]" data-node-id="23:33">
           <p className="leading-[normal]">{`/ DECISION-MAKING | BUSINESS VALUE-DRIVEN`}</p>
         </div>
@@ -112,7 +112,7 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] top-[10224px] w-[1520px]" data-node-id="23:40">
+      <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] top-[10092px] w-[1520px]" data-node-id="23:40">
         <div className="[word-break:break-word] flex flex-col font-['MiSans','Inter','Noto_Sans_SC',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[24px] text-white tracking-[4.8px] w-full [font-weight:300]" data-node-id="23:41">
           <p className="leading-[normal]">{`/ OPERATION | AGGREGATION & ENHANCEMENT`}</p>
         </div>
@@ -130,7 +130,7 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] top-[13449px] w-[1520px]" data-node-id="23:48">
+      <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[80px] top-[13317px] w-[1520px]" data-node-id="23:48">
         <div className="[word-break:break-word] flex flex-col font-['MiSans','Inter','Noto_Sans_SC',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[24px] text-white tracking-[4.8px] w-full [font-weight:300]" data-node-id="23:49">
           <p className="leading-[normal]">/ DATA FEEDBACK</p>
         </div>
@@ -145,13 +145,13 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute h-[89px] left-[341px] top-[4245px] w-0" data-node-id="23:54">
+      <div className="absolute h-[89px] left-[341px] top-[4113px] w-0" data-node-id="23:54">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
       </div>
-      <div className="absolute h-[89px] left-[914px] top-[4245px] w-0" data-node-id="23:55">
+      <div className="absolute h-[89px] left-[914px] top-[4113px] w-0" data-node-id="23:55">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
       </div>
-      <div className="absolute h-[89px] left-[1503px] top-[4245px] w-0" data-node-id="23:56">
+      <div className="absolute h-[89px] left-[1503px] top-[4113px] w-0" data-node-id="23:56">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
       </div>
       <div className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] left-[80px] not-italic text-[80px] text-white top-[214px] tracking-[8px] whitespace-nowrap [font-weight:900]" data-node-id="23:57">
@@ -378,20 +378,9 @@ export default function HotelTaskProject() {
             </p>
           </div>
         </div>
-        <div className="content-stretch flex gap-[32px] items-center relative shrink-0 w-full" data-node-id="23:152">
-          <div className="bg-black content-stretch flex flex-[1_0_0] h-[100px] items-center justify-center min-w-px px-[20px] py-[26px] relative rounded-[20px]" data-node-id="23:153">
-            <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] min-w-px not-italic relative text-[20px] text-white [font-weight:500]" data-node-id="23:154">
-              还原业务完整的日常工作流，识别关键效率卡点
-            </p>
-          </div>
-          <div className="bg-black content-stretch flex flex-[1_0_0] h-[100px] items-center justify-center min-w-px px-[20px] py-[26px] relative rounded-[20px]" data-node-id="23:155">
-            <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] min-w-px not-italic relative text-[20px] text-white [font-weight:500]" data-node-id="23:156">
-              验证业务考核体系对用户行为的影响机制
-            </p>
-          </div>
-        </div>
+        
       </div>
-      <div className="-translate-x-1/2 absolute content-stretch flex gap-[32px] items-center left-1/2 top-[3550px] w-[1520px]" data-node-id="23:157">
+      <div className="-translate-x-1/2 absolute content-stretch flex gap-[32px] items-center left-1/2 top-[3418px] w-[1520px]" data-node-id="23:157">
         <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="23:158">
           <div className="bg-gradient-to-b content-stretch drop-shadow-[0px_0px_20px_rgba(48,74,141,0.1)] flex flex-[1_0_0] flex-col from-white h-full items-start min-w-px px-[40px] py-[60px] relative rounded-[40px] to-[#eff3ff]">
             <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="23:159">
@@ -537,67 +526,67 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[180px] p-[40px] rounded-[20px] top-[4824px] w-[340px]" data-node-id="23:221">
+      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[180px] p-[40px] rounded-[20px] top-[4692px] w-[340px]" data-node-id="23:221">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:222">
           信息理解困难
         </p>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[180px] p-[40px] rounded-[20px] top-[4964px] w-[340px]" data-node-id="23:223">
+      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[180px] p-[40px] rounded-[20px] top-[4832px] w-[340px]" data-node-id="23:223">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:224">
           决策支持缺失
         </p>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[180px] p-[40px] rounded-[20px] top-[5104px] w-[340px]" data-node-id="23:225">
+      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[180px] p-[40px] rounded-[20px] top-[4972px] w-[340px]" data-node-id="23:225">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:226">
           操作流断裂
         </p>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[670px] p-[40px] rounded-[20px] top-[4824px] w-[340px]" data-node-id="23:227">
+      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[670px] p-[40px] rounded-[20px] top-[4692px] w-[340px]" data-node-id="23:227">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:228">
           识别需求
         </p>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[670px] p-[40px] rounded-[20px] top-[4964px] w-[340px]" data-node-id="23:229">
+      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[670px] p-[40px] rounded-[20px] top-[4832px] w-[340px]" data-node-id="23:229">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:230">
           决策需求
         </p>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[670px] p-[40px] rounded-[20px] top-[5104px] w-[340px]" data-node-id="23:231">
+      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[670px] p-[40px] rounded-[20px] top-[4972px] w-[340px]" data-node-id="23:231">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:232">
           操作需求
         </p>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[1160px] p-[40px] rounded-[20px] top-[4824px] w-[340px]" data-node-id="23:233">
+      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[1160px] p-[40px] rounded-[20px] top-[4692px] w-[340px]" data-node-id="23:233">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:234">
           用户工作流建模法
         </p>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[1160px] p-[40px] rounded-[20px] top-[4964px] w-[340px]" data-node-id="23:235">
+      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[1160px] p-[40px] rounded-[20px] top-[4832px] w-[340px]" data-node-id="23:235">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:236">
           业务价值驱动
         </p>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[1160px] p-[40px] rounded-[20px] top-[5104px] w-[340px]" data-node-id="23:237">
+      <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[1160px] p-[40px] rounded-[20px] top-[4972px] w-[340px]" data-node-id="23:237">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:238">
           动作聚合原则
         </p>
       </div>
-      <div className="absolute bg-white content-stretch flex flex-col items-center justify-center left-[230px] px-[60px] py-[88px] rounded-[140px] size-[240px] top-[4544px]" data-node-id="23:239">
+      <div className="absolute bg-white content-stretch flex flex-col items-center justify-center left-[230px] px-[60px] py-[88px] rounded-[140px] size-[240px] top-[4412px]" data-node-id="23:239">
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#3264ff] text-[32px] text-center whitespace-nowrap [font-weight:700]" data-node-id="23:240">
           页面问题
         </p>
       </div>
-      <div className="absolute bg-white content-stretch flex flex-col items-center justify-center left-[720px] px-[60px] py-[88px] rounded-[140px] size-[240px] top-[4544px]" data-node-id="23:241">
+      <div className="absolute bg-white content-stretch flex flex-col items-center justify-center left-[720px] px-[60px] py-[88px] rounded-[140px] size-[240px] top-[4412px]" data-node-id="23:241">
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#3264ff] text-[32px] text-center whitespace-nowrap [font-weight:700]" data-node-id="23:242">
           用户诉求
         </p>
       </div>
-      <div className="absolute bg-white content-stretch flex flex-col items-center justify-center left-[1210px] px-[60px] py-[88px] rounded-[140px] size-[240px] top-[4544px]" data-node-id="23:243">
+      <div className="absolute bg-white content-stretch flex flex-col items-center justify-center left-[1210px] px-[60px] py-[88px] rounded-[140px] size-[240px] top-[4412px]" data-node-id="23:243">
         <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#3264ff] text-[32px] text-center whitespace-nowrap [font-weight:700]" data-node-id="23:244">
           设计方向
         </p>
       </div>
-      <div className="absolute flex h-0 items-center justify-center left-[515px] top-[4664px] w-[160px]" data-node-id="23:245">
+      <div className="absolute flex h-0 items-center justify-center left-[515px] top-[4532px] w-[160px]" data-node-id="23:245">
         <div className="-rotate-90 flex-none">
           <div className="h-[160px] relative w-0">
             <div className="absolute inset-[-0.63%_-5.77px_0_-5.77px]">
@@ -606,7 +595,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute flex h-0 items-center justify-center left-[555px] top-[4879px] w-[80px]" data-node-id="23:246">
+      <div className="absolute flex h-0 items-center justify-center left-[555px] top-[4747px] w-[80px]" data-node-id="23:246">
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
@@ -615,7 +604,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute flex h-0 items-center justify-center left-[555px] top-[5019px] w-[80px]" data-node-id="23:247">
+      <div className="absolute flex h-0 items-center justify-center left-[555px] top-[4887px] w-[80px]" data-node-id="23:247">
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
@@ -624,7 +613,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute flex h-0 items-center justify-center left-[1045px] top-[5019px] w-[80px]" data-node-id="23:248">
+      <div className="absolute flex h-0 items-center justify-center left-[1045px] top-[4887px] w-[80px]" data-node-id="23:248">
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
@@ -633,7 +622,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute flex h-0 items-center justify-center left-[555px] top-[5159px] w-[80px]" data-node-id="23:249">
+      <div className="absolute flex h-0 items-center justify-center left-[555px] top-[5027px] w-[80px]" data-node-id="23:249">
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
@@ -642,7 +631,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute flex h-0 items-center justify-center left-[1045px] top-[5159px] w-[80px]" data-node-id="23:250">
+      <div className="absolute flex h-0 items-center justify-center left-[1045px] top-[5027px] w-[80px]" data-node-id="23:250">
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
@@ -651,7 +640,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute flex h-0 items-center justify-center left-[1045px] top-[4879px] w-[80px]" data-node-id="23:251">
+      <div className="absolute flex h-0 items-center justify-center left-[1045px] top-[4747px] w-[80px]" data-node-id="23:251">
         <div className="-rotate-90 flex-none">
           <div className="h-[80px] relative w-0">
             <div className="absolute inset-[-1.25%_-5.77px_0_-5.77px]">
@@ -660,7 +649,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute flex h-0 items-center justify-center left-[1005px] top-[4664px] w-[160px]" data-node-id="23:252">
+      <div className="absolute flex h-0 items-center justify-center left-[1005px] top-[4532px] w-[160px]" data-node-id="23:252">
         <div className="-rotate-90 flex-none">
           <div className="h-[160px] relative w-0">
             <div className="absolute inset-[-0.63%_-5.77px_0_-5.77px]">
@@ -669,29 +658,29 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute left-[680px] mix-blend-multiply size-[320px] top-[5907px]" data-node-id="23:253">
+      <div className="absolute left-[680px] mix-blend-multiply size-[320px] top-[5775px]" data-node-id="23:253">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse74} />
       </div>
-      <div className="absolute left-[560px] mix-blend-multiply size-[320px] top-[6117px]" data-node-id="23:254">
+      <div className="absolute left-[560px] mix-blend-multiply size-[320px] top-[5985px]" data-node-id="23:254">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse75} />
       </div>
-      <div className="absolute flex items-center justify-center left-[800px] mix-blend-multiply size-[320px] top-[6117px]" data-node-id="23:255">
+      <div className="absolute flex items-center justify-center left-[800px] mix-blend-multiply size-[320px] top-[5985px]" data-node-id="23:255">
         <div className="-scale-y-100 flex-none rotate-180">
           <div className="relative size-[320px]">
             <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse77} />
           </div>
         </div>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] left-[720px] not-italic text-[32px] text-black text-center top-[6256px] w-[128px] [font-weight:500]" data-node-id="23:256">
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] left-[720px] not-italic text-[32px] text-black text-center top-[6124px] w-[128px] [font-weight:500]" data-node-id="23:256">
         X 轴
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] left-[840px] not-italic text-[32px] text-black text-center top-[6046px] w-[128px] [font-weight:500]" data-node-id="23:257">
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] left-[840px] not-italic text-[32px] text-black text-center top-[5914px] w-[128px] [font-weight:500]" data-node-id="23:257">
         Y 轴
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] left-[960px] not-italic text-[32px] text-black text-center top-[6256px] w-[128px] [font-weight:500]" data-node-id="23:258">
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] left-[960px] not-italic text-[32px] text-black text-center top-[6124px] w-[128px] [font-weight:500]" data-node-id="23:258">
         Z 轴
       </p>
-      <div className="absolute bg-[#dee6ff] content-stretch flex flex-col h-[176px] items-start left-[80px] px-[32px] py-[40px] rounded-[20px] top-[6189px] w-[430px]" data-node-id="23:259">
+      <div className="absolute bg-[#dee6ff] content-stretch flex flex-col h-[176px] items-start left-[80px] px-[32px] py-[40px] rounded-[20px] top-[6057px] w-[430px]" data-node-id="23:259">
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic relative shrink-0 text-black w-[366px]" data-node-id="23:260">
           <p className="font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[32px] relative shrink-0 text-[24px] w-full [font-weight:700]" data-node-id="23:261">
             酒店维度：
@@ -701,7 +690,7 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex flex-col h-[176px] items-start left-[1040px] px-[32px] py-[40px] rounded-[20px] top-[5927px] w-[430px]" data-node-id="23:263">
+      <div className="absolute bg-[#dee6ff] content-stretch flex flex-col h-[176px] items-start left-[1040px] px-[32px] py-[40px] rounded-[20px] top-[5795px] w-[430px]" data-node-id="23:263">
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic relative shrink-0 text-black w-[366px]" data-node-id="23:264">
           <p className="font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[32px] relative shrink-0 text-[24px] w-full [font-weight:700]" data-node-id="23:265">
             任务类型维度：
@@ -711,7 +700,7 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute bg-[#dee6ff] content-stretch flex flex-col h-[176px] items-start left-[1170px] px-[32px] py-[40px] rounded-[20px] top-[6189px] w-[430px]" data-node-id="23:267">
+      <div className="absolute bg-[#dee6ff] content-stretch flex flex-col h-[176px] items-start left-[1170px] px-[32px] py-[40px] rounded-[20px] top-[6057px] w-[430px]" data-node-id="23:267">
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic relative shrink-0 text-black w-[366px]" data-node-id="23:268">
           <p className="font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[32px] relative shrink-0 text-[24px] w-full [font-weight:700]" data-node-id="23:269">
             单任务维度：
@@ -721,7 +710,7 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[8870px] w-[1520px]" data-node-id="23:271">
+      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[8738px] w-[1520px]" data-node-id="23:271">
         <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="23:272">
           <div className="flex items-center justify-center relative shrink-0 size-[22.627px]" data-node-id="23:273">
             <div className="flex-none rotate-45">
@@ -736,7 +725,7 @@ export default function HotelTaskProject() {
           <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[16px] text-black w-full [font-weight:300]" data-node-id="23:276">{`采用 "核心筛选前置，更多筛选折叠" 的渐进式披露原则，核心筛选只保留四个最高频使用的筛选条件；已选条件以标签形式可视化，与已保存标签一起归类，方便删除与保存；更新最顶部筛选为Tab组件形式。整体筛选区占用空间减少 30%，平衡了易用性与功能性`}</p>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[5732px] w-[1520px]" data-node-id="23:277">
+      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[5600px] w-[1520px]" data-node-id="23:277">
         <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="23:278">
           <div className="flex items-center justify-center relative shrink-0 size-[22.627px]" data-node-id="23:279">
             <div className="flex-none rotate-45">
@@ -755,7 +744,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[10542px] w-[1520px]" data-node-id="23:284">
+      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[10410px] w-[1520px]" data-node-id="23:284">
         <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="23:285">
           <div className="flex items-center justify-center relative shrink-0 size-[22.627px]" data-node-id="23:286">
             <div className="flex-none rotate-45">
@@ -775,7 +764,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[12224px] w-[617px]" data-node-id="23:291">
+      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[12092px] w-[617px]" data-node-id="23:291">
         <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="23:292">
           <div className="flex items-center justify-center relative shrink-0 size-[22.627px]" data-node-id="23:293">
             <div className="flex-none rotate-45">
@@ -794,7 +783,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[7317px] w-[1520px]" data-node-id="23:298">
+      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[7185px] w-[1520px]" data-node-id="23:298">
         <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="23:299">
           <div className="flex items-center justify-center relative shrink-0 size-[22.627px]" data-node-id="23:300">
             <div className="flex-none rotate-45">
@@ -838,7 +827,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[60px] items-start left-[80px] top-[9546px] w-[640px]" data-node-id="23:315">
+      <div className="absolute content-stretch flex flex-col gap-[60px] items-start left-[80px] top-[9414px] w-[640px]" data-node-id="23:315">
         <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="23:316">
           <div className="flex items-center justify-center relative shrink-0 size-[22.627px]" data-node-id="23:317">
             <div className="flex-none rotate-45">
@@ -882,7 +871,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="-translate-x-1/2 absolute content-stretch flex gap-[32px] h-[380px] items-center left-1/2 top-[9046px] w-[1520px]" data-node-id="23:332">
+      <div className="-translate-x-1/2 absolute content-stretch flex gap-[32px] h-[380px] items-center left-1/2 top-[8914px] w-[1520px]" data-node-id="23:332">
         <div className="bg-gradient-to-b content-stretch flex flex-col from-[#e9eaee] h-full items-start pt-[60px] px-[40px] relative rounded-[40px] shrink-0 to-[#f1f5fe] w-[640px]" data-node-id="23:333">
           <div className="content-stretch flex flex-[1_0_0] flex-col items-center justify-between min-h-px relative w-full" data-node-id="23:334">
             <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:335">
@@ -932,14 +921,14 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute bg-gradient-to-b content-stretch flex from-[#dee6ff] items-end justify-center left-[752px] pt-[60px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[9546px] w-[848px]" data-node-id="23:351">
+      <div className="absolute bg-gradient-to-b content-stretch flex from-[#dee6ff] items-end justify-center left-[752px] pt-[60px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[9414px] w-[848px]" data-node-id="23:351">
         <div className="h-[418px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-[680px]" data-node-id="23:352" data-name="1926 2">
           <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[16px] rounded-tr-[16px]">
             <CaseImage alt="" className="absolute h-[99.98%] left-0 max-w-none top-0 w-full" src={img19262} />
           </div>
         </div>
       </div>
-      <div className="absolute bg-gradient-to-b content-stretch flex flex-col from-[#e9eaee] gap-[40px] items-center left-[752px] pt-[60px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[12164px] w-[848px]" data-node-id="23:353">
+      <div className="absolute bg-gradient-to-b content-stretch flex flex-col from-[#e9eaee] gap-[40px] items-center left-[752px] pt-[60px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[12032px] w-[848px]" data-node-id="23:353">
         <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:354">
           <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="23:355">
             <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r font-['MiSans','Inter','Noto_Sans_SC',sans-serif] from-[#3264ff] leading-[32px] not-italic relative shrink-0 text-[24px] text-[transparent] to-black whitespace-nowrap [font-weight:700]" data-node-id="23:356">
@@ -960,7 +949,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="-translate-x-1/2 absolute content-stretch flex gap-[32px] h-[620px] items-center left-1/2 top-[6537px] w-[1520px]" data-node-id="23:361">
+      <div className="-translate-x-1/2 absolute content-stretch flex gap-[32px] h-[620px] items-center left-1/2 top-[6405px] w-[1520px]" data-node-id="23:361">
         <div className="bg-gradient-to-b content-stretch flex flex-col from-[#e9eaee] h-full items-start pt-[60px] px-[40px] relative rounded-[40px] shrink-0 to-[#f1f5fe] w-[640px]" data-node-id="23:362">
           <div className="content-stretch flex flex-[1_0_0] flex-col items-center justify-between min-h-px relative w-full" data-node-id="23:363">
             <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:364">
@@ -1006,7 +995,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="-translate-x-1/2 absolute content-stretch flex gap-[32px] h-[680px] items-center left-1/2 top-[10724px] w-[1520px]" data-node-id="23:380">
+      <div className="-translate-x-1/2 absolute content-stretch flex gap-[32px] h-[680px] items-center left-1/2 top-[10592px] w-[1520px]" data-node-id="23:380">
         <div className="bg-gradient-to-b content-stretch flex flex-col from-[#e9eaee] h-full items-start pt-[60px] px-[40px] relative rounded-[40px] shrink-0 to-[#f1f5fe] w-[640px]" data-node-id="23:381">
           <div className="content-stretch flex flex-[1_0_0] flex-col items-center justify-between min-h-px relative w-full" data-node-id="23:382">
             <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:383">
@@ -1106,30 +1095,30 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute bg-white h-[256px] left-[1020px] rounded-[20px] top-[7572px] w-[580px]" data-node-id="23:421" />
-      <div className="absolute h-[540px] left-[80px] rounded-[16px] top-[7572px] w-[880px]" data-node-id="23:422" data-name="层级0 7">
+      <div className="absolute bg-white h-[256px] left-[1020px] rounded-[20px] top-[7440px] w-[580px]" data-node-id="23:421" />
+      <div className="absolute h-[540px] left-[80px] rounded-[16px] top-[7440px] w-[880px]" data-node-id="23:422" data-name="层级0 7">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[16px]">
           <CaseImage alt="清晰的页面布局与视觉层级：Global OPTIM 酒店任务界面" className="absolute inset-0 size-full object-contain" src={`${assetPathPrefix}/visual-hierarchy-v2.png`} />
         </div>
       </div>
-      <div className="absolute bg-white h-[252px] left-[1020px] rounded-[20px] top-[7848px] w-[580px]" data-node-id="23:423" />
-      <div className="absolute bg-white h-[190px] left-[80px] rounded-[20px] top-[8162px] w-[1520px]" data-node-id="23:424" />
-      <div className="absolute bg-[#f5f5f5] h-[100px] left-[112px] rounded-[10px] top-[8228px] w-[1456px]" data-node-id="23:425" />
-      <div className="absolute bg-white h-[60px] left-[132px] rounded-[10px] top-[8248px] w-[840px]" data-node-id="23:426" />
-      <div className="absolute bg-[#222] h-[60px] left-[984px] rounded-[10px] top-[8248px] w-[410px]" data-node-id="23:427" />
-      <div className="absolute bg-[#3264ff] h-[60px] left-[1406px] rounded-[10px] top-[8248px] w-[142px]" data-node-id="23:428" />
-      <div className="absolute bg-[#3264ff] left-[1412px] rounded-[6px] size-[28px] top-[8180px]" data-node-id="23:429" />
-      <div className="absolute border border-[#ccc] border-solid h-[40px] left-[1406px] rounded-[8px] top-[8174px] w-[162px]" data-node-id="23:430" />
-      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[1052px] not-italic text-[20px] text-black top-[7596px] whitespace-nowrap [font-weight:700]" data-node-id="23:431">
+      <div className="absolute bg-white h-[252px] left-[1020px] rounded-[20px] top-[7716px] w-[580px]" data-node-id="23:423" />
+      <div className="absolute bg-white h-[190px] left-[80px] rounded-[20px] top-[8030px] w-[1520px]" data-node-id="23:424" />
+      <div className="absolute bg-[#f5f5f5] h-[100px] left-[112px] rounded-[10px] top-[8096px] w-[1456px]" data-node-id="23:425" />
+      <div className="absolute bg-white h-[60px] left-[132px] rounded-[10px] top-[8116px] w-[840px]" data-node-id="23:426" />
+      <div className="absolute bg-[#222] h-[60px] left-[984px] rounded-[10px] top-[8116px] w-[410px]" data-node-id="23:427" />
+      <div className="absolute bg-[#3264ff] h-[60px] left-[1406px] rounded-[10px] top-[8116px] w-[142px]" data-node-id="23:428" />
+      <div className="absolute bg-[#3264ff] left-[1412px] rounded-[6px] size-[28px] top-[8048px]" data-node-id="23:429" />
+      <div className="absolute border border-[#ccc] border-solid h-[40px] left-[1406px] rounded-[8px] top-[8042px] w-[162px]" data-node-id="23:430" />
+      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[1052px] not-italic text-[20px] text-black top-[7464px] whitespace-nowrap [font-weight:700]" data-node-id="23:431">
         页面布局对应工作流
       </p>
-      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[1052px] not-italic text-[20px] text-black top-[7872px] whitespace-nowrap [font-weight:700]" data-node-id="23:432">
+      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[1052px] not-italic text-[20px] text-black top-[7740px] whitespace-nowrap [font-weight:700]" data-node-id="23:432">
         视觉权重对应业务信息优先级
       </p>
-      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[112px] not-italic text-[20px] text-black top-[8186px] whitespace-nowrap [font-weight:700]" data-node-id="23:433">
+      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[112px] not-italic text-[20px] text-black top-[8054px] whitespace-nowrap [font-weight:700]" data-node-id="23:433">
         克制的色彩权重体系
       </p>
-      <div className="absolute contents left-[1052px] top-[7644px]" data-node-id="23:434">
+      <div className="absolute contents left-[1052px] top-[7512px]" data-node-id="23:434">
         <div className="absolute bg-[rgba(245,245,245,0.7)] content-stretch flex flex-col h-[160px] items-start left-[1052px] pl-[60px] pr-[10px] py-[6px] rounded-[10px] top-[7644px] w-[320px]" data-node-id="23:435">
           <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-h-px relative w-full" data-node-id="23:436">
             <div className="bg-white content-stretch flex flex-col h-[38px] items-start p-[6px] relative rounded-[6px] shrink-0 w-[250px]" data-node-id="23:437">
@@ -1158,7 +1147,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[8px] items-start left-[1422px] top-[7658px] w-[96px]" data-node-id="23:453">
+      <div className="absolute content-stretch flex flex-col gap-[8px] items-start left-[1422px] top-[7526px] w-[96px]" data-node-id="23:453">
         <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:454">
           <div className="relative shrink-0 size-[8px]" data-node-id="23:455">
             <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse78} />
@@ -1192,7 +1181,7 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[12px] items-start leading-[24px] left-[1052px] not-italic text-[16px] text-black top-[7920px] w-[516px]" data-node-id="23:466">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[12px] items-start leading-[24px] left-[1052px] not-italic text-[16px] text-black top-[7788px] w-[516px]" data-node-id="23:466">
         <div className="content-stretch flex font-['MiSans','Inter','Noto_Sans_SC',sans-serif] gap-[20px] items-start relative shrink-0 w-full [font-weight:300]" data-node-id="23:467">
           <p className="relative shrink-0 w-[60px]" data-node-id="23:468">
             层级
@@ -1264,17 +1253,17 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="absolute bg-gradient-to-b from-[rgba(241,245,254,0)] h-[70px] left-[1020px] rounded-bl-[20px] rounded-br-[20px] to-[#f1f5fe] top-[8030px] w-[580px]" data-node-id="23:492" />
-      <div className="absolute bg-gradient-to-b from-[rgba(241,245,254,0)] h-[70px] left-[1020px] rounded-bl-[20px] rounded-br-[20px] to-[#f1f5fe] top-[7758px] w-[580px]" data-node-id="23:493" />
-      <div className="absolute bg-gradient-to-b from-[rgba(241,245,254,0)] h-[70px] left-[80px] rounded-bl-[20px] rounded-br-[20px] to-[#f1f5fe] top-[8282px] w-[1520px]" data-node-id="23:494" />
-      <div className="absolute bg-[#ccc] h-[40px] left-[1450px] top-[8174px] w-px" data-node-id="23:495" />
-      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] left-[1461px] not-italic text-[16px] text-black top-[8184px] whitespace-nowrap [font-weight:300]" data-node-id="23:496">
+      <div className="absolute bg-gradient-to-b from-[rgba(241,245,254,0)] h-[70px] left-[1020px] rounded-bl-[20px] rounded-br-[20px] to-[#f1f5fe] top-[7898px] w-[580px]" data-node-id="23:492" />
+      <div className="absolute bg-gradient-to-b from-[rgba(241,245,254,0)] h-[70px] left-[1020px] rounded-bl-[20px] rounded-br-[20px] to-[#f1f5fe] top-[7626px] w-[580px]" data-node-id="23:493" />
+      <div className="absolute bg-gradient-to-b from-[rgba(241,245,254,0)] h-[70px] left-[80px] rounded-bl-[20px] rounded-br-[20px] to-[#f1f5fe] top-[8150px] w-[1520px]" data-node-id="23:494" />
+      <div className="absolute bg-[#ccc] h-[40px] left-[1450px] top-[8042px] w-px" data-node-id="23:495" />
+      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] left-[1461px] not-italic text-[16px] text-black top-[8052px] whitespace-nowrap [font-weight:300]" data-node-id="23:496">
         #3264FF
       </p>
-      <div className="absolute left-[1422px] size-[32px] top-[8166px]" data-node-id="23:497" data-name="sip-line 1">
+      <div className="absolute left-[1422px] size-[32px] top-[8034px]" data-node-id="23:497" data-name="sip-line 1">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgSipLine1} />
       </div>
-      <div className="absolute bg-gradient-to-b content-stretch flex from-[#dee6ff] items-start justify-between left-[80px] pt-[40px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[11524px] w-[1520px]" data-node-id="23:500">
+      <div className="absolute bg-gradient-to-b content-stretch flex from-[#dee6ff] items-start justify-between left-[80px] pt-[40px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[11392px] w-[1520px]" data-node-id="23:500">
         <div className="content-stretch flex flex-[1_0_0] gap-[100px] items-start min-w-px relative self-stretch" data-node-id="23:501">
           <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px pb-[60px] pt-[80px] relative" data-node-id="23:502">
             <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="23:503">
@@ -1308,7 +1297,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="-translate-x-1/2 absolute bg-gradient-to-b content-stretch flex from-[#dee6ff] items-start left-1/2 pt-[60px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[12646px] w-[1520px]" data-node-id="23:513">
+      <div className="-translate-x-1/2 absolute bg-gradient-to-b content-stretch flex from-[#dee6ff] items-start left-1/2 pt-[60px] px-[40px] rounded-[40px] to-[#f1f5fe] top-[12514px] w-[1520px]" data-node-id="23:513">
         <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center min-w-px relative self-stretch" data-node-id="23:514">
           <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="23:515">
             <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="23:516">
@@ -1343,7 +1332,7 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute content-stretch flex items-center justify-between left-[100px] top-[13807px] w-[1480px]" data-node-id="23:525">
+      <div className="absolute content-stretch flex items-center justify-between left-[100px] top-[13675px] w-[1480px]" data-node-id="23:525">
         <div className="content-stretch flex flex-col gap-[40px] items-center relative shrink-0 w-[600px]" data-node-id="23:526">
           <div className="content-stretch flex gap-[28px] items-center relative shrink-0" data-node-id="23:527">
             <div className="h-[68px] relative shrink-0 w-[60px]" data-node-id="23:528" data-name="Union">
@@ -1376,7 +1365,7 @@ export default function HotelTaskProject() {
           </p>
         </div>
       </div>
-      <div className="-translate-x-1/2 absolute content-stretch flex gap-[40px] items-center left-1/2 top-[14138px]" data-node-id="23:542">
+      <div className="-translate-x-1/2 absolute content-stretch flex gap-[40px] items-center left-1/2 top-[14006px]" data-node-id="23:542">
         <div className="bg-white content-stretch flex gap-[10px] h-[80px] items-center px-[24px] py-[7px] relative rounded-[50px] shrink-0" data-node-id="23:543">
           <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="23:544" data-name="Mask group">
             <div className="col-1 h-[59px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_9px] mask-size-[44px_44px] ml-[-1px] mt-[-9px] relative row-1 w-[67px]" data-node-id="23:546" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
