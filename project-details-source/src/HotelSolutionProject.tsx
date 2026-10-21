@@ -470,7 +470,7 @@ export default function HotelSolutionProject() {
         <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-[320px]" data-node-id="1:408">
           <div className="bg-[#202020] content-stretch flex h-[68px] items-center justify-center px-[112px] py-[18px] relative rounded-[50px] shrink-0 w-full" data-node-id="1:409">
             <p className="[word-break:break-word] font-['MiSans'] font-medium leading-[32px] not-italic relative shrink-0 text-[24px] text-white whitespace-nowrap" data-node-id="1:410">
-              重塑叙事
+              打造认知
             </p>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[32px] not-italic relative shrink-0 text-[24px] text-black w-full" data-node-id="1:411">
