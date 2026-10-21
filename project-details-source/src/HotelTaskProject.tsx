@@ -1055,7 +1055,7 @@ export default function HotelTaskProject() {
               <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="23:406">
                 <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="23:407">
                   <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-full [font-weight:300]" data-node-id="23:408">
-                    酒店维度操作入口改用更为直观的企业logo；任务分类维度区分任务劣势确认操作与任务解决操作；具体任务维度将承载点击跳转的任务ID打平，直接点击整条均可跳转，其余操作字列表右侧直观展示。通过信息重新分离与聚合，使整体内容识别更快速高效，利于理解及操作
+                    酒店维度平台跳转入口改用更为直观的企业logo；任务分类维度区分任务劣势确认操作与任务解决操作；具体任务维度将承载点击跳转的任务ID打平，直接点击整条均可跳转，其余操作字列表右侧直观展示。通过信息重新分离与聚合，使整体内容识别更快速高效，利于理解及操作
                   </p>
                 </div>
               </div>
