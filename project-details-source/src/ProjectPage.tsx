@@ -700,7 +700,7 @@ export default function ProjectPage() {
           <div className="bg-black content-stretch flex flex-col gap-[20px] items-start p-[40px] relative rounded-[40px] shrink-0 w-full" data-node-id="6:304">
             <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="6:305">
               <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] not-italic relative shrink-0 text-[32px] text-white w-full [font-weight:700]" data-node-id="6:306">
-                系统透明化，规则前置
+                系统透明化设计，直白清晰
               </p>
             </div>
             <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="6:307">
@@ -5110,7 +5110,7 @@ export default function ProjectPage() {
               </div>
             </div>
             <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r font-['MiSans','Inter','Noto_Sans_SC',sans-serif] from-white leading-[normal] not-italic relative shrink-0 text-[68px] text-[transparent] to-[#8eaaff] whitespace-nowrap [font-weight:900]" data-node-id="6:2593">
-              系统透明化设计，规则前置
+              系统透明化设计，直白清晰
             </p>
           </div>
         </div>
