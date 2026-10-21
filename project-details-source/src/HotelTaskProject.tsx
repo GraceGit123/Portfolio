@@ -845,7 +845,7 @@ export default function HotelTaskProject() {
               </p>
             </div>
             <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-full [font-weight:300]" data-node-id="23:323">
-              将“Top酒店细化为“Top10”、“Top20”、“Top50”，符合业务考核诉求及操作认知
+              将“Top酒店”细化为“Top10”、“Top20”、“Top50”，符合业务考核诉求及操作认知
             </p>
           </div>
           <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="23:324">
