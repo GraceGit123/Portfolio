@@ -652,7 +652,7 @@ export default function HotelSolutionProject() {
             </div>
           </div>
           <p className="[word-break:break-word] font-['MiSans'] font-light leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-[1480px]" data-node-id="1:99">
-            匹配 B 端决策心智的线性叙事，形成完整的信任闭环
+            AI能力辅助设计，发掘设计可能并沉淀复用
           </p>
         </div>
       </div>
