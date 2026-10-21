@@ -72,6 +72,10 @@ export default function App() {
   const dialog = useRef<HTMLDialogElement>(null)
   const canvas = useRef<HTMLDivElement>(null)
 
+  useLayoutEffect(() => {
+    if (bodyRevision) window.dispatchEvent(new Event('portfolio:ready'))
+  }, [bodyRevision])
+
   // Reset before painting the destination, including browser back/forward navigation.
   useLayoutEffect(() => {
     window.scrollTo({ top: 0, behavior: 'auto' })

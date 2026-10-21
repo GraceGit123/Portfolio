@@ -477,8 +477,7 @@ export default function HotelTaskProject() {
                       <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147224634} />
                     </div>
                     <div className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-[391px] [font-weight:300]" data-node-id="23:203">
-                      <p className="leading-[24px] mb-0">快速锁定高价值任务困难</p>
-                      <p className="leading-[24px]">希望增加价值计算方式、任务倒计时及最近拜访时间，以判断跟进</p>
+                      <p className="leading-[24px]">任务价值认知困难，价值计算方式不清</p>
                     </div>
                   </div>
                   <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="23:204">
