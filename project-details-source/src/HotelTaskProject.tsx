@@ -557,17 +557,17 @@ export default function HotelTaskProject() {
       </div>
       <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[1160px] p-[40px] rounded-[20px] top-[4692px] w-[340px]" data-node-id="23:233">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:234">
-          用户工作流建模法
+          可读 | 用户工作流建模法
         </p>
       </div>
       <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[1160px] p-[40px] rounded-[20px] top-[4832px] w-[340px]" data-node-id="23:235">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:236">
-          业务价值驱动
+          决策 |  业务价值驱动
         </p>
       </div>
       <div className="absolute bg-[#dee6ff] content-stretch flex h-[110px] items-center justify-center left-[1160px] p-[40px] rounded-[20px] top-[4972px] w-[340px]" data-node-id="23:237">
         <p className="[word-break:break-word] flex-[1_0_0] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] min-w-px not-italic relative text-[24px] text-black text-center [font-weight:500]" data-node-id="23:238">
-          动作聚合原则
+          操作 |  聚合与强化
         </p>
       </div>
       <div className="absolute bg-white content-stretch flex flex-col items-center justify-center left-[230px] px-[60px] py-[88px] rounded-[140px] size-[240px] top-[4412px]" data-node-id="23:239">
