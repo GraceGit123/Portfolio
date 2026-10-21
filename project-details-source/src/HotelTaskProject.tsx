@@ -1094,31 +1094,8 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
-      <div className="absolute bg-white h-[256px] left-[1020px] rounded-[20px] top-[7440px] w-[580px]" data-node-id="23:421" />
-      <div className="absolute h-[540px] left-[80px] rounded-[16px] top-[7440px] w-[880px]" data-node-id="23:422" data-name="层级0 7">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[16px]">
-          <CaseImage alt="清晰的页面布局与视觉层级：Global OPTIM 酒店任务界面" className="absolute inset-0 size-full object-contain" src={`${assetPathPrefix}/visual-hierarchy-v2.png`} />
-        </div>
-      </div>
-      <div className="absolute bg-white h-[252px] left-[1020px] rounded-[20px] top-[7716px] w-[580px]" data-node-id="23:423" />
-      <div className="absolute bg-white h-[190px] left-[80px] rounded-[20px] top-[8030px] w-[1520px]" data-node-id="23:424" />
-      <div className="absolute bg-[#f5f5f5] h-[100px] left-[112px] rounded-[10px] top-[8096px] w-[1456px]" data-node-id="23:425" />
-      <div className="absolute bg-white h-[60px] left-[132px] rounded-[10px] top-[8116px] w-[840px]" data-node-id="23:426" />
-      <div className="absolute bg-[#222] h-[60px] left-[984px] rounded-[10px] top-[8116px] w-[410px]" data-node-id="23:427" />
-      <div className="absolute bg-[#3264ff] h-[60px] left-[1406px] rounded-[10px] top-[8116px] w-[142px]" data-node-id="23:428" />
-      <div className="absolute bg-[#3264ff] left-[1412px] rounded-[6px] size-[28px] top-[8048px]" data-node-id="23:429" />
-      <div className="absolute border border-[#ccc] border-solid h-[40px] left-[1406px] rounded-[8px] top-[8042px] w-[162px]" data-node-id="23:430" />
-      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[1052px] not-italic text-[20px] text-black top-[7464px] whitespace-nowrap [font-weight:700]" data-node-id="23:431">
-        页面布局对应工作流
-      </p>
-      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[1052px] not-italic text-[20px] text-black top-[7740px] whitespace-nowrap [font-weight:700]" data-node-id="23:432">
-        视觉权重对应业务信息优先级
-      </p>
-      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[112px] not-italic text-[20px] text-black top-[8054px] whitespace-nowrap [font-weight:700]" data-node-id="23:433">
-        克制的色彩权重体系
-      </p>
-      <div className="absolute contents left-[1052px] top-[7512px]" data-node-id="23:434">
-        <div className="absolute bg-[rgba(245,245,245,0.7)] content-stretch flex flex-col h-[160px] items-start left-[1052px] pl-[60px] pr-[10px] py-[6px] rounded-[10px] top-[7644px] w-[320px]" data-node-id="23:435">
+      <div className="absolute bg-white h-[256px] left-[1020px] rounded-[20px] top-[7440px] w-[580px]" data-node-id="23:421">
+        <div className="absolute bg-[rgba(245,245,245,0.7)] content-stretch flex flex-col h-[160px] items-start left-[32px] pl-[60px] pr-[10px] py-[6px] rounded-[10px] bottom-0 w-[320px]" data-node-id="23:435">
           <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-h-px relative w-full" data-node-id="23:436">
             <div className="bg-white content-stretch flex flex-col h-[38px] items-start p-[6px] relative rounded-[6px] shrink-0 w-[250px]" data-node-id="23:437">
               <div className="bg-[#eff3ff] flex-[1_0_0] min-h-px relative rounded-[4px] w-[238px]" data-node-id="23:438" />
@@ -1146,6 +1123,29 @@ export default function HotelTaskProject() {
           </div>
         </div>
       </div>
+      <div className="absolute h-[540px] left-[80px] rounded-[16px] top-[7440px] w-[880px]" data-node-id="23:422" data-name="层级0 7">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[16px]">
+          <CaseImage alt="清晰的页面布局与视觉层级：Global OPTIM 酒店任务界面" className="absolute inset-0 size-full object-contain" src={`${assetPathPrefix}/visual-hierarchy-v2.png`} />
+        </div>
+      </div>
+      <div className="absolute bg-white h-[252px] left-[1020px] rounded-[20px] top-[7716px] w-[580px]" data-node-id="23:423" />
+      <div className="absolute bg-white h-[190px] left-[80px] rounded-[20px] top-[8030px] w-[1520px]" data-node-id="23:424" />
+      <div className="absolute bg-[#f5f5f5] h-[100px] left-[112px] rounded-[10px] top-[8096px] w-[1456px]" data-node-id="23:425" />
+      <div className="absolute bg-white h-[60px] left-[132px] rounded-[10px] top-[8116px] w-[840px]" data-node-id="23:426" />
+      <div className="absolute bg-[#222] h-[60px] left-[984px] rounded-[10px] top-[8116px] w-[410px]" data-node-id="23:427" />
+      <div className="absolute bg-[#3264ff] h-[60px] left-[1406px] rounded-[10px] top-[8116px] w-[142px]" data-node-id="23:428" />
+      <div className="absolute bg-[#3264ff] left-[1412px] rounded-[6px] size-[28px] top-[8048px]" data-node-id="23:429" />
+      <div className="absolute border border-[#ccc] border-solid h-[40px] left-[1406px] rounded-[8px] top-[8042px] w-[162px]" data-node-id="23:430" />
+      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[1052px] not-italic text-[20px] text-black top-[7464px] whitespace-nowrap [font-weight:700]" data-node-id="23:431">
+        页面布局对应工作流
+      </p>
+      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[1052px] not-italic text-[20px] text-black top-[7740px] whitespace-nowrap [font-weight:700]" data-node-id="23:432">
+        视觉权重对应业务信息优先级
+      </p>
+      <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[28px] left-[112px] not-italic text-[20px] text-black top-[8054px] whitespace-nowrap [font-weight:700]" data-node-id="23:433">
+        克制的色彩权重体系
+      </p>
+      
       <div className="absolute content-stretch flex flex-col gap-[8px] items-start left-[1422px] top-[7526px] w-[96px]" data-node-id="23:453">
         <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="23:454">
           <div className="relative shrink-0 size-[8px]" data-node-id="23:455">
