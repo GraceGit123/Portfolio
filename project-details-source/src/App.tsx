@@ -17,8 +17,8 @@ const promotionChapters = [
   { name: '问题洞察', node: '6:292', mobile: 'insights' },
   { name: '设计策略', node: '6:287', mobile: 'strategy' },
   { name: '设计方案', node: '6:362', mobile: 'design' },
-  { name: '经验总结', node: '6:3844', mobile: 'workflow' },
   { name: '数据反馈', node: '6:3950', mobile: 'results' },
+  { name: '经验总结', node: '6:3844', mobile: 'workflow' },
 ]
 const hotelChapters = [
   { name: '项目背景', node: '23:81', mobile: '' },
