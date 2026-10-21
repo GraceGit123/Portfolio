@@ -452,7 +452,7 @@ export default function ProjectPage() {
         </div>
       </div>
       <div className="absolute left-0 top-[2630px] w-full"><InsightMarquee /></div>
-      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[15592px] w-[1520px]" data-node-id="6:203">
+      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[13552px] w-[1520px]" data-node-id="6:203">
         <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="6:204">
           <div className="flex items-center justify-center relative shrink-0 size-[22.627px]" data-node-id="6:205">
             <div className="flex-none rotate-45">
@@ -473,7 +473,7 @@ export default function ProjectPage() {
           </div>
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[13552px] w-[1520px]" data-node-id="6:211">
+      <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[80px] top-[14487px] w-[1520px]" data-node-id="6:211">
         <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="6:212">
           <div className="flex items-center justify-center relative shrink-0 size-[22.627px]" data-node-id="6:213">
             <div className="flex-none rotate-45">
@@ -5479,22 +5479,22 @@ export default function ProjectPage() {
       <p className="[word-break:break-word] absolute font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] left-[80px] not-italic text-[32px] text-white top-[12110px] w-[1520px] [font-weight:700]" data-node-id="6:3557">
         页面布局
       </p>
-      <div className="absolute flex h-[414.355px] items-center justify-center left-[737px] top-[15872.65px] w-[517.151px]" data-node-id="6:3558">
+      <div className="absolute flex h-[414.355px] items-center justify-center left-[737px] top-[13832.65px] w-[517.151px]" data-node-id="6:3558">
         <div className="-rotate-6 -skew-x-6 flex-none scale-y-99">
           <div className="bg-gradient-to-b from-[#3264ff] h-[360px] relative rounded-[20px] to-[rgba(50,100,255,0)] w-[520px]" />
         </div>
       </div>
-      <div className="absolute flex h-[414.355px] items-center justify-center left-[897px] top-[15912.65px] w-[517.151px]" data-node-id="6:3559">
+      <div className="absolute flex h-[414.355px] items-center justify-center left-[897px] top-[13872.65px] w-[517.151px]" data-node-id="6:3559">
         <div className="-rotate-6 -skew-x-6 flex-none scale-y-99">
           <div className="backdrop-blur-[20px] bg-gradient-to-b from-[#7e9dff] h-[360px] relative rounded-[20px] to-[rgba(126,157,255,0)] w-[520px]" />
         </div>
       </div>
-      <div className="absolute flex h-[414.355px] items-center justify-center left-[1057px] top-[15952.65px] w-[517.151px]" data-node-id="6:3560">
+      <div className="absolute flex h-[414.355px] items-center justify-center left-[1057px] top-[13912.65px] w-[517.151px]" data-node-id="6:3560">
         <div className="-rotate-6 -skew-x-6 flex-none scale-y-99">
           <div className="backdrop-blur-[20px] bg-gradient-to-b from-white h-[360px] relative rounded-[20px] to-[rgba(255,255,255,0)] w-[520px]" />
         </div>
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col items-center left-[777px] not-italic top-[15767px]" data-node-id="6:3561">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col items-center left-[777px] not-italic top-[13727px]" data-node-id="6:3561">
         <p className="font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] relative shrink-0 text-[20px] text-white w-full [font-weight:700]" data-node-id="6:3562">
           背景层
         </p>
@@ -5502,7 +5502,7 @@ export default function ProjectPage() {
           纯色基础背景
         </p>
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col items-center left-[120px] not-italic top-[15767px]" data-node-id="6:3564">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col items-center left-[120px] not-italic top-[13727px]" data-node-id="6:3564">
         <p className="font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] relative shrink-0 text-[20px] text-white w-full [font-weight:700]" data-node-id="6:3565">
           容器效果
         </p>
@@ -5510,7 +5510,7 @@ export default function ProjectPage() {
           信息叠加后效果
         </p>
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col items-center left-[937px] not-italic top-[15767px]" data-node-id="6:3567">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col items-center left-[937px] not-italic top-[13727px]" data-node-id="6:3567">
         <p className="font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] relative shrink-0 text-[20px] text-white w-full [font-weight:700]" data-node-id="6:3568">
           卡片层
         </p>
@@ -5518,7 +5518,7 @@ export default function ProjectPage() {
           承载内容信息
         </p>
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col items-center left-[1097px] not-italic top-[15767px]" data-node-id="6:3570">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col items-center left-[1097px] not-italic top-[13727px]" data-node-id="6:3570">
         <p className="font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[normal] relative shrink-0 text-[20px] text-white w-full [font-weight:700]" data-node-id="6:3571">
           信息层
         </p>
@@ -5526,16 +5526,16 @@ export default function ProjectPage() {
           展示促销信息
         </p>
       </div>
-      <div className="absolute h-[205px] left-[777px] top-[15833px] w-[10px]" data-node-id="6:3573" data-name="Union">
+      <div className="absolute h-[205px] left-[777px] top-[13793px] w-[10px]" data-node-id="6:3573" data-name="Union">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
       </div>
-      <div className="absolute h-[205px] left-[937px] top-[15833px] w-[10px]" data-node-id="6:3576" data-name="Union">
+      <div className="absolute h-[205px] left-[937px] top-[13793px] w-[10px]" data-node-id="6:3576" data-name="Union">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
       </div>
-      <div className="absolute h-[205px] left-[1097px] top-[15833px] w-[10px]" data-node-id="6:3579" data-name="Union">
+      <div className="absolute h-[205px] left-[1097px] top-[13793px] w-[10px]" data-node-id="6:3579" data-name="Union">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[40px] items-start leading-[32px] left-[720px] not-italic text-[24px] top-[13810px]" data-node-id="6:3582">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[40px] items-start leading-[32px] left-[720px] not-italic text-[24px] top-[14745px]" data-node-id="6:3582">
         <div className="content-stretch flex font-['MiSans','Inter','Noto_Sans_SC',sans-serif] gap-[40px] items-start relative shrink-0 text-[#3264ff] w-full [font-weight:900]" data-node-id="6:3583">
           <p className="relative shrink-0 w-[180px]" data-node-id="6:3584">
             使用场景
@@ -5639,20 +5639,20 @@ export default function ProjectPage() {
           </p>
         </div>
       </div>
-      <div className="absolute flex h-[471.05px] items-center justify-center left-[80px] top-[15864.28px] w-[596.713px]" data-node-id="6:3619">
+      <div className="absolute flex h-[471.05px] items-center justify-center left-[80px] top-[13824.28px] w-[596.713px]" data-node-id="6:3619">
         <div className="-rotate-6 -skew-x-6 flex-none scale-y-99">
           <div className="promotion-gradient-frame h-[408.333px] relative rounded-[12px] w-[600px]" data-name="促销列表0 2">
             <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full" src={img65} />
           </div>
         </div>
       </div>
-      <div className="absolute h-[205px] left-[120px] top-[15833px] w-[10px]" data-node-id="6:3620" data-name="Union">
+      <div className="absolute h-[205px] left-[120px] top-[13793px] w-[10px]" data-node-id="6:3620" data-name="Union">
         <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion2} />
       </div>
-      <div className="absolute left-[80px] size-[580px] top-[13740px]" data-node-id="6:3623" data-name="Group 232 1">
+      <div className="absolute left-[80px] size-[580px] top-[14675px]" data-node-id="6:3623" data-name="Group 232 1">
         <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup2321} />
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[60px] items-start left-[80px] top-[14440px] w-[1520px]" data-node-id="6:3624">
+      <div className="absolute content-stretch flex flex-col gap-[60px] items-start left-[80px] top-[15375px] w-[1520px]" data-node-id="6:3624">
         <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-node-id="6:3625">
           <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="6:3626">
             <div className="flex items-center justify-center relative shrink-0 size-[22.627px]" data-node-id="6:3627">
