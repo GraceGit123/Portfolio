@@ -906,8 +906,8 @@ export default function HotelTaskProject() {
                 <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="23:348">
                   <div className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-black w-full [font-weight:300]" data-node-id="23:349">
                     <p className="leading-[24px] mb-0">经使用数据及用户调研发现，所有筛选项均有使用，但使用率差异较大，默认展示占比82%的前4个筛选项；</p>
-                    <p className="leading-[24px] mb-0">筛选形成的字标签与已存标签 位置归类，点击“保存”后直接展示在下方，增强关联性，降低认知负荷；</p>
-                    <p className="leading-[24px]">操作遵循从左至右的形式，时间展示信息归</p>
+                    <p className="leading-[24px] mb-0">筛选形成的子标签与已存标签 位置归类，点击“保存”后直接展示在下方，增强关联性，降低认知负荷；</p>
+                    <p className="leading-[24px]">操作内容统一分区，从左向右；关于时间的辅助信息居右</p>
                   </div>
                 </div>
               </div>
