@@ -777,7 +777,7 @@ export default function HotelTaskProject() {
         <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="23:295">
           <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="23:296">
             <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black w-full [font-weight:300]" data-node-id="23:297">
-              经用户调研及使用数据确认，任务操作主要为查看详情、发送邮件、添加记录，而批量操作使用率极低。因此，将原本需精准点击的主要操作入口放大，放置页面右下角作为主操作入口，在快速锚定的同时，与系统规范保持一致
+              去除原页面一直存在的多选框，并将批量操作入口收紧，只保留一个跳转入口，既满足个别使用场景，又能减少用户操作错误的情况。
             </p>
           </div>
         </div>
