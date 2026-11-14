@@ -18,12 +18,12 @@ export default function Frame2147236960() {
         <div className="content-stretch flex flex-col gap-[120px] items-start relative shrink-0 w-full" data-node-id="1:3043">
           <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0" data-node-id="1:3044">
             <div className="[word-break:break-word] flex flex-col font-sans [font-weight:300] justify-center leading-[0] not-italic relative shrink-0 text-[24px] text-white tracking-[4.8px] w-full" data-node-id="1:3045">
-              <p className="leading-[normal]">/ INTERACTION</p>
+              <p className="leading-[normal] font-sans [font-weight:300]">/ INTERACTION</p>
             </div>
             <div className="content-stretch flex gap-[32px] items-center relative shrink-0 w-full" data-node-id="1:3046">
               <div className="bg-white content-stretch flex flex-col items-center justify-center pb-[8px] pt-[12px] px-[2px] relative rounded-[16px] shrink-0 size-[80px]" data-node-id="1:3047">
                 <div className="[word-break:break-word] flex flex-col font-sans [font-weight:900] justify-center leading-[0] not-italic relative shrink-0 text-[56px] text-black text-center whitespace-nowrap" data-node-id="1:3048">
-                  <p className="leading-[60px]">03</p>
+                  <p className="leading-[60px] font-sans [font-weight:900]">03</p>
                 </div>
               </div>
               <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r font-sans [font-weight:900] from-white leading-[normal] not-italic relative shrink-0 text-[68px] text-[transparent] to-[#8eaaff] whitespace-nowrap" data-node-id="1:3049">
@@ -104,10 +104,10 @@ export default function Frame2147236960() {
                 </div>
                 <div className="bg-gradient-to-b border border-[#bdcdff] border-solid col-1 content-stretch flex flex-col from-[#3264ff] items-center justify-center ml-[146px] mt-[113px] px-[34px] py-[16px] relative rounded-[100px] row-1 size-[180px] to-[#799aff]" data-node-id="1:3075">
                   <div className="[word-break:break-word] content-stretch flex flex-col font-sans [font-weight:700] gap-[4px] items-center leading-[normal] not-italic relative shrink-0 text-[20px] text-white w-[88px]" data-node-id="1:3076">
-                    <p className="relative shrink-0 text-center whitespace-nowrap" data-node-id="1:3077">
+                    <p className="relative shrink-0 text-center whitespace-nowrap font-sans [font-weight:700]" data-node-id="1:3077">
                       生效规则
                     </p>
-                    <p className="min-w-full relative shrink-0 w-[min-content]" data-node-id="1:3078">
+                    <p className="min-w-full relative shrink-0 w-[min-content] font-sans [font-weight:700]" data-node-id="1:3078">
                       互斥/叠加
                     </p>
                   </div>
@@ -151,7 +151,7 @@ export default function Frame2147236960() {
                         <p className="font-sans [font-weight:700] leading-[32px] relative shrink-0 text-[24px] text-black w-full" data-node-id="1:3092">
                           确定查看范围
                         </p>
-                        <p className="font-sans [font-weight:500] leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3093">
+                        <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3093">
                           确认日期和房型，为后续信息明确范围
                         </p>
                       </div>
@@ -185,7 +185,7 @@ export default function Frame2147236960() {
                         <p className="[word-break:break-word] font-sans [font-weight:700] leading-[32px] min-w-full not-italic relative shrink-0 text-[24px] text-black w-[min-content]" data-node-id="1:3105">
                           查看促销信息
                         </p>
-                        <p className="[word-break:break-word] font-sans [font-weight:500] leading-[22px] min-w-full not-italic relative shrink-0 text-[#666] text-[14px] w-[min-content]" data-node-id="1:3106">
+                        <p className="[word-break:break-word] leading-[22px] min-w-full not-italic relative shrink-0 text-[#666] text-[14px] w-[min-content] font-sans [font-weight:300]" data-node-id="1:3106">
                           按照促销分类，从分组-详情依次查看
                         </p>
                         <div className="content-stretch flex gap-[9px] items-center justify-center relative shrink-0" data-node-id="1:3107" data-name="抽象图形">
@@ -219,7 +219,7 @@ export default function Frame2147236960() {
                         <p className="font-sans [font-weight:700] leading-[32px] relative shrink-0 text-[24px] text-black w-full" data-node-id="1:3118">
                           理解生效条件
                         </p>
-                        <p className="font-sans [font-weight:500] leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3119">
+                        <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3119">
                           结合用户身份与适用条件，理解互斥或叠加
                         </p>
                       </div>
@@ -256,7 +256,7 @@ export default function Frame2147236960() {
                         <p className="font-sans [font-weight:700] leading-[32px] relative shrink-0 text-[24px] text-black w-full" data-node-id="1:3132">
                           核对折扣优惠结果
                         </p>
-                        <p className="font-sans [font-weight:500] leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3133">
+                        <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3133">
                           明确优惠幅度与适用范围
                         </p>
                       </div>

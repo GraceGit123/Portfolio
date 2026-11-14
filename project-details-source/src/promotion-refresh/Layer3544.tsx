@@ -6,7 +6,6 @@ const img4 = `${assetPathPrefix}/7fd85.png`;
 const img5 = `${assetPathPrefix}/f2a96.png`;
 const img6 = `${assetPathPrefix}/9f94d.png`;
 const img7 = `${assetPathPrefix}/fee1e.png`;
-const imgImage215 = `${assetPathPrefix}/a11cb.svg`;
 const imgVector149 = `${assetPathPrefix}/5d3c9.svg`;
 const img = `${assetPathPrefix}/bb24c.svg`;
 const img283 = `${assetPathPrefix}/2b64d.svg`;
@@ -76,41 +75,13 @@ export default function Frame2147236991() {
                 Before
               </p>
               <div className="content-stretch flex flex-col gap-[36px] items-start leading-[0] relative shrink-0 w-[84px]" data-node-id="1:3565">
-                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1:3566" data-name="Mask group">
-                  <div className="col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_412px] mask-size-[84px_84px] ml-[-372px] mt-[-412px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="1:3568" style={{ maskImage: `url("${imgImage215}")` }} data-name="image 215">
-                    <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
+                {[412, 640, 866, 1098, 1330].map(y => (
+                  <div key={y} className="relative size-[84px] shrink-0 overflow-hidden rounded-full">
+                    <div className="absolute h-[1430.012px] w-[2560px]" style={{ left: -372, top: -y }}>
                       <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage216} />
                     </div>
                   </div>
-                </div>
-                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1:3569" data-name="Mask group">
-                  <div className="col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_640px] mask-size-[84px_84px] ml-[-372px] mt-[-640px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="1:3571" style={{ maskImage: `url("${imgImage215}")` }} data-name="image 215">
-                    <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
-                      <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage216} />
-                    </div>
-                  </div>
-                </div>
-                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1:3572" data-name="Mask group">
-                  <div className="col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_866px] mask-size-[84px_84px] ml-[-372px] mt-[-866px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="1:3574" style={{ maskImage: `url("${imgImage215}")` }} data-name="image 215">
-                    <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
-                      <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage216} />
-                    </div>
-                  </div>
-                </div>
-                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1:3575" data-name="Mask group">
-                  <div className="col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_1098px] mask-size-[84px_84px] ml-[-372px] mt-[-1098px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="1:3577" style={{ maskImage: `url("${imgImage215}")` }} data-name="image 215">
-                    <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
-                      <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage216} />
-                    </div>
-                  </div>
-                </div>
-                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1:3578" data-name="Mask group">
-                  <div className="col-1 h-[1430.012px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[372px_1330px] mask-size-[84px_84px] ml-[-372px] mt-[-1330px] relative rounded-[32px] row-1 w-[2560px]" data-node-id="1:3580" style={{ maskImage: `url("${imgImage215}")` }} data-name="image 215">
-                    <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
-                      <CaseImage alt="" className="absolute h-[100.71%] left-[-0.49%] max-w-none top-[-0.71%] w-[101.06%]" src={imgImage216} />
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
             <div className="h-0 relative shrink-0 w-[300px]" data-node-id="1:3581">

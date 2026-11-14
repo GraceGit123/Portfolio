@@ -77,7 +77,7 @@ export default function Frame2147236986() {
                         #EB6A01
                       </p>
                       <p className="relative shrink-0" data-node-id="1:3454">
-                        辅助橙
+                        状态橙
                       </p>
                     </div>
                   </div>

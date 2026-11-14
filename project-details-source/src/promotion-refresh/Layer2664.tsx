@@ -7,7 +7,7 @@ export default function Frame2147224658() {
     <div className="content-stretch flex flex-col gap-[80px] items-start relative size-full" data-node-id="1:2664">
       <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] items-start not-italic relative shrink-0 text-black w-full" data-node-id="1:2665">
         <div className="flex flex-col font-sans [font-weight:300] justify-center leading-[0] relative shrink-0 text-[24px] tracking-[4.8px] w-full" data-node-id="1:2666">
-          <p className="leading-[normal]">/ AI WORKFLOW</p>
+          <p className="leading-[normal] font-sans [font-weight:300]">/ AI WORKFLOW</p>
         </div>
         <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="1:2667">
           <p className="font-sans [font-weight:900] leading-[normal] min-w-full relative shrink-0 text-[80px] w-[min-content]" data-node-id="1:2668">
@@ -45,7 +45,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2683">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2684">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2684">
                   明确业务目标、用户场景、成功指标
                 </p>
               </div>
@@ -53,7 +53,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2686">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2687">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2687">
                   判断真实问题，而不是照收表面功能
                 </p>
               </div>
@@ -61,7 +61,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2689">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2690">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2690">
                   识别限制条件、优先级和风险边界
                 </p>
               </div>
@@ -92,7 +92,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2702">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2703">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2703">
                   输入PRD、用户反馈、竞品资料、Demo等内容
                 </p>
               </div>
@@ -100,7 +100,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2705">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2706">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2706">
                   提取目标、角色、场景、任务和业务规则
                 </p>
               </div>
@@ -108,7 +108,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2708">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2709">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2709">
                   生成需求摘要、待确认问题和设计线索
                 </p>
               </div>
@@ -139,7 +139,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2721">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2722">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2722">
                   拆解页面、模块、元素、功能依赖
                 </p>
               </div>
@@ -147,7 +147,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2724">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2725">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2725">
                   梳理用户路径、状态、异常和边界场景
                 </p>
               </div>
@@ -155,7 +155,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2727">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2728">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2728">
                   输出页面清单、模块结构和状态说明
                 </p>
               </div>
@@ -188,7 +188,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2741">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2742">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2742">
                   判断设计方向、交互策略、信息层级等
                 </p>
               </div>
@@ -196,7 +196,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2744">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2745">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2745">
                   判断视觉形式及重点信息
                 </p>
               </div>
@@ -204,7 +204,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2747">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2748">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2748">
                   平衡体验、业务、技术和成本
                 </p>
               </div>
@@ -235,7 +235,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2760">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2761">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2761">
                   生成页面描述文件 / 设计文档
                 </p>
               </div>
@@ -243,7 +243,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2763">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2764">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2764">
                   根据设计系统，形成Figma初稿、Make原型或探索
                 </p>
               </div>
@@ -251,7 +251,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2766">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2767">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2767">
                   结果必须可编辑、可追溯、可复用
                 </p>
               </div>
@@ -282,7 +282,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2779">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2780">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2780">
                   根据目标完成Figma页面
                 </p>
               </div>
@@ -290,7 +290,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2782">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2783">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2783">
                   检查一致性、可用性、可访问性、完整性
                 </p>
               </div>
@@ -298,7 +298,7 @@ export default function Frame2147224658() {
                 <div className="relative shrink-0 size-[6px]" data-node-id="1:2785">
                   <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
                 </div>
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2786">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2786">
                   统一规范形式，形成可评审版本
                 </p>
               </div>

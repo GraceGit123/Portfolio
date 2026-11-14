@@ -33,7 +33,7 @@ export default function Frame2147236854() {
             <div className="content-stretch flex flex-col h-[244px] items-start justify-center px-[28px] relative shrink-0 w-full" data-node-id="1:341" data-name="促销条目">
               <div className="content-stretch flex gap-[12px] h-[34px] items-center relative shrink-0 w-[336px]" data-node-id="1:342" data-name="天天特价">
                 <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:342;2:22" data-name="条目前导符" />
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:342;2:23">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:342;2:23">
                   天天特价
                 </p>
               </div>
@@ -65,13 +65,13 @@ export default function Frame2147236854() {
               <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="1:354">
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:355" data-name="出行特惠">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:355;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:355;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:355;2:23">
                     出行特惠
                   </p>
                 </div>
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:356" data-name="门店新客">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:356;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:356;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:356;2:23">
                     门店新客
                   </p>
                 </div>
@@ -79,13 +79,13 @@ export default function Frame2147236854() {
               <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="1:357">
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:358" data-name="出行特惠">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:358;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:358;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:358;2:23">
                     学生专享
                   </p>
                 </div>
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:359" data-name="门店新客">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:359;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:359;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:359;2:23">
                     连住优惠
                   </p>
                 </div>
@@ -93,13 +93,13 @@ export default function Frame2147236854() {
               <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="1:360">
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:361" data-name="出行特惠">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:361;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:361;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:361;2:23">
                     多间立减
                   </p>
                 </div>
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:362" data-name="门店新客">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:362;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:362;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:362;2:23">
                     提前预订
                   </p>
                 </div>
@@ -107,13 +107,13 @@ export default function Frame2147236854() {
               <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="1:363">
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:364" data-name="出行特惠">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:364;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:364;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:364;2:23">
                     今夜甩卖
                   </p>
                 </div>
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:365" data-name="门店新客">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:365;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:365;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:365;2:23">
                     限时抢购
                   </p>
                 </div>
@@ -121,13 +121,13 @@ export default function Frame2147236854() {
               <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="1:366">
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:367" data-name="出行特惠">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:367;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:367;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:367;2:23">
                     商旅专享
                   </p>
                 </div>
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:368" data-name="门店新客">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:368;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:368;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:368;2:23">
                     钟点房促销
                   </p>
                 </div>
@@ -135,7 +135,7 @@ export default function Frame2147236854() {
               <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="1:369">
                 <div className="content-stretch flex flex-[1_0_0] gap-[12px] h-[34px] items-center min-w-px relative" data-node-id="1:370" data-name="出行特惠">
                   <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:370;2:22" data-name="条目前导符" />
-                  <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:370;2:23">
+                  <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:370;2:23">
                     YOYO卡扫码住
                   </p>
                 </div>
@@ -167,25 +167,25 @@ export default function Frame2147236854() {
             <div className="content-stretch flex flex-col h-[244px] items-start justify-center px-[28px] relative shrink-0 w-full" data-node-id="1:382" data-name="促销条目">
               <div className="content-stretch flex gap-[12px] h-[34px] items-center relative shrink-0 w-full" data-node-id="1:383" data-name="本地特惠红包">
                 <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:383;2:22" data-name="条目前导符" />
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:383;2:23">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:383;2:23">
                   本地特惠红包
                 </p>
               </div>
               <div className="content-stretch flex gap-[12px] h-[34px] items-center relative shrink-0 w-full" data-node-id="1:384" data-name="意向挽留红包">
                 <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:384;2:22" data-name="条目前导符" />
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:384;2:23">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:384;2:23">
                   意向挽留红包
                 </p>
               </div>
               <div className="content-stretch flex gap-[12px] h-[34px] items-center relative shrink-0 w-full" data-node-id="1:385" data-name="万马聚财红包">
                 <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:385;2:22" data-name="条目前导符" />
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:385;2:23">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:385;2:23">
                   万马聚财红包
                 </p>
               </div>
               <div className="content-stretch flex gap-[12px] h-[34px] items-center relative shrink-0 w-full" data-node-id="1:386" data-name="YOYO卡红包">
                 <div className="bg-[rgba(153,153,153,0.5)] relative rounded-[3px] shrink-0 size-[5px]" data-node-id="I1:386;2:22" data-name="条目前导符" />
-                <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[1.45] min-w-px not-italic relative text-[17px] text-black" data-node-id="I1:386;2:23">
+                <p className="[word-break:break-word] flex-[1_0_0] leading-[1.45] min-w-px not-italic relative text-[17px] text-black font-sans [font-weight:300]" data-node-id="I1:386;2:23">
                   YOYO卡红包
                 </p>
               </div>
@@ -213,7 +213,7 @@ export default function Frame2147236854() {
             </div>
             <div className="bg-[#e8f6f0] content-stretch flex h-[44px] items-start pl-[28px] relative shrink-0 w-full" data-node-id="1:396" data-name="组内规则">
               <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:397">
-                <p className="[word-break:break-word] font-sans [font-weight:650] leading-[24px] not-italic relative shrink-0 text-[#0b804d] text-[16px] whitespace-nowrap" data-node-id="1:398">
+                <p className="[word-break:break-word] leading-[24px] not-italic relative shrink-0 text-[#0b804d] text-[16px] whitespace-nowrap font-sans [font-weight:300]" data-node-id="1:398">
                   全用户生效，偏向于基础调价功能的促销
                 </p>
               </div>
@@ -234,7 +234,7 @@ export default function Frame2147236854() {
             </div>
             <div className="bg-[#fdf0e6] content-stretch flex h-[44px] items-start pl-[28px] relative shrink-0 w-full" data-node-id="1:405" data-name="组内规则">
               <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:406">
-                <p className="[word-break:break-word] font-sans [font-weight:650] leading-[24px] not-italic relative shrink-0 text-[#bc5400] text-[16px] whitespace-nowrap" data-node-id="1:407">
+                <p className="[word-break:break-word] leading-[24px] not-italic relative shrink-0 text-[#bc5400] text-[16px] whitespace-nowrap font-sans [font-weight:300]" data-node-id="1:407">
                   针对不同类型用户生效，具有特殊场景化能力
                 </p>
               </div>
@@ -255,7 +255,7 @@ export default function Frame2147236854() {
             </div>
             <div className="bg-[#fce7e7] content-stretch flex h-[44px] items-start pl-[28px] relative shrink-0 w-full" data-node-id="1:414" data-name="组内规则">
               <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:415">
-                <p className="[word-break:break-word] font-sans [font-weight:650] leading-[24px] not-italic relative shrink-0 text-[#b50c01] text-[16px] whitespace-nowrap" data-node-id="1:416">
+                <p className="[word-break:break-word] leading-[24px] not-italic relative shrink-0 text-[#b50c01] text-[16px] whitespace-nowrap font-sans [font-weight:300]" data-node-id="1:416">
                   具有场景针对性的红包促销
                 </p>
               </div>

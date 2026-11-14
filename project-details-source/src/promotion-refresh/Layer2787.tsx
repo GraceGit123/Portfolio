@@ -32,7 +32,7 @@ export default function Component() {
               <div className="relative shrink-0 size-[6px]" data-node-id="1:2800">
                 <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
               </div>
-              <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2801">
+              <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2801">
                 持续补充设计系统、组件索引与页面模板
               </p>
             </div>
@@ -40,7 +40,7 @@ export default function Component() {
               <div className="relative shrink-0 size-[6px]" data-node-id="1:2803">
                 <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
               </div>
-              <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2804">
+              <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2804">
                 补充页面模板、业务组件和交互模式内容
               </p>
             </div>
@@ -48,7 +48,7 @@ export default function Component() {
               <div className="relative shrink-0 size-[6px]" data-node-id="1:2806">
                 <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
               </div>
-              <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2807">
+              <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2807">
                 输出缺失组件与规则缺口清单
               </p>
             </div>
@@ -83,7 +83,7 @@ export default function Component() {
             <div className="relative shrink-0 size-[6px]" data-node-id="1:2823">
               <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
             </div>
-            <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2824">
+            <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2824">
               检查一致性、可用性、可访问性、完整性
             </p>
           </div>
@@ -91,7 +91,7 @@ export default function Component() {
             <div className="relative shrink-0 size-[6px]" data-node-id="1:2826">
               <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
             </div>
-            <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2827">
+            <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2827">
               发现缺漏、重复、冲突和规范不一致
             </p>
           </div>
@@ -99,7 +99,7 @@ export default function Component() {
             <div className="relative shrink-0 size-[6px]" data-node-id="1:2829">
               <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
             </div>
-            <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2830">
+            <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2830">
               输出AI质检报告和待人工确认项
             </p>
           </div>
@@ -130,7 +130,7 @@ export default function Component() {
             <div className="relative shrink-0 size-[6px]" data-node-id="1:2842">
               <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
             </div>
-            <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2843">
+            <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2843">
               回收上线数据、用户反馈和QA问题
             </p>
           </div>
@@ -138,7 +138,7 @@ export default function Component() {
             <div className="relative shrink-0 size-[6px]" data-node-id="1:2845">
               <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
             </div>
-            <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2846">
+            <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2846">
               更新组件库、模板、检查清单和Skills
             </p>
           </div>
@@ -146,7 +146,7 @@ export default function Component() {
             <div className="relative shrink-0 size-[6px]" data-node-id="1:2848">
               <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse244} />
             </div>
-            <p className="[word-break:break-word] flex-[1_0_0] font-sans [font-weight:500] leading-[24px] min-w-px not-italic relative text-[16px] text-black" data-node-id="1:2849">
+            <p className="[word-break:break-word] flex-[1_0_0] leading-[24px] min-w-px not-italic relative text-[16px] text-black font-sans [font-weight:300]" data-node-id="1:2849">
               根据问题调整，维护系统稳定
             </p>
           </div>

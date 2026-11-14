@@ -15,10 +15,10 @@ const promotionChapters = [
   { name: '项目背景', node: '1:87', mobile: '' },
   { name: '问题洞察', node: '1:206', mobile: '' },
   { name: '设计策略', node: '1:201', mobile: '' },
-  { name: '设计方案', node: '1:2896', mobile: '' },
-  { name: '经验方法', node: '1:2630', mobile: '' },
-  { name: 'AI 工作流', node: '1:2664', mobile: '' },
-  { name: '数据反馈', node: '1:2850', mobile: '' },
+  { name: '设计方案', node: '1:272', mobile: '' },
+  { name: '经验方法', node: '1:2634', mobile: '' },
+  { name: 'AI 工作流', node: '1:2666', mobile: '' },
+  { name: '数据反馈', node: '1:2852', mobile: '' },
 ]
 const hotelChapters = [
   { name: '项目背景', node: '23:81', mobile: '' },
@@ -94,7 +94,7 @@ export default function App() {
       chapters.forEach((chapter, index) => {
         const element = canvas.current?.querySelector(`[data-node-id="${chapter.node}"]`)
         const top = element?.getBoundingClientRect().top
-        if (top !== undefined && top >= closest && top < window.innerHeight * 0.4) {
+        if (top !== undefined && top >= closest && top <= (isPromotion ? 88 : window.innerHeight * 0.4)) {
           current = index
           closest = top
         }

@@ -1,3 +1,4 @@
+import { InsightMarquee } from './ProjectPage'
 import Layer71 from './promotion-refresh/Layer71'
 import Layer72 from './promotion-refresh/Layer72'
 import Layer73 from './promotion-refresh/Layer73'
@@ -19,17 +20,6 @@ import Layer141 from './promotion-refresh/Layer141'
 import Layer142 from './promotion-refresh/Layer142'
 import Layer143 from './promotion-refresh/Layer143'
 import Layer144 from './promotion-refresh/Layer144'
-import Layer145 from './promotion-refresh/Layer145'
-import Layer150 from './promotion-refresh/Layer150'
-import Layer155 from './promotion-refresh/Layer155'
-import Layer160 from './promotion-refresh/Layer160'
-import Layer165 from './promotion-refresh/Layer165'
-import Layer170 from './promotion-refresh/Layer170'
-import Layer175 from './promotion-refresh/Layer175'
-import Layer180 from './promotion-refresh/Layer180'
-import Layer185 from './promotion-refresh/Layer185'
-import Layer190 from './promotion-refresh/Layer190'
-import Layer196 from './promotion-refresh/Layer196'
 import Layer201 from './promotion-refresh/Layer201'
 import Layer206 from './promotion-refresh/Layer206'
 import Layer211 from './promotion-refresh/Layer211'
@@ -82,17 +72,7 @@ export default function PromotionDesign() {
     <div style={{position:'absolute',left:1138,top:2089,width:24,height:24}}><Layer142 /></div>
     <div style={{position:'absolute',left:530,top:2043,width:118,height:58}}><Layer143 /></div>
     <div style={{position:'absolute',left:1034,top:2043,width:116,height:58}}><Layer144 /></div>
-    <div style={{position:'absolute',left:71,top:2630,width:230,height:80}}><Layer145 /></div>
-    <div style={{position:'absolute',left:319,top:2630,width:430,height:80}}><Layer150 /></div>
-    <div style={{position:'absolute',left:104,top:2734,width:406,height:80}}><Layer155 /></div>
-    <div style={{position:'absolute',left:790,top:2630,width:646,height:80}}><Layer160 /></div>
-    <div style={{position:'absolute',left:572,top:2734,width:438,height:80}}><Layer165 /></div>
-    <div style={{position:'absolute',left:1480,top:2630,width:262,height:80}}><Layer170 /></div>
-    <div style={{position:'absolute',left:1112,top:2734,width:406,height:80}}><Layer175 /></div>
-    <div style={{position:'absolute',left:492,top:2838,width:406,height:80}}><Layer180 /></div>
-    <div style={{position:'absolute',left:966,top:2838,width:246,height:80}}><Layer185 /></div>
-    <div style={{position:'absolute',left:1251,top:2838,width:406,height:80}}><Layer190 /></div>
-    <div style={{position:'absolute',left:143,top:2838,width:310,height:80}}><Layer196 /></div>
+    <div className="absolute left-0 top-[2630px] w-full"><InsightMarquee /></div>
     <div style={{position:'absolute',left:80,top:3078,width:1520,height:198}}><Layer201 /></div>
     <div style={{position:'absolute',left:80,top:1693,width:1520,height:155}}><Layer206 /></div>
     <div style={{position:'absolute',left:80,top:3356,width:1520,height:660}}><Layer211 /></div>

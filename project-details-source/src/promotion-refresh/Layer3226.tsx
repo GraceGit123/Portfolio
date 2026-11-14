@@ -12,12 +12,12 @@ export default function Frame2147236942() {
     <div className="content-stretch flex flex-col gap-[120px] items-start relative size-full" data-node-id="1:3226">
       <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0" data-node-id="1:3227">
         <div className="[word-break:break-word] flex flex-col font-sans [font-weight:300] justify-center leading-[0] min-w-full not-italic relative shrink-0 text-[24px] text-white tracking-[4.8px] w-[min-content]" data-node-id="1:3228">
-          <p className="leading-[normal]">/ STRUCTURE</p>
+          <p className="leading-[normal] font-sans [font-weight:300]">/ STRUCTURE</p>
         </div>
         <div className="content-stretch flex gap-[32px] items-center relative shrink-0" data-node-id="1:3229">
           <div className="bg-white content-stretch flex flex-col items-center justify-center pb-[8px] pt-[12px] px-[2px] relative rounded-[16px] shrink-0 size-[80px]" data-node-id="1:3230">
             <div className="[word-break:break-word] flex flex-col font-sans [font-weight:900] justify-center leading-[0] not-italic relative shrink-0 text-[56px] text-black text-center whitespace-nowrap" data-node-id="1:3231">
-              <p className="leading-[60px]">04</p>
+              <p className="leading-[60px] font-sans [font-weight:900]">04</p>
             </div>
           </div>
           <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r font-sans [font-weight:900] from-white leading-[normal] not-italic relative shrink-0 text-[68px] text-[transparent] to-[#8eaaff] whitespace-nowrap" data-node-id="1:3232">
@@ -82,10 +82,10 @@ export default function Frame2147236942() {
                   </p>
                 </div>
                 <div className="[word-break:break-word] content-stretch flex flex-col font-sans [font-weight:500] gap-[6px] h-[80px] items-start justify-center not-italic relative shrink-0 text-center w-full" data-node-id="1:3261" data-name="层级与理解方法">
-                  <p className="leading-[28px] relative shrink-0 text-[#2143ad] text-[20px] w-full" data-node-id="1:3262">
+                  <p className="leading-[28px] relative shrink-0 text-[#2143ad] text-[20px] w-full font-sans [font-weight:500]" data-node-id="1:3262">
                     促销经营的数据背景
                   </p>
-                  <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3263">
+                  <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3263">
                     按经营主题组织分类，帮助商户寻找数据劣势
                   </p>
                 </div>
@@ -97,10 +97,10 @@ export default function Frame2147236942() {
                   </p>
                 </div>
                 <div className="[word-break:break-word] content-stretch flex flex-col font-sans [font-weight:500] gap-[6px] h-[80px] items-start justify-center not-italic relative shrink-0 text-center w-full" data-node-id="1:3267" data-name="层级与理解方法">
-                  <p className="leading-[28px] relative shrink-0 text-[#0b804d] text-[20px] w-full" data-node-id="1:3268">
+                  <p className="leading-[28px] relative shrink-0 text-[#0b804d] text-[20px] w-full font-sans [font-weight:500]" data-node-id="1:3268">
                     整体促销表现
                   </p>
-                  <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3269">
+                  <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3269">
                     汇总当前促销表现，建立整体判断基准
                   </p>
                 </div>
@@ -112,10 +112,10 @@ export default function Frame2147236942() {
                   </p>
                 </div>
                 <div className="[word-break:break-word] content-stretch flex flex-col font-sans [font-weight:500] gap-[6px] h-[80px] items-start justify-center not-italic relative shrink-0 text-center w-full" data-node-id="1:3273" data-name="层级与理解方法">
-                  <p className="leading-[28px] relative shrink-0 text-[#bc5400] text-[20px] w-full" data-node-id="1:3274">
+                  <p className="leading-[28px] relative shrink-0 text-[#bc5400] text-[20px] w-full font-sans [font-weight:500]" data-node-id="1:3274">
                     促销变化趋势
                   </p>
-                  <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3275">
+                  <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3275">
                     结合时间发展进行对照，定位促销变化
                   </p>
                 </div>
@@ -127,10 +127,10 @@ export default function Frame2147236942() {
                   </p>
                 </div>
                 <div className="[word-break:break-word] content-stretch flex flex-col font-sans [font-weight:500] gap-[6px] h-[80px] items-start justify-center not-italic relative shrink-0 text-center w-full" data-node-id="1:3279" data-name="层级与理解方法">
-                  <p className="leading-[28px] relative shrink-0 text-[#b50c01] text-[20px] w-full" data-node-id="1:3280">
+                  <p className="leading-[28px] relative shrink-0 text-[#b50c01] text-[20px] w-full font-sans [font-weight:500]" data-node-id="1:3280">
                     促销数据明细
                   </p>
-                  <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3281">
+                  <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3281">
                     以促销类型为单位比较表现，核对具体差异
                   </p>
                 </div>
@@ -147,7 +147,7 @@ export default function Frame2147236942() {
                     <p className="font-sans [font-weight:650] leading-[28px] relative shrink-0 text-[20px] text-black w-full" data-node-id="1:3288">
                       转化/人群/预订
                     </p>
-                    <p className="font-sans [font-weight:500] leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3289">
+                    <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3289">
                       从数据大盘确认当前定位，带着问题查看具体数据
                     </p>
                   </div>
@@ -157,7 +157,7 @@ export default function Frame2147236942() {
                     <p className="font-sans [font-weight:650] leading-[28px] relative shrink-0 text-[20px] text-black w-full" data-node-id="1:3292">
                       促销/间夜/收益
                     </p>
-                    <p className="font-sans [font-weight:500] leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3293">
+                    <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3293">
                       从参与、间夜、收益三个维度，了解整体表现
                     </p>
                   </div>
@@ -167,7 +167,7 @@ export default function Frame2147236942() {
                     <p className="font-sans [font-weight:650] leading-[28px] relative shrink-0 text-[20px] text-black w-full" data-node-id="1:3296">
                       各促销变化趋势
                     </p>
-                    <p className="font-sans [font-weight:500] leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3297">
+                    <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3297">
                       对比不同促销表现，找出变化明显的日期和促销
                     </p>
                   </div>
@@ -177,7 +177,7 @@ export default function Frame2147236942() {
                     <p className="font-sans [font-weight:650] leading-[28px] relative shrink-0 text-[20px] text-black w-full" data-node-id="1:3300">
                       各促销具体数据
                     </p>
-                    <p className="font-sans [font-weight:500] leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full" data-node-id="1:3301">
+                    <p className="leading-[22px] relative shrink-0 text-[#666] text-[14px] w-full font-sans [font-weight:300]" data-node-id="1:3301">
                       带着问题，核对折扣、订单、间夜和收入，为后续调整提供依据
                     </p>
                   </div>
@@ -191,10 +191,10 @@ export default function Frame2147236942() {
             </div>
             <div className="content-stretch flex flex-col gap-[20px] items-center relative shrink-0" data-node-id="1:3307">
               <div className="[word-break:break-word] content-stretch flex flex-col font-sans [font-weight:700] gap-[10px] items-center leading-[32px] not-italic relative shrink-0 text-center text-white w-full" data-node-id="1:3308">
-                <p className="min-w-full relative shrink-0 text-[24px] w-[min-content]" data-node-id="1:3309">
+                <p className="min-w-full relative shrink-0 text-[24px] w-[min-content] font-sans [font-weight:700]" data-node-id="1:3309">
                   总
                 </p>
-                <p className="relative shrink-0 text-[16px] whitespace-nowrap" data-node-id="1:3310">
+                <p className="relative shrink-0 text-[16px] whitespace-nowrap font-sans [font-weight:500]" data-node-id="1:3310">
                   发现问题
                 </p>
               </div>
@@ -204,10 +204,10 @@ export default function Frame2147236942() {
                 </div>
               </div>
               <div className="[word-break:break-word] content-stretch flex flex-col font-sans [font-weight:700] gap-[10px] items-center leading-[32px] not-italic relative shrink-0 text-center text-white w-full" data-node-id="1:3312">
-                <p className="min-w-full relative shrink-0 text-[24px] w-[min-content]" data-node-id="1:3313">
+                <p className="min-w-full relative shrink-0 text-[24px] w-[min-content] font-sans [font-weight:700]" data-node-id="1:3313">
                   分
                 </p>
-                <p className="relative shrink-0 text-[16px] whitespace-nowrap" data-node-id="1:3314">
+                <p className="relative shrink-0 text-[16px] whitespace-nowrap font-sans [font-weight:500]" data-node-id="1:3314">
                   确认问题
                 </p>
               </div>
@@ -262,7 +262,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#bc5400] whitespace-nowrap" data-node-id="1:3336">
                           酒店转化
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3337">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3337">
                           列表曝光、详情访问、间夜、转化率
                         </p>
                       </div>
@@ -270,7 +270,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#bc5400] whitespace-nowrap" data-node-id="1:3339">
                           用户人群
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3340">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3340">
                           新客、学生、商旅、交叉出行
                         </p>
                       </div>
@@ -278,7 +278,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#bc5400] whitespace-nowrap" data-node-id="1:3342">
                           预订偏好
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3343">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3343">
                           连住天数、提前预订、预订间数、当日预订
                         </p>
                       </div>
@@ -286,7 +286,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#bc5400] whitespace-nowrap" data-node-id="1:3345">
                           促销表现
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3346">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3346">
                           参与数、间夜与收入、趋势、促销明细
                         </p>
                       </div>
@@ -327,7 +327,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#2143ad] whitespace-nowrap" data-node-id="1:3362">
                           同行对比
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3363">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3363">
                           结合竞争圈的口径表现判断差距
                         </p>
                       </div>
@@ -335,7 +335,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#2143ad] whitespace-nowrap" data-node-id="1:3365">
                           时间参照
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3366">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3366">
                           结合往年同期、每周规律与近期趋势
                         </p>
                       </div>
@@ -343,7 +343,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#2143ad] whitespace-nowrap" data-node-id="1:3368">
                           外部背景
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3369">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3369">
                           识别节假日、会展和本地活动等影响
                         </p>
                       </div>
@@ -351,7 +351,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#2143ad] whitespace-nowrap" data-node-id="1:3371">
                           门店核验
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3372">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3372">
                           位置信息、房价、库存、叠加配置
                         </p>
                       </div>
@@ -392,7 +392,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#0b804d] whitespace-nowrap" data-node-id="1:3388">
                           促销类型
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3389">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3389">
                           按机会匹配具体促销类型
                         </p>
                       </div>
@@ -400,7 +400,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#0b804d] whitespace-nowrap" data-node-id="1:3391">
                           促销折扣
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3392">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3392">
                           结合原价、叠加规则等确定
                         </p>
                       </div>
@@ -408,7 +408,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#0b804d] whitespace-nowrap" data-node-id="1:3394">
                           促销时间
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3395">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3395">
                           提示需要补充的日期或预订时段
                         </p>
                       </div>
@@ -416,7 +416,7 @@ export default function Frame2147236942() {
                         <p className="font-sans [font-weight:650] relative shrink-0 text-[#0b804d] whitespace-nowrap" data-node-id="1:3397">
                           促销房型
                         </p>
-                        <p className="font-sans [font-weight:500] relative shrink-0 text-[#666] w-[328px]" data-node-id="1:3398">
+                        <p className="relative shrink-0 text-[#666] w-[328px] font-sans [font-weight:300]" data-node-id="1:3398">
                           建议符合库存与价格条件的房型
                         </p>
                       </div>
