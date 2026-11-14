@@ -418,3 +418,79 @@ img[data-src]:not([src]){visibility:hidden}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .case-canvas,.solution-project,.mobile-project{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .case-loading{min-height:100vh;display:grid;place-items:center;font-size:16px}
+
+/* The promotion case follows the new 1680px Figma canvas. */
+.desktop-project.promotion-refresh-project { display: block; height: calc(28921px * var(--canvas-scale)); }
+.case-canvas.promotion-refresh { position: relative; height: 28921px; }
+.promotion-refresh [class*="font-['Trip_Geom:Regular']"] { font-family: 'Trip Geom:Regular', MiSans, sans-serif; font-weight: 400; }
+.promotion-refresh [class*="font-['Trip_Geom:Medium']"] { font-family: 'Trip Geom:Medium', MiSans, sans-serif; font-weight: 500; }
+.promotion-refresh [class*="font-['Trip_Geom:Bold']"] { font-family: 'Trip Geom:Bold', MiSans, sans-serif; font-weight: 700; }
+.promotion-refresh [class*="font-['Noto_Sans_SC:Medium']"] { font-family: 'Noto Sans SC', sans-serif; font-weight: 500; }
+.promotion-refresh [class*="font-['PingFang_SC:Medium']"] { font-family: 'PingFang SC', 'Noto Sans SC', sans-serif; font-weight: 500; }
+.promotion-refresh [data-node-id="1:2858"] { width: max-content; }
+/* Fill gaps in the published MiSans subsets for the new promotion copy. */
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.b0d581d90a8c9357.1.woff2") format("woff2"); unicode-range: U+5019,U+53F8,U+5E26,U+5F80,U+5FC5,U+9A6C; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.1f9a88df6f20243b.2.woff2") format("woff2"); unicode-range: U+62A4,U+987B; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.bbc17f31f7499ef2.3.woff2") format("woff2"); unicode-range: U+5145,U+51B2,U+5F81,U+7EE7,U+8B66,U+8D22; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.8e2b7443d3821018.4.woff2") format("woff2"); unicode-range: U+5371,U+62EC,U+638C; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.582c801e86d69c80.5.woff2") format("woff2"); unicode-range: U+4F38,U+76D8,U+7EC3,U+9014,U+9488; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.baa24eb54bde62c3.6.woff2") format("woff2"); unicode-range: U+6B8A,U+6C47,U+6D6A,U+9694; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.e71d5889e0ead19f.7.woff2") format("woff2"); unicode-range: U+50A8,U+8BCA; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.0c6dda153b4766ca.8.woff2") format("woff2"); unicode-range: U+67F1; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.3a8a4ff2557b3c62.9.woff2") format("woff2"); unicode-range: U+4E32,U+6863; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.0e44d8b569f1d0b2.10.woff2") format("woff2"); unicode-range: U+6458; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.6f012cbfe5a8724c.12.woff2") format("woff2"); unicode-range: U+515C; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.10850f8ce5930268.13.woff2") format("woff2"); unicode-range: U+6EAF; }
+@font-face { font-family: MiSans; font-weight: 300; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Light.7c85becc397d88f9.53.woff2") format("woff2"); unicode-range: U+2022; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.6f83b29225f4adc7.1.woff2") format("woff2"); unicode-range: U+5019,U+53F8,U+5E26,U+5F80,U+5FC5,U+9A6C; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.641b702ff502efcf.2.woff2") format("woff2"); unicode-range: U+62A4,U+987B; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.2f4b1f8c059e6a7e.3.woff2") format("woff2"); unicode-range: U+5145,U+51B2,U+5F81,U+7EE7,U+8B66,U+8D22; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.f6b78976e4e390d7.4.woff2") format("woff2"); unicode-range: U+5371,U+62EC,U+638C; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.dcb9d2ed2e330f96.5.woff2") format("woff2"); unicode-range: U+4F38,U+76D8,U+7EC3,U+9014,U+9488; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.33e04fc845fbb622.6.woff2") format("woff2"); unicode-range: U+6B8A,U+6C47,U+6D6A,U+9694; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.26a7692835846f71.7.woff2") format("woff2"); unicode-range: U+50A8,U+8BCA; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.25f97b3a95590df4.8.woff2") format("woff2"); unicode-range: U+67F1; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.4f73c5ce3258b6cc.9.woff2") format("woff2"); unicode-range: U+4E32,U+6863; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.83d7587c123e1fcd.10.woff2") format("woff2"); unicode-range: U+6458; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.73b3f63d00b137c3.12.woff2") format("woff2"); unicode-range: U+515C; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.a78e74b757b9e147.13.woff2") format("woff2"); unicode-range: U+6EAF; }
+@font-face { font-family: MiSans; font-weight: 500; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Medium.7827b946c307bff6.53.woff2") format("woff2"); unicode-range: U+2022; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.4494f12456273d9a.1.woff2") format("woff2"); unicode-range: U+5019,U+53F8,U+5E26,U+5F80,U+5FC5,U+9A6C; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.b78c15a7d93c89f6.2.woff2") format("woff2"); unicode-range: U+62A4,U+987B; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.5cc6f56934b99260.3.woff2") format("woff2"); unicode-range: U+5145,U+51B2,U+5F81,U+7EE7,U+8B66,U+8D22; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.d3128316bcd8d751.4.woff2") format("woff2"); unicode-range: U+5371,U+62EC,U+638C; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.99da831f8c279d02.5.woff2") format("woff2"); unicode-range: U+4F38,U+76D8,U+7EC3,U+9014,U+9488; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.5af74c4562cad13e.6.woff2") format("woff2"); unicode-range: U+6B8A,U+6C47,U+6D6A,U+9694; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.a5c9e01c187f31c4.7.woff2") format("woff2"); unicode-range: U+50A8,U+8BCA; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.3491fb9cc4677c74.8.woff2") format("woff2"); unicode-range: U+67F1; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.c0a4c645f3f14576.9.woff2") format("woff2"); unicode-range: U+4E32,U+6863; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.bc9a70190394ba7b.10.woff2") format("woff2"); unicode-range: U+6458; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.e872ab576d608455.12.woff2") format("woff2"); unicode-range: U+515C; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.557ff4e13f5f3d32.13.woff2") format("woff2"); unicode-range: U+6EAF; }
+@font-face { font-family: MiSans; font-weight: 650; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Semibold.38e38f23c9af501a.53.woff2") format("woff2"); unicode-range: U+2022; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.6c3f30a5cad6b870.1.woff2") format("woff2"); unicode-range: U+5019,U+53F8,U+5E26,U+5F80,U+5FC5,U+9A6C; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.679497e1d9f4e060.2.woff2") format("woff2"); unicode-range: U+62A4,U+987B; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.ea4afdad06d2ae55.3.woff2") format("woff2"); unicode-range: U+5145,U+51B2,U+5F81,U+7EE7,U+8B66,U+8D22; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.6ab78e2b7c36790c.4.woff2") format("woff2"); unicode-range: U+5371,U+62EC,U+638C; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.3792dbc4acf31b29.5.woff2") format("woff2"); unicode-range: U+4F38,U+76D8,U+7EC3,U+9014,U+9488; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.75c73c9c3ae57be7.6.woff2") format("woff2"); unicode-range: U+6B8A,U+6C47,U+6D6A,U+9694; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.7ead67ef41892acd.7.woff2") format("woff2"); unicode-range: U+50A8,U+8BCA; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.b61be01bc47cc61f.8.woff2") format("woff2"); unicode-range: U+67F1; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.a41cbe69940ee3ae.9.woff2") format("woff2"); unicode-range: U+4E32,U+6863; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.83d7b865b18862e5.10.woff2") format("woff2"); unicode-range: U+6458; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.e7e53cdb1a251de9.12.woff2") format("woff2"); unicode-range: U+515C; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.37cbce9bf8ee4737.13.woff2") format("woff2"); unicode-range: U+6EAF; }
+@font-face { font-family: MiSans; font-weight: 700; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Bold.46213edf09994ea9.53.woff2") format("woff2"); unicode-range: U+2022; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.83db06616a0e0b18.1.woff2") format("woff2"); unicode-range: U+5019,U+53F8,U+5E26,U+5F80,U+5FC5,U+9A6C; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.cd25629dae385fdb.2.woff2") format("woff2"); unicode-range: U+62A4,U+987B; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.41a38fc5bd71da9a.3.woff2") format("woff2"); unicode-range: U+5145,U+51B2,U+5F81,U+7EE7,U+8B66,U+8D22; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.aca834cbef3931a0.4.woff2") format("woff2"); unicode-range: U+5371,U+62EC,U+638C; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.795cbaa68afd70b8.5.woff2") format("woff2"); unicode-range: U+4F38,U+76D8,U+7EC3,U+9014,U+9488; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.ad4990511d2c064c.6.woff2") format("woff2"); unicode-range: U+6B8A,U+6C47,U+6D6A,U+9694; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.dfea21da253eba9f.7.woff2") format("woff2"); unicode-range: U+50A8,U+8BCA; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.f6e806e88e299e0e.8.woff2") format("woff2"); unicode-range: U+67F1; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.1dce8f83b2949123.9.woff2") format("woff2"); unicode-range: U+4E32,U+6863; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.e9277525c0b9290c.10.woff2") format("woff2"); unicode-range: U+6458; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.ca8ba133a784f9d1.12.woff2") format("woff2"); unicode-range: U+515C; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.a05ad7eacf4666b0.13.woff2") format("woff2"); unicode-range: U+6EAF; }
+@font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.5837cd242aef69ae.53.woff2") format("woff2"); unicode-range: U+2022; }

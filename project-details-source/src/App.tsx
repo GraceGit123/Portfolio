@@ -3,8 +3,7 @@ import type { CSSProperties } from 'react'
 import CaseImage from './CaseImage'
 
 // Only download the requested case, retaining stable bodies while progress updates.
-const PromotionBody = memo(lazy(() => import('./ProjectPage')))
-const MobilePromotionBody = memo(lazy(() => import('./MobileProject')))
+const PromotionBody = memo(lazy(() => import('./PromotionDesign')))
 const HotelTaskBody = memo(lazy(() => import('./HotelTaskProject')))
 const HotelSolutionBody = memo(lazy(() => import('./HotelSolutionProject')))
 function CaseReady({ onReady }: { onReady: () => void }) {
@@ -13,12 +12,13 @@ function CaseReady({ onReady }: { onReady: () => void }) {
 }
 
 const promotionChapters = [
-  { name: '项目背景', node: '6:79', mobile: 'background' },
-  { name: '问题洞察', node: '6:292', mobile: 'insights' },
-  { name: '设计策略', node: '6:287', mobile: 'strategy' },
-  { name: '设计方案', node: '6:362', mobile: 'design' },
-  { name: '数据反馈', node: '6:3950', mobile: 'results' },
-  { name: '经验总结', node: '6:3844', mobile: 'workflow' },
+  { name: '项目背景', node: '1:87', mobile: '' },
+  { name: '问题洞察', node: '1:206', mobile: '' },
+  { name: '设计策略', node: '1:201', mobile: '' },
+  { name: '设计方案', node: '1:2896', mobile: '' },
+  { name: '经验方法', node: '1:2630', mobile: '' },
+  { name: 'AI 工作流', node: '1:2664', mobile: '' },
+  { name: '数据反馈', node: '1:2850', mobile: '' },
 ]
 const hotelChapters = [
   { name: '项目背景', node: '23:81', mobile: '' },
@@ -90,11 +90,14 @@ export default function App() {
       const available = document.documentElement.scrollHeight - window.innerHeight
       setProgress(available > 0 ? window.scrollY / available : 0)
       let current = 0
+      let closest = -Infinity
       chapters.forEach((chapter, index) => {
-        const element = isPromotion && window.innerWidth < 700
-          ? document.getElementById(chapter.mobile)
-          : canvas.current?.querySelector(`[data-node-id="${chapter.node}"]`)
-        if (element && element.getBoundingClientRect().top < window.innerHeight * 0.4) current = index
+        const element = canvas.current?.querySelector(`[data-node-id="${chapter.node}"]`)
+        const top = element?.getBoundingClientRect().top
+        if (top !== undefined && top >= closest && top < window.innerHeight * 0.4) {
+          current = index
+          closest = top
+        }
       })
       setActive(current)
     }
@@ -109,13 +112,12 @@ export default function App() {
 
   useEffect(() => {
     const area = canvas.current
-    if (!area) return
+    if (!area || isPromotion) return
     const lastContent = area.querySelector<HTMLElement>(isSolution ? '[data-node-id="1:589"]' : isHotel ? '[data-node-id="23:542"]' : '[data-node-id="6:3979"]')
     if (!lastContent) return
     let disposed = false
     const fitContent = () => {
       if (disposed) return
-      if (isPromotion && window.innerWidth < 700) { area.style.height = ''; return }
       area.style.height = `${Math.ceil(lastContent.getBoundingClientRect().bottom - area.getBoundingClientRect().top)}px`
     }
     const observer = new ResizeObserver(fitContent)
@@ -148,7 +150,7 @@ export default function App() {
       })
     }, { rootMargin: '0px 0px 80px 0px', threshold: 0.01 })
     area.querySelectorAll('.case-canvas > div').forEach(element => {
-      if (element.querySelector('p') && element.getBoundingClientRect().height < 1600) {
+      if (!isPromotion && element.querySelector('p') && element.getBoundingClientRect().height < 1600) {
         element.classList.add('reveal')
         observer.observe(element)
       }
@@ -167,7 +169,7 @@ export default function App() {
           while (wrapper && wrapper !== root) {
             const bounds = wrapper.getBoundingClientRect()
             const top = (bounds.top - origin.top) / ratio
-            if (top < 4462 || top >= 16527) break
+            if (top < 4702 || top >= 25214) break
             if (bounds.width / ratio >= 180 && bounds.height / ratio >= 100 && getComputedStyle(wrapper).pointerEvents !== 'none') {
               hotspots.add(wrapper)
               break
@@ -224,9 +226,7 @@ export default function App() {
 
   function navigate(index: number) {
     const chapter = chapters[index]
-    const element = isPromotion && window.innerWidth < 700
-      ? document.getElementById(chapter.mobile)
-      : canvas.current?.querySelector(`[data-node-id="${chapter.node}"]`)
+    const element = canvas.current?.querySelector(`[data-node-id="${chapter.node}"]`)
     if (element) window.scrollTo({ top: Math.max(0, window.scrollY + element.getBoundingClientRect().top - 86), behavior: 'smooth' })
   }
 
@@ -241,10 +241,9 @@ export default function App() {
       </nav>
       <main aria-label={isSolution ? '葛珊珊的作品集：Hotel Solution 酒店解决方案' : isHotel ? '葛珊珊的作品集：携程 HT 任务界面升级' : '葛珊珊的作品集：携程促销中心体验升级'}>
         <Suspense key={`${project}-${compact}`} fallback={<div className="case-loading" role="status">正在加载作品…</div>}>
-        {!(isPromotion && compact) && <div className={isSolution ? 'solution-project' : `desktop-project ${isHotel ? 'hotel-task-project' : ''}`} ref={canvas} style={{ '--canvas-scale': scale } as CSSProperties}>
+        <div className={isSolution ? 'solution-project' : `desktop-project ${isHotel ? 'hotel-task-project' : 'promotion-refresh-project'}`} ref={canvas} style={{ '--canvas-scale': scale } as CSSProperties}>
           {isSolution ? <HotelSolutionBody /> : isHotel ? <HotelTaskBody /> : <PromotionBody />}
-        </div>}
-        {isPromotion && compact && <MobilePromotionBody onOpenImage={setImage} />}
+        </div>
         <CaseReady onReady={bodyReady} />
         </Suspense>
         <nav className="related-projects" aria-label="浏览其他作品">
