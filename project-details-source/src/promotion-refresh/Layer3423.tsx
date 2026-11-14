@@ -192,8 +192,8 @@ export default function Frame2147236986() {
               </div>
               <div className="col-1 flex h-[488.293px] items-center justify-center ml-0 mt-[108px] relative row-1 w-[597.717px]" data-node-id="1:3497">
                 <div className="-rotate-5 -skew-x-5 flex-none">
-                  <div className="border-2 border-solid border-white h-[436px] relative rounded-[12px] w-[600px]" data-name="建议 1">
-                    <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[12px]">
+                  <div className="bg-white border-2 border-solid border-white h-[436px] overflow-hidden relative rounded-[12px] w-[600px]" data-name="建议 1">
+                    <div className="absolute inset-0 pointer-events-none">
                       <CaseImage alt="" className="absolute h-[106.2%] left-0 max-w-none top-[-0.04%] w-full" src={img1} />
                     </div>
                   </div>
@@ -265,7 +265,7 @@ export default function Frame2147236986() {
             <p className="font-sans [font-weight:700] relative shrink-0 w-full" data-node-id="1:3526">
               1440px设计尺寸
             </p>
-            <div className="content-stretch flex flex-col font-sans [font-weight:500] gap-[12px] items-start relative shrink-0 w-full" data-node-id="1:3527">
+            <div className="content-stretch flex flex-col font-sans [font-weight:300] gap-[12px] items-start relative shrink-0 w-full" data-node-id="1:3527">
               <p className="relative shrink-0 w-full" data-node-id="1:3528">
                 24列栅格
               </p>

@@ -64,7 +64,7 @@ export default function Frame2147224660() {
               <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
             </div>
           </div>
-          <p className="[word-break:break-word] font-sans [font-weight:500] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap" data-node-id="1:2877">
+          <p className="[word-break:break-word] font-sans [font-weight:300] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap" data-node-id="1:2877">
             终于可以在促销首页直接看叠加关系了，之前只能翻帮助中心看规则，太麻烦了，现在方便多了，还很直观
           </p>
         </div>
@@ -74,7 +74,7 @@ export default function Frame2147224660() {
               <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage239} />
             </div>
           </div>
-          <p className="[word-break:break-word] font-sans [font-weight:500] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap" data-node-id="1:2882">
+          <p className="[word-break:break-word] font-sans [font-weight:300] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap" data-node-id="1:2882">
             这个日历挺好，现在酒店来问直接让看这个就行
           </p>
         </div>

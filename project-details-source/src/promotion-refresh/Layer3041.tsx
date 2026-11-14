@@ -180,25 +180,25 @@ export default function Frame2147236960() {
                         →
                       </p>
                     </div>
-                    <div className="bg-[#eff3ff] content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-w-px px-[28px] py-[24px] relative rounded-[16px]" data-node-id="1:3103" data-name="查看促销分组 / 层级示意">
-                      <div className="content-stretch flex flex-col gap-[6px] items-start justify-center relative shrink-0 w-full" data-node-id="1:3104" data-name="层级与理解方法">
+                    <div className="bg-[#eff3ff] content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-w-px px-[28px] py-[16px] relative rounded-[16px]" data-node-id="1:3103" data-name="查看促销分组 / 层级示意">
+                      <div className="content-stretch flex flex-col gap-[6px] h-[80px] items-start justify-center relative shrink-0 w-full" data-node-id="1:3104" data-name="层级与理解方法">
                         <p className="[word-break:break-word] font-sans [font-weight:700] leading-[32px] min-w-full not-italic relative shrink-0 text-[24px] text-black w-[min-content]" data-node-id="1:3105">
                           查看促销信息
                         </p>
                         <p className="[word-break:break-word] leading-[22px] min-w-full not-italic relative shrink-0 text-[#666] text-[14px] w-[min-content] font-sans [font-weight:300]" data-node-id="1:3106">
                           按照促销分类，从分组-详情依次查看
                         </p>
-                        <div className="content-stretch flex gap-[9px] items-center justify-center relative shrink-0" data-node-id="1:3107" data-name="抽象图形">
-                          <div className="bg-[#dee6ff] content-stretch flex h-[34px] items-center justify-center relative rounded-[9px] shrink-0 w-[75px]" data-node-id="1:3108" data-name="日期">
-                            <p className="[word-break:break-word] font-sans [font-weight:650] leading-[22px] not-italic relative shrink-0 text-[#3264ff] text-[14px] whitespace-nowrap" data-node-id="1:3109">
-                              促销类型
-                            </p>
-                          </div>
-                          <div className="bg-[#dee6ff] content-stretch flex h-[34px] items-center justify-center relative rounded-[9px] shrink-0 w-[75px]" data-node-id="1:3110" data-name="房型">
-                            <p className="[word-break:break-word] font-sans [font-weight:650] leading-[22px] not-italic relative shrink-0 text-[#3264ff] text-[14px] whitespace-nowrap" data-node-id="1:3111">
-                              折扣
-                            </p>
-                          </div>
+                      </div>
+                      <div className="content-stretch flex gap-[9px] items-center justify-center relative shrink-0" data-node-id="1:3107" data-name="抽象图形">
+                        <div className="bg-[#dee6ff] content-stretch flex h-[34px] items-center justify-center relative rounded-[9px] shrink-0 w-[75px]" data-node-id="1:3108" data-name="日期">
+                          <p className="[word-break:break-word] font-sans [font-weight:650] leading-[22px] not-italic relative shrink-0 text-[#3264ff] text-[14px] whitespace-nowrap" data-node-id="1:3109">
+                            促销类型
+                          </p>
+                        </div>
+                        <div className="bg-[#dee6ff] content-stretch flex h-[34px] items-center justify-center relative rounded-[9px] shrink-0 w-[75px]" data-node-id="1:3110" data-name="房型">
+                          <p className="[word-break:break-word] font-sans [font-weight:650] leading-[22px] not-italic relative shrink-0 text-[#3264ff] text-[14px] whitespace-nowrap" data-node-id="1:3111">
+                            折扣
+                          </p>
                         </div>
                       </div>
                     </div>
