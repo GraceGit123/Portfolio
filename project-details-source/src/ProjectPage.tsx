@@ -6483,210 +6483,76 @@ export default function ProjectPage() {
   );
 }
 
+const marqueeRows = [
+  [
+    [
+      "9645a",
+      "促销后的价格太低"
+    ],
+    [
+      "7d04c",
+      "看不到 C 端展示效果，只能自己打开 APP 去查"
+    ],
+    [
+      "57b10",
+      "我报了【连住优惠】，但不知道要不要再报【多间立减】？这俩能一起用吗？"
+    ],
+    [
+      "ee6ef",
+      "到底是怎么算的价格？"
+    ]
+  ],
+  [
+    [
+      "84aa0",
+      "光放个展示位置，我哪知道具体展示在哪？"
+    ],
+    [
+      "fdff2",
+      "规则也没个地方能查到最新的，全靠问业务经理"
+    ],
+    [
+      "b2506",
+      "到底是怎么算的价格？再这么低我要拒单了"
+    ]
+  ],
+  [
+    [
+      "ae52c",
+      "新客优惠老客看不到，会投诉"
+    ],
+    [
+      "35288",
+      "没有专职运营，系统复杂，不敢随便报活动"
+    ],
+    [
+      "f2508",
+      "我不会算，很怕卖亏"
+    ],
+    [
+      "9645a",
+      "会互斥啊？报完才发现有些促销根本不生效"
+    ]
+  ]
+]
+
 export function InsightMarquee() {
- return <div className="insight-marquee" aria-label="商户真实反馈，三行从右向左滚动"><div className="marquee-lane lane-1"><div className="marquee-track"><div className="marquee-set"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:142">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:143" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:145" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
-          </div>
+  return <div className="insight-marquee" aria-label="商户真实反馈，三行从右向左滚动">
+    {marqueeRows.map((row, lane) => (
+      <div key={lane} className={`marquee-lane lane-${lane + 1}`}>
+        <div className="marquee-track">
+          {[0, 1, 2].map(copy => (
+            <div key={copy} className="marquee-set" aria-hidden={copy > 0 || undefined}>
+              {row.map(([avatar, quote]) => (
+                <div key={quote} className="marquee-quote">
+                  <img alt="" width="44" height="44" loading="eager" decoding="sync" src={`${assetPathPrefix}/marquee-avatar-${avatar}.png`} />
+                  <p>{quote}</p>
+                </div>
+              ))}
+            </div>
+          ))}
         </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:146">
-          促销后的价格太低
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:147">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:148" data-name="Mask group">
-          <div className="col-1 h-[76px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[20px_20px] mask-size-[44px_44px] ml-[-20px] mt-[-20px] relative row-1 w-[85px]" data-node-id="6:150" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage239} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:151">
-          看不到 C 端展示效果，只能自己打开 APP 去查
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:162">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:163" data-name="Mask group">
-          <div className="col-1 h-[128px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[50px_38px] mask-size-[44px_44px] ml-[-50px] mt-[-38px] relative row-1 w-[143px]" data-node-id="6:165" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage241} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:166">
-          我报了【连住优惠】，但不知道要不要再报【多间立减】？这俩能一起用吗？
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:172">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:173" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[25px_19px] mask-size-[44px_44px] ml-[-25px] mt-[-19px] relative row-1 w-[80.932px]" data-node-id="6:175" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage243} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:176">
-          到底是怎么算的价格？
-        </p>
-      </div></div><div className="marquee-set" aria-hidden="true"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:142">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:143" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:145" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:146">
-          促销后的价格太低
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:147">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:148" data-name="Mask group">
-          <div className="col-1 h-[76px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[20px_20px] mask-size-[44px_44px] ml-[-20px] mt-[-20px] relative row-1 w-[85px]" data-node-id="6:150" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage239} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:151">
-          看不到 C 端展示效果，只能自己打开 APP 去查
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:162">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:163" data-name="Mask group">
-          <div className="col-1 h-[128px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[50px_38px] mask-size-[44px_44px] ml-[-50px] mt-[-38px] relative row-1 w-[143px]" data-node-id="6:165" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage241} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:166">
-          我报了【连住优惠】，但不知道要不要再报【多间立减】？这俩能一起用吗？
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:172">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:173" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[25px_19px] mask-size-[44px_44px] ml-[-25px] mt-[-19px] relative row-1 w-[80.932px]" data-node-id="6:175" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage243} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:176">
-          到底是怎么算的价格？
-        </p>
-      </div></div></div></div><div className="marquee-lane lane-2"><div className="marquee-track"><div className="marquee-set"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:152">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:153" data-name="Mask group">
-          <div className="col-1 h-[78px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[14px_33px] mask-size-[44px_44px] ml-[-14px] mt-[-33px] relative row-1 w-[87px]" data-node-id="6:155" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage240} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:156">
-          光放个展示位置，我哪知道具体展示在哪？
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:167">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:168" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_26px] mask-size-[44px_44px] ml-[-18px] mt-[-26px] relative row-1 w-[80.932px]" data-node-id="6:170" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage242} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:171">
-          规则也没个地方能查到最新的，全靠问业务经理
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:177">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:178" data-name="Mask group">
-          <div className="col-1 h-[74px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_15px] mask-size-[44px_44px] ml-[-12px] mt-[-15px] relative row-1 w-[83px]" data-node-id="6:180" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage244} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:181">
-          到底是怎么算的价格？再这么低我要拒单了
-        </p>
-      </div></div><div className="marquee-set" aria-hidden="true"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:152">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:153" data-name="Mask group">
-          <div className="col-1 h-[78px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[14px_33px] mask-size-[44px_44px] ml-[-14px] mt-[-33px] relative row-1 w-[87px]" data-node-id="6:155" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage240} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:156">
-          光放个展示位置，我哪知道具体展示在哪？
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:167">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:168" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_26px] mask-size-[44px_44px] ml-[-18px] mt-[-26px] relative row-1 w-[80.932px]" data-node-id="6:170" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage242} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:171">
-          规则也没个地方能查到最新的，全靠问业务经理
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:177">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:178" data-name="Mask group">
-          <div className="col-1 h-[74px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_15px] mask-size-[44px_44px] ml-[-12px] mt-[-15px] relative row-1 w-[83px]" data-node-id="6:180" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage244} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:181">
-          到底是怎么算的价格？再这么低我要拒单了
-        </p>
-      </div></div></div></div><div className="marquee-lane lane-3"><div className="marquee-track"><div className="marquee-set"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:198">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:199" data-name="Mask group">
-          <div className="col-1 h-[100px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[38px_14px] mask-size-[44px_44px] ml-[-38px] mt-[-14px] relative row-1 w-[113px]" data-node-id="6:201" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage248} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:202">
-          新客优惠老客看不到，会投诉
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:182">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:183" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_1px] mask-size-[44px_44px] ml-[-18px] mt-[-1px] relative row-1 w-[80.932px]" data-node-id="6:185" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage245} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:186">
-          没有专职运营，系统复杂，不敢随便报活动
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:187">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:188" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[7px_16px] mask-size-[44px_44px] ml-[-7px] mt-[-16px] relative row-1 w-[80.932px]" data-node-id="6:190" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage246} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:191">
-          我不会算，很怕卖亏
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:192">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:193" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:195" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
-          </div>
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_17px] mask-size-[44px_44px] ml-[-12px] mt-[-17px] relative row-1 w-[80.932px]" data-node-id="6:196" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 238">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage247} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:197">
-          会互斥啊？报完才发现有些促销根本不生效
-        </p>
-      </div></div><div className="marquee-set" aria-hidden="true"><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:198">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:199" data-name="Mask group">
-          <div className="col-1 h-[100px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[38px_14px] mask-size-[44px_44px] ml-[-38px] mt-[-14px] relative row-1 w-[113px]" data-node-id="6:201" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage248} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:202">
-          新客优惠老客看不到，会投诉
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:182">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:183" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18px_1px] mask-size-[44px_44px] ml-[-18px] mt-[-1px] relative row-1 w-[80.932px]" data-node-id="6:185" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage245} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:186">
-          没有专职运营，系统复杂，不敢随便报活动
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:187">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:188" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[7px_16px] mask-size-[44px_44px] ml-[-7px] mt-[-16px] relative row-1 w-[80.932px]" data-node-id="6:190" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage246} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:191">
-          我不会算，很怕卖亏
-        </p>
-      </div><div className="relative bg-white content-stretch flex gap-[10px] h-[80px] items-center justify-center px-[24px] py-[7px] rounded-[50px]" data-node-id="6:192">
-        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="6:193" data-name="Mask group">
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[11px_21px] mask-size-[44px_44px] ml-[-11px] mt-[-21px] relative row-1 w-[80.932px]" data-node-id="6:195" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 237">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage238} />
-          </div>
-          <div className="col-1 h-[71.979px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[12px_17px] mask-size-[44px_44px] ml-[-12px] mt-[-17px] relative row-1 w-[80.932px]" data-node-id="6:196" style={{ WebkitMaskImage: `url("${imgImage237}")`, maskImage: `url("${imgImage237}")` }} data-name="image 238">
-            <CaseImage alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage247} />
-          </div>
-        </div>
-        <p className="[word-break:break-word] font-['MiSans','Inter','Noto_Sans_SC',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-right whitespace-nowrap [font-weight:300]" data-node-id="6:197">
-          会互斥啊？报完才发现有些促销根本不生效
-        </p>
-      </div></div></div></div></div>
+      </div>
+    ))}
+  </div>
 }

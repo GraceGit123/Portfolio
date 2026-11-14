@@ -88,9 +88,9 @@ button:focus-visible, a:focus-visible, [role='button']:focus-visible { outline: 
 .marquee-lane { overflow: hidden; }
 .marquee-track { display: flex; width: max-content; animation: move-left 35s linear infinite; }
 .marquee-set { display: flex; gap: 24px; flex-shrink: 0; padding-right: 24px; }
-.marquee-set > div { flex-shrink: 0; }
-.marquee-set > div > div { display: block; width: 44px; height: 44px; border-radius: 50%; overflow: hidden; }
-.marquee-set > div > div > div { margin: 0; width: 44px; height: 44px; mask-image: none !important; }
+.marquee-quote { flex-shrink: 0; display: flex; align-items: center; gap: 10px; height: 80px; padding: 7px 24px; border-radius: 50px; background: white; }
+.marquee-quote img { flex: none; width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+.marquee-quote p { font-family: var(--font-sans); font-weight: 300; font-size: 16px; line-height: 24px; white-space: nowrap; color: black; }
 .lane-2 .marquee-track { animation-duration: 43s; animation-delay: -9s; }
 .lane-3 .marquee-track { animation-duration: 38s; animation-delay: -4s; }
 .marquee-lane:hover .marquee-track, .marquee-lane:focus-within .marquee-track { animation-play-state: paused; }
@@ -126,7 +126,7 @@ button:focus-visible, a:focus-visible, [role='button']:focus-visible { outline: 
 .case-canvas [class*="font-['Inter:Semi_Bold"] { font-weight: 600; }
 .case-canvas [class*="font-['Noto_Sans_SC:Regular"] { font-weight: 400; }
 .case-canvas [class*="font-['Noto_Sans_SC:Bold"] { font-weight: 700; }
-@keyframes move-left { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes move-left { from { transform: translateX(0); } to { transform: translateX(calc(-100% / 3)); } }
 @keyframes hero-appear { from { opacity: 0; translate: 0 16px; } to { opacity: 1; translate: 0 0; } }
 
 @media (max-width: 1000px) {
@@ -157,8 +157,7 @@ button:focus-visible, a:focus-visible, [role='button']:focus-visible { outline: 
   .mobile-marquee { padding: 15px 0; }
   .mobile-marquee .insight-marquee { gap: 15px; }
   .mobile-marquee .marquee-set { gap: 15px; padding-right: 15px; }
-  .mobile-marquee .marquee-set > div { height: 64px; padding: 7px 18px; }
-  .mobile-marquee .marquee-set p { font-size: 13px; }
+  .mobile-marquee   .mobile-marquee .marquee-set p { font-size: 13px; }
   .mobile-goals { display: grid; gap: 16px; margin-top: 28px; }
   .mobile-goals > div { padding: 24px; border-radius: 24px; color: white; background: var(--ink); }
   .mobile-goals h3 { font-size: 18px; font-weight: 700; margin: 0 0 10px; }

@@ -16,7 +16,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3800">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3801">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3801">
                 确认具体组件使用场景及明文规则
               </p>
             </div>
@@ -24,7 +24,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3803">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3804">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3804">
                 总结设计师经验，如危险操作、异常状态、复杂筛选等
               </p>
             </div>
@@ -32,7 +32,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3806">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3807">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3807">
                 明确规范，避免给AI隐性判断
               </p>
             </div>
@@ -47,7 +47,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3812">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3813">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3813">
                 将散落在Figma、文档、代码注释和口头习惯中的内容集中，形成统一文档
               </p>
             </div>
@@ -55,7 +55,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3815">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3816">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3816">
                 训练AI，避免漏读或只读一部分
               </p>
             </div>
@@ -63,7 +63,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3818">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3819">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3819">
                 设计内部规则统一，文档统一
               </p>
             </div>
@@ -78,7 +78,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3824">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3825">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3825">
                 明确不同组件的位置及调用
               </p>
             </div>
@@ -86,7 +86,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3827">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3828">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3828">
                 确认不同场景的组件使用优先级
               </p>
             </div>
@@ -94,7 +94,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3830">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3831">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3831">
                 避免Variant与定义冲突或关系不清
               </p>
             </div>
@@ -109,7 +109,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3836">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3837">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3837">
                 确认组件调用是否准确
               </p>
             </div>
@@ -117,7 +117,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3839">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3840">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3840">
                 确认是否存在状态缺漏及流程错乱
               </p>
             </div>
@@ -125,7 +125,7 @@ export default function Component6FigmaAi() {
               <p className="relative shrink-0 w-[7px]" data-node-id="1:3842">
                 •
               </p>
-              <p className="flex-[1_0_0] min-w-px relative" data-node-id="1:3843">
+              <p className="flex-[1_0_0] min-w-px relative [font-weight:300]" data-node-id="1:3843">
                 补充验收清单及检验机制
               </p>
             </div>
