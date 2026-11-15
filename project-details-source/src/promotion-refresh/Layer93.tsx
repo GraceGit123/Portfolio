@@ -58,10 +58,10 @@ export default function Frame52() {
           <div className="[word-break:break-word] content-stretch flex flex-col gap-[40px] items-start leading-[normal] not-italic relative shrink-0 text-black w-full" data-node-id="1:114">
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full" data-node-id="1:115">
               <p className="font-sans [font-weight:700] relative shrink-0 text-[20px] w-full" data-node-id="1:116">
-                筛选冗余，逻辑不明
+                信息割裂，无法形成统一认知
               </p>
               <p className="font-sans [font-weight:300] relative shrink-0 text-[16px] w-full" data-node-id="1:117">
-                筛选只罗列内容、无明确分类，决策依据缺失，导致商户运营效率低下，参与意愿降低
+                各个页面信息独立且分散，无一致的规则叙事
               </p>
             </div>
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full" data-node-id="1:118">
@@ -77,7 +77,7 @@ export default function Frame52() {
                 实际用户端场景联系不足
               </p>
               <p className="font-sans [font-weight:300] relative shrink-0 text-[16px] w-full" data-node-id="1:123">
-                商户无法理解不同促销在C端场景具体如何展示及对应，使用成本高
+                商户无法获取促销在C端的场景展示及用户的差异化信息，使用成本高
               </p>
             </div>
           </div>

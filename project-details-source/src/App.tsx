@@ -19,6 +19,7 @@ const promotionChapters = [
   { name: '经验方法', node: '1:2634', mobile: '' },
   { name: 'AI 工作流', node: '1:2666', mobile: '' },
   { name: '数据反馈', node: '1:2852', mobile: '' },
+  { name: '海外促销', node: '19:8502', mobile: '' },
 ]
 const hotelChapters = [
   { name: '项目背景', node: '23:81', mobile: '' },

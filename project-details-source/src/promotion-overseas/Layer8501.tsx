@@ -1,6 +1,6 @@
 import CaseImage from '../CaseImage'
 const assetPathPrefix = `${import.meta.env.BASE_URL}assets/promotion-overseas`;
-const imgMaskGroup = `${assetPathPrefix}/ae867.svg`;
+const imgMaskGroup = `${assetPathPrefix}/hero-gradient.svg`;
 
 export default function Group1454() {
   return (
