@@ -65,7 +65,7 @@ const imgFrame2147224634 = `${assetPathPrefix}/8ce7c.svg`;
 const flowVideoSrc = `${assetPathPrefix}/flow-original-stream.mp4`;
 
 export default function HotelSolutionProject() {
-  const [scale, setScale] = useState(() => Math.min(window.innerWidth / DESIGN_WIDTH, 1));
+  const [scale, setScale] = useState(() => Math.min(window.innerWidth, 1920) / DESIGN_WIDTH);
   const canvasRef = useRef<HTMLDivElement>(null);
   const [flowShift, setFlowShift] = useState(0);
   // Images end at design y=14828; the motion section originally starts at 15060.
@@ -74,7 +74,7 @@ export default function HotelSolutionProject() {
 
 
   useEffect(() => {
-    const updateScale = () => setScale(Math.min(window.innerWidth / DESIGN_WIDTH, 1));
+    const updateScale = () => setScale(Math.min(window.innerWidth, 1920) / DESIGN_WIDTH);
     window.addEventListener("resize", updateScale);
     return () => window.removeEventListener("resize", updateScale);
   }, []);

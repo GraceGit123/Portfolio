@@ -64,7 +64,7 @@ export default function App() {
   const isPromotion = project === 'promotion'
   const isSolution = project === 'hotel-solution'
   const chapters = isSolution ? solutionChapters : isHotel ? hotelChapters : promotionChapters
-  const [scale, setScale] = useState(() => Math.min(window.innerWidth / 1680, 1))
+  const [scale, setScale] = useState(() => Math.min(window.innerWidth, 1920) / 1680)
   const [active, setActive] = useState(0)
   const [progress, setProgress] = useState(0)
   const [image, setImage] = useState('')
@@ -85,7 +85,7 @@ export default function App() {
     document.documentElement.dataset.project = project
     document.title = '戈珊珊 · UX/UI Designer'
     document.documentElement.lang = 'zh-CN'
-    const resize = () => { setScale(Math.min(window.innerWidth / 1680, 1)); setCompact(window.innerWidth < 700) }
+    const resize = () => { setScale(Math.min(window.innerWidth, 1920) / 1680); setCompact(window.innerWidth < 700) }
     const scroll = () => {
       const available = document.documentElement.scrollHeight - window.innerHeight
       setProgress(available > 0 ? window.scrollY / available : 0)
