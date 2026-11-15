@@ -493,3 +493,19 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 @font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.ca8ba133a784f9d1.12.woff2") format("woff2"); unicode-range: U+515C; }
 @font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.a05ad7eacf4666b0.13.woff2") format("woff2"); unicode-range: U+6EAF; }
 @font-face { font-family: MiSans; font-weight: 900; font-display: swap; src: url("/Portfolio/projects/fonts/misans/MiSans-Heavy.5837cd242aef69ae.53.woff2") format("woff2"); unicode-range: U+2022; }
+
+/* Color only the space outside the centered 1680px case canvas. */
+@media (min-width: 1681px) {
+  html[data-project] {
+    --case-side-fill: linear-gradient(to right,
+      #e8e8e8 0, #e8e8e8 calc(50% - 840px),
+      transparent calc(50% - 840px), transparent calc(50% + 840px),
+      #e8e8e8 calc(50% + 840px), #e8e8e8 100%);
+    background-image: var(--case-side-fill);
+  }
+
+  /* The Hotel Solution section paints its dark background across the viewport. */
+  html[data-project='hotel-solution'] .solution-project > section {
+    background-image: var(--case-side-fill);
+  }
+}
