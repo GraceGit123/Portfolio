@@ -115,7 +115,7 @@ export default function Component() {
                 </p>
               </div>
               <p className="[word-break:break-word] font-sans [font-weight:700] leading-[32px] not-italic relative shrink-0 text-[24px] text-black whitespace-nowrap" data-node-id="1:2837">
-                上线反馈，规则回收
+                上线反馈，信息回收
               </p>
             </div>
             <div className="bg-white border-[#bdcdff] border-[1.97px] border-solid content-stretch flex items-center justify-center px-[8px] py-[4px] relative rounded-[22.509px] shrink-0" data-node-id="1:2838" data-name="标签 · 人工主导">

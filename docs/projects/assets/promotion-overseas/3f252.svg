@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mobile rate" clip-path="url(#clip0_0_87)">
+<rect width="64" height="64" fill="white"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;" opacity="0.01" width="64" height="64" fill="#D8D8D8"/>
+<path id="&#232;&#183;&#175;&#229;&#190;&#132;" opacity="0.300822" d="M44 10C47.3137 10 50 12.6863 50 16V48C50 51.3137 47.3137 54 44 54H32.5294C29.2157 54 26.5294 51.3137 26.5294 48V16C26.5294 12.6863 29.2157 10 32.5294 10H44Z" fill="#2346FF"/>
+<path id="&#232;&#183;&#175;&#229;&#190;&#132;_2" d="M20 10C16.6863 10 14 12.6863 14 16V48C14 51.3137 16.6863 54 20 54H30C41.0457 54 50 45.0457 50 34V16C50 12.6863 47.3137 10 44 10H20Z" fill="#2346FF"/>
+<circle id="&#230;&#164;&#173;&#229;&#156;&#134;&#229;&#189;&#162;" cx="32" cy="48" r="3" fill="#FFB400"/>
+<path id="&#232;&#183;&#175;&#229;&#190;&#132;&#229;&#164;&#135;&#228;&#187;&#189; 6" d="M25.5 14C24.1193 14 23 15.1193 23 16.5C23 17.8807 24.1193 19 25.5 19H38.5C39.8807 19 41 17.8807 41 16.5C41 15.1193 39.8807 14 38.5 14H25.5Z" fill-rule="evenodd" clip-rule="evenodd" fill="#FFB400"/>
+</g>
+<defs>
+<clipPath id="clip0_0_87">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,3 +1,4 @@
+import OverseasPromotion from './promotion-overseas/OverseasPromotion'
 import { InsightMarquee } from './ProjectPage'
 import Layer71 from './promotion-refresh/Layer71'
 import Layer72 from './promotion-refresh/Layer72'
@@ -101,5 +102,6 @@ export default function PromotionDesign() {
     <div style={{position:'absolute',left:80,top:22684,width:1520,height:2410}}><Layer3544 /></div>
     <div style={{position:'absolute',left:80,top:27186,width:420,height:42}}><Layer3791 /></div>
     <div style={{position:'absolute',left:80,top:27590,width:1520,height:301.6000061035156}}><Layer3792 /></div>
+    <OverseasPromotion />
   </article>
 }
