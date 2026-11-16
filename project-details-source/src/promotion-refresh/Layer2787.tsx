@@ -13,7 +13,7 @@ export default function Component() {
               <div className="content-stretch flex flex-[1_0_0] gap-[8px] items-center min-w-px relative" data-node-id="1:2792">
                 <div className="bg-[#eff3ff] content-stretch flex flex-col items-center justify-center py-[10px] relative rounded-[8px] shrink-0 size-[36px]" data-node-id="1:2793">
                   <p className="[word-break:break-word] font-sans [font-weight:700] leading-[28px] not-italic relative shrink-0 text-[#2143ad] text-[20px] text-center whitespace-nowrap" data-node-id="1:2794">
-                    02
+                    01
                   </p>
                 </div>
                 <p className="[word-break:break-word] font-sans [font-weight:700] leading-[32px] not-italic relative shrink-0 text-[24px] text-black whitespace-nowrap" data-node-id="1:2795">
@@ -64,7 +64,7 @@ export default function Component() {
             <div className="content-stretch flex flex-[1_0_0] gap-[8px] items-center min-w-px relative" data-node-id="1:2815">
               <div className="bg-[#eff3ff] content-stretch flex flex-col items-center justify-center py-[10px] relative rounded-[8px] shrink-0 size-[36px]" data-node-id="1:2816">
                 <p className="[word-break:break-word] font-sans [font-weight:700] leading-[28px] not-italic relative shrink-0 text-[#2143ad] text-[20px] text-center whitespace-nowrap" data-node-id="1:2817">
-                  03
+                  02
                 </p>
               </div>
               <p className="[word-break:break-word] font-sans [font-weight:700] leading-[32px] not-italic relative shrink-0 text-[24px] text-black whitespace-nowrap" data-node-id="1:2818">
