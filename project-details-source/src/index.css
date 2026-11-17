@@ -419,8 +419,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .case-loading{min-height:100vh;display:grid;place-items:center;font-size:16px}
 
 /* The promotion case follows the new 1680px Figma canvas. */
-.desktop-project.promotion-refresh-project { display: block; height: calc(45999px * var(--canvas-scale)); }
-.case-canvas.promotion-refresh { position: relative; height: 45999px; }
+.desktop-project.promotion-refresh-project { display: block; height: calc(45961px * var(--canvas-scale)); }
+.case-canvas.promotion-refresh { position: relative; height: 45961px; }
 .promotion-refresh [class*="font-['Trip_Geom:Regular']"] { font-family: 'Trip Geom:Regular', MiSans, sans-serif; font-weight: 400; }
 .promotion-refresh [class*="font-['Trip_Geom:Medium']"] { font-family: 'Trip Geom:Medium', MiSans, sans-serif; font-weight: 500; }
 .promotion-refresh [class*="font-['Trip_Geom:Bold']"] { font-family: 'Trip Geom:Bold', MiSans, sans-serif; font-weight: 700; }

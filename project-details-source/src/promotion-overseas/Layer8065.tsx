@@ -1,21 +1,21 @@
 import CaseImage from '../CaseImage'
 const assetPathPrefix = `${import.meta.env.BASE_URL}assets/promotion-overseas`;
-const imgMobileRate = `${assetPathPrefix}/3f252.svg`;
-const img = `${assetPathPrefix}/6d06b.svg`;
-const imgXpos = `${assetPathPrefix}/a6758.svg`;
-const img1 = `${assetPathPrefix}/0182f.svg`;
-const img2 = `${assetPathPrefix}/6421a.svg`;
-const img3 = `${assetPathPrefix}/5f541.svg`;
-const img4 = `${assetPathPrefix}/dd370.svg`;
-const img5 = `${assetPathPrefix}/2d74a.svg`;
+const imgMobileRate = `${assetPathPrefix}/7b1af.svg`;
+const img = `${assetPathPrefix}/5ecb6.svg`;
+const imgXpos = `${assetPathPrefix}/2a3e0.svg`;
+const img1 = `${assetPathPrefix}/730fb.svg`;
+const img2 = `${assetPathPrefix}/1b0ab.svg`;
+const img3 = `${assetPathPrefix}/9d031.svg`;
+const img4 = `${assetPathPrefix}/f9c19.svg`;
+const img5 = `${assetPathPrefix}/6d238.svg`;
 const img6 = `${assetPathPrefix}/72309.svg`;
 const img7 = `${assetPathPrefix}/f00bf.svg`;
-const img8 = `${assetPathPrefix}/29fbd.svg`;
-const img9 = `${assetPathPrefix}/3a67d.svg`;
+const img8 = `${assetPathPrefix}/762bd.svg`;
+const img9 = `${assetPathPrefix}/aa99b.svg`;
 const img10 = `${assetPathPrefix}/bf2d3.svg`;
-const img11 = `${assetPathPrefix}/d09de.svg`;
-const img12 = `${assetPathPrefix}/17032.svg`;
-const imgCountryBanner = `${assetPathPrefix}/95025.svg`;
+const img11 = `${assetPathPrefix}/62f12.svg`;
+const img12 = `${assetPathPrefix}/0e703.svg`;
+const imgCountryBanner = `${assetPathPrefix}/258d6.svg`;
 
 export default function Frame2147237092() {
   return (

@@ -92,8 +92,8 @@ export default function PromotionDesign() {
     <div style={{position:'absolute',left:80,top:4151,width:400,height:130}}><Layer2885 /></div>
     <div style={{position:'absolute',left:640,top:4151,width:400,height:130}}><Layer2888 /></div>
     <div style={{position:'absolute',left:1200,top:4151,width:400,height:130}}><Layer2891 /></div>
-    <div style={{position:'absolute',left:520,top:4216,width:80,height:0.01}}><Layer2894 /></div>
-    <div style={{position:'absolute',left:1080,top:4216,width:80,height:0.01}}><Layer2895 /></div>
+    <div style={{position:'absolute',left:518.5,top:4207.34,width:82,height:18}}><Layer2894 /></div>
+    <div style={{position:'absolute',left:1078.5,top:4207.34,width:82,height:18}}><Layer2895 /></div>
     <div style={{position:'absolute',left:80,top:4536,width:1520,height:46}}><Layer2896 /></div>
     <div style={{position:'absolute',left:80,top:5515,width:1520,height:1244}}><Layer2912 /></div>
     <div style={{position:'absolute',left:80,top:12365,width:1520,height:3341}}><Layer3041 /></div>

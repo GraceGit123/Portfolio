@@ -21,10 +21,10 @@ export default function Frame20() {
               <span className="leading-[28px]">提升运营效率 降低学习成本</span>
             </li>
             <li className="mb-0 ms-[24px]">
-              <span className="leading-[28px]">精准促销 避免盲目折扣</span>
+              <span className="leading-[28px]">明确促后最终价格</span>
             </li>
             <li className="ms-[24px]">
-              <span className="leading-[28px]">明确促后最终价格</span>
+              <span className="leading-[28px]">精准促销 提升收益</span>
             </li>
           </ul>
         </div>
@@ -43,10 +43,10 @@ export default function Frame20() {
               <span className="leading-[28px]">降低因规则不清导致的客诉与运营成本</span>
             </li>
             <li className="mb-0 ms-[24px]">
-              <span className="leading-[28px]">提高促销工具的稳定使用率</span>
+              <span className="leading-[28px]">引导商家理解和维护促销</span>
             </li>
             <li className="ms-[24px]">
-              <span className="leading-[28px]">引导商家选择高转化促销</span>
+              <span className="leading-[28px]">提高促销工具的稳定使用率</span>
             </li>
           </ul>
         </div>

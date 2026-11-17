@@ -6,7 +6,7 @@ export default function Log1() {
   return (
     <div className="border-4 border-[#dee6ff] border-solid overflow-clip relative rounded-[8px] size-full" data-node-id="19:9044" data-name="Log-收起展开备份 1">
       <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
-        <CaseImage alt="" className="absolute left-0 max-w-none size-full top-0" src={imgLog1} />
+        <CaseImage alt="海外 PC 已参与促销的操作记录" className="absolute left-0 max-w-none size-full top-0" src={imgLog1} />
       </div>
     </div>
   );

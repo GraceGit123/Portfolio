@@ -68,10 +68,10 @@ export default function OverseasPromotion() {
     <div style={{ position: 'absolute', left: 80, top: 30371, width: 1520, height: 199 }}><Layer7319 /></div>
     <div style={{ position: 'absolute', left: 80, top: 32561, width: 1520, height: 199 }}><Layer7324 /></div>
     <div style={{ position: 'absolute', left: 80, top: 33572, width: 1520, height: 199 }}><Layer7329 /></div>
-    <div style={{ position: 'absolute', left: 80, top: 41267, width: 1520, height: 148 }}><Layer7334 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 41239, width: 1520, height: 148 }}><Layer7334 /></div>
     <div style={{ position: 'absolute', left: 80, top: 36022, width: 1520, height: 847 }}><Layer7999 /></div>
-    <div style={{ position: 'absolute', left: 80, top: 37567, width: 1520, height: 793 }}><Layer8057 /></div>
-    <div style={{ position: 'absolute', left: 80, top: 38457, width: 1520, height: 277 }}><Layer8065 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 37579, width: 1520, height: 793 }}><Layer8057 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 38469, width: 1520, height: 277 }}><Layer8065 /></div>
     <div style={{ position: 'absolute', left: 96, top: 29721, width: 480, height: 444 }}><Layer8424 /></div>
     <Layer8501 />
     <Layer8506 />
@@ -97,9 +97,9 @@ export default function OverseasPromotion() {
     <div style={{ position: 'absolute', left: 80, top: 34370, width: 1520, height: 96 }}><Layer8818 /></div>
     <div style={{ position: 'absolute', left: 80, top: 34038, width: 1520, height: 96 }}><Layer8834 /></div>
     <div style={{ position: 'absolute', left: 176.9990234375, top: 34164, width: 46, height: 50 }}><Layer8850 /></div>
-    <div style={{ position: 'absolute', left: 114, top: 34920, width: 168, height: 32 }}><Layer8854 /></div>
-    <div style={{ position: 'absolute', left: 383, top: 34920, width: 144, height: 32 }}><Layer8855 /></div>
-    <div style={{ position: 'absolute', left: 628, top: 34920, width: 168, height: 32 }}><Layer8856 /></div>
+    <div style={{ position: 'absolute', left: 128, top: 34921, width: 140, height: 28 }}><Layer8854 /></div>
+    <div style={{ position: 'absolute', left: 395, top: 34921, width: 120, height: 28 }}><Layer8855 /></div>
+    <div style={{ position: 'absolute', left: 642, top: 34921, width: 140, height: 28 }}><Layer8856 /></div>
     <div style={{ position: 'absolute', left: 80, top: 33851, width: 1520, height: 147 }}><Layer8857 /></div>
     <div style={{ position: 'absolute', left: 80, top: 34546, width: 1520, height: 73 }}><Layer8867 /></div>
     <div style={{ position: 'absolute', left: 80, top: 35099, width: 1520, height: 73 }}><Layer8873 /></div>
@@ -111,21 +111,21 @@ export default function OverseasPromotion() {
     <Layer8965 />
     <Layer8989 />
     <Layer9015 />
-    <div style={{ position: 'absolute', left: 80, top: 36949, width: 1520, height: 498 }}><Layer9041 /></div>
-    <div style={{ position: 'absolute', left: 860, top: 38794, width: 740, height: 828 }}><Layer9042 /></div>
-    <div style={{ position: 'absolute', left: 80, top: 38794, width: 740, height: 828 }}><Layer9043 /></div>
-    <div style={{ position: 'absolute', left: 860, top: 39682, width: 740, height: 852 }}><Layer9044 /></div>
-    <div style={{ position: 'absolute', left: 80, top: 39682, width: 740, height: 808 }}><Layer9045 /></div>
-    <div style={{ position: 'absolute', left: 860, top: 40594, width: 740, height: 513 }}><Layer9046 /></div>
-    <div style={{ position: 'absolute', left: 80, top: 40594, width: 740, height: 513 }}><Layer9047 /></div>
-    <div style={{ position: 'absolute', left: 80, top: 41495, width: 485, height: 1830 }}><Layer9048 /></div>
-    <div style={{ position: 'absolute', left: 597, top: 41500, width: 485, height: 1820 }}><Layer9049 /></div>
-    <div style={{ position: 'absolute', left: 80, top: 43365, width: 485, height: 2434 }}><Layer9050 /></div>
-    <div style={{ position: 'absolute', left: 1114, top: 41500, width: 485, height: 2090 }}><Layer9051 /></div>
-    <div style={{ position: 'absolute', left: 597, top: 43360, width: 485, height: 1050 }}><Layer9052 /></div>
-    <div style={{ position: 'absolute', left: 597, top: 44450, width: 485, height: 1050 }}><Layer9053 /></div>
-    <div style={{ position: 'absolute', left: 1114, top: 43630, width: 485, height: 1050 }}><Layer9054 /></div>
-    <div style={{ position: 'absolute', left: 1114, top: 44720, width: 485, height: 1050 }}><Layer9055 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 36949, width: 1520, height: 510 }}><Layer9041 /></div>
+    <div style={{ position: 'absolute', left: 860, top: 38806, width: 740, height: 815 }}><Layer9042 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 38806, width: 740, height: 828 }}><Layer9043 /></div>
+    <div style={{ position: 'absolute', left: 860, top: 39674, width: 740, height: 852 }}><Layer9044 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 39674, width: 740, height: 808 }}><Layer9045 /></div>
+    <div style={{ position: 'absolute', left: 860, top: 40566, width: 740, height: 513 }}><Layer9046 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 40566, width: 740, height: 513 }}><Layer9047 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 41467, width: 485, height: 1846 }}><Layer9048 /></div>
+    <div style={{ position: 'absolute', left: 597, top: 41467, width: 485, height: 1820 }}><Layer9049 /></div>
+    <div style={{ position: 'absolute', left: 597, top: 43327, width: 485, height: 2434 }}><Layer9050 /></div>
+    <div style={{ position: 'absolute', left: 1114, top: 41467, width: 485, height: 2090 }}><Layer9051 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 43353, width: 485, height: 1050 }}><Layer9052 /></div>
+    <div style={{ position: 'absolute', left: 80, top: 44443, width: 485, height: 1050 }}><Layer9053 /></div>
+    <div style={{ position: 'absolute', left: 1114, top: 43597, width: 485, height: 1050 }}><Layer9054 /></div>
+    <div style={{ position: 'absolute', left: 1114, top: 44687, width: 485, height: 1050 }}><Layer9055 /></div>
     <Layer9418 />
   </section>
 }

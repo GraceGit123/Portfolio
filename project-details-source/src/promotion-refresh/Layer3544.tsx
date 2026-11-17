@@ -224,52 +224,9 @@ export default function Frame2147236991() {
                       <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={imgA058Account} />
                     </div>
                   </div>
-                  <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1:3702" data-name="0-15 YOYO卡&扫码住专享红包">
-                    <div className="col-1 ml-0 mt-0 relative row-1 size-[80px]" data-node-id="1:3703" data-name="路径备份 29">
-                      <CaseImage alt="" className="absolute block inset-0 max-w-none size-full" src={img29} />
-                    </div>
-                    <div className="col-1 ml-[22px] mt-[22px] relative rounded-[4px] row-1 size-[36px]" data-node-id="1:3704" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-1.2505 -1.2011 1.393 -1.4503 33.013 33.83)'><stop stop-color='rgba(227,16,2,0.5)' offset='0'/><stop stop-color='rgba(227,16,2,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="矩形备份 5" />
-                    <div className="bg-[#fdf0e6] col-1 h-[4px] ml-[34px] mt-[38px] relative rounded-[1px] row-1 w-[12px]" data-node-id="1:3705" data-name="矩形备份 15" />
-                    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[27px] mt-[27px] place-items-start relative row-1" data-node-id="1:3706" data-name="编组 8">
-                      <div className="bg-[#fdf0e6] col-1 h-[3px] ml-0 mt-0 relative rounded-[1.5px] row-1 w-[8px]" data-node-id="1:3707" data-name="矩形" />
-                      <div className="bg-[#fdf0e6] col-1 h-[8px] ml-0 mt-0 relative rounded-[1.5px] row-1 w-[3px]" data-node-id="1:3708" data-name="矩形备份 13" />
-                    </div>
-                    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[27px] mt-[45px] place-items-start relative row-1" data-node-id="1:3709" data-name="编组 8备份 2">
-                      <div className="col-1 flex h-[3px] items-center justify-center ml-0 mt-0 relative row-1 w-[8px]" data-node-id="1:3710">
-                        <div className="-scale-y-100 flex-none">
-                          <div className="bg-[#fdf0e6] h-[3px] relative rounded-[1.5px] w-[8px]" data-name="矩形" />
-                        </div>
-                      </div>
-                      <div className="col-1 flex h-[8px] items-center justify-center ml-0 mt-0 relative row-1 w-[3px]" data-node-id="1:3711">
-                        <div className="-scale-y-100 flex-none">
-                          <div className="bg-[#fdf0e6] h-[8px] relative rounded-[1.5px] w-[3px]" data-name="矩形备份 13" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[45px] mt-[27px] place-items-start relative row-1" data-node-id="1:3712" data-name="编组 8备份">
-                      <div className="col-1 flex h-[3px] items-center justify-center ml-0 mt-0 relative row-1 w-[8px]" data-node-id="1:3713">
-                        <div className="-scale-y-100 flex-none rotate-180">
-                          <div className="bg-[#fdf0e6] h-[3px] relative rounded-[1.5px] w-[8px]" data-name="矩形" />
-                        </div>
-                      </div>
-                      <div className="col-1 flex h-[8px] items-center justify-center ml-0 mt-0 relative row-1 w-[3px]" data-node-id="1:3714">
-                        <div className="-scale-y-100 flex-none rotate-180">
-                          <div className="bg-[#fdf0e6] h-[8px] relative rounded-[1.5px] w-[3px]" data-name="矩形备份 13" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[45px] mt-[45px] place-items-start relative row-1" data-node-id="1:3715" data-name="编组 8备份 3">
-                      <div className="col-1 flex h-[3px] items-center justify-center ml-0 mt-0 relative row-1 w-[8px]" data-node-id="1:3716">
-                        <div className="flex-none rotate-180">
-                          <div className="bg-[#fdf0e6] h-[3px] relative rounded-[1.5px] w-[8px]" data-name="矩形" />
-                        </div>
-                      </div>
-                      <div className="col-1 flex h-[8px] items-center justify-center ml-0 mt-0 relative row-1 w-[3px]" data-node-id="1:3717">
-                        <div className="flex-none rotate-180">
-                          <div className="bg-[#fdf0e6] h-[8px] relative rounded-[1.5px] w-[3px]" data-name="矩形备份 13" />
-                        </div>
-                      </div>
-                    </div>
+                  <div className="size-[80px] shrink-0" data-node-id="1:3702" data-name="0-15 YOYO卡&扫码住专享红包">
+                    <CaseImage alt="YOYO卡与扫码住专享红包" width={80} height={80}
+                      className="block" src={`${assetPathPrefix}/promotion-overseas/yoyo-red-packet-icon.svg`} />
                   </div>
                 </div>
               </div>

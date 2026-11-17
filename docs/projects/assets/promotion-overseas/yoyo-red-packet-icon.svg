@@ -1,0 +1,19 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 0C66.6667 0 80 13.3333 80 40C80 66.6667 66.6667 80 40 80C13.3333 80 0 66.6667 0 40C0 13.3333 13.3333 0 40 0Z" fill="#FCE7E7"/>
+<rect x="22" y="22" width="36" height="36" rx="4" fill="url(#paint0_radial_19_8335)"/>
+<rect x="34" y="38" width="12" height="4" rx="1" fill="#FDF0E6"/>
+<rect x="27" y="27" width="8" height="3" rx="1.5" fill="#FDF0E6"/>
+<rect x="27" y="27" width="3" height="8" rx="1.5" fill="#FDF0E6"/>
+<rect width="8" height="3" rx="1.5" transform="matrix(1 0 0 -1 27 53)" fill="#FDF0E6"/>
+<rect width="3" height="8" rx="1.5" transform="matrix(1 0 0 -1 27 53)" fill="#FDF0E6"/>
+<rect width="8" height="3" rx="1.5" transform="matrix(-1 0 0 1 53 27)" fill="#FDF0E6"/>
+<rect width="3" height="8" rx="1.5" transform="matrix(-1 0 0 1 53 27)" fill="#FDF0E6"/>
+<rect x="53" y="53" width="8" height="3" rx="1.5" transform="rotate(180 53 53)" fill="#FDF0E6"/>
+<rect x="53" y="53" width="3" height="8" rx="1.5" transform="rotate(180 53 53)" fill="#FDF0E6"/>
+<defs>
+<radialGradient id="paint0_radial_19_8335" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(55.0129 55.8298) rotate(-136.153) scale(17.3393 20.1095)">
+<stop stop-color="#E31002" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#E31002"/>
+</radialGradient>
+</defs>
+</svg>
